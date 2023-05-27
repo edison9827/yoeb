@@ -1,0 +1,191 @@
+所有命令的使用设置请看 使用说明 必看.chm
+1.7
+1、准确获取了怪物颜色，涉及到以下3个命令 如果有用到这3个命令区分怪物颜色的话，需要修改一下 分别为 AddAttackSkillData、SetUseTuTengMonsterShuXingCnt、SetDebuffSkill 详情请看说明
+记得搜索BD 内置数据 通用设置 使用到这3个命令的地方 都检查修改一下，不然有可能一直报错
+2、新增变量型命令  g_notAttackMonsterShuXingClassNameArr 不打含有某些属性的怪 默认为 不打 物理免疫、混沌免疫、火焰免疫、闪电免疫、冰凉免疫 自己可以编辑 详情看说明
+8.31
+1、新增变量型命令  g_needZhuangYuanLv=nil--数字型 满多少级打古灵庄园 nil为一直不打
+7.27
+1、SetNeedSkillLineData命令新增技能打品质功能 详情见说明书
+2、SetAtuoChangeEquipData命令新增DPS属性名
+3、新增变量型命令 g_changeHunDunLv=nil--多少级前不换C  他就不会换C和捡换C装备了 如果只搬改造的话非常好用
+4、SetNeedFlaskData 新增药剂打品质功能，详情见说明书
+5、SetJiaoYiGoods 命令的 属性限制 参数 已经支持判断基底属性与随机属性了 详情见说明书
+6、支持空手技能，不需要任何设置
+7、新增变量型命令 g_useMinLvMapTianFuCnt 取图时，地图天赋满多少点后 就从低阶地图开始取
+8、新增变量型命令 g_openQlkMaxMapTianFuCnt 满多少天赋后不开奇拉克任务 nil为一直开
+6.15
+1、修复搬改造时会和凑C有冲突的情况
+2、没有地图时会去购买地图，没有能拿天赋的地图了会去购买能拿天赋的地图
+3、会自动使用平行石把地图点到没拿天赋的地图
+6.6
+1、SetNeedHuWeiGoods新增了3个参数可以分别设置每个颜色的护卫最多留几个 
+2、SetNeedHuWeiCfg新增了1个能数可单独设置周边满多少只怪时使用蓝护卫 
+3、添加了留多少护卫后 必须使用下面的设置 免得捡多余的护卫浪费时间
+SetGoodsCaoZuo("SentinelDrone","0|4",nil,nil,nil,nil,nil,nil,"1|2|3",nil,nil,nil,nil,2,IsNeedShiQuHuWei)--异界时仓库护卫没达到设置留下来的数量时捡 鉴定 蓝 黄 橙 护卫
+SetGoodsCaoZuo("SentinelDrone","0|2|4",nil,nil,nil,nil,nil,nil,"1|2|3",nil,nil,nil,nil,2,IsNeedHuWei)--异界时捡 存 鉴定 有指定属性的 蓝 黄 橙 护卫
+SetGoodsCaoZuo("SentinelDrone","1|3",nil,nil,nil,nil,nil,nil,"1|2|3",nil,nil,nil,nil,2,function(gd)return not IsNeedHuWei(gd) end)--异界时 卖 丢 没有指定属性的 蓝 黄 橙 护卫
+4、由于优化了异界跑图算法，需要替换dll
+5.26
+1、AddJiaoYiBossName 和 SetZhuangBeiBoss 新增一个参数 支持以仓库号所在的电脑名来设置仓库号，详情见说明书 需要更新mypoe64.dll
+2、新增新赛季内容命令SetNeedHuWeiCfg 和SetNeedHuWeiGoods ，使用示例如下  详情见说明书
+SetSaveIndex("SentinelDrone","1|4")--指定护卫存在哪个仓库页
+--附加奖励的几率增加%
+SetNeedHuWeiCfg(0xFEBFFFFFFFFFFFFFull,0x000000000001EFDFull,80,80,85)--护卫天赋设置全连 80级使用红蓝护卫 85级用黄护卫
+SetNeedHuWeiGoods("奖杯的,SentinelDroneRewardChance2","sentinel_chance_for_reward_+%,1")--添加需要的护卫Mods或者属性 支持Mods或者属性判定
+SetGoodsCaoZuo("SentinelDrone","0|4",nil,nil,nil,nil,nil,nil,"1|2|3",nil,nil,nil,nil,2)--异界时捡 鉴定蓝 黄 橙 护卫
+SetGoodsCaoZuo("SentinelDrone","0|2|4",nil,nil,nil,nil,nil,nil,"1|2|3",nil,nil,nil,nil,2,IsNeedHuWei)--异界时捡 存 鉴定 有指定属性的 蓝 黄 橙 护卫
+SetGoodsCaoZuo("SentinelDrone","1|3",nil,nil,nil,nil,nil,nil,"1|2|3",nil,nil,nil,nil,2,function(gd)return not IsNeedHuWei(gd) end)--异界时 卖 丢 没有指定属性的 蓝 黄 橙 护卫
+
+5.16
+1、命令 AddJiaoYiBossName 新增一个参数用来支持公会仓库方式集货
+2、命令 SetSaveIndex 新增一个参数用来支持公会仓库方式集货 详情查看说明书
+3、要使用公会仓库方式集货只需要挂机号修改上面2条命令 仓库号加入了公会并有邀请权限即可
+示例 如下
+SetSaveIndex("通货|可堆叠通货|异界图鉴升级物品","1|2",nil,nil,nil,nil,nil,true)--公会仓库集货时所存到的页面
+AddJiaoYiBossName("公会仓库号",nil,nil,nil,true)--设置公会仓库方式集货 仓库号要求是公会干部或会长才可以
+
+2.13
+1、新增变量型命令 g_needSuDiLv=75--满75级打强袭宿敌内容
+2、新增函数型命令 SetUseArchnemesisGoods 设置强袭宿敌时每个格子使用哪种物品 例子见说明书
+11.19
+1、新增变量型命令 g_fengXianCdTime=5--奉献类技能使用间隔单位为秒支持小数
+2、函数型命令AddUseSkillData 新增使用间隔 具体设置查看说明
+10.30
+1、新增变量型命令 g_needMengYanLv=75--多少级开始打梦魇
+10.24
+1、随游戏更新
+8.14
+1、修复卡炸坟
+2、修复偶尔卡夺宝开图
+8.1
+1、新增变量型命令 g_needZaFenLv=75 设置多少级开始做新赛季炸坟玩法
+5.26
+1、如果设置了最小化窗口，在过图界面时将会自动弹出窗口，进图后将会最小化
+2、SetGameMode命令已经取消，如果需要切换预测与同步模式，请自行在游戏内设置好
+4.28
+1、新增变量型命令 g_needShiLianDaShiLv 用来设置满多少级打试炼大师
+2、新增函数型命令 SetNeedShiLianReward 用来设置有某种奖励物品时中止试炼大师 详情看说明书
+1.31
+1、 AddYouXianGongPingBuyGoods 命令增加 驱灵物品买不起时延时功能 详情看说明书
+1.23
+1、支持新内容驱灵 添加了两条函数型命令， SetQuLingData 为设置做驱灵等级 AddYouXianGongPingBuyGoods 添加优先购买的驱灵奖励 详情看说明书
+1.19
+1、修复夺宝
+2、收菜现在只支持同脚本账号内的角色收菜了
+3、封号后关闭游戏将会连同登录器一起关闭了
+1.13
+1、新增函数型命令SetShopNotBuyGoods  设置不去商店里买的东西 有些宝石比如瓦尔技能 商店买不到，用这条命令设置一下可以免去每次去异界前都去买一次宝石
+2、支持飞刃风暴  设置请看说明书中的教程
+3、会先做藏身片任务了
+11.5
+1、修复对不能改变属性的契约使用点金的问题
+2、随游戏更新
+10.25
+1、修复刷图没到完成度 没打BOSS就回城新开图 (上版说明书中示范代码有误也是一个原因，请检查并修改成 SetYiJieShuaTuModeByMapCnt(10,0.6,0)--仓库中地图数量满10 刷6成 且要打完BOSS)
+2、在迷雾事件中，强制刷全图
+3、优化了夺宝时捡物回城、预留警报值、币不足500的时候取消夺宝
+10.22
+1、优化夺宝，更加顺畅
+2、新增命令SetHeistData 设置夺宝相关的操作 自己可定义开什么箱子  捡到什么先存 以及逃跑的时候捡什么东西 请留意使用说明
+3、修复开始挂机时会未响应长达几十秒的问题 需要替换mypoe64.dll
+10.20
+1、新增变量型命令g_youXianMapLv --取图时人物满多少级就从高阶开始取
+2、异界大多数地图支持速刷了，直通BOSS打完回家配合SetShuaTuMode 与 SetYiJieShuaTuModeByMapCnt 可实现灵活高效的刷图 完成度判断顺序为SetShuaTuMode>SetYiJieShuaTuModeByMapCnt>g_yiJieWanChengDu 或者 g_puTongWanChengDu
+3、新增函数型命令SetShuaTuMode 设置指定地图刷图模式 可单独对地图设定完成度与刷图模式
+4、新增函数型命令SetYiJieShuaTuModeByMapCnt 根据仓库内异界地图数量决定完成度与刷图模式
+5、夺宝的SetCheckHeistData命令新增了一个参数控制首饰满多少件回去存仓，请留意使用说明
+6、可以设置所有装备捡卖用来搬改造不会跟换混沌冲突了
+10.14
+1、完善夺宝 SetCheckHeistData命令新增了几个参数，请留意使用说明
+10.8
+1、新增SetCheckHeistData命令，可以设置抢劫了 必须在通用设置中设置海盗币不能存仓 以及捡存契约 
+2、修复暂停开始会崩溃的问题，需要替换mypoe64.dll
+3、修复abcd退出会残留进程的问题 实测已经很少会提示 重复运行了 需要替换abcd.exe
+4、修复打怪时不躲避问题
+9.23
+1、新增SetNeedFengYinYeShou命令，可以封印野兽 详情查看 使用说明 必看.chm
+2、修复不做命运之语的问题
+3、中控可以单独删除数据库里的账号数据了
+9.22
+1、新增变量型命令g_puTongWanChengDu 普通地图完成度 此设置不影响主线，只在升级刷图有效(如 刷白袍 主线时指定升级 主线完成后升级) 建议范围0.5-1 默认为1就是刷全图
+2、新增变量型命令g_usePuTongWanChengDuLv 使用普通地图完成度那个设置的等级，如果未到等则刷全图 默认为nil不使用
+9.20
+1、新增变量型命令 g_maxMemoryUse 设置了游戏最小化时 当游戏内存占用多少G以上后会弹出来让他释放下内存，然后20秒后又最小化 单位为G 填nil为永不检测 默认为7G
+9.19
+1、随游戏更新
+2、新增黑屏与cpu优化，但不如最小化省资源且会修改游戏代码，有可能会被检测，不推荐使用
+3、中控修复掉线的主机有时会残留的问题 需要更新中控 console.exe
+4、修复有时账号没被封都会向中控要号的问题 需要更新abcd.exe
+5、新增了 使用局域网自动更新辅助与脚本 教程 详情查看 使用说明 必看.chm
+9.9
+1、发布中控端，中控端可下发账号了  请查看 使用说明 必看.chm
+8.3
+1、可调整换通货或购买物品时同时密人数量了
+2、技能未全部装备上，就会拾取出售三色相连装备 已经写到内置数据.lua中了，任何情况下都不想捡幻色的可以注释掉那句
+3、脚本内置对带有集中效应效果的装备进行了每级减3000分的操作，现在已经移到内置数据中，需要使用到那种装备的可以注释掉那句就会正常高级换装了
+4、新增 AddWebNeedChangeGoods命令，可以去集市把一种通货换成另一种通货
+5、新增 SetChatData命令，可以设置交易时喊一些话
+7.1
+1、设置交易物品的命令 SetJiaoYiGoods 添加了一个连洞参数 可实现6连装备交易给仓库号了
+1、设置交易物品的命令 SetJiaoYiGoods 添加了一个属性值限制 参数 可实现枯萎图或某些极品属性的东西交易给仓库号了 使用说明中有设置教程
+6.28
+1、修复不自动换药的问题。
+6.26
+1、修复第9章巨兽沼泽 有几率找不到下个地图的路
+2、修复有些情况买不全技能宝石
+3、设置药瓶摆放命令 SetNeedFlaskData 可以设定最终用什么药了
+4、修复有些情况下一直卡在洗装备
+6.25
+1、修复仓库页太多导致的 发送指令太多无限被踢下线 没有这问题的可不用替换
+6.24A
+1、修复一个反复换装的问题
+6.24
+1、修复了开图选择事件时未检测剩余次数问题
+2、SetJiaoYiGoods 与 SetGoodsCaoZuo 与 SetSaveIndex 命令的 goodsType(或saveType) 参数 现已支持 大类的类名了 比如 可堆叠通货 现在可以写成 StackableCurrency 
+3、goodsType(或saveType) 参数 新增 灾变样本、异界图鉴升级物品、收割种子 大类名字  意思是你可以直接填 收割种子 这个大类名字了 强烈推荐使用上面的大类类名(如 StackableCurrency)，因为中文的大类名字要我手动添加
+
+6.21
+1、修复了装备等级不够还一直用工匠开孔装备的问题
+6.20A
+1、修改了未到异界也检测交易
+6.20
+1、随游戏更新
+2、增加对裸奔头 装备的支持
+6.18
+1、优化打孔、链结、幻色装备速度
+2、AddWebNeedBuyGoods 命令新增了 等级、物品数量条件，可以在只满足条件时才去网页集市购买了
+3、SetJiaoYiGoods 命令新增了保留数量功能，可以自己定义保留多少个，多出的才去交易给仓库号了
+4、新增了一个 内置数据.lua脚本，有些你们觉得不需要的内置设置，可以在里面注释掉了
+6.15A
+1、新增SetDebuffSkill 命令 设置对怪物施放的减益技能 并内置了所有诅咒技能
+2、新增AddShengJiZhuangBeiGoodsData 命令 设置升级装备颜色的物品 可定义多少级使用点金 精髓等通货升级装备的颜色
+6.15 
+1、SetGoodsCaoZuo 命令新增有效场景参数 
+2、AddAttackSkillData 命令新增怪物属性数量参数，可用来控制对不同强度的怪物定义不同的技能 所有图腾均已内置
+3、新增SetOpenMapMasterData 命令 设置异界开图时选择的事件
+6.14A
+1、内置法术回音、瘟疫使徒 技能支持
+6.14
+1、修复取图时碰到未鉴定的污染图会鉴定的问题
+2、增加 凋零之步、暴风之盾、祕能披風、坚决战吼、激励战吼、深渊战吼技能支持
+6.11
+1、修复白袍也会识别成三色相连的问题
+2、修复会对白袍使用护甲片的问题
+3、增加天赋珠宝支持 具体设置请看 使用说明 必看.chm
+4、增加洗药功能 具体设置请看 使用说明 必看.chm
+6.8
+1、修复了很多问题，并新增了大量设置命令 请查看 使用说明 必看.chm 功能已趋于完善，有问题请向我反馈
+3.30
+1、憋出了两个硬一点的脚本做示范，死得少 产量有所提高，记得用这两个脚本必须得重新练号。 （想要产量高还是得会玩游戏的人来去设置配装BD与技能才行，有兴趣的可以照着样子改自己想要的设置）
+2、简单做了一个说明如何找游戏里物品 技能 与词缀 在目录下类名查找说明.chm 想自己写BD的可以参考一下
+3.19
+1、修复偶尔卡购买通货界面
+2、修复捡再有在小地图有图标的物品
+3.18
+1、优化剧情速度
+2、修复网页集市购买的小问题
+需要替换脚本目录中的所有英文脚本 还有mypoe64.dll
+3.16 
+1、新增网页市集购买装备 可自行设置 范例参考女巫脚本 设置命令为AddWebNeedBuyGoods
+2、新增到多少级打才迷雾（新赛季内容）在通用设置里 设置命令为g_needMiWuLv=75 意思是满75级才进迷雾触发
