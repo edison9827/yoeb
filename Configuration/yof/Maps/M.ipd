@@ -7,6 +7,16 @@
 //	[Rarity]== "Normal"#[UpgradeToRare]== "true"//使用點金石			//使用點金	不//使用點金
 
 //    [Quality]<="1"&& [Rarity]=="Rare"  #[IgnoreMap]== "true"//不打黃圖
+
+[Type] == "City Square Map" # [ExitAfterBossKill] == "true"
+[Type] == "Toxic Sewer Map" # [ExitAfterBossKill] == "true"
+[Type] == "Crimson Temple Map" # [ExitAfterBossKill] == "true"
+[Type] == "Sulphur Vents Map" # [ExitAfterBossKill] == "true"
+[Type] == "Canyon Map" # [ExitAfterBossKill] == "true"
+[Type] == "Arcade Map" # [ExitAfterBossKill] == "true"
+[Type] == "Cemetery Map" # [ExitAfterBossKill] == "true"
+
+
 	
 	//避開王房地圖//(預設)				//中文判斷																				
 	[Type]=="Graveyard Map" #	[SkipBossArena]	=="true"	//墮影墓場	不打這張圖的王																				
