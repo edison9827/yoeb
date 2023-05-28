@@ -1710,7 +1710,7 @@
 //[Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Fated End" && [ForceSellItem] == "true"	//命運終結		賣出																									
 //[Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Soulbound" && [ForceSellItem] == "true"	//靈魂之絆		賣出																									
 //[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Andvarius" && [ForceSellItem] == "true"	//貪慾之記		賣出																									
-//[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [ForceSellItem] == "true"	//賭神芬多		賣出																									
+//[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [StashItem] == "true"	//賭神芬多		賣出																									
 //[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "The Highwayman" && [ForceSellItem] == "true"	//高尚之人		賣出																									
 //[Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Kikazaru" && [ForceSellItem] == "true"	//基加薩魯		賣出																									
 //[Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Valako's Sign" && [ForceSellItem] == "true"	//瓦拉庫之印		賣出																									
@@ -1755,7 +1755,7 @@
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Circle of Nostalgia" && [ForceSellItem] == "true"	//懷舊之環		賣出																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Blackflame" && [ForceSellItem] == "true"	//黯炎		賣出																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Original Sin" && [ForceSellItem] == "true"	//原罪		賣出																									
-[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Gifts from Above" && [StashItem] == "true"	//神賜		存倉																									
+[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Gifts from Above" && [ForceSellItem] == "true"	//神賜		存倉																									
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Romira's Banquet" && [ForceSellItem] == "true"	//羅米拉的潛力之環		賣出																									
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite Two-" && [StashItem] == "true"	//貝雷克的火與雷之樂		存倉																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip Two-" && [ForceSellItem] == "true"	//貝雷克的冰與雷之曲		賣出																									
