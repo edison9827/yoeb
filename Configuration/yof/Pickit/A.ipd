@@ -78,7 +78,7 @@
 //此通貨不撿	//改造石碎片		賣出																									
 //此通貨不撿	//卷軸碎片		賣出																									
 //此通貨不撿	//蛻變石碎片		賣出																									
-[Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石		存倉																									
+//[Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石		存倉																									
 [Type] == "Enkindling Orb" # [StashItem] == "true" //	//點燃石		存倉																									
 [Type] == "Annulment Shard" # [StashItem] == "true" //	//無效石碎片		存倉																									
 //此通貨不撿	//束縛石碎片		賣出																									
