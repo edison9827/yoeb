@@ -87,7 +87,7 @@
 	[Type]=="Port Map" #	[IgnoreMap]	=="true"	//失落城塢	打這張圖																				
 	[Type]=="Burial Chambers Map" #	[IgnoreMap]	=="true"	//旱地墓室	打這張圖																				
 	[Type]=="Cells Map" #	[IgnoreMap]	=="true"	//幽魂監牢	打這張圖																				
-	[Type]=="Arcade Map" #	[IgnoreMap]	=="true"	//崩壞長廊	打這張圖																				
+	[Type]=="Arcade Map" #	[RunMap]	=="true"	//崩壞長廊	打這張圖																				
 	[Type]=="City Square Map" #	[RunMap]	=="true"	//危城廣場	打這張圖																				
 	[Type]=="Relic Chambers Map" #	[IgnoreMap]	=="true"	//古典密室	不打這張圖																				
 	[Type]=="Courthouse Map" #	[IgnoreMap]	=="true"	//失序教院	打這張圖																				
@@ -123,7 +123,7 @@
 	[Type]=="Wharf Map" #	[IgnoreMap]	=="true"	//毒牙海港	打這張圖																				
 	[Type]=="Ashen Wood Map" #	[IgnoreMap]	=="true"	//旱木林地	打這張圖																				
 	[Type]=="Atoll Map" #	[IgnoreMap]	=="true"	//濱海山丘	打這張圖																				
-	[Type]=="Cemetery Map" #	[IgnoreMap]	=="true"	//晨曦墓地	打這張圖																				
+	[Type]=="Cemetery Map" #	[RunMap]	=="true"	//晨曦墓地	打這張圖																				
 	[Type]=="Underground Sea Map" #	[IgnoreMap]	=="true"	//濱海幽穴	打這張圖																				
 	[Type]=="Crater Map" #	[IgnoreMap]	=="true"	//殘破殞坑	打這張圖																				
 	[Type]=="Coral Ruins Map" #	[IgnoreMap]	=="true"	//破碎堡礁	打這張圖																				
