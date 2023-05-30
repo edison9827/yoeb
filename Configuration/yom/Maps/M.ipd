@@ -1,0 +1,292 @@
+//	//				//中文判斷																				
+	//3.19 橘貓輿圖檔 ////藍色文字代表不能更改的欄位，不要去改																								
+//	[Quality]<="16"&& [Rarity]=="Normal"#[UpgradeQuality]== "true"//使用製圖釘			//使用製圖釘	不//使用製圖釘																				
+//	[MapTier]>= "1" && [MapTier] <= "16"#[RunMap]== "true"//執行輿圖			//這橫行請勿更動																					
+//	[Rarity]== "Normal"#[UpgradeToMagic]== "true"//使用蛻變石			//使用蛻變	不//使用蛻變																				
+//	[Rarity]== "Magic"#[AugmentIfPossible]== "true"//使用增幅石			//使用增幅	不//使用增幅																				
+//	[Rarity]== "Normal"#[UpgradeToRare]== "true"//使用點金石			//使用點金	不//使用點金
+
+//    [Quality]<="1"&& [Rarity]=="Rare"  #[IgnoreMap]== "true"//不打黃圖
+
+[Type] == "City Square Map" # [ExitAfterBossKill] == "true"
+[Type] == "Toxic Sewer Map" # [ExitAfterBossKill] == "true"
+[Type] == "Crimson Temple Map" # [ExitAfterBossKill] == "true"
+[Type] == "Sulphur Vents Map" # [ExitAfterBossKill] == "true"
+[Type] == "Canyon Map" # [ExitAfterBossKill] == "true"
+[Type] == "Arcade Map" # [ExitAfterBossKill] == "true"
+[Type] == "Cemetery Map" # [ExitAfterBossKill] == "true"
+
+
+	
+	//避開王房地圖//(預設)				//中文判斷																				
+	[Type]=="Graveyard Map" #	[SkipBossArena]	=="true"	//墮影墓場	不打這張圖的王																				
+	[Type]=="Dungeon Map" #	[SkipBossArena]	=="true"	//禁魂炎獄	不打這張圖的王																				
+	[Type]=="Foundry Map" #	[SkipBossArena]	=="true"	//鍊金房	不打這張圖的王																				
+	[Type]=="Cells Map" #	[SkipBossArena]	=="true"	//幽魂監牢	不打這張圖的王																				
+	[Type]=="Relic Chambers Map" #	[SkipBossArena]	=="true"	//古典密室	不打這張圖的王																				
+	[Type]=="Frozen Cabins Map" #	[SkipBossArena]	=="true"	//凍原小屋	不打這張圖的王																				
+	[Type]=="Grave Trough Map" #	[SkipBossArena]	=="true"	//墓地谷	不打這張圖的王																				
+	[Type]=="Crimson Township Map" #	[SkipBossArena]	=="true"	//緋紅之鎮	不打這張圖的王																				
+	[Type]=="Toxic Sewer Map" #	[SkipBossArena]	=="true"	//腐敗下水道	不打這張圖的王																				
+	[Type]=="Ivory Temple Map" #	[SkipBossArena]	=="true"	//象牙神殿	不打這張圖的王																				
+	[Type]=="Lava Chamber Map" #	[SkipBossArena]	=="true"	//熔岩之室	不打這張圖的王																				
+	[Type]=="Residence Map" #	[SkipBossArena]	=="true"	//神主居所	不打這張圖的王																				
+	[Type]=="Bone Crypt Map" #	[SkipBossArena]	=="true"	//骨跡陵墓	不打這張圖的王																				
+	[Type]=="Underground River Map" #	[SkipBossArena]	=="true"	//地底之河	不打這張圖的王																				
+	[Type]=="Laboratory Map" #	[SkipBossArena]	=="true"	//實驗居所	不打這張圖的王																				
+	[Type]=="Overgrown Ruin Map" #	[SkipBossArena]	=="true"	//長草遺跡	不打這張圖的王																				
+	[Type]=="Vaal Pyramid Map" #	[SkipBossArena]	=="true"	//瓦爾金字塔	不打這張圖的王																				
+	[Type]=="Tower Map" #	[SkipBossArena]	=="true"	//闇獄尖塔	不打這張圖的王																				
+	[Type]=="Waste Pool Map" #	[SkipBossArena]	=="true"	//死寂泥溝	不打這張圖的王																				
+	[Type]=="Vault Map" #	[SkipBossArena]	=="true"	//魔金寶庫	不打這張圖的王																				
+	[Type]=="Shipyard Map" #	[SkipBossArena]	=="true"	//熾炎船塢	不打這張圖的王																				
+	[Type]=="Belfry Map" #	[SkipBossArena]	=="true"	//雲頂鐘樓	不打這張圖的王																				
+	[Type]=="Lair Map" #	[SkipBossArena]	=="true"	//餓獸巢穴	不打這張圖的王																				
+	[Type]=="Primordial Pool Map" #	[SkipBossArena]	=="true"	//血腥沼澤	不打這張圖的王																				
+	[Type]=="Factory Map" #	[SkipBossArena]	=="true"	//鐵鏽工廠	不打這張圖的王																				
+	[Type]=="Summit Map" #	[SkipBossArena]	=="true"	//寒頂之巔	不打這張圖的王																				
+	[Type]=="Primordial Blocks Map" #	[SkipBossArena]	=="true"	//血腥陣地	不打這張圖的王																				
+	[Type]=="Necropolis Map" #	[SkipBossArena]	=="true"	//魔影墓場	不打這張圖的王																				
+	[Type]=="Malformation Map" #	[SkipBossArena]	=="true"	//畸形亡域	不打這張圖的王																				
+	[Type]=="Terrace Map" #	[SkipBossArena]	=="true"	//露台花園	不打這張圖的王																				
+	[Type]=="Shrine Map" #	[SkipBossArena]	=="true"	//奇術秘殿	不打這張圖的王																				
+	[Type]=="Arsenal Map" #	[SkipBossArena]	=="true"	//古兵工廠	不打這張圖的王																				
+	[Type]=="Core Map" #	[SkipBossArena]	=="true"	//核心	不打這張圖的王																				
+	[Type]=="Colosseum Map" #	[SkipBossArena]	=="true"	//大決鬥場	不打這張圖的王																				
+	[Type]=="Dark Forest Map" #	[SkipBossArena]	=="true"	//夜語幽林	不打這張圖的王																				
+	[Type]=="Plaza Map" #	[SkipBossArena]	=="true"	//廣場	不打這張圖的王																				
+	[Type]=="Lava Lake Map" #	[SkipBossArena]	=="true"	//岩漿熔湖	不打這張圖的王																				
+	[Type]=="Basilica Map" #	[SkipBossArena]	=="true"	//聖殿	不打這張圖的王																				
+	[Type]=="Sunken City Map" #	[SkipBossArena]	=="true"	//亞特蘭提斯	不打這張圖的王																				
+	[Type]=="Reef Map" #	[SkipBossArena]	=="true"	//危機海礁	不打這張圖的王																				
+	[Type]=="Bramble Valley Map" #	[SkipBossArena]	=="true"	//荊棘谷	不打這張圖的王																				
+	[Type]=="Pit of the Chimera Map" #	[SkipBossArena]	=="true"	//奇美拉魔坑	不打這張圖的王																				
+	[Type]=="Lair of the Hydra Map" #	[SkipBossArena]	=="true"	//九頭蛇冰窟	不打這張圖的王																				
+	[Type]=="Maze of the Minotaur Map" #	[SkipBossArena]	=="true"	//牛頭人謎域	不打這張圖的王																				
+	[Type]=="Forge of the Phoenix Map" #	[SkipBossArena]	=="true"	//火鳳凰熔核	不打這張圖的王																				
+	[Type]=="Vaal Temple Map" #	[SkipBossArena]	=="true"	//瓦爾密殿	不打這張圖的王																				
+	[Type]=="Harbinger Map" #	[SkipBossArena]	=="true"	//神諭之殿．煉獄	不打這張圖的王																				
+//	//3.17 打圖設定 //																								
+	[Type]=="Lookout Map" #	[IgnoreMap]	=="true"	//如履危牆	打這張圖																				
+	[Type]=="Beach Map" #	[IgnoreMap]	=="true"	//白沙灘頭	打這張圖																				
+	[Type]=="Graveyard Map" #	[IgnoreMap]	=="true"	//墮影墓場	打這張圖																				
+	[Type]=="Dungeon Map" #	[IgnoreMap]	=="true"	//禁魂炎獄	不打這張圖																				
+	[Type]=="Foundry Map" #	[IgnoreMap]	=="true"	//鍊金房	打這張圖																				
+	[Type]=="Alleyways Map" #	[IgnoreMap]	=="true"	//危城巷弄	打這張圖																				
+	[Type]=="Pen Map" #	[IgnoreMap]	=="true"	//穢陰獄牢	打這張圖																				
+	[Type]=="Desert Map" #	[IgnoreMap]	=="true"	//貧瘠之地	打這張圖																				
+	[Type]=="Arid Lake Map" #	[IgnoreMap]	=="true"	//乾枯湖岸	打這張圖																				
+	[Type]=="Flooded Mine Map" #	[IgnoreMap]	=="true"	//洪災礦坑	打這張圖																				
+	[Type]=="Marshes Map" #	[IgnoreMap]	=="true"	//惡臭沼地	打這張圖																				
+	[Type]=="Iceberg Map" #	[IgnoreMap]	=="true"	//極原冰帽	打這張圖																				
+	[Type]=="Cage Map" #	[IgnoreMap]	=="true"	//羈破牢籠	打這張圖																				
+	[Type]=="Fungal Hollow Map" #	[IgnoreMap]	=="true"	//毒菌魔域	打這張圖																				
+	[Type]=="Excavation Map" #	[IgnoreMap]	=="true"	//挖掘場	打這張圖																				
+	[Type]=="Leyline Map" #	[IgnoreMap]	=="true"	//荒涼牧野	打這張圖																				
+	[Type]=="Peninsula Map" #	[IgnoreMap]	=="true"	//乾潮林地	打這張圖																				
+	[Type]=="Port Map" #	[IgnoreMap]	=="true"	//失落城塢	打這張圖																				
+	[Type]=="Burial Chambers Map" #	[IgnoreMap]	=="true"	//旱地墓室	打這張圖																				
+	[Type]=="Cells Map" #	[IgnoreMap]	=="true"	//幽魂監牢	打這張圖																				
+	[Type]=="Arcade Map" #	[RunMap]	=="true"	//崩壞長廊	打這張圖																				
+	[Type]=="City Square Map" #	[RunMap]	=="true"	//危城廣場	打這張圖																				
+	[Type]=="Relic Chambers Map" #	[IgnoreMap]	=="true"	//古典密室	不打這張圖																				
+	[Type]=="Courthouse Map" #	[IgnoreMap]	=="true"	//失序教院	打這張圖																				
+	[Type]=="Strand Map" #	[IgnoreMap]	=="true"	//致命岩灘	打這張圖																				
+	[Type]=="Chateau Map" #	[IgnoreMap]	=="true"	//古堡	打這張圖																				
+	[Type]=="Grotto Map" #	[IgnoreMap]	=="true"	//幽暗地穴	打這張圖																				
+	[Type]=="Glacier Map" #	[IgnoreMap]	=="true"	//冰川山丘	打這張圖																				
+	[Type]=="Volcano Map" #	[IgnoreMap]	=="true"	//火山炎域	打這張圖																				
+	[Type]=="Lighthouse Map" #	[IgnoreMap]	=="true"	//絕望燈塔	打這張圖																				
+	[Type]=="Canyon Map" #	[IgnoreMap]	=="true"	//炙陽峽谷	打這張圖																				
+	[Type]=="Frozen Cabins Map" #	[IgnoreMap]	=="true"	//凍原小屋	不打這張圖																				
+	[Type]=="Grave Trough Map" #	[IgnoreMap]	=="true"	//墓地谷	不打這張圖																				
+	[Type]=="Crimson Township Map" #	[IgnoreMap]	=="true"	//緋紅之鎮	打這張圖																				
+	[Type]=="Forking River Map" #	[IgnoreMap]	=="true"	//岔河	打這張圖																				
+	[Type]=="Cold River Map" #	[IgnoreMap]	=="true"	//寒河	打這張圖																				
+	[Type]=="Forbidden Woods Map" #	[IgnoreMap]	=="true"	//禁忌之森	打這張圖																				
+	[Type]=="Conservatory Map" #	[IgnoreMap]	=="true"	//寧逸溫房	打這張圖																				
+	[Type]=="Sulphur Vents Map" #	[RunMap]	=="true"	//硫磺蝕岸	打這張圖																				
+	[Type]=="Haunted Mansion Map" #	[IgnoreMap]	=="true"	//幽魂宅邸	打這張圖																				
+	[Type]=="Maze Map" #	[IgnoreMap]	=="true"	//冥神之域	打這張圖																				
+	[Type]=="Channel Map" #	[IgnoreMap]	=="true"	//秘密通道	打這張圖																				
+	[Type]=="Toxic Sewer Map" #	[RunMap]	=="true"	//腐敗下水道	打這張圖																				
+	[Type]=="Ancient City Map" #	[IgnoreMap]	=="true"	//遠古危城	打這張圖																				
+	[Type]=="Ivory Temple Map" #	[IgnoreMap]	=="true"	//象牙神殿	打這張圖																				
+	[Type]=="Spider Lair Map" #	[IgnoreMap]	=="true"	//巨蛛巢穴	打這張圖																				
+	[Type]=="Barrows Map" #	[IgnoreMap]	=="true"	//熱林塚墓	打這張圖																				
+	[Type]=="Mausoleum Map" #	[IgnoreMap]	=="true"	//靜縊陵墓	打這張圖																				
+	[Type]=="Fields Map" #	[IgnoreMap]	=="true"	//無疆田野	打這張圖																				
+	[Type]=="Jungle Valley Map" #	[IgnoreMap]	=="true"	//劇毒林谷	打這張圖																				
+	[Type]=="Phantasmagoria Map" #	[IgnoreMap]	=="true"	//魔靈幻獄	打這張圖																				
+	[Type]=="Academy Map" #	[IgnoreMap]	=="true"	//惡靈學院	打這張圖																				
+	[Type]=="Thicket Map" #	[IgnoreMap]	=="true"	//驚懼樹叢	打這張圖																				
+	[Type]=="Wharf Map" #	[IgnoreMap]	=="true"	//毒牙海港	打這張圖																				
+	[Type]=="Ashen Wood Map" #	[IgnoreMap]	=="true"	//旱木林地	打這張圖																				
+	[Type]=="Atoll Map" #	[IgnoreMap]	=="true"	//濱海山丘	打這張圖																				
+	[Type]=="Cemetery Map" #	[RunMap]	=="true"	//晨曦墓地	打這張圖																				
+	[Type]=="Underground Sea Map" #	[IgnoreMap]	=="true"	//濱海幽穴	打這張圖																				
+	[Type]=="Crater Map" #	[IgnoreMap]	=="true"	//殘破殞坑	打這張圖																				
+	[Type]=="Coral Ruins Map" #	[IgnoreMap]	=="true"	//破碎堡礁	打這張圖																				
+	[Type]=="Lava Chamber Map" #	[IgnoreMap]	=="true"	//熔岩之室	打這張圖																				
+	[Type]=="Residence Map" #	[IgnoreMap]	=="true"	//神主居所	打這張圖																				
+	[Type]=="Ramparts Map" #	[IgnoreMap]	=="true"	//濱海堡壘	打這張圖																				
+	[Type]=="Dunes Map" #	[IgnoreMap]	=="true"	//暮色沙丘	打這張圖																				
+	[Type]=="Bone Crypt Map" #	[IgnoreMap]	=="true"	//骨跡陵墓	打這張圖																				
+	[Type]=="Underground River Map" #	[IgnoreMap]	=="true"	//地底之河	打這張圖																				
+	[Type]=="Gardens Map" #	[IgnoreMap]	=="true"	//迷宮花園	打這張圖																				
+	[Type]=="Arachnid Nest Map" #	[IgnoreMap]	=="true"	//異蛛巢穴	打這張圖																				
+	[Type]=="Bazaar Map" #	[IgnoreMap]	=="true"	//遠古市集	打這張圖																				
+	[Type]=="Laboratory Map" #	[IgnoreMap]	=="true"	//實驗居所	打這張圖																				
+	[Type]=="Infested Valley Map" #	[IgnoreMap]	=="true"	//病疫林谷	不打這張圖																				
+	[Type]=="Overgrown Ruin Map" #	[IgnoreMap]	=="true"	//長草遺跡	打這張圖																				
+	[Type]=="Vaal Pyramid Map" #	[IgnoreMap]	=="true"	//瓦爾金字塔	不打這張圖																				
+	[Type]=="Geode Map" #	[IgnoreMap]	=="true"	//詭譎晶洞	打這張圖																				
+	[Type]=="Armoury Map" #	[IgnoreMap]	=="true"	//軍械庫	打這張圖																				
+	[Type]=="Courtyard Map" #	[IgnoreMap]	=="true"	//奇術之庭	打這張圖																				
+	[Type]=="Mud Geyser Map" #	[IgnoreMap]	=="true"	//陰晦泥灘	打這張圖																				
+	[Type]=="Shore Map" #	[IgnoreMap]	=="true"	//暮光海灘	打這張圖																				
+	[Type]=="Tropical Island Map" #	[IgnoreMap]	=="true"	//晴空幽島	打這張圖																				
+	[Type]=="Mineral Pools Map" #	[IgnoreMap]	=="true"	//濕地礦山	打這張圖																				
+	[Type]=="Moon Temple Map" #	[IgnoreMap]	=="true"	//嬋娟神殿	打這張圖																				
+	[Type]=="Sepulchre Map" #	[IgnoreMap]	=="true"	//陰暗墓塚	打這張圖																				
+	[Type]=="Tower Map" #	[IgnoreMap]	=="true"	//闇獄尖塔	不打這張圖																				
+	[Type]=="Waste Pool Map" #	[IgnoreMap]	=="true"	//死寂泥溝	打這張圖																				
+	[Type]=="Plateau Map" #	[IgnoreMap]	=="true"	//海風高原	打這張圖																				
+	[Type]=="Estuary Map" #	[IgnoreMap]	=="true"	//熔火岩灘	打這張圖																				
+	[Type]=="Vault Map" #	[IgnoreMap]	=="true"	//魔金寶庫	不打這張圖																				
+	[Type]=="Temple Map" #	[IgnoreMap]	=="true"	//奪魂之殿	打這張圖																				
+	[Type]=="Arena Map" #	[IgnoreMap]	=="true"	//競技場	不打這張圖																				
+	[Type]=="Museum Map" #	[IgnoreMap]	=="true"	//古博物館	打這張圖																				
+	[Type]=="Scriptorium Map" #	[IgnoreMap]	=="true"	//墓影書坊	打這張圖																				
+	[Type]=="Siege Map" #	[IgnoreMap]	=="true"	//禁斷圍城	打這張圖																				
+	[Type]=="Shipyard Map" #	[IgnoreMap]	=="true"	//熾炎船塢	打這張圖																				
+	[Type]=="Belfry Map" #	[IgnoreMap]	=="true"	//雲頂鐘樓	打這張圖																				
+	[Type]=="Arachnid Tomb Map" #	[IgnoreMap]	=="true"	//異蛛墓塚	打這張圖																				
+	[Type]=="Wasteland Map" #	[IgnoreMap]	=="true"	//荒地	打這張圖																				
+	[Type]=="Precinct Map" #	[IgnoreMap]	=="true"	//苦行之域	打這張圖																				
+	[Type]=="Bog Map" #	[IgnoreMap]	=="true"	//瘴氣泥沼	打這張圖																				
+	[Type]=="Pier Map" #	[IgnoreMap]	=="true"	//怒浪之港	打這張圖																				
+	[Type]=="Cursed Crypt Map" #	[IgnoreMap]	=="true"	//惡咒陵墓	打這張圖																				
+	[Type]=="Orchard Map" #	[IgnoreMap]	=="true"	//密林果園	打這張圖																				
+	[Type]=="Promenade Map" #	[IgnoreMap]	=="true"	//月色迴廊	打這張圖																				
+	[Type]=="Lair Map" #	[IgnoreMap]	=="true"	//餓獸巢穴	打這張圖																				
+	[Type]=="Colonnade Map" #	[IgnoreMap]	=="true"	//激戰柱廊	打這張圖																				
+	[Type]=="Primordial Pool Map" #	[IgnoreMap]	=="true"	//血腥沼澤	打這張圖																				
+	[Type]=="Spider Forest Map" #	[IgnoreMap]	=="true"	//巨蛛之林	打這張圖																				
+	[Type]=="Coves Map" #	[IgnoreMap]	=="true"	//疾風峽灣	打這張圖																				
+	[Type]=="Waterways Map" #	[IgnoreMap]	=="true"	//危機水道	打這張圖																				
+	[Type]=="Factory Map" #	[IgnoreMap]	=="true"	//鐵鏽工廠	打這張圖																				
+	[Type]=="Mesa Map" #	[IgnoreMap]	=="true"	//平頂荒漠	打這張圖																				
+	[Type]=="Pit Map" #	[IgnoreMap]	=="true"	//巨坑	不打這張圖																				
+	[Type]=="Dry Sea Map" #	[IgnoreMap]	=="true"	//乾海	打這張圖																				
+	[Type]=="Defiled Cathedral Map" #	[IgnoreMap]	=="true"	//不潔教堂	打這張圖																				
+	[Type]=="Summit Map" #	[IgnoreMap]	=="true"	//寒頂之巔	打這張圖																				
+	[Type]=="Overgrown Shrine Map" #	[IgnoreMap]	=="true"	//密草神殿	打這張圖																				
+	[Type]=="Castle Ruins Map" #	[IgnoreMap]	=="true"	//遺跡廢墟	打這張圖																				
+	[Type]=="Crystal Ore Map" #	[IgnoreMap]	=="true"	//紫晶礦山	打這張圖																				
+	[Type]=="Villa Map" #	[IgnoreMap]	=="true"	//魅影別墅	打這張圖																				
+	[Type]=="Primordial Blocks Map" #	[IgnoreMap]	=="true"	//血腥陣地	打這張圖																				
+	[Type]=="Necropolis Map" #	[IgnoreMap]	=="true"	//魔影墓場	打這張圖																				
+	[Type]=="Racecourse Map" #	[IgnoreMap]	=="true"	//古競速場	打這張圖																				
+	[Type]=="Caldera Map" #	[IgnoreMap]	=="true"	//火山炎口	打這張圖																				
+	[Type]=="Ghetto Map" #	[IgnoreMap]	=="true"	//赤貧居所	打這張圖																				
+	[Type]=="Park Map" #	[IgnoreMap]	=="true"	//園林苑	打這張圖																				
+	[Type]=="Malformation Map" #	[IgnoreMap]	=="true"	//畸形亡域	打這張圖																				
+	[Type]=="Terrace Map" #	[IgnoreMap]	=="true"	//露台花園	打這張圖																				
+	[Type]=="Shrine Map" #	[IgnoreMap]	=="true"	//奇術秘殿	打這張圖																				
+	[Type]=="Arsenal Map" #	[IgnoreMap]	=="true"	//古兵工廠	打這張圖																				
+	[Type]=="Desert Spring Map" #	[IgnoreMap]	=="true"	//硫磺荒漠	打這張圖																				
+	[Type]=="Core Map" #	[IgnoreMap]	=="true"	//核心	不打這張圖																				
+	[Type]=="Colosseum Map" #	[IgnoreMap]	=="true"	//大決鬥場	打這張圖																				
+	[Type]=="Acid Caverns Map" #	[IgnoreMap]	=="true"	//酸岩酸嶼	打這張圖																				
+	[Type]=="Dark Forest Map" #	[IgnoreMap]	=="true"	//夜語幽林	打這張圖																				
+	[Type]=="Crimson Temple Map" #	[RunMap]	=="true"	//緋紅神殿	打這張圖																				
+	[Type]=="Plaza Map" #	[IgnoreMap]	=="true"	//廣場	打這張圖																				
+	[Type]=="Dig Map" #	[IgnoreMap]	=="true"	//違禁掘坑	打這張圖																				
+	[Type]=="Palace Map" #	[IgnoreMap]	=="true"	//神域之殿	打這張圖																				
+	[Type]=="Lava Lake Map" #	[IgnoreMap]	=="true"	//岩漿熔湖	打這張圖																				
+	[Type]=="Basilica Map" #	[IgnoreMap]	=="true"	//聖殿	打這張圖																				
+	[Type]=="Sunken City Map" #	[IgnoreMap]	=="true"	//亞特蘭提斯	打這張圖																				
+	[Type]=="Reef Map" #	[IgnoreMap]	=="true"	//危機海礁	打這張圖																				
+	[Type]=="Carcass Map" #	[IgnoreMap]	=="true"	//惡臭屍域	打這張圖																				
+	[Type]=="Stagnation Map" #	[IgnoreMap]	=="true"	//淤塞水道	打這張圖																				
+	[Type]=="Bramble Valley Map" #	[IgnoreMap]	=="true"	//荊棘谷	不打這張圖																				
+	[Type]=="Silo Map" #	[IgnoreMap]	=="true"	//儲物倉	打這張圖																				
+	[Type]=="Pit of the Chimera Map" #	[IgnoreMap]	=="true"	//奇美拉魔坑	不打這張圖																				
+	[Type]=="Lair of the Hydra Map" #	[IgnoreMap]	=="true"	//九頭蛇冰窟	不打這張圖																				
+	[Type]=="Maze of the Minotaur Map" #	[IgnoreMap]	=="true"	//牛頭人謎域	不打這張圖																				
+	[Type]=="Forge of the Phoenix Map" #	[IgnoreMap]	=="true"	//火鳳凰熔核	不打這張圖																				
+	[Type]=="Vaal Temple Map" #	[IgnoreMap]	=="true"	//瓦爾密殿	不打這張圖																				
+	[Type]=="Harbinger Map" #	[IgnoreMap]	=="true"	//神諭之殿．煉獄	不打這張圖																				
+																									
+	//3.19 忽略圖與忽略傳奇圖																								
+	[Type]== "Forge of the Phoenix Map"#[IgnoreMap]== "true"//火鳳凰熔核 #																								
+	[Type]== "Lair of the Hydra Map"#[IgnoreMap]== "true"//九頭蛇冰窟 #																								
+	[Type]== "Maze of the Minotaur Map"#[IgnoreMap]== "true"//牛頭人謎域 #																								
+	[Type]== "Pit of the Chimera Map"#[IgnoreMap]== "true"//奇美拉魔坑 #																								
+	////Unique Map//// #																								
+//請勿更動//	//[Type]== "Overgrown Shrine Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Siege Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Courthouse Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Underground River Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Relic Chambers Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Necropolis Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Maze Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//請勿更動//	//[Type]== "Promenade Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//請勿更動//	//[Type]== "Cemetery Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Atoll Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Shore Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Underground Sea Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Bone Crypt Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Dunes Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Temple Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//請勿更動//	//[Type]== "Basilica Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Harbinger Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Cursed Crypt Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//請勿更動//	//[Type]== "Chateau Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Museum Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Moon Temple Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Courtyard Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Park Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Tropical Island Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Vaal Pyramid Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+//請勿更動//	//[Type]== "Strand Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"// #																								
+	[Type]== "Temple Map"&& [Rarity] == "Unique"#[IgnoreMap]== "true"//																								
+																									
+	//3.19 討厭的詞綴避開 重骰 （務必兩個、兩個一起改）																								
+	[map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//怪物反射_%_元素傷害	避開//怪物反射_%_元素傷害的圖，用改造或C去骰																				
+	[map_monsters_reflect_%_elemental_damage] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//怪物反射_%_元素傷害	避開//怪物反射_%_元素傷害的圖，用改造或C去骰																				
+	[map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//怪物反射_%_物理傷害	避開//怪物反射_%_物理傷害的圖，用改造或C去骰																				
+	[map_monsters_reflect_%_physical_damage]>= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//怪物反射_%_物理傷害	避開//怪物反射_%_物理傷害的圖，用改造或C去骰																				
+	[map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//玩家無法回復生命、魔力和能量護盾	避開//玩家無法回復生命、魔力和能量護盾的圖，用改造或C去骰																				
+	[map_players_no_regeneration_including_es]>= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//玩家無法回復生命、魔力和能量護盾	避開//玩家無法回復生命、魔力和能量護盾的圖，用改造或C去骰																				
+	[map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//玩家受到時空鎖鍊詛咒影響	避開//玩家受到時空鎖鍊詛咒影響的圖，用改造或C去骰																				
+//	[map_player_has_level_X_temporal_chains]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//玩家受到時空鎖鍊詛咒影響	我不怕這個																				
+	[map_player_has_level_X_vulnerability]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//玩家受到脆弱詛咒	避開//玩家受到脆弱詛咒的圖，用改造或C去骰																				
+	[map_player_has_level_X_vulnerability]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//玩家受到脆弱詛咒	避開//玩家受到脆弱詛咒的圖，用改造或C去骰																				
+//	[map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//玩家受到衰弱詛咒影響	我不怕這個																				
+//	[map_player_has_level_X_enfeeble]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//玩家受到衰弱詛咒影響	我不怕這個																				
+	[map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//玩家受到元素要害詛咒影響	避開//玩家受到元素要害詛咒影響的圖，用改造或C去骰																				
+	[map_player_has_level_X_elemental_weakness]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//玩家受到元素要害詛咒影響	避開//玩家受到元素要害詛咒影響的圖，用改造或C去骰																				
+//	[map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//稀有怪有復仇屬性	我不怕這個																				
+//	[map_rare_monsters_have_nemesis_mod]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//稀有怪有復仇屬性	我不怕這個																				
+	[map_base_ground_fire_damage_to_deal_per_minute]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//地圖裡有燃燒地面	避開//地圖裡有燃燒地面的圖，用改造或C去骰																				
+	[map_base_ground_fire_damage_to_deal_per_minute]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//地圖裡有燃燒地面	避開//地圖裡有燃燒地面的圖，用改造或C去骰																				
+	[map_ground_ice]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//地圖裡有冰緩地面	避開//地圖裡有冰緩地面的圖，用改造或C去骰																				
+//	[map_ground_ice]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//地圖裡有冰緩地面	我不怕這個																				
+	[map_ground_lightning]>= "1" && [Rarity]="Magic" #	[RerollMods]	=="true"	//地圖裡有感電地面	避開//地圖裡有感電地面的圖，用改造或C去骰																				
+//	[map_ground_lightning]>= "1" && [Rarity]="Rare" #	[RerollMods]	=="true"	//地圖裡有感電地面	我不怕這個																				
+	[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//汙染地面	避開//汙染地面的圖，用改造或C去骰																				
+	[map_base_ground_desecration_damage_to_deal_per_minute] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//汙染地面	避開//汙染地面的圖，用改造或C去骰																				
+//	[map_players_block_chance_+%] < "0" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//降低格檔	我不怕這個																				
+//	[map_players_block_chance_+%] < "0" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//降低格檔	我不怕這個																				
+	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//脆弱詛咒	避開//脆弱詛咒的圖，用改造或C去骰																				
+//	[map_player_has_level_X_vulnerability] >= "1" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//脆弱詛咒	我不怕這個																				
+//	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//地圖怪物避免元素異常狀態	我不怕這個																				
+//	[map_monsters_avoid_ailments_%] >= "1" && [Rarity] == "Rare #	[RerollMods]	=="true"	//地圖怪物避免元素異常狀態	我不怕這個																				
+	[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Magic" #	[RerollMods]	=="true"	//降低最大抗	避開//降低最大抗的圖，用改造或C去骰																				
+	[map_additional_player_maximum_resistances_%] < "0" && [Rarity] == "Rare" #	[RerollMods]	=="true"	//降低最大抗	避開//降低最大抗的圖，用改造或C去骰																				
+	[map_monsters_cannot_be_leeched_from] > "0" && [Rarity] == "Magic" # 	[RerollMods]	=="true"	//無法偷取	避開//無法偷取的圖，用改造或C去骰																				
+	[map_monsters_cannot_be_leeched_from]  > "0" && [Rarity] == "Rare" # 	[RerollMods]	=="true"	//無法偷取	避開//無法偷取的圖，用改造或C去骰																				
+	[map_monsters_steal_charges] >= "1" && [Rarity] == "Magic" #  	[RerollMods]	=="true"	//怪物偷球	避開//怪物偷球的圖，用改造或C去骰																				
+	[map_monsters_steal_charges] >= "1" && [Rarity] == "Rare" # 	[RerollMods]	=="true"	//怪物偷球	避開//怪物偷球的圖，用改造或C去骰																				
