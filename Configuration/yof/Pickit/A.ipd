@@ -52,7 +52,7 @@
 [Type] == "Chaos Orb" # [StashItem] == "true" //	//混沌石		存倉																									
 //此通貨不撿	//工匠石		賣出																									
 //此通貨不撿	//點金石		賣出																									
-[Type] == "Orb of Alteration" # [StashItem] == "true" //	//改造石		存倉																									
+//[Type] == "Orb of Alteration" # [StashItem] == "true" //	//改造石		存倉																									
 //此通貨不撿	//蛻變石		賣出																									
 //此通貨不撿	//增幅石		賣出																									
 //此通貨不撿	//機會石		賣出																									
@@ -61,17 +61,17 @@
 [Type] == "Orb of Scouring" # [StashItem] == "true" //	//重鑄石		存倉																									
 //此通貨不撿	//富豪石		賣出																									
 [Type] == "Vaal Orb" # [StashItem] == "true" //	//瓦爾寶珠		存倉																									
-[Type] == "Cartographer's Chisel" # [StashItem] == "true" //	//製圖釘		存倉																									
-[Type] == "Orb of Horizons" # [StashItem] == "true" //	//地平石		存倉																									
+//[Type] == "Cartographer's Chisel" # [StashItem] == "true" //	//製圖釘		存倉																									
+//[Type] == "Orb of Horizons" # [StashItem] == "true" //	//地平石		存倉																									
 //此通貨不撿	//神諭石		賣出																									
 //此通貨不撿	//工程石		賣出																									
 //此通貨不撿	//磨刀石		賣出																									
 //此通貨不撿	//護甲片		賣出																																																
 [Type] == "Glassblower's Bauble" # [StashItem] == "true" //	//玻璃彈珠		存倉																									
-[Type] == "Blessed Orb" # [StashItem] == "true" //	//祝福石		存倉																									
+//[Type] == "Blessed Orb" # [StashItem] == "true" //	//祝福石		存倉																									
 [Type] == "Gemcutter's Prism" # [StashItem] == "true" //	//寶石匠的稜鏡		存倉																									
 //此通貨不撿	//束縛石		賣出																									
-[Type] == "Chromatic Orb" # [StashItem] == "true" //	//幻色石		存倉																									
+//[Type] == "Chromatic Orb" # [StashItem] == "true" //	//幻色石		存倉																									
 [Type] == "Orb of Unmaking" # [StashItem] == "true" //	//撤銷石		存倉																									
 	//其他通貨		存倉																									
 //此通貨不撿	//點金石碎片		賣出																									
@@ -120,29 +120,29 @@
 [Type] == "Rogue's Marker" # [StashItem] == "true" //	//盜賊之印		存倉																																																																																															
 //此通貨不撿	//眾神聖器		賣出																									
 	// 3F 瞻妄物品																											
-[Type] == "Abyssal Delirium Orb" # [StashItem] == "true" //	//深淵之譫妄玉		存倉																									
-[Type] == "Blighted Delirium Orb" # [StashItem] == "true" //	//凋落之譫妄玉		存倉																									
+//[Type] == "Abyssal Delirium Orb" # [StashItem] == "true" //	//深淵之譫妄玉		存倉																									
+//[Type] == "Blighted Delirium Orb" # [StashItem] == "true" //	//凋落之譫妄玉		存倉																									
 [Type] == "Diviner's Delirium Orb" # [StashItem] == "true" //	//聖人之譫妄玉		存倉																									
 [Type] == "Fine Delirium Orb" # [StashItem] == "true" //	//精良之譫妄玉		存倉																									
-[Type] == "Fossilised Delirium Orb" # [StashItem] == "true" //	//石化之譫妄玉		存倉																									
-[Type] == "Imperial Delirium Orb" # [StashItem] == "true" //	//帝王之譫妄玉		存倉																									
-[Type] == "Portentous Delirium Orb" # [StashItem] == "true" //	//預兆之譫妄玉		存倉																									
-[Type] == "Singular Delirium Orb" # [StashItem] == "true" //	//卓越之譫妄玉		存倉																									
-[Type] == "Skittering Delirium Orb" # [StashItem] == "true" //	//飛掠之譫妄玉		存倉																									
-[Type] == "Thaumaturge's Delirium Orb" # [StashItem] == "true" //	//奇術之譫妄玉		存倉																									
-[Type] == "Timeless Delirium Orb" # [StashItem] == "true" //	//永恆之譫妄玉		存倉																									
-[Type] == "Whispering Delirium Orb" # [StashItem] == "true" //	//低語之譫妄玉		存倉																									
-[Type] == "Amorphous Delirium Orb" # [StashItem] == "true" //	//變態之譫妄玉		存倉																									
-[Type] == "Armoursmith's Delirium Orb" # [StashItem] == "true" //	//護甲之譫妄玉		存倉																									
-[Type] == "Blacksmith's Delirium Orb" # [StashItem] == "true" //	//鐵匠之譫妄玉		存倉																									
-[Type] == "Cartographer's Delirium Orb" # [StashItem] == "true" //	//製圖之譫妄玉		存倉																									
-[Type] == "Decadent Delirium Orb" # [StashItem] == "true" //	//墮落之譫妄玉		存倉																									
+//[Type] == "Fossilised Delirium Orb" # [StashItem] == "true" //	//石化之譫妄玉		存倉																									
+//[Type] == "Imperial Delirium Orb" # [StashItem] == "true" //	//帝王之譫妄玉		存倉																									
+//[Type] == "Portentous Delirium Orb" # [StashItem] == "true" //	//預兆之譫妄玉		存倉																									
+//[Type] == "Singular Delirium Orb" # [StashItem] == "true" //	//卓越之譫妄玉		存倉																									
+//[Type] == "Skittering Delirium Orb" # [StashItem] == "true" //	//飛掠之譫妄玉		存倉																									
+//[Type] == "Thaumaturge's Delirium Orb" # [StashItem] == "true" //	//奇術之譫妄玉		存倉																									
+//[Type] == "Timeless Delirium Orb" # [StashItem] == "true" //	//永恆之譫妄玉		存倉																									
+//[Type] == "Whispering Delirium Orb" # [StashItem] == "true" //	//低語之譫妄玉		存倉																									
+//[Type] == "Amorphous Delirium Orb" # [StashItem] == "true" //	//變態之譫妄玉		存倉																									
+//[Type] == "Armoursmith's Delirium Orb" # [StashItem] == "true" //	//護甲之譫妄玉		存倉																									
+//[Type] == "Blacksmith's Delirium Orb" # [StashItem] == "true" //	//鐵匠之譫妄玉		存倉																									
+//[Type] == "Cartographer's Delirium Orb" # [StashItem] == "true" //	//製圖之譫妄玉		存倉																									
+//[Type] == "Decadent Delirium Orb" # [StashItem] == "true" //	//墮落之譫妄玉		存倉																									
 [Type] == "Delirium Orb" # [StashItem] == "true" //	//譫妄玉		存倉																									
-[Type] == "Foreboding Delirium Orb" # [StashItem] == "true" //	//預感之譫妄玉		存倉																									
-[Type] == "Fragmented Delirium Orb" # [StashItem] == "true" //	//碎片之譫妄玉		存倉																									
-[Type] == "Jeweller's Delirium Orb" # [StashItem] == "true" //	//飾品之譫妄玉		存倉																									
-[Type] == "Obscured Delirium Orb" # [StashItem] == "true" //	//晦澀之譫妄玉		存倉																									
-[Type] == "Primal Delirium Orb" # [StashItem] == "true" //	//初始之譫妄玉		存倉																									
+//[Type] == "Foreboding Delirium Orb" # [StashItem] == "true" //	//預感之譫妄玉		存倉																									
+//[Type] == "Fragmented Delirium Orb" # [StashItem] == "true" //	//碎片之譫妄玉		存倉																									
+//[Type] == "Jeweller's Delirium Orb" # [StashItem] == "true" //	//飾品之譫妄玉		存倉																									
+//[Type] == "Obscured Delirium Orb" # [StashItem] == "true" //	//晦澀之譫妄玉		存倉																									
+//[Type] == "Primal Delirium Orb" # [StashItem] == "true" //	//初始之譫妄玉		存倉																									
 [Type] == "Simulacrum Splinter" # [StashItem] == "true" //	//幻像斷片		存倉																									
 [Type] == "Simulacrum" # [StashItem] == "true" //	//幻像異界		存倉																									
 	// 4F 裂痕物品																											
@@ -1473,7 +1473,7 @@
 //[Type] == "Destiny Leather" && [Rarity] == "Unique" # [UniqueName] == "Queen of the Forest" && [ForceSellItem] == "true"	//森林之后		賣出																									
 //[Type] == "Exquisite Leather" && [Rarity] == "Unique" # [UniqueName] == "Kintsugi" && [ForceSellItem] == "true"	//金繕		賣出																									
 //[Type] == "Exquisite Leather" && [Rarity] == "Unique" # [UniqueName] == "Yriel's Fostering" && [ForceSellItem] == "true"	//伊瑞的栽培		賣出																									
-//[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Ire" && [ForceSellItem] == "true"	//西里的戰衣		賣出																									
+//[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Ire" && [StashItem] == "true"	//西里的戰衣		賣出																									
 //[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "The Snowblind Grace" && [ForceSellItem] == "true"	//雪盲恩惠		賣出																									
 //[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "The Perfect Form" && [ForceSellItem] == "true"	//完美姿態		賣出																									
 //[Type] == "Zodiac Leather" && [Rarity] == "Unique" # [UniqueName] == "Replica Perfect Form" && [ForceSellItem] == "true"	//贗品．完美姿態		賣出																									
