@@ -6,6 +6,14 @@
 //	[Rarity]== "Magic"#[AugmentIfPossible]== "true"//使用增幅石			//使用增幅	不//使用增幅																				
 //	[Rarity]== "Normal"#[UpgradeToRare]== "true"//使用點金石			//使用點金	不//使用點金
 
+//[Type] == "City Square Map" # [ExitAfterBossKill] == "true"
+//[Type] == "Toxic Sewer Map" # [ExitAfterBossKill] == "true"
+//[Type] == "Crimson Temple Map" # [ExitAfterBossKill] == "true"
+[Type] == "Sulphur Vents Map" # [ExitAfterBossKill] == "true"
+[Type] == "Canyon Map" # [ExitAfterBossKill] == "true"
+//[Type] == "Arcade Map" # [ExitAfterBossKill] == "true"
+//[Type] == "Cemetery Map" # [ExitAfterBossKill] == "true"
+
 //    [Quality]<="1"&& [Rarity]=="Rare"  #[IgnoreMap]== "true"//不打黃圖
 	[6827] == "1" # [IgnoreMap] == "true" // Elder infuenced maps
     [6827] == "2" # [IgnoreMap] == "true" // Elder infuenced maps
