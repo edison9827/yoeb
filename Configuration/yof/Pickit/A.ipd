@@ -809,16 +809,17 @@
 //[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] = "8" && [StashItem] == "true" //	//巨星團珠寶		存倉	8																								
 //[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] = "12" && [StashItem] == "true" //	//巨星團珠寶		存倉	12																																																																										
 	// 13F 輿圖																											
-[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉																									
-[Type]== "Cold River Map" # [ForceSellItem] == "true"
-[Type]== "Siege Map" # [ForceSellItem] == "true"
-[Type]== "Forbidden Woods Map" # [ForceSellItem] == "true"
+[Category] == "Map" && [MapTier] >= "15" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "15" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉	
+[Type]== "Primordial Blocks Map" # [ForceSellItem] == "true"																							
+[Type]== "Overgrown Shrine Map" # [ForceSellItem] == "true"
+[Type]== "Lair Map" # [ForceSellItem] == "true"
+[Type]== "Marshes Map" # [ForceSellItem] == "true"
+[Type]== "Pit Map" # [ForceSellItem] == "true"
+[Type]== "Orchard Map" # [ForceSellItem] == "true"
 [Type]== "Phantasmagoria Map" # [ForceSellItem] == "true"
-[Type]== "Shore Map" # [ForceSellItem] == "true"
-[Type]== "Flooded Mine Map" # [ForceSellItem] == "true"
-[Type] == "Synthesised Map" # [StashItem] == "true" //																																																	
+[Type] == "Synthesised Map" # [StashItem] == "true" //	追憶會撿																																																
 																												
 	// 14F 碎片																											
 [Type] == "Sacrifice at Dawn" # [ForceSellItem] == "true" //	//黎明的奉獻		賣出																									
@@ -1760,7 +1761,7 @@
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Circle of Nostalgia" && [ForceSellItem] == "true"	//懷舊之環		賣出																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Blackflame" && [ForceSellItem] == "true"	//黯炎		賣出																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Original Sin" && [ForceSellItem] == "true"	//原罪		賣出																									
-[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Gifts from Above" && [StashItem] == "true"	//神賜		存倉																									
+[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Gifts from Above" && [ForceSellItem] == "true"	//神賜		存倉																									
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Romira's Banquet" && [ForceSellItem] == "true"	//羅米拉的潛力之環		賣出																									
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite Two-" && [StashItem] == "true"	//貝雷克的火與雷之樂		存倉																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip Two-" && [ForceSellItem] == "true"	//貝雷克的冰與雷之曲		賣出																									
@@ -1978,12 +1979,12 @@
 //[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Voidfletcher" && [ForceSellItem] == "true"	//虛眼箭矢		賣出																									
 //[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [ForceSellItem] == "true"	//優雅迷鏡		賣出																									
 	//赤紅珠寶		存倉																									
-[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Inertia" && [StashItem] == "true"	//慣性		存倉																									
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Inertia" && [ForceSellItem] == "true"	//慣性		存倉																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Inspired Learning" && [StashItem] == "true"	//求知的熱情		存倉																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Rain of Splinters" && [StashItem] == "true"	//碎鏃雨		存倉																									
-[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Efficient Training" && [StashItem] == "true"	//充分訓練		存倉																									
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Efficient Training" && [ForceSellItem] == "true"	//充分訓練		存倉																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Atziri's Reign" && [StashItem] == "true"	//阿茲里之權		存倉																									
-[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fragility" && [StashItem] == "true"	//虛弱		存倉																									
+[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fragility" && [ForceSellItem] == "true"	//虛弱		存倉																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Energised Armour" && [StashItem] == "true"	//能量堅甲		存倉																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Rapid Expansion" && [StashItem] == "true"	//急速擴張		存倉																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Weight of the Empire" && [StashItem] == "true"	//帝國重量		存倉																									
@@ -2007,7 +2008,7 @@
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Immutable Force" && [StashItem] == "true"	//不變之力		存倉																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Bloodnotch" && [StashItem] == "true"	//缺血症		存倉																									
 	//翠綠珠寶		存倉																									
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fluid Motion" && [StashItem] == "true"	//流暢行動		存倉																									
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fluid Motion" && [ForceSellItem] == "true"	//流暢行動		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Intuitive Leap" && [StashItem] == "true"	//直覺之躍		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Lioneye's Fall" && [StashItem] == "true"	//獅眼的隕落		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Careful Planning" && [StashItem] == "true"	//審慎計畫		存倉																									
@@ -2015,7 +2016,7 @@
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Self-Flagellation" && [StashItem] == "true"	//殘虐之歡愉		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Chill of Corruption" && [StashItem] == "true"	//腐化寒息		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Hungry Abyss" && [StashItem] == "true"	//饑饉深淵		存倉																									
-[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Pacifism" && [StashItem] == "true"	//和平主義		存倉																									
+[Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Pacifism" && [ForceSellItem] == "true"	//和平主義		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Spirit Guards" && [StashItem] == "true"	//精神守護		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Steel Spirit" && [StashItem] == "true"	//堅毅心靈		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Growing Agony" && [StashItem] == "true"	//茁壯苦痛		存倉																									
@@ -2043,7 +2044,7 @@
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Energy From Within" && [StashItem] == "true"	//潛能防護		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Healthy Mind" && [StashItem] == "true"	//靈體轉換		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Dead Reckoning" && [StashItem] == "true"	//死亡清算		存倉																									
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Reckless Defence" && [StashItem] == "true"	//魯莽防禦		存倉																									
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Reckless Defence" && [ForceSellItem] == "true"	//魯莽防禦		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Emperor's Wit" && [StashItem] == "true"	//帝王的智慧		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Unending Hunger" && [StashItem] == "true"	//無盡飢餓		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Primordial Harmony" && [StashItem] == "true"	//先祖和諧		存倉																									
@@ -2053,7 +2054,7 @@
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Frozen Trail" && [StashItem] == "true"	//跡凍		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Inevitability" && [StashItem] == "true"	//必然		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Long Winter" && [StashItem] == "true"	//凜冽久冬		存倉																									
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Soul's Wick" && [StashItem] == "true"	//魂靈之芯		存倉																									
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Soul's Wick" && [ForceSellItem] == "true"	//魂靈之芯		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Tempered Mind" && [StashItem] == "true"	//冶鍊之意		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Transcendent Mind" && [StashItem] == "true"	//超凡之意		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fortress Covenant" && [StashItem] == "true"	//堅壁誓約		存倉																									
@@ -2063,7 +2064,7 @@
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Nadir Mode" && [StashItem] == "true"	//深淵模式		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Melding of the Flesh" && [StashItem] == "true"	//血肉融合		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Forbidden Flesh" && [StashItem] == "true"	//禁忌血肉		存倉																									
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Witchbane" && [StashItem] == "true"	//禍星女巫		存倉																									
+[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Witchbane" && [ForceSellItem] == "true"	//禍星女巫		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Rational Doctrine" && [StashItem] == "true"	//理性主義		存倉																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Balance of Terror" && [StashItem] == "true"	//恐怖平衡		存倉																									
 	//三相珠寶		存倉																									
@@ -2085,13 +2086,13 @@
 	//星團傳奇		存倉																									
 [Type] == "Large Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "Voices" && [StashItem] == "true"	//嗓音		存倉																									
 [Type] == "Medium Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "Megalomaniac" && [StashItem] == "true"	//妄想症		存倉																									
-[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "One With Nothing" && [StashItem] == "true"	//一無所有		存倉																									
-[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "Kitava's Teachings" && [StashItem] == "true"	//奇塔弗的教學		存倉																									
+[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "One With Nothing" && [ForceSellItem] == "true"	//一無所有		存倉																									
+[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "Kitava's Teachings" && [ForceSellItem] == "true"	//奇塔弗的教學		存倉																									
 [Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Interrogation" && [StashItem] == "true"	//審問		存倉																									
 [Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "Calamitous Visions" && [StashItem] == "true"	//悲慘幻視		存倉																									
-[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "Natural Affinity" && [StashItem] == "true"	//天性		存倉																									
-[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Siege" && [StashItem] == "true"	//圍城		存倉																									
-[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Front Line" && [StashItem] == "true"	//前列的線		存倉																									
+[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "Natural Affinity" && [ForceSellItem] == "true"	//天性		存倉																									
+[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Siege" && [ForceSellItem] == "true"	//圍城		存倉																									
+[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Front Line" && [ForceSellItem] == "true"	//前列的線		存倉																									
 	//傳說地圖		存倉																									
 //[Type] == "Strand Map" && [Rarity] == "Unique" # [UniqueName] == "Whakawairua Tuahu" && [ForceSellItem] == "true"	//禁閉祭壇		賣出																									
 //[Type] == "Maze Map" && [Rarity] == "Unique" # [UniqueName] == "Doryani's Machinarium" && [ForceSellItem] == "true"	//多里亞尼的機械迷城		賣出																									
