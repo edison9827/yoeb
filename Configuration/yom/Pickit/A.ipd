@@ -812,13 +812,13 @@
 [Category] == "Map" && [MapTier] >= "15" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "15" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉	
-[Type]== "Primordial Blocks Map" # [ForceSellItem] == "true"																							
+[Type]== "Pit Map" # [ForceSellItem] == "true"																							
+[Type]== "Orchard Map" # [ForceSellItem] == "true"
+[Type]== "Primordial Blocks Map" # [ForceSellItem] == "true"
 [Type]== "Overgrown Shrine Map" # [ForceSellItem] == "true"
 [Type]== "Lair Map" # [ForceSellItem] == "true"
-[Type]== "Marshes Map" # [ForceSellItem] == "true"
-[Type]== "Pit Map" # [ForceSellItem] == "true"
-[Type]== "Orchard Map" # [ForceSellItem] == "true"
 [Type]== "Phantasmagoria Map" # [ForceSellItem] == "true"
+[Type]== "Marshes Map" # [ForceSellItem] == "true"
 [Type] == "Synthesised Map" # [StashItem] == "true" //	追憶會撿																																																
 																												
 	// 14F 碎片																											
