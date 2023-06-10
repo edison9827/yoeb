@@ -799,9 +799,9 @@
 [Type] == "Imperial Legacy" # [ForceSellItem] == "true" //	不朽聖物 (22)	1	賣出																									
 [Type] == "Rebirth" # [StashItem] == "true" //	重生 (27)		存倉																									
 	// 12F 星團珠寶			設定天賦數
-	[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] >= "12" && 	[StashItem]	 == "true" 	//	12天賦 大型 稀有	拾取且存倉																						
-	[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] >= "12" && 	[StashItem]	 == "true" 	//	12天賦 大型 魔法	拾取且存倉																						
-	[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] >= "12" && 	[StashItem]	 == "true" 	//	12天賦 大型 普通	拾取且存倉
+//	[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] >= "12" && 	[StashItem]	 == "true" 	//	12天賦 大型 稀有	拾取且存倉																						
+//	[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] >= "12" && 	[StashItem]	 == "true" 	//	12天賦 大型 魔法	拾取且存倉																						
+//	[Type] == "Large Cluster Jewel" && [Rarity] == "Normal" # [local_jewel_expansion_passive_node_count] >= "12" && 	[StashItem]	 == "true" 	//	12天賦 大型 普通	拾取且存倉
 																							
 //	[Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 稀有	拾取且存倉																						
 //	[Type] == "Large Cluster Jewel" && [Rarity] == "Magic" # [local_jewel_expansion_passive_node_count] <= "8" && 	[StashItem]	 == "true" 	//	8天賦 大型 魔法	拾取且存倉																						
