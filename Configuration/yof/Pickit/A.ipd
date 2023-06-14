@@ -178,8 +178,8 @@
 [Type] == "Contract: Underbelly" # [ForceSellItem] == "true" //	//契約書：地下道		賣出																									
 [Type] == "Contract: Mansion" # [ForceSellItem] == "true" //	//契約書：官邸		賣出																									
 [Type] == "Blueprint: Bunker" # [StashItem] == "true" //	//藍圖：碉堡		賣出																									
-[Type] == "Blueprint: Laboratory" # [ForceSellItem] == "true" //	//藍圖：實驗室		賣出																									
-[Type] == "Blueprint: Prohibited Library" # [ForceSellItem] == "true" //	//藍圖：禁忌館藏		賣出																									
+[Type] == "Blueprint: Laboratory" # [StashItem] == "true" //	//藍圖：實驗室		賣出																									
+[Type] == "Blueprint: Prohibited Library" # [StashItem] == "true" //	//藍圖：禁忌館藏		賣出																									
 [Type] == "Blueprint: Records Office" # [StashItem] == "true" //	//藍圖：紀錄室		賣出																									
 [Type] == "Blueprint: Repository" # [StashItem] == "true" //	//藍圖：展覽室		賣出																									
 [Type] == "Blueprint: Smuggler's Den" # [ForceSellItem] == "true" //	//藍圖：走私者巢穴		賣出																									
@@ -1365,7 +1365,7 @@
 //[Type] == "Penance Eternal Burgonet" && [Rarity] == "Unique" # [UniqueName] == "Usurper's" && [ForceSellItem] == "true"	//篡位者的懺悔		賣出																									
 //[Type] == "Leather Cap" && [Rarity] == "Unique" # [UniqueName] == "Goldrim" && [ForceSellItem] == "true"	//金縷帽		賣出																									
 //[Type] == "Tricorne Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Fairgraves'" && [ForceSellItem] == "true"	//費爾之帽		賣出																									
-//[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Heatshiver" && [ForceSellItem] == "true"	//寒焰		賣出																									
+//[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Heatshiver" && [StashItem] == "true"	//寒焰		賣出																									
 //[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Frostferno" && [ForceSellItem] == "true"	//霜獄		賣出																									
 //[Type] == "Wolf Pelt" && [Rarity] == "Unique" # [UniqueName] == "Elevore" && [ForceSellItem] == "true"	//愛勒弗		賣出																									
 //[Type] == "Ursine Pelt" && [Rarity] == "Unique" # [UniqueName] == "Rat's Nest" && [ForceSellItem] == "true"	//鼠巢		賣出																									
