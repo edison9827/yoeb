@@ -57,7 +57,7 @@
 //此通貨不撿	//增幅石		賣出																									
 //此通貨不撿	//機會石		賣出																									
 [Type] == "Orb of Fusing" # [StashItem] == "true" //	//鏈結石		存倉																									
-[Type] == "Orb of Regret" # [StashItem] == "true" //	//後悔石		存倉																									
+//[Type] == "Orb of Regret" # [StashItem] == "true" //	//後悔石		存倉																									
 [Type] == "Orb of Scouring" # [StashItem] == "true" //	//重鑄石		存倉																									
 //此通貨不撿	//富豪石		賣出																									
 //[Type] == "Vaal Orb" # [StashItem] == "true" //	//瓦爾寶珠		存倉																									
@@ -72,14 +72,14 @@
 [Type] == "Gemcutter's Prism" # [StashItem] == "true" //	//寶石匠的稜鏡		存倉																									
 //此通貨不撿	//束縛石		賣出																									
 [Type] == "Chromatic Orb" # [StashItem] == "true" //	//幻色石		存倉																									
-[Type] == "Orb of Unmaking" # [StashItem] == "true" //	//撤銷石		存倉																									
+//[Type] == "Orb of Unmaking" # [StashItem] == "true" //	//撤銷石		存倉																									
 	//其他通貨		存倉																									
 //此通貨不撿	//點金石碎片		賣出																									
 //此通貨不撿	//改造石碎片		賣出																									
 //此通貨不撿	//卷軸碎片		賣出																									
 //此通貨不撿	//蛻變石碎片		賣出																									
-[Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石		存倉																									
-[Type] == "Enkindling Orb" # [StashItem] == "true" //	//點燃石		存倉																									
+//[Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石		存倉																									
+//[Type] == "Enkindling Orb" # [StashItem] == "true" //	//點燃石		存倉																									
 [Type] == "Annulment Shard" # [StashItem] == "true" //	//無效石碎片		存倉																									
 //此通貨不撿	//束縛石碎片		賣出																									
 //此通貨不撿	//地平石碎片		賣出																									
@@ -1041,7 +1041,7 @@
 //[Type] == "Ezomyte Dagger" && [Rarity] == "Unique" # [UniqueName] == "Replica Cold Iron Point" && [ForceSellItem] == "true"	//贗品．寒鋼之刃 艾茲麥短匕		賣出																									
 //[Type] == "Platinum Kris" && [Rarity] == "Unique" # [UniqueName] == "Mark of the Doubting Knight" && [ForceSellItem] == "true"	//迷茫幻符 白金波刃		賣出																									
 //[Type] == "Imperial Skean" && [Rarity] == "Unique" # [UniqueName] == "Divinarius" && [ForceSellItem] == "true"	//戒律之影 帝國雙刃匕		賣出																									
-[Type] == "Imperial Skean" && [Rarity] == "Unique" # [UniqueName] == "White Wind" && [StashItem] == "true"	//白風 帝國雙刃匕		存倉																									
+//[Type] == "Imperial Skean" && [Rarity] == "Unique" # [UniqueName] == "White Wind" && [StashItem] == "true"	//白風 帝國雙刃匕		存倉																									
 //[Type] == "Demon Dagger" && [Rarity] == "Unique" # [UniqueName] == "Vulconus" && [ForceSellItem] == "true"	//祝融鍛冶 惡魔短匕		賣出																									
 	//爪																											
 //[Type] == "Nailed Fist" && [Rarity] == "Unique" # [UniqueName] == "Last Resort" && [ForceSellItem] == "true"	//終息 拳釘		賣出																									
@@ -1179,7 +1179,7 @@
 //[Type] == "Ranger Bow" && [Rarity] == "Unique" # [UniqueName] == "Null's Inclination" && [ForceSellItem] == "true"	//虛無之傾 漫遊之弓		賣出																									
 //[Type] == "Ranger Bow" && [Rarity] == "Unique" # [UniqueName] == "Hopeshredder" && [ForceSellItem] == "true"	//破滅之希 漫遊之弓		賣出																									
 //[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Chin Sol" && [ForceSellItem] == "true"	//亂矢之弦 暗殺弓		賣出																									
-[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Darkscorn" && [ForceSellItem] == "true"	//夜吟 暗殺弓		存倉																									
+//[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Darkscorn" && [ForceSellItem] == "true"	//夜吟 暗殺弓		存倉																									
 //[Type] == "Assassin Bow" && [Rarity] == "Unique" # [UniqueName] == "Arborix" && [ForceSellItem] == "true"	//阿布里斯 暗殺弓		賣出																									
 //[Type] == "Spine Bow" && [Rarity] == "Unique" # [UniqueName] == "Voltaxic Rift" && [ForceSellItem] == "true"	//魔暴之痕 脊弓		賣出																									
 //[Type] == "Spine Bow" && [Rarity] == "Unique" # [UniqueName] == "Reach of the Council" && [ForceSellItem] == "true"	//議會之觸 脊弓		賣出																									
@@ -1286,7 +1286,7 @@
 //[Type] == "Rawhide Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Lycosidae" && [ForceSellItem] == "true"	//狼蛛		賣出																									
 //[Type] == "Cedar Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Trolltimber Spire" && [ForceSellItem] == "true"	//巫木		賣出																									
 //[Type] == "Reinforced Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Titucius' Span" && [ForceSellItem] == "true"	//提圖庫斯的堅盾		賣出																									
-//[Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Redblade Banner" && [ForceSellItem] == "true"	//紅刃旗幟		賣出																									
+[Type] == "Painted Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Redblade Banner" && [StashItem] == "true"	//紅刃旗幟		賣出																									
 //[Type] == "Ebony Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Chernobog's Pillar" && [ForceSellItem] == "true"	//五芒屏障		賣出																									
 //[Type] == "Ebony Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Tukohama's Fortress" && [ForceSellItem] == "true"	//圖克哈瑪堡壘		賣出																									
 //[Type] == "Ebony Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Replica Tukohama's Fortress" && [ForceSellItem] == "true"	//贗品．圖克哈瑪堡壘		賣出																									
