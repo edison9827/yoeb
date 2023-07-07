@@ -177,15 +177,15 @@
 [Type] == "Contract: Tunnels" # [ForceSellItem] == "true" //	//契約書：地道		賣出																									
 [Type] == "Contract: Underbelly" # [ForceSellItem] == "true" //	//契約書：地下道		賣出																									
 [Type] == "Contract: Mansion" # [ForceSellItem] == "true" //	//契約書：官邸		賣出																									
-[Type] == "Blueprint: Bunker" # [ForceSellItem] == "true" //	//藍圖：碉堡		賣出																									
+[Type] == "Blueprint: Bunker" # [StashItem] == "true" //	//藍圖：碉堡		賣出																									
 [Type] == "Blueprint: Laboratory" # [StashItem] == "true" //	//藍圖：實驗室		賣出																									
 [Type] == "Blueprint: Prohibited Library" # [StashItem] == "true" //	//藍圖：禁忌館藏		賣出																									
-[Type] == "Blueprint: Records Office" # [ForceSellItem] == "true" //	//藍圖：紀錄室		賣出																									
+[Type] == "Blueprint: Records Office" # [StashItem] == "true" //	//藍圖：紀錄室		賣出																									
 [Type] == "Blueprint: Repository" # [ForceSellItem] == "true" //	//藍圖：展覽室		賣出																									
 [Type] == "Blueprint: Smuggler's Den" # [ForceSellItem] == "true" //	//藍圖：走私者巢穴		賣出																									
 [Type] == "Blueprint: Tunnels" # [ForceSellItem] == "true" //	//藍圖：地道		賣出																									
 [Type] == "Blueprint: Underbelly" # [ForceSellItem] == "true" //	//藍圖：地下道		賣出																									
-[Type] == "Blueprint: Mansion" # [ForceSellItem] == "true" //	//藍圖：官邸		賣出																									
+[Type] == "Blueprint: Mansion" # [StashItem] == "true" //	//藍圖：官邸		賣出																									
 	// 6F 凋落油瓶																											
 [Type] == "Tainted Oil" # [StashItem] == "true" //	//污染油瓶		存倉																									
 [Type] == "Golden Oil" # [StashItem] == "true" //	//金黃油瓶		存倉																									
