@@ -50,12 +50,12 @@
 [Type] == "Fracturing Orb" # [StashItem] == "true" //	//破裂石		存倉																									
 	//常用通貨		存倉																									
 [Type] == "Chaos Orb" # [StashItem] == "true" //	//混沌石		存倉																									
-//此通貨不撿	//工匠石		賣出																									
+[Type] == "Jeweller's Orb" # [StashItem] == "true" //	//工匠石		存倉																																																		
 //此通貨不撿	//點金石		賣出																									
 //[Type] == "Orb of Alteration" # [StashItem] == "true" //	//改造石		存倉																									
 //此通貨不撿	//蛻變石		賣出																									
 //此通貨不撿	//增幅石		賣出																									
-//此通貨不撿	//機會石		賣出																									
+[Type] == "Orb of Chance" # [StashItem] == "true" //	//機會石		存倉																																																		
 [Type] == "Orb of Fusing" # [StashItem] == "true" //	//鏈結石		存倉																									
 //[Type] == "Orb of Regret" # [StashItem] == "true" //	//後悔石		存倉																									
 [Type] == "Orb of Scouring" # [StashItem] == "true" //	//重鑄石		存倉																									
