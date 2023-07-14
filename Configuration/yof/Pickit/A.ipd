@@ -174,7 +174,7 @@
 [Type] == "Contract: Records Office" # [ForceSellItem] == "true" //	//契約書：紀錄室		賣出																									
 [Type] == "Contract: Repository" # [ForceSellItem] == "true" //	//契約書：展覽室		賣出																									
 [Type] == "Contract: Smuggler's Den" # [ForceSellItem] == "true" //	//契約書：走私者巢穴		賣出																									
-[Type] == "Contract: Tunnels" # [StashItem] == "true" //	//契約書：地道		賣出																									
+[Type] == "Contract: Tunnels" # [ForceSellItem] == "true" //	//契約書：地道		賣出																									
 [Type] == "Contract: Underbelly" # [ForceSellItem] == "true" //	//契約書：地下道		賣出																									
 [Type] == "Contract: Mansion" # [ForceSellItem] == "true" //	//契約書：官邸		賣出																									
 [Type] == "Blueprint: Bunker" # [StashItem] == "true" //	//藍圖：碉堡		賣出																									
@@ -183,7 +183,7 @@
 [Type] == "Blueprint: Records Office" # [StashItem] == "true" //	//藍圖：紀錄室		賣出																									
 [Type] == "Blueprint: Repository" # [StashItem] == "true" //	//藍圖：展覽室		賣出																									
 [Type] == "Blueprint: Smuggler's Den" # [ForceSellItem] == "true" //	//藍圖：走私者巢穴		賣出																									
-[Type] == "Blueprint: Tunnels" # [ForceSellItem] == "true" //	//藍圖：地道		賣出																									
+[Type] == "Blueprint: Tunnels" # [StashItem] == "true" //	//藍圖：地道		賣出																									
 [Type] == "Blueprint: Underbelly" # [ForceSellItem] == "true" //	//藍圖：地下道		賣出																									
 [Type] == "Blueprint: Mansion" # [StashItem] == "true" //	//藍圖：官邸		賣出																									
 	// 6F 凋落油瓶																											
