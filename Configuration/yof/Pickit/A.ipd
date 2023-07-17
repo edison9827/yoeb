@@ -123,7 +123,7 @@
 [Type] == "Abyssal Delirium Orb" # [ForceSellItem] == "true" //	//深淵之譫妄玉		存倉																									
 [Type] == "Blighted Delirium Orb" # [ForceSellItem] == "true" //	//凋落之譫妄玉		存倉																									
 [Type] == "Diviner's Delirium Orb" # [StashItem] == "true" //	//聖人之譫妄玉		存倉																									
-[Type] == "Fine Delirium Orb" # [StashItem] == "true" //	//精良之譫妄玉		存倉																									
+[Type] == "Fine Delirium Orb" # [ForceSellItem] == "true" //	//精良之譫妄玉		存倉																									
 [Type] == "Fossilised Delirium Orb" # [ForceSellItem] == "true" //	//石化之譫妄玉		存倉																									
 [Type] == "Imperial Delirium Orb" # [ForceSellItem] == "true" //	//帝王之譫妄玉		存倉																									
 [Type] == "Portentous Delirium Orb" # [ForceSellItem] == "true" //	//預兆之譫妄玉		存倉																									
