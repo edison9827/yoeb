@@ -1,0 +1,8 @@
+﻿請將YOEN資料夾放置到POE的GGPK旁邊
+先備份GGPK以防萬一 目前僅支援WIN10 繁體中文
+此程式可以 中換英 英換中  執行一次切換一次
+使用GGPK資料夾裡面的VisualGGPK2.exe
+沒有安裝過NET的請先執行安裝
+過程中請勿亂動鍵盤滑鼠
+其他輔助
+https://docs.google.com/document/d/1gR1x9nhG0UcOZ_NdG-lh3lcDwv65BSDGLtJovHhpxK0/edit

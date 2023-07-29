@@ -1,0 +1,22 @@
+//.aoc + .pet "Only"
+
+extra_blood
+corpseexplosion
+death_particles
+shatter
+/rain
+discharge
+ground_slam
+ice_rune_trap
+lightning_arrow
+dancing_daggers
+rain_of_blades
+cluster_burst
+/wand/
+/wand_
+/siphon/
+/soul_siphon/
+/particles/upheaval
+subterranean
+
+//optional: "/ground_effects"

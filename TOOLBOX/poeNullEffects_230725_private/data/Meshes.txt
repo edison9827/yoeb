@@ -1,0 +1,8 @@
+//Fixed+SkinMeshes: .aoc file names:
+
+//exclude:
+!loginscene
+!brut
+
+//remove all:
+metadata/
