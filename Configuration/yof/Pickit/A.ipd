@@ -1012,7 +1012,7 @@
 //[Type] == "Engraved Wand" && [Rarity] == "Unique" # [UniqueName] == "Midnight Bargain" && [ForceSellItem] == "true"	//冥約 符文法杖		賣出																									
 //[Type] == "Engraved Wand" && [Rarity] == "Unique" # [UniqueName] == "Eclipse Solaris" && [ForceSellItem] == "true"	//宇蝕 符文法杖		賣出																									
 //[Type] == "Engraved Wand" && [Rarity] == "Unique" # [UniqueName] == "Replica Midnight Bargain" && [ForceSellItem] == "true"	//贗品．冥約 符文法杖		賣出																									
-//[Type] == "Omen Wand" && [Rarity] == "Unique" # [UniqueName] == "Apep's Rage" && [ForceSellItem] == "true"	//艾普之怒 靈兆法杖		賣出																									
+[Type] == "Omen Wand" && [Rarity] == "Unique" # [UniqueName] == "Apep's Rage" && [StashItem] == "true"	//艾普之怒 靈兆法杖		賣出																									
 //[Type] == "Imbued Wand" && [Rarity] == "Unique" # [UniqueName] == "Moonsorrow" && [ForceSellItem] == "true"	//泣月 魔性法杖		賣出																									
 //[Type] == "Imbued Wand" && [Rarity] == "Unique" # [UniqueName] == "Piscator's Vigil" && [ForceSellItem] == "true"	//皮斯卡托的慧眼 魔性法杖		賣出																									
 //[Type] == "Imbued Wand" && [Rarity] == "Unique" # [UniqueName] == "Obliteration" && [ForceSellItem] == "true"	//抹滅 魔性法杖		賣出																									
@@ -1528,7 +1528,7 @@
 //[Type] == "Bone Armour" && [Rarity] == "Unique" # [UniqueName] == "Bloodbond" && [ForceSellItem] == "true"	//血肉結合		賣出																									
 //[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Defiance" && [ForceSellItem] == "true"	//衛道之袍		賣出																									
 //[Type] == "Lacquered Garb" && [Rarity] == "Unique" # [UniqueName] == "Victario's Influence" && [ForceSellItem] == "true"	//維多里奧之絕響		賣出																									
-[Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [UniqueName] == "Dendrobate" && [StashItem] == "true"	//箭毒蛙		賣出																									
+//[Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [UniqueName] == "Dendrobate" && [StashItem] == "true"	//箭毒蛙		賣出																									
 //[Type] == "Sentinel Jacket" && [Rarity] == "Unique" # [UniqueName] == "Expedition's End" && [ForceSellItem] == "true"	//遠征之盡		賣出																									
 //[Type] == "Varnished Coat" && [Rarity] == "Unique" # [UniqueName] == "Carcass Jack" && [ForceSellItem] == "true"	//致命之體		賣出																									
 //[Type] == "Varnished Coat" && [Rarity] == "Unique" # [UniqueName] == "The Admiral" && [ForceSellItem] == "true"	//上將		賣出																									
