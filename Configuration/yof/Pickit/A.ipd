@@ -1754,7 +1754,7 @@
 [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Heartbound Loop" && [ForceSellItem] == "true"	//結魂之環		存倉																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Valyrium" && [ForceSellItem] == "true"	//戰日		賣出																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Timetwist" && [ForceSellItem] == "true"	//時空扭曲		賣出																									
-[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Anathema" && [ForceSellItem] == "true"	//咒詛		存倉																									
+[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Anathema" && [StashItem] == "true"	//咒詛		存倉																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Death Rush" && [ForceSellItem] == "true"	//亡者呼喚		存倉																									
 [Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Ming's Heart" && [StashItem] == "true"	//明恩的慧心		賣出																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Circle of Nostalgia" && [ForceSellItem] == "true"	//懷舊之環		賣出																									
