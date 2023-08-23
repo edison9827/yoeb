@@ -1,0 +1,40 @@
+//reduce textures, custom rules. 
+//WARNING: no restrictions. you can reduce any textures. and get client crash if you don't know what you're doing. 
+//         so make a full .ggpk backup first.
+
+//commented ("//") all rules by default. uncomment or add your own rules.
+
+//========================================
+
+//%%SECTION_CONFIG_START%%
+
+isMigrateToNewAppVersions=True
+
+//%%SECTION_CONFIG_END%%
+
+//========================================
+
+//%%SECTION_COLOR_START%%
+rgb(0,0,0)
+
+//17k+:
+
+///4k/
+///2ditems/
+//icons/
+
+//%%SECTION_COLOR_END%%
+
+//========================================
+
+//%%SECTION_COLOR_START%%
+rgb(128,128,128)
+
+//441 .dds files, keep div cards container:
+
+//art/textures/interface/2d/divinationcards/2ditems/divination/images
+//!/divinationcard.dds
+
+//%%SECTION_COLOR_END%%
+
+//========================================
