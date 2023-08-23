@@ -1,0 +1,76 @@
+覺醒,地圖頭目掉落 1 個額外傳奇物品,MapAtlasBossAdditionalUnique
+覺醒,每張地圖的最終地圖頭目掉落 1 張額外塑界者守護者地圖 (階級 14+) & 地圖頭目有 200% 更多生命 & 地圖頭目造成 100% 更多傷害,MapAtlasBossDropsShaperGuardianMap
+覺醒,每張地圖的最終地圖頭目掉落 1 張額外尊師守護者地圖 (階級 14+) & 地圖頭目有 200% 更多生命 & 地圖頭目造成 100% 更多傷害,MapAtlasBossDropsElderGuardianMap
+覺醒,傳奇頭目掉落 1 張額外征服者地圖 & 傳奇頭目有 200% 更多生命 & 傳奇頭目造成 100% 更多傷害,MapAtlasBossDropsConquerorMap
+覺醒,未鑑定的地圖物品掉落數量增加 20%,MapAtlasUnIDedMapsGrantQuantity3
+覺醒,區域含有額外 1 位侵略頭目,MapAtlasContainsAdditionalRandomBoss
+覺醒,區域包含額外 6 群造成火焰傷害的怪物 & 玩家與怪物增加 12% 所受火焰傷害,MapAtlasFireDamageAndPacks3
+覺醒,區域包含額外 6 群造成冰冷傷害的怪物 & 玩家與怪物增加 12% 所受冰冷傷害,MapAtlasColdDamageAndPacks3
+覺醒,區域包含額外 6 群造成閃電傷害的怪物 & 玩家與怪物增加 12% 所受閃電傷害,MapAtlasLightningDamageAndPacks3
+覺醒,區域包含額外 6 群造成物理傷害的怪物 & 玩家與怪物增加 12% 所受物理傷害,MapAtlasPhysicalDamageAndPacks3_
+覺醒,區域包含額外 6 群造成混沌傷害的怪物 & 玩家與怪物增加 12% 所受混沌傷害,MapAtlasChaosDamageAndPacks3
+覺醒,傳奇頭目掉落腐化物品,MapAtlasUniqueMonstersDropCorruptedItems2_
+覺醒,地圖有 20% 品質 & 傳奇頭目增加 20% 造成傷害,MapAtlasMapsHave20PercentQuality
+覺醒,地圖的品質加成也將套用在掉落物品的稀有度上 & 傳奇頭目增加 20% 生命,MapAtlasMapQualityBonusAlsoAppliesToRarity
+覺醒,此區域吸引人,MapAtlasFishy
+覺醒,區域含有埃哈,MapAtlasContainsEinharMission2_
+覺醒,區域含有艾瓦,MapAtlasContainsAlvaMission2
+覺醒,區域含有尼科,MapAtlasContainsNikoMission2
+覺醒,區域含有瓊恩,MapAtlasContainsJunMission2
+覺醒,區域含有額外 2 個保險箱 & 區域內的保險箱已汙染 & 區域內的保險箱最低稀有度為稀有等級,MapAtlasStrongboxesAreCorruptedAndUnided2_
+覺醒,已汙染地圖的地圖頭目掉落 1 個額外瓦爾物品 & 區域中掉落的物品有 5% 機率為已汙染,MapAtlasCorruptedMapBossesDropAdditionalVaalItems2
+覺醒,增加 25% 魔法怪物群大小,MapAtlasMagicPackSize3
+覺醒,盜賊流亡者所造成傷害增加 20% & 盜賊流亡者生命增加 20% & 盜賊流亡者額外掉落 2 顆珠寶 & 區域含有額外 2 個盜賊流亡者,MapAtlasRogueExilesDamageAndDropAdditionalJewels
+覺醒,魔法地圖包含額外 4 群魔法怪物 & 稀有地圖包含額外 4 個稀有怪物群 & 普通地圖包含額外 4 群普通怪物,MapAtlasMagicAndRareMapsHaveAdditionalPacks3
+覺醒,玩家和他們的召喚物無法承受反射傷害 & 區域包含額外 4 群複製的稀有怪物,MapAtlasReducedReflectedDamageTakenMirroredRares3
+覺醒,區域含有額外 25 組神祕木桶（通貨）,MapAtlasClustersOfWealthyBarrels3
+覺醒,區域含有額外 25 組神祕木桶（爆炸）,MapAtlasClustersOfVolatileBarrels3__
+覺醒,區域含有額外 25 組神祕木桶（血蟲）,MapAtlasClustersOfBloodwormBarrels3__
+覺醒,區域含有額外 25 組神祕木桶（寄生蟲）,MapAtlasClustersOfParasiteBarrels3
+覺醒,區域含有額外 25 組神祕木桶（烽火）,MapAtlasClustersOfBeaconBarrels3
+覺醒,保險箱怪物增加 500% 掉落物品數量 & 保險箱的怪物受到激怒效果影響 & 區域含有額外一個保險,MapAtlasStrongboxMonstersEnrageAndDrops
+覺醒,區域含有許多背叛者,MapAtlasHighValueEnemiesOnOwnTeam
+覺醒,區域含有額外 6 群被擊殺時會轉化的怪物,MapAtlasMontersThatConvertOnDeath3
+覺醒,玩家透過藥劑立刻回復生命和魔力 & 區域包含額外 6 群會治癒的怪物,MapAtlasInstantFlasksAndHealingMonsters3
+覺醒,你的地圖能包含裂痕 & 你的地圖包含額外 1 個裂痕,MapAtlasAdditionalBreaches2
+覺醒,你地圖中的裂痕為索伏 & 你地圖中的裂痕包含 3 個額外抑制之手,MapAtlasBreachIsFire
+覺醒,你地圖中的裂痕為艾許 & 你地圖中的裂痕包含 3 個額外抑制之手,MapAtlasBreachIsLightning
+覺醒,你地圖中的裂痕為夏烏拉 & 你地圖中的裂痕包含 3 個額外抑制之手,MapAtlasBreachIsChaos
+覺醒,你地圖中的裂痕為烏爾尼多 & 你地圖中的裂痕包含 3 個額外抑制之手,MapAtlasBreachIsPhysical
+覺醒,此區域可能有深淵 & 區域含有 1 個額外深淵,MapAtlasAdditionalAbysses2
+覺醒,神殿持續時間增加 50% & 區域含有 1 個額外漆黑神殿,MapAtlasGloomShrineEffectAndDuration2
+覺醒,神殿持續時間增加 50% & 區域含有 1 個額外共振神殿,MapAtlasResonatingShrineEffectAndDuration2
+覺醒,區域含有 1 個額外精髓 & 被精髓囚禁的怪物有 50% 機率含有 1 個腐化遺駭,MapAtlasAdditionalEssencesAndRemnantChance_
+覺醒,區域中掉落的地圖為有 8 個詞綴的已汙染地圖,MapAtlasMapDropsAreCorruptedAndHave8Modifiers
+覺醒,在你的地圖製造已捕捉野獸的複製體,MapAtlasCapturedBeastsDuplicateChance
+覺醒,區域增加 100% 符文怪物印記的數量,MapAtlasExpeditionAdditionalRunicMonsterMarkers
+覺醒,你地圖中戰亂怪物掉落的裂片和徽印被複製 & 你地圖中的戰亂怪物有 100% 更多生命,MapAtlasLegionSplintersEmblemsDuplicated
+覺醒,區域中鍊魔掉落的催化劑被複製 & 區域中的鍊魔有 100% 更多生命,MapAtlasMetamorphCatalystsDuplicated
+覺醒,增加 100% 區域中永生密教情報,MapAtlasBetrayalIntelligence
+覺醒,區域中譫妄獎勵條加速 100% 填滿,MapAtlasDeliriumRewardsFillFaster
+覺醒,你地圖中豐收怪物掉落的生靈之力被複製 & 你地圖中的豐收怪物有 100% 更多生命 & 你地圖中的豐收含有至少 1 個黃色作物,MapAtlasHarvestPlotSeedsContainYellowSeeds
+覺醒,你地圖中豐收怪物掉落的生靈之力被複製 & 你地圖中的豐收怪物有 100% 更多生命 & 你地圖中的豐收含有至少 1 個紫色作物,MapAtlasHarvestPlotSeedsContainPurpleSeeds
+覺醒,你地圖中豐收怪物掉落的生靈之力被複製 & 你地圖中的豐收怪物有 100% 更多生命 & 你地圖中的豐收含有至少 1 個藍色作物,MapAtlasHarvestPlotSeedsContainBlueSeeds
+覺醒,你地圖中在祭祀神壇重骰恩賜之物，前 1 次免費,MapAtlasRitualsInAreasCanBeRerolledOnceAtNoCost
+覺醒,地圖頭目身旁有神祕的神諭 & 地圖頭目掉落額外通貨碎片 & 地圖頭目掉落額外通貨碎片,MapAtlasHarbingerAndBossAdditionalCurrencyShards
+覺醒,區域包含額外 6 群已汙染瓦爾怪物 & 玩家擊殺時額外獲得 1 個瓦爾靈魂,MapAtlasVaalSoulsOnKillAndExtraVaalPacks3
+覺醒,區域包含額外 6 群已汙染瓦爾怪物 & 區域內已汙染瓦爾怪物掉落物品，有 25% 機率為已汙染,MapAtlasCorruptedDropWithExtraVaalPacks3____
+覺醒,擊殺敵人將會吸引更強大的怪物登場 & 增加 25% 你地圖中超越惡魔群大小,MapAtlasBeyondAndExtraBeyondDemonChance
+覺醒,區域含有 1 個額外苦痛反叛者 & 最初 3 個被附身的怪物掉落 1 個額外銹蝕聖甲蟲,MapAtlasTormentedBetrayerAndScarabDropChance
+覺醒,區域含有 1 個額外苦痛反叛者 & 最初 3 個被附身的怪物掉落 1 個額外圓滑聖甲蟲,MapAtlasTormentedBetrayerAndPolishedScarabDropChance
+覺醒,區域含有 1 個額外苦痛反叛者 & 最初 3 個被附身的怪物掉落 1 個額外鍍金聖甲蟲,MapAtlasTormentedBetrayerAndGildedScarabDropChance
+覺醒,區域含有 1 個額外苦痛異教徒 & 最初 3 個被附身的怪物掉落 1 個額外地圖,MapAtlasTormentedHereticAndMapDropChance
+覺醒,區域含有 1 個額外苦痛盜墓者 & 最初 3 個被附身的怪物掉落 1 個額外傳奇道具,MapAtlasTormentedGraverobberAndUniqueDropChance
+覺醒,區域包含額外 6 群已汙染瓦爾怪物 & 每個使用的奉獻碎片，使區域有 50% 機率含有奉獻之贈 & 每個使用的凡人碎片，使區域有 50% 機率含有赤紅皇后之贈,MapAtlasUniqueStrongboxChanceWithExtraVaalPacks3_
+覺醒,區域包含額外 6 群已汙染瓦爾怪物 & 玩家的瓦爾技能不套用停止獲得靈魂,MapAtlasNoSoulGainPreventionWithExtraVaalPacks3
+覺醒,區域含有 1 個額外戰亂事件,MapAtlasLegion
+覺醒,區域包含鍊魔怪物,MapAtlasMetamorph
+覺醒,區域包含額外 1 個凋落事件,MapAtlasBlight
+覺醒,此區域有 1 個譫妄之鏡,MapAtlasDelirium
+覺醒,區域含有聖殿密園,MapAtlasHarvest
+覺醒,區域含有 1 個走私者的祕寶,MapAtlasHeist
+覺醒,區域包含祭祀神壇,MapAtlasRitual
+覺醒,地圖頭目身旁有保鑣 & 地圖頭目身旁有保鑣,MapAtlasBodyguardsAndBossMapDrops2
+覺醒,區域中掉落的非傳奇劫盜契約書有 1 個額外固定詞綴,MapAtlasHeistContractsHaveImplicitModifier
+覺醒,你地圖中的裂痕為托沃 & 你地圖中的裂痕包含 3 個額外抑制之手,MapAtlasBreachIsCold
+覺醒,你地圖掉落的油瓶高 1 階 & 你地圖中凋落防守塔的建造和升級消耗為 2 倍,MapAtlasBlightOilsChanceToDropOneTierHigher
