@@ -9,7 +9,7 @@ end
 --指定职业  野蛮人、女巫、贵族、游侠、决斗者、暗影、圣堂武僧、
 g_newRoleJob="游侠"
 --升华职业 勇士、暴徒、酋长、侠客、锐眼、追猎者、秘术家、元素使、召唤师、处刑者、卫士、冠军、判官、圣宗、守护者、暗影大师、欺诈师、破坏者、升华使徒、
-g_shengHuaJob="锐眼"
+g_shengHuaJob="侠客"
 --设置使用的武器 支持(盾}箭袋}爪}匕首|法杖|单手剑|细剑|单手斧|单手锤|符文匕首|短杖|战杖|弓|长杖|双手剑|双手斧|双手锤) 如果需要用两样中间用|分开
 SetUseWeapon("弓|箭袋")
 --设置自己用的装备类型 
@@ -34,11 +34,12 @@ SetNeedSkillLineData(95,"召喚閃電魔像,nil|受傷時施放輔助,nil|屍術傳送,nil|",nil,
 SetNeedSkillLineData(96,"鋼筋鐵骨,nil|元素淨化,nil|惡意,nil",nil,9,nil)
 SetNeedSkillLineData(97,"凋零之步,nil|狙擊者印記,nil|擊中時印記輔助,nil",nil,nil,nil)
 SetNeedSkillLineData(98,"彈片砲塔,nil|快速攻擊輔助,nil|猛毒投射物輔助,nil|齊射輔助,nil",30,nil,nil)
-SetNeedSkillLineData(99,"腐蝕箭矢,nil|虛空操縱輔助,nil|猛毒投射物輔助,nil|極速苦痛輔助,nil|集中效應輔助,nil|幻影射手輔助,nil|氣勢輔助,nil",nil,nil,nil)
+SetNeedSkillLineData(99,"瓦爾．腐蝕箭矢,nil|虛空操縱輔助,nil|猛毒投射物輔助,nil|極速苦痛輔助,nil|集中效應輔助,nil|幻影射手輔助,nil|氣勢輔助,nil",nil,nil,nil)
 SetNeedSkillLineData(100,"燃燒箭矢,nil|氣勢輔助,nil",2,nil,nil)
 
 --添加攻击技能 name=技能名 className=技能类名 noLine=不在直线就能攻击 挑选攻击技能会从上到下寻找，要把厉害的技能加在前面
 
+AddAttackSkillData("瓦爾．腐蝕箭矢","Vaal Caustic Arrow")
 AddAttackSkillData("腐蝕箭矢","Caustic Arrow")
 AddAttackSkillData("燃燒箭矢","Burning Arrow")
 AddAttackSkillData("普通攻击","melee")
@@ -155,20 +156,22 @@ AddShengJiZhuangBeiGoodsData("富豪石","Metadata/Items/Currency/CurrencyUpgradeMa
 SetGaoJiHuanZhuangData("游侠","简易之袍","Metadata/Items/Armours/BodyArmours/BodyInt1","无尽之衣","Tabula Rasa")
 SetGaoJiHuanZhuangData("游侠","金缕帽","Metadata/Items/Armours/Helmets/HelmetDex1","金缕帽","Goldrim")
 
+SetShopNotBuyGoods(瓦爾．腐蝕箭矢,nil)--设置不去商店里买的东西
+
 --SetTaskShengJiData(taskClassName,taskIndex,shengjiMapClassName,needLv)--设置跑图时升级 taskClassName=任务类名 taskIndex=任务索引 nil为忽略，只匹配任务类名 shengjiMapClassName=要刷的地图类名 needLv=升级到多少级为止
 SetTaskShengJiData("a5q7",nil,"1_5_5",46,true)--做 到奇塔弗的受难 的时候刷纯净圣地到50级再进行下一任务
-SetTaskShengJiData("a9q3",nil,"2_9_1",67,true)--做 到風暴飛刃 的时候刷滲血水道到68级再进行下一任务
+SetTaskShengJiData("a9q3",nil,"2_9_1",68,true)--做 到風暴飛刃 的时候刷滲血水道到68级再进行下一任务
 
 SetTaskMiGongData("a8q7",nil,1)--大于等于a9q1级 做迷宫1
 SetTaskMiGongData("a10q1",nil,2)--大于等于a10q1 做迷宫2
 SetTaskMiGongDataByLv(80,3)--大于等于80级 做迷宫3
 
 
-SetChangeLimitCnt("武器|衣服|头盔|手套|鞋子",0)
-SetChangeLimitCnt("腰带",0)
-SetChangeLimitCnt("项链|戒指",0)
+SetChangeLimitCnt("武器|衣服|头盔|手套|鞋子",2)
+SetChangeLimitCnt("腰带",3)
+SetChangeLimitCnt("项链|戒指",4)
 
 
 --SetNeedAddTianFu(tfStr)--设置天赋加点 
 SetNeedAddTianFu("游侠=attack_speed568-投射物傷害和命中|accuracy581-投射物傷害與攻擊速度|attack_speed1488-攻擊速度|attack_speed1489-攻擊速度|attack_speed1487-攻擊速度|perfect_aim591-彈道學|bow_damage_and_speed498-弓的傷害|greater_impact638-鷹靈祝福|mana1479-魔力和藥劑效果|mana1478-原始精神|stun_recovery544-生命和避免暈眩|avoid_stun553-橡木之心|stun_recovery543-生命和避免暈眩|finesse993-嫻熟|dexterity995-敏捷|intelligence957-智慧|dexterity848-敏捷|strength815-力量|chaos_damage1578-混沌持續傷害加成|chaos_damage1579-混沌持續傷害加成|dagger_leech_notable2537-浪費|aura_area_of_effect1203-光環效果範圍|reduced_mana_reservation1199-保留效用|aura_effect_reservation_cost_notable1558-魅力|dexterity981-敏捷|agility965-和諧之體|life703-生命|fitness617-血液抽取|degeneration_damage1569-持續傷害|degeneration_damage_notable1575-亂世|degeneration_damage1570-持續傷害|acceleration1238-毒蛇之牙|dexterity855-敏捷|dexterity856-敏捷|bow_chaos2508-弓的傷害|bow_chaos2509-弓的傷害|master_fletcher515-獵人之局|dexterity865-敏捷|attack_speed1231-攻擊速度|attack_speed1645-攻擊速度|attack_speed1646-攻擊速度|attack_damage_notable2242-多重射擊|dexterity866-敏捷|projectile_damage1233-投射物傷害|projectile_damage1681-額外分裂投射物機率|projectiles_fork_2788-分裂角度|fork_notable_2786-分裂射擊|dexterity864-敏捷|bow_damage506-弓的傷害|bow_damage_and_speed500-弓的攻擊速度|bow_damage505-弓的攻擊速度|bow_damage_and_speed501-弓的攻擊速度|deadly_draw680-飛矢宗師|mastery_bow34-弓專精-45512|dexterity860-敏捷|dexterity867-敏捷|intelligence927-智慧|intelligence926-智慧|intelligence906-智慧|intelligence930-智慧|intelligence960-智慧|aura_effect1553-光環效果|reduced_mana_reservation1200-保留效用|aura_effect_notable1557-影響|chaos_physical_damage2118-物理與混沌傷害|chaos_damage2108_-混沌持續傷害加成|chaos_damage2110-混沌持續傷害加成|chaos_damage2109-混沌持續傷害加成|chaos_damage2111-萎縮|life1415-生命|life_life_leech1629-嗜血者|mastery_life135-生命專精-47642|life_energy_shield1675-生命和能量護盾|fitness1160-血書|dexterity984-敏捷|strength821-力量|dexterity853-敏捷|bow_mobility2507-弓的傷害|bow_damage_move_speed1710-弓的傷害和閃避|bow_damage_move_speed1709-弓的傷害和閃避|bow_damage_speed_notable1711-狩獵之徵|dexterity850-敏捷|dexterity1988-敏捷|dexterity849-敏捷|reflexes706-閃避和法術壓抑|reflexes1091-反射|deaden_keystone2849-咒術災厄|dexterity847-敏捷|sentinel1541-哨兵|strength789-力量|strength773-力量|life1164-生命|life_notable1697-構成|mastery_life128-生命專精-34242|life1116-閃避和生命|life1115-閃避和生命|life1117-死亡通緝|attack_channel_charge2394-法術壓抑|attack_channel_charge2393-法術壓抑|attack_channel_charge2395-法術壓抑|attack_channel_charge_notable2396-根深蒂固|dual_wield_damage2125-移動速度和法術壓抑|attack_move_speed_notable1792-疾步|dual_wield_damage726-移動速度和法術壓抑|claws_of_the_pride489-直覺|")
-SetNeedAddTianFu("游侠升华=AscendancyDeadeye5-投射物傷害、命中率|AscendancyDeadeye4-彈射|AscendancyDeadeye3-投射物傷害、攻擊速度|AscendancyDeadeye14-集風|AscendancyDeadeye1-投射物傷害、印記施放速度|AscendancyDeadeye2-焦點|AscendancyDeadeye19-投射物傷害、攻擊速度|AscendancyDeadeye20_-風之守衛|") 
+SetNeedAddTianFu("游侠升华=AscendancyRaider3-閃避、狂怒球持續時間|AscendancyRaider2-盜獵者之途|AscendancyRaider1-閃避、狂怒球持續時間|AscendancyRaider4-殺戮使徒|AscendancyRaider9-閃避、元素傷害|AscendancyRaider10-石英化身|") 
