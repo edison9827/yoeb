@@ -981,10 +981,10 @@
 [Type] == "Polished Metamorph Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑鍊魔		存倉																									
 [Type] == "Gilded Metamorph Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金鍊魔		存倉																									
 [Type] == "Winged Metamorph Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅鍊魔		存倉																									
-[Type] == "Rusted Perandus Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕普蘭德斯		存倉																									
-[Type] == "Polished Perandus Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑普蘭德斯		存倉																									
-[Type] == "Gilded Perandus Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金普蘭德斯		存倉																									
-[Type] == "Winged Perandus Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅普蘭德斯		存倉																									
+[Type] == "Rusted Perandus Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕德斯		存倉																									
+[Type] == "Polished Perandus Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑德斯		存倉																									
+[Type] == "Gilded Perandus Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金德斯		存倉																									
+[Type] == "Winged Perandus Scarab" # [StashItem] == "true" //	//聖甲蟲：展翅德斯		存倉																									
 [Type] == "Rusted Reliquary Scarab" # [StashItem] == "true" //	//聖甲蟲：鏽蝕聖物		存倉																									
 [Type] == "Polished Reliquary Scarab" # [StashItem] == "true" //	//聖甲蟲：圓滑聖物		存倉																									
 [Type] == "Gilded Reliquary Scarab" # [StashItem] == "true" //	//聖甲蟲：鍍金聖物		存倉																									
@@ -1338,9 +1338,9 @@
 [Type] == "Ezomyte Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "The Anticipation" && [StashItem] == "true"	//懸念		存倉																									
 //[Type] == "Colossal Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Ahn's Heritage" && [ForceSellItem] == "true"	//漢恩的遺產		賣出																									
 //[Type] == "Colossal Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Dawnbreaker" && [ForceSellItem] == "true"	//破曉		賣出																									
-//[Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Lioneye's Remorse" && [ForceSellItem] == "true"	//獅眼的榮耀之盾		賣出																									
+[Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Lioneye's Remorse" && [StashItem] == "true"	//獅眼的榮耀之盾		賣出																									
 //[Type] == "Pinnacle Tower Shield" && [Rarity] == "Unique" # [UniqueName] == "Magna Eclipsis" && [ForceSellItem] == "true"	//堅毅之蝕		賣出																									
-//[Type] == "Pine Buckler" && [Rarity] == "Unique" # [UniqueName] == "Crest of Perandus" && [ForceSellItem] == "true"	//普蘭德斯之徽		賣出																									
+//[Type] == "Pine Buckler" && [Rarity] == "Unique" # [UniqueName] == "Crest of Perandus" && [ForceSellItem] == "true"	//德斯之徽		賣出																									
 //[Type] == "Painted Buckler" && [Rarity] == "Unique" # [UniqueName] == "Kaltenhalt" && [ForceSellItem] == "true"	//冰霜之鏡		賣出																									
 //[Type] == "War Buckler" && [Rarity] == "Unique" # [UniqueName] == "Chalice of Horrors" && [ForceSellItem] == "true"	//恐懼之缶		賣出																									
 //[Type] == "Enameled Buckler" && [Rarity] == "Unique" # [UniqueName] == "Mutewind Pennant" && [ForceSellItem] == "true"	//啞風尖旗		賣出																									
@@ -1944,7 +1944,7 @@
 //[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Replica Siegebreaker" && [ForceSellItem] == "true"	//贗品．突圍		賣出																									
 //[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Survivor's Guilt" && [ForceSellItem] == "true"	//倖存者的原罪		賣出																									
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Mageblood" && [StashItem] == "true"	//魔血		存倉																									
-//[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Perandus Blazon" && [ForceSellItem] == "true"	//普蘭德斯之印		賣出																									
+[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Perandus Blazon" && [StashItem] == "true"	//普蘭德斯之印		賣出																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Sunblast" && [ForceSellItem] == "true"	//日炎		賣出																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Soulthirst" && [ForceSellItem] == "true"	//嗜魂		賣出																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Soul Tether" && [ForceSellItem] == "true"	//靈魂束縛		賣出																									
