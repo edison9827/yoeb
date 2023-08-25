@@ -2114,7 +2114,8 @@ SetNeedShiLianReward("重铸石","Metadata/Items/Currency/CurrencyConvertToNormal")
 SetNeedShiLianReward("宝石匠的棱镜","Metadata/Items/Currency/CurrencyGemQuality")
 SetNeedShiLianReward("链结石","Metadata/Items/Currency/CurrencyRerollSocketLinks")
 SetNeedShiLianReward("改造石","Metadata/Items/Currency/CurrencyRerollMagic")
-
+AddUseGoodsData("天賦之書")--添加天赋之书
+AddUseGoodsData("後悔之書")--添加天赋之书
 
 
 
