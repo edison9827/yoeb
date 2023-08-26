@@ -1863,7 +1863,7 @@
 //[Type] == "Lapis Amulet" && [Rarity] == "Unique" # [UniqueName] == "The Ephemeral Bond" && [ForceSellItem] == "true"	//短期債券		賣出																									
 //[Type] == "Lapis Amulet" && [Rarity] == "Unique" # [UniqueName] == "Doedre's Tongue" && [ForceSellItem] == "true"	//德瑞的毒舌		賣出																									
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "The Ignomon" && [ForceSellItem] == "true"	//烈陽徽記		賣出																									
-//[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Winterheart" && [ForceSellItem] == "true"	//冬之心		賣出																									
+[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Winterheart" && [StashItem] == "true"	//冬之心		賣出																									
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "The Ascetic" && [ForceSellItem] == "true"	//苦行		賣出																									
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Bisco's Collar" && [ForceSellItem] == "true"	//畢斯寇的項圈		賣出																									
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Perquil's Toe" && [ForceSellItem] == "true"	//珀奎爾的指頭		賣出																									
