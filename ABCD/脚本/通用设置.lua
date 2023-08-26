@@ -25,7 +25,7 @@ g_addTianFu=true				--自动按设定好的配置加天赋 true为加 nil或false为不加
 g_shengJiBaoShi=true			--自动升级宝石 true为升级 nil或false为不升级
 g_sellSkillGem=true				--自动卖超过40品质的技能宝石
 g_notHuanYaoLv=82				--大于等于多少级只捡蓝色以上药 
-g_needAutoChangeEquip=true		--开启自动换装 true为换 nil或false为不换
+g_needAutoChangeEquip=false		--开启自动换装 true为换 nil或false为不换
 g_needAutoSetBaoShi=true		--开启自动换宝石 true为换 nil或false为不换
 g_bossGiveZhuangBei=false		--交易时仓库号给予缺少的高级换装中的装备 true为给 false为不给 是对仓库号设置的
 g_xiaoHaoGetZhuangBei=false		--挂机号向发装仓库号申请领高级换装中的装备 true为申请 false为不申请
@@ -2116,6 +2116,9 @@ SetNeedShiLianReward("链结石","Metadata/Items/Currency/CurrencyRerollSocketLinks
 SetNeedShiLianReward("改造石","Metadata/Items/Currency/CurrencyRerollMagic")
 AddUseGoodsData("天賦之書")--添加天赋之书
 AddUseGoodsData("後悔之書")--添加天赋之书
+
+--3.22新增通貨
+SetGoodsCaoZuo(nil,"1|3","銀幣","Metadata/Items/Currency/CurrencyAncestralSilverCoin")--
 
 
 
