@@ -1432,7 +1432,7 @@ Show # 聯盟 - 3.13祭祀 - 鞋子 - 攻擊格擋鞋
 
 # 【聯盟-3.12劫盜】3020
 
-Hide # 聯盟 - 3.12劫盜 - 盜賊之印
+Show # 聯盟 - 3.12劫盜 - 盜賊之印
     Class "Currency"
     BaseType "Rogue's Marker"
     SetTextColor 255 178 102
