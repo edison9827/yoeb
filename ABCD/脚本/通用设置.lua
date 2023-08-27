@@ -25,7 +25,7 @@ g_addTianFu=true				--自动按设定好的配置加天赋 true为加 nil或false为不加
 g_shengJiBaoShi=true			--自动升级宝石 true为升级 nil或false为不升级
 g_sellSkillGem=true				--自动卖超过40品质的技能宝石
 g_notHuanYaoLv=82				--大于等于多少级只捡蓝色以上药 
-g_needAutoChangeEquip=true		--开启自动换装 true为换 nil或false为不换
+g_needAutoChangeEquip=false		--开启自动换装 true为换 nil或false为不换
 g_needAutoSetBaoShi=true		--开启自动换宝石 true为换 nil或false为不换
 g_bossGiveZhuangBei=false		--交易时仓库号给予缺少的高级换装中的装备 true为给 false为不给 是对仓库号设置的
 g_xiaoHaoGetZhuangBei=false		--挂机号向发装仓库号申请领高级换装中的装备 true为申请 false为不申请
@@ -157,14 +157,14 @@ SetSaveIndex("地心探索可堆叠可插入通货|裂隙之石","1|2")
 SetSaveIndex("项链|戒指|爪|匕首|法杖|单手剑|细剑|单手斧|单手锤|符文匕首|短杖|战杖|弓|长杖|双手剑|双手斧|双手锤|腰带|手套|鞋子|头盔|衣服|盾|箭袋|","4")
 SetSaveIndex("主动技能宝石|辅助技能宝石|珠宝|命运卡|地图碎片","2")
 SetSaveIndex("生命药剂|魔力药剂|复合药剂|功能药剂","2")
-SetSaveIndex("契約","3")
-SetSaveIndex("藍圖","3")--蓝图
-SetSaveIndex("探險日誌","3")--蓝图
+SetSaveIndex("契約","2")
+SetSaveIndex("藍圖","2")--蓝图
+SetSaveIndex("探險日誌","2")--蓝图
 --SetSaveIndex(nil,"4",nil,"Metadata/Items/MapFragments/ClassicVaultKey")--古典遺?
 --SetSaveIndex(nil,"4",nil,"Metadata/Items/MapFragments/340VaultKey")--古朽遺?
 --SetSaveIndex(nil,"4",nil,"Metadata/Items/MapFragments/VaalVaultKey")--瓦?遺?
 SetSaveIndex(nil,"4",nil,"Metadata/Items/MapFragments/RitualFragment")--浸血碑器
-SetSaveIndex(nil,"4",nil,"Metadata/Items/MapFragments/VoidbornVaultKey")--?誕遺?
+SetSaveIndex(nil,"2",nil,"Metadata/Items/MapFragments/VoidbornVaultKey")--?誕遺?
 
 
 ------------------挂机相关
@@ -2114,7 +2114,11 @@ SetNeedShiLianReward("重铸石","Metadata/Items/Currency/CurrencyConvertToNormal")
 SetNeedShiLianReward("宝石匠的棱镜","Metadata/Items/Currency/CurrencyGemQuality")
 SetNeedShiLianReward("链结石","Metadata/Items/Currency/CurrencyRerollSocketLinks")
 SetNeedShiLianReward("改造石","Metadata/Items/Currency/CurrencyRerollMagic")
+AddUseGoodsData("天賦之書")--添加天赋之书
+AddUseGoodsData("後悔之書")--添加天赋之书
 
+--3.22新增通貨
+SetGoodsCaoZuo(nil,"1|3","銀幣","Metadata/Items/Currency/CurrencyAncestralSilverCoin")--
 
 
 
