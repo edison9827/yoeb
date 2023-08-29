@@ -117,7 +117,7 @@
 [Type] == "Igneous Geode" # [StashItem] == "true" //	//火成晶洞		存倉																									
 [Type] == "Crystalline Geode" # [StashItem] == "true" //	//水晶晶洞		存倉																									
 [Type] == "Magmatic Ore" # [StashItem] == "true" //	//岩漿礦		存倉																									
-//[Type] == "Rogue's Marker" # [StashItem] == "true" //	//盜賊之印		存倉																																																																																															
+[Type] == "Rogue's Marker" # [StashItem] == "true" //	//盜賊之印		存倉																																																																																															
 //此通貨不撿	//眾神聖器		賣出																									
 	// 3F 瞻妄物品																											
 [Type] == "Abyssal Delirium Orb" # [ForceSellItem] == "true" //	//深淵之譫妄玉		存倉																									
