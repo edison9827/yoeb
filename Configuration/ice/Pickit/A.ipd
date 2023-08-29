@@ -99,7 +99,7 @@
 [Type] == "Stacked Deck" # [StashItem] == "true" //	//豐裕牌組		存倉																									
 [Type] == "Unshaping Orb" # [StashItem] == "true" //	//還原玉		存倉																									
 [Type] == "Albino Rhoa Feather" # [StashItem] == "true" //	//白化的羽毛		存倉																									
-//[Type] == "Offering to the Goddess" # [StashItem] == "true" //	//女神祭品		存倉																									
+[Type] == "Offering to the Goddess" # [StashItem] == "true" //	//女神祭品		存倉																									
 [Type] == "Dedication to the Goddess" # [StashItem] == "true" //	//女神奉獻		存倉																									
 [Type] == "Tribute to the Goddess" # [StashItem] == "true" //	//女神之獻		存倉																									
 [Type] == "Gift to the Goddess" # [StashItem] == "true" //	//女神之贈		存倉																									
@@ -812,13 +812,13 @@
 [Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉	
-//[Type]== "Cold River Map" # [ForceSellItem] == "true"																							
-//[Type]== "Siege Map" # [ForceSellItem] == "true"
-//[Type]== "Forbidden Woods Map" # [ForceSellItem] == "true"
-//[Type]== "Phantasmagoria Map" # [ForceSellItem] == "true"
-//[Type]== "Shore Map" # [ForceSellItem] == "true"
-//[Type]== "Flooded Mine Map" # [ForceSellItem] == "true"
-//[Type] == "Synthesised Map" # [StashItem] == "true" //	追憶會撿																																																
+[Type]== "Cold River Map" # [ForceSellItem] == "true"																							
+[Type]== "Siege Map" # [ForceSellItem] == "true"
+[Type]== "Forbidden Woods Map" # [ForceSellItem] == "true"
+[Type]== "Phantasmagoria Map" # [ForceSellItem] == "true"
+[Type]== "Shore Map" # [ForceSellItem] == "true"
+[Type]== "Flooded Mine Map" # [ForceSellItem] == "true"
+[Type] == "Synthesised Map" # [StashItem] == "true" //	追憶會撿																																																
 																												
 	// 14F 碎片																											
 [Type] == "Sacrifice at Dawn" # [ForceSellItem] == "true" //	//黎明的奉獻		賣出																									
