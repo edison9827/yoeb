@@ -137,7 +137,7 @@ AddNotMakeTaskData("a10q5")--深海之路
 g_notShuaBaiPao=true  --不刷白袍(是否,是否兌換)
 
 --SetZhongShenData(className1,className2)--设置要加的众神殿数据 className1=高阶数据类名 字符串型 className2=低阶数据类名 字符串型 
-SetZhongShenData("Lunaris","Gruthkul")--设置月影女神之魂与绝望之母 格鲁丝克之魂
+--SetZhongShenData("Lunaris","Gruthkul")--设置月影女神之魂与绝望之母 格鲁丝克之魂
 
 ------------------存仓分类
 --SetSaveIndex(saveType,pageName,goodsName,goodsClassName,wordName,wordClassName,pageType)--设置存仓页面 
@@ -2120,7 +2120,8 @@ AddUseGoodsData("後悔之書")--添加天赋之书
 
 --3.22新增通貨
 SetGoodsCaoZuo(nil,"1|3","銀幣","Metadata/Items/Currency/CurrencyAncestralSilverCoin")--
-
+SetGoodsCaoZuo(nil,"1|3","眾神聖器","Metadata/Items/MapFragments/CurrencyFragmentPantheonFlask")--
+--SetZhongShenData("Lunaris","Gruthkul")--设置月影女神之魂与绝望之母 格鲁丝克之魂
 
 
 
