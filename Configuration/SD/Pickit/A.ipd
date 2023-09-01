@@ -1261,7 +1261,7 @@
 //[Type] == "Primordial Staff" && [Rarity] == "Unique" # [UniqueName] == "Femurs of the Saints" && [ForceSellItem] == "true"	//聖徒脛骨 史典長杖		賣出																									
 //[Type] == "Lathi" && [Rarity] == "Unique" # [UniqueName] == "The Searing Touch" && [ForceSellItem] == "true"	//熾炎之使 武術長杖		賣出																									
 //[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "Cane of Unravelling" && [ForceSellItem] == "true"	//初惡枝枒 艾茲麥長杖		賣出																									
-[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "Soulwrest" && [StashItem] == "true"	//鑄影 艾茲麥長杖		存倉																									
+//[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "Soulwrest" && [ForceSellItem] == "true"	//鑄影 艾茲麥長杖		存倉																									
 //[Type] == "Ezomyte Staff" && [Rarity] == "Unique" # [UniqueName] == "The Fulcrum" && [ForceSellItem] == "true"	//支點 艾茲麥長杖		賣出																									
 //[Type] == "Maelström Staff" && [Rarity] == "Unique" # [UniqueName] == "Taryn's Shiver" && [ForceSellItem] == "true"	//塔林的顫慄之語 風暴長杖		賣出																									
 //[Type] == "Maelström Staff" && [Rarity] == "Unique" # [UniqueName] == "Duskdawn" && [ForceSellItem] == "true"	//宵曉 風暴長杖		賣出																									
