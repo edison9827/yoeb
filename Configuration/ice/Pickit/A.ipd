@@ -1612,7 +1612,7 @@
 //[Type] == "Goathide Boots" && [Rarity] == "Unique" # [UniqueName] == "Victario's Flight" && [ForceSellItem] == "true"	//維多里奧的飛昇		賣出																									
 //[Type] == "Goathide Boots" && [Rarity] == "Unique" # [UniqueName] == "Abberath's Hooves" && [ForceSellItem] == "true"	//艾貝拉斯之蹄		賣出																									
 //[Type] == "Deerskin Boots" && [Rarity] == "Unique" # [UniqueName] == "Deerstalker" && [ForceSellItem] == "true"	//獵蹤		賣出																									
-[Type] == "Nubuck Boots" && [Rarity] == "Unique" # [UniqueName] == "Goldwyrm" && [StashItem] == "true"	//龍炎足跡		存倉																									
+//[Type] == "Nubuck Boots" && [Rarity] == "Unique" # [UniqueName] == "Goldwyrm" && [ForceSellItem] == "true"	//龍炎足跡		存倉																									
 //[Type] == "Eelskin Boots" && [Rarity] == "Unique" # [UniqueName] == "Orbala's Stand" && [ForceSellItem] == "true"	//奧爾巴拉的姿態		賣出																									
 //[Type] == "Sharkskin Boots" && [Rarity] == "Unique" # [UniqueName] == "The Blood Dance" && [ForceSellItem] == "true"	//血影		賣出																									
 //[Type] == "Shagreen Boots" && [Rarity] == "Unique" # [UniqueName] == "Three-step Assault" && [ForceSellItem] == "true"	//三步突擊		賣出																									
