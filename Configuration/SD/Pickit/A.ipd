@@ -904,7 +904,7 @@
 //			關閉																									
 //	// 18F 藥水（預設關閉）			//																								
 //					下面這行可以預設物等																							
-[Type] == "Quicksilver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//水銀藥劑		存倉		83	83物品等級包含以上存倉																						
+//[Type] == "Quicksilver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//水銀藥劑		存倉		83	83物品等級包含以上存倉																						
 //已設定不存倉	//黃金藥劑		賣出		85																							
 //已設定不存倉	//小型生命藥劑		賣出		85																							
 //已設定不存倉	//生命藥劑（中）		賣出		85																							
@@ -938,15 +938,15 @@
 //已設定不存倉	//祝福複合藥劑		賣出		85																							
 //已設定不存倉	//灰岩藥劑		賣出		85																							
 //已設定不存倉	//迷霧藥劑		賣出		85																							
-[Type] == "Amethyst Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		83																							
+//[Type] == "Amethyst Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		83																							
 //已設定不存倉	//紅玉藥劑		賣出		85																							
 //已設定不存倉	//藍玉藥劑		賣出		85																							
 //已設定不存倉	//黃玉藥劑		賣出		85																							
 //已設定不存倉	//真銀藥劑		賣出		85																							
 //已設定不存倉	//海藍藥劑		賣出		85																							
-[Type] == "Diamond Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		83																							
-[Type] == "Granite Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//堅岩藥劑		存倉		83																																													
-[Type] == "Jade Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//翠玉藥劑		存倉		83																							
+//Type] == "Diamond Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		83																							
+//[Type] == "Granite Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//堅岩藥劑		存倉		83																																													
+//[Type] == "Jade Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//翠玉藥劑		存倉		83																							
 //已設定不存倉	//石英藥劑		賣出		85																							
 //已設定不存倉	//硫磺藥劑		賣出		85																							
 //已設定不存倉	//石化藥劑		賣出		85	
@@ -1667,7 +1667,7 @@
 	//手套																											
 //[Type] == "Iron Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Lochtonial Caress" && [ForceSellItem] == "true"	//意識之緣		賣出																									
 //[Type] == "Bronze Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Giantsbane" && [ForceSellItem] == "true"	//大屠殺		賣出																									
-//[Type] == "Steel Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Meginord's Vise" && [ForceSellItem] == "true"	//梅吉諾德的巨力腕甲		賣出																									
+[Type] == "Steel Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Meginord's Vise" && [StashItem] == "true"	//梅吉諾德的巨力腕甲		賣出																									
 //[Type] == "Ancient Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Winds of Change" && [ForceSellItem] == "true"	//昇華之風		賣出																									
 //[Type] == "Ancient Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Hateforge" && [ForceSellItem] == "true"	//怨恨鍛造		賣出																									
 //[Type] == "Goliath Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Empire's Grasp" && [ForceSellItem] == "true"	//帝國之掌		賣出																									
