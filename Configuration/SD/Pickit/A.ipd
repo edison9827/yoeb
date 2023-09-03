@@ -1061,7 +1061,7 @@
 //[Type] == "Engraved Wand" && [Rarity] == "Unique" # [UniqueName] == "Midnight Bargain" && [ForceSellItem] == "true"	//冥約 符文法杖		賣出																									
 //[Type] == "Engraved Wand" && [Rarity] == "Unique" # [UniqueName] == "Eclipse Solaris" && [ForceSellItem] == "true"	//宇蝕 符文法杖		賣出																									
 //[Type] == "Engraved Wand" && [Rarity] == "Unique" # [UniqueName] == "Replica Midnight Bargain" && [ForceSellItem] == "true"	//贗品．冥約 符文法杖		賣出																									
-[Type] == "Omen Wand" && [Rarity] == "Unique" # [UniqueName] == "Apep's Rage" && [StashItem] == "true"	//艾普之怒 靈兆法杖		存倉																									
+//[Type] == "Omen Wand" && [Rarity] == "Unique" # [UniqueName] == "Apep's Rage" && [ForceSellItem] == "true"	//艾普之怒 靈兆法杖		存倉																									
 //[Type] == "Imbued Wand" && [Rarity] == "Unique" # [UniqueName] == "Moonsorrow" && [ForceSellItem] == "true"	//泣月 魔性法杖		賣出																									
 //[Type] == "Imbued Wand" && [Rarity] == "Unique" # [UniqueName] == "Piscator's Vigil" && [ForceSellItem] == "true"	//皮斯卡托的慧眼 魔性法杖		賣出																									
 //[Type] == "Imbued Wand" && [Rarity] == "Unique" # [UniqueName] == "Obliteration" && [ForceSellItem] == "true"	//抹滅 魔性法杖		賣出																									
@@ -1421,7 +1421,7 @@
 //[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Starkonja's Head" && [ForceSellItem] == "true"	//斯塔空加之首		賣出																									
 //[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Flock" && [ForceSellItem] == "true"	//斯卡沃之徒		賣出																									
 //[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Cowl of the Cryophile" && [ForceSellItem] == "true"	//酷寒斗篷		賣出																									
-[Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [StashItem] == "true"	//極地之嗥		存倉																									
+//[Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Alpha's Howl" && [ForceSellItem] == "true"	//極地之嗥		存倉																									
 //[Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Assailum" && [ForceSellItem] == "true"	//刺殺		賣出																									
 //[Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Replica Alpha's Howl" && [ForceSellItem] == "true"	//贗品．極地之嗥		賣出																									
 //[Type] == "Lion Pelt" && [Rarity] == "Unique" # [UniqueName] == "Obscurantis" && [ForceSellItem] == "true"	//朦朧詭面		賣出																									
@@ -1597,7 +1597,7 @@
 //[Type] == "Golden Mantle" && [Rarity] == "Unique" # [UniqueName] == "Demigod's Dominance" && [ForceSellItem] == "true"	//昇華統御		賣出																									
 	//鞋子																											
 //[Type] == "Plated Greaves" && [Rarity] == "Unique" # [UniqueName] == "Stormcharger" && [ForceSellItem] == "true"	//暴充		賣出																									
-[Type] == "Reinforced Greaves" && [Rarity] == "Unique" # [UniqueName] == "Windscream" && [StashItem] == "true"	//惡風足跡		存倉																									
+//[Type] == "Reinforced Greaves" && [Rarity] == "Unique" # [UniqueName] == "Windscream" && [ForceSellItem] == "true"	//惡風足跡		存倉																									
 //[Type] == "Reinforced Greaves" && [Rarity] == "Unique" # [UniqueName] == "Windshriek" && [ForceSellItem] == "true"	//風嘯		賣出																									
 //[Type] == "Antique Greaves" && [Rarity] == "Unique" # [UniqueName] == "Torchoak Step" && [ForceSellItem] == "true"	//火柳之步		賣出																									
 //[Type] == "Ancient Greaves" && [Rarity] == "Unique" # [UniqueName] == "Redblade Tramplers" && [ForceSellItem] == "true"	//紅刃蹂躪靴		賣出																									
