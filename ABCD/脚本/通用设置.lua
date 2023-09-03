@@ -2118,7 +2118,7 @@ AddUseGoodsData("天賦之書")--添加天赋之书
 AddUseGoodsData("後悔之書")--添加天赋之书
 
 --3.22新增通貨
-SetGoodsCaoZuo(nil,"1|3","銀幣","Metadata/Items/Currency/CurrencyAncestralSilverCoin")--
+--SetGoodsCaoZuo(nil,"1|3","銀幣","Metadata/Items/Currency/CurrencyAncestralSilverCoin")--
 
 
 
