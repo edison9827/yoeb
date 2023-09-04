@@ -226,12 +226,14 @@ SetNeedFlaskData(5,"魔力药剂","耐久的,FlaskEffectNotRemovedOnFullMana1",50,"永恆
 --SetGaoJiHuanZhuangData("圣堂武僧","金光戒指","Metadata/Items/Rings/Ring4","高尚之人","The Highwayman",nil,nil,nil,8,nil,1)
 
 SetGaoJiHuanZhuangData("圣堂武僧","简易之袍","Metadata/Items/Armours/BodyArmours/BodyInt1","无尽之衣","Tabula Rasa")
-SetGaoJiHuanZhuangData("圣堂武僧","古代圓盾","Metadata/Items/Armours/Shields/ShieldStrDex9","德瑞索的勇者之盾","Daresso's Courage",3,15,nil,4,nil,1)
+SetGaoJiHuanZhuangData("圣堂武僧","巨型塔盾","Metadata/Items/Armours/Shields/ShieldStr16","破曉","Dawnbreaker",3,15,nil,4,nil,nil)
 SetGaoJiHuanZhuangData("圣堂武僧","裂臟鉤","Metadata/Items/Weapons/OneHandWeapons/Claws/Claw12","超越壁壘","Advancing Fortress",3,15,nil,3)
-SetGaoJiHuanZhuangData("圣堂武僧","饰布腰带","Metadata/Items/Belts/Belt5","普兰德斯之印","Perandus Blazon",nil,nil,nil,nil,nil,1)
+SetGaoJiHuanZhuangData("圣堂武僧","皮革腰帶","Metadata/Items/Belts/Belt3","永生","Immortal Flesh",nil,nil,nil,nil,nil,nil,nil,nil)
 SetGaoJiHuanZhuangData("圣堂武僧","強化巨盔","Metadata/Items/Armours/Helmets/HelmetStrInt7","吉爾菲的榮光","Geofri's Crest",4,28,nil,nil,nil,1)
 SetGaoJiHuanZhuangData("圣堂武僧","海玉護身符","Metadata/Items/Amulets/Amulet5","拉茲瓦的靈石","Stone of Lazhwar",nil,nil,nil,nil,nil,1)
-SetGaoJiHuanZhuangData("圣堂武僧","三相戒指","Metadata/Items/Rings/Ring8","竊罪","Thief's Torment",nil,nil,nil,7)
+--SetGaoJiHuanZhuangData("圣堂武僧","三相戒指","Metadata/Items/Rings/Ring8","竊罪","Thief's Torment",nil,nil,nil,7)
+SetGaoJiHuanZhuangData("圣堂武僧","鍛鐵戒指","Metadata/Items/Rings/Ring1","英靈寶環","Le Heup of All",nil,nil,nil,7,nil,nil)
+SetGaoJiHuanZhuangData("圣堂武僧","鍛鐵戒指","Metadata/Items/Rings/Ring1","英靈寶環","Le Heup of All",nil,nil,nil,8,nil,nil)
 SetGaoJiHuanZhuangData("圣堂武僧","鐵影長靴","Metadata/Items/Armours/Boots/BootsStrDex2","迎暮","Dusktoe",4,28,nil,10)--鞋子
 SetGaoJiHuanZhuangData("圣堂武僧","羊毛手套","Metadata/Items/Armours/Gloves/GlovesInt1","猎宝者的护手","Sadima's Touch",4,28,nil,nil,nil,1)
 --SetGaoJiHuanZhuangData("圣堂武僧","堅岩藥劑","Metadata/Items/Flasks/FlaskUtility5","魯米的靈藥","Rumi's Concoction",nil,nil,4)
