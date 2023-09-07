@@ -1,0 +1,9 @@
+//there're already XX built-in rules, a lot of exclude and include lines.
+
+//exclude, optional:
+!abyss_chasm
+!_door
+!/door
+
+//exclude if you really want to see mtx effects: "!microtransaction"
+
