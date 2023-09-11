@@ -20,7 +20,7 @@
 [Type] == "Synthesised Map" # [lgnoreMap] == "true" // Synthesised maps	
 
 [Type] == "Crimson Temple Map" # [ExitAfterBossKill] == "true"
-//[Type] == "City Square Map" # [ExitAfterBossKill] == "true"
+[Type] == "City Square Map" # [ExitAfterBossKill] == "true"
 																									
 // 以下選擇你這張圖要不要打				//備註 不打的仍會存倉																					
 [Type] == "Lookout Map" # [IgnoreMap] == "true" //	//如履危牆		打																						
