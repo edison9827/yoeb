@@ -99,7 +99,7 @@
 [Type] == "Stacked Deck" # [StashItem] == "true" //	//豐裕牌組		存倉																									
 [Type] == "Unshaping Orb" # [StashItem] == "true" //	//還原玉		存倉																									
 [Type] == "Albino Rhoa Feather" # [StashItem] == "true" //	//白化的羽毛		存倉																									
-[Type] == "Offering to the Goddess" # [StashItem] == "true" //	//女神祭品		存倉																									
+//[Type] == "Offering to the Goddess" # [StashItem] == "true" //	//女神祭品		存倉																									
 [Type] == "Dedication to the Goddess" # [StashItem] == "true" //	//女神奉獻		存倉																									
 [Type] == "Tribute to the Goddess" # [StashItem] == "true" //	//女神之獻		存倉																									
 [Type] == "Gift to the Goddess" # [StashItem] == "true" //	//女神之贈		存倉																									
@@ -118,7 +118,7 @@
 [Type] == "Crystalline Geode" # [StashItem] == "true" //	//水晶晶洞		存倉																									
 [Type] == "Magmatic Ore" # [StashItem] == "true" //	//岩漿礦		存倉																									
 //[Type] == "Rogue's Marker" # [StashItem] == "true" //	//盜賊之印		存倉																									
-[Type] == "Divine Vessel" # [StashItem] == "true" //	//眾神聖器		存倉																									
+//[Type] == "Divine Vessel" # [StashItem] == "true" //	//眾神聖器		存倉																									
 //[Type] == "Silver Coin" # [StashItem] == "true" //	//銀幣		存倉																									
 //	//基拉克記憶																											
 [Type] == "Singular Scouting Report" # [StashItem] == "true" //	//卓越偵查報告		存倉																									
@@ -1454,7 +1454,7 @@
 //[Type] == "Gilded Sallet" && [Rarity] == "Unique" # [UniqueName] == "Deidbell" && [ForceSellItem] == "true"	//喪鐘		賣出																									
 //[Type] == "Secutor Helm" && [Rarity] == "Unique" # [UniqueName] == "Skullhead" && [ForceSellItem] == "true"	//光輝之顱		賣出																									
 //[Type] == "Fencer Helm" && [Rarity] == "Unique" # [UniqueName] == "El'Abin's Visage" && [ForceSellItem] == "true"	//伊蘭雅本的面紗		賣出																									
-[Type] == "Lacquered Helmet" && [Rarity] == "Unique" # [UniqueName] == "Black Sun Crest" && [StashItem] == "true"	//黑陽之冠		賣出																									
+//[Type] == "Lacquered Helmet" && [Rarity] == "Unique" # [UniqueName] == "Black Sun Crest" && [StashItem] == "true"	//黑陽之冠		賣出																									
 //[Type] == "Lacquered Helmet" && [Rarity] == "Unique" # [UniqueName] == "The Fledgling" && [ForceSellItem] == "true"	//幼雛		賣出																									
 //[Type] == "Fluted Bascinet" && [Rarity] == "Unique" # [UniqueName] == "Crest of Desire" && [ForceSellItem] == "true"	//慾望之冠		賣出																									
 //[Type] == "Nightmare Bascinet" && [Rarity] == "Unique" # [UniqueName] == "The Bringer of Rain" && [ForceSellItem] == "true"	//祭禮之雨		賣出																									
@@ -1476,7 +1476,7 @@
 //[Type] == "Prophet Crown" && [Rarity] == "Unique" # [UniqueName] == "The Brine Crown" && [ForceSellItem] == "true"	//海王冠冕		賣出																									
 //[Type] == "Prophet Crown" && [Rarity] == "Unique" # [UniqueName] == "Speaker's Wreath" && [ForceSellItem] == "true"	//預言家桂冠		賣出																									
 //[Type] == "Prophet Crown" && [Rarity] == "Unique" # [UniqueName] == "Crown of the Inward Eye" && [ForceSellItem] == "true"	//暗眼之冠		賣出																									
-[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Voll's Vision" && [StashItem] == "true"	//福爾的遠見		存倉																									
+//[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Voll's Vision" && [StashItem] == "true"	//福爾的遠見		存倉																									
 //[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Malachai's Vision" && [ForceSellItem] == "true"	//瑪拉凱的遠見		賣出																									
 //[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Ahn's Contempt" && [ForceSellItem] == "true"	//漢恩的蔑視		賣出																									
 //[Type] == "Praetor Crown" && [Rarity] == "Unique" # [UniqueName] == "Memory Vault" && [ForceSellItem] == "true"	//回憶寶庫		賣出																									
@@ -1564,7 +1564,7 @@
 //[Type] == "Crusader Chainmail" && [Rarity] == "Unique" # [UniqueName] == "Ambu's Charge" && [ForceSellItem] == "true"	//安姆布的戰甲		賣出																									
 //[Type] == "Crusader Chainmail" && [Rarity] == "Unique" # [UniqueName] == "Replica Ambu's Charge" && [ForceSellItem] == "true"	//贗品．安姆布的戰甲		賣出																									
 //[Type] == "Ornate Ringmail" && [Rarity] == "Unique" # [UniqueName] == "Lightbane Raiment" && [ForceSellItem] == "true"	//魔道之衣		賣出																									
-[Type] == "Devout Chainmail" && [Rarity] == "Unique" # [UniqueName] == "The Fourth Vow" && [StashItem] == "true"	//第四誓願		存倉																									
+//[Type] == "Devout Chainmail" && [Rarity] == "Unique" # [UniqueName] == "The Fourth Vow" && [StashItem] == "true"	//第四誓願		存倉																									
 //[Type] == "Conquest Chainmail" && [Rarity] == "Unique" # [UniqueName] == "Kingsguard" && [ForceSellItem] == "true"	//皇家衛甲		賣出																									
 //[Type] == "Elegant Ringmail" && [Rarity] == "Unique" # [UniqueName] == "Geofri's Sanctuary" && [ForceSellItem] == "true"	//吉爾菲的聖殿		賣出																									
 //[Type] == "Elegant Ringmail" && [Rarity] == "Unique" # [UniqueName] == "Loreweave" && [ForceSellItem] == "true"	//智者織衫		賣出																									
@@ -1676,7 +1676,7 @@
 //[Type] == "Vaal Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Replica Atziri's Acuity" && [ForceSellItem] == "true"	//贗品．阿茲里的捷思		賣出																									
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Veruso's Battering Rams" && [ForceSellItem] == "true"	//維盧梭攻城槌		賣出																									
 //[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Craiceann's Pincers" && [ForceSellItem] == "true"	//奎爾珊堅鉗		賣出																									
-[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Spirit" && [StashItem] == "true"	//岡姆之魂		存倉																									
+//[Type] == "Titan Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Spirit" && [StashItem] == "true"	//岡姆之魂		存倉																									
 //[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hrimsorrow" && [ForceSellItem] == "true"	//冰冷之眼		賣出																									
 //[Type] == "Goathide Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hrimburn" && [ForceSellItem] == "true"	//李姆本		賣出																									
 //[Type] == "Deerskin Gloves" && [Rarity] == "Unique" # [UniqueName] == "Maligaro's Virtuosity" && [ForceSellItem] == "true"	//馬雷葛蘿的血染手套		賣出																									
@@ -1715,7 +1715,7 @@
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Volkuur's Guidance" && [ForceSellItem] == "true"	//福庫爾的指引		賣出																									
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Replica Volkuur's Guidance" && [ForceSellItem] == "true"	//贗品．福庫爾的指引		賣出																									
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hand of the Fervent" && [ForceSellItem] == "true"	//熱情之手		賣出																									
-//[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Southbound" && [ForceSellItem] == "true"	//南方		賣出																									
+[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Southbound" && [StashItem] == "true"	//南方		賣出																									
 //[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Winds" && [ForceSellItem] == "true"	//斯卡沃之翼		賣出																									
 //[Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Null and Void" && [ForceSellItem] == "true"	//虛空		賣出																									
 //[Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Offering to the Serpent" && [ForceSellItem] == "true"	//蛇皮獻祭		賣出																									
@@ -1804,7 +1804,7 @@
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Valyrium" && [ForceSellItem] == "true"	//戰日		賣出																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Timetwist" && [ForceSellItem] == "true"	//時空扭曲		賣出																									
 [Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Anathema" && [StashItem] == "true"	//咒詛		存倉																									
-[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Death Rush" && [StashItem] == "true"	//亡者呼喚		存倉																									
+//[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Death Rush" && [StashItem] == "true"	//亡者呼喚		存倉																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Ming's Heart" && [StashItem] == "true"	//明恩的慧心		存倉																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Circle of Nostalgia" && [ForceSellItem] == "true"	//懷舊之環		賣出																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Blackflame" && [ForceSellItem] == "true"	//黯炎		賣出																									
@@ -1891,7 +1891,7 @@
 //[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [UniqueName] == "Ungil's Harmony" && [ForceSellItem] == "true"	//恩吉爾的和諧		賣出																									
 //[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [UniqueName] == "Warped Timepiece" && [ForceSellItem] == "true"	//扭曲之鐘		賣出																									
 //[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [UniqueName] == "Maligaro's Cruelty" && [ForceSellItem] == "true"	//馬雷葛蘿的殘暴		賣出																									
-[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [UniqueName] == "Badge of the Brotherhood" && [StashItem] == "true"	//激情之章		存倉																									
+//[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [UniqueName] == "Badge of the Brotherhood" && [StashItem] == "true"	//激情之章		存倉																									
 //[Type] == "Turquoise Amulet" && [Rarity] == "Unique" # [UniqueName] == "Fury Valve" && [ForceSellItem] == "true"	//憤怒閉鎖		賣出																									
 //[Type] == "Agate Amulet" && [Rarity] == "Unique" # [UniqueName] == "Voll's Devotion" && [ForceSellItem] == "true"	//福爾的忠誠之符		賣出																									
 //[Type] == "Agate Amulet" && [Rarity] == "Unique" # [UniqueName] == "Shaper's Seed" && [ForceSellItem] == "true"	//塑界者之籽		賣出																									
