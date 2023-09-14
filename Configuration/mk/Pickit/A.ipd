@@ -886,15 +886,15 @@
 [Type] == "Maven's Invitation: The Formed" # [StashItem] == "true" //	//釋界之邀：塑型		存倉																									
 [Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉																									
 //																												
-//	// 15F 六連裝 (目前有無法正常賣出的語法錯誤，但是我找不到問題點)			//																								
-[Sockets] == "6" && [Linked] >= "6" # [ForceSellItem] ="true" //	//六連裝		賣出	//																								
-[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Normal" # [ForceSellItem] =="true"	//普通六連裝			//																								
-[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Magic" # [ForceSellItem] =="true"	//魔法六連裝			//																								
-[Sockets] == "6" && [Linked] >= "6" && [Rarity] == "Rare" # [ForceSellItem] =="true"	//稀有六連裝			//																								
-//	// 16F 六洞裝 																											
-//	//六洞裝		不撿	//																								
-//	//魔法六洞裝			//																								
-//	//稀有六洞裝			//																								
+//
+//[Sockets] == "6" && [Linked] >= "6" # [StashItem] ="true" //
+
+
+
+//
+//
+//
+//																																													
 //	// 17F 機會石點裝備 (機會石不足會造成爆倉 請謹慎開啟）																											
 //	//獵首		關閉																									
 //	//魔血		關閉																									
@@ -938,15 +938,15 @@
 //已設定不存倉	//祝福複合藥劑		賣出		85																							
 //已設定不存倉	//灰岩藥劑		賣出		85																							
 //已設定不存倉	//迷霧藥劑		賣出		85																							
-//[Type] == "Amethyst Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		83																							
+[Type] == "Amethyst Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		83																							
 //已設定不存倉	//紅玉藥劑		賣出		85																							
 //已設定不存倉	//藍玉藥劑		賣出		85																							
 //已設定不存倉	//黃玉藥劑		賣出		85																							
-//已設定不存倉	//真銀藥劑		賣出		85																							
+[Type] == "Silver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//真銀藥劑		存倉		83																																														
 //已設定不存倉	//海藍藥劑		賣出		85																							
-//Type] == "Diamond Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		83																							
+Type] == "Diamond Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		83																							
 //[Type] == "Granite Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//堅岩藥劑		存倉		83																																													
-//[Type] == "Jade Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//翠玉藥劑		存倉		83																							
+[Type] == "Jade Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//翠玉藥劑		存倉		83																							
 //已設定不存倉	//石英藥劑		賣出		85																							
 //已設定不存倉	//硫磺藥劑		賣出		85																							
 //已設定不存倉	//石化藥劑		賣出		85	
@@ -1928,7 +1928,7 @@
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Replica Bated Breath" && [ForceSellItem] == "true"	//贗品．凝息		賣出																									
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Chain of Endurance" && [ForceSellItem] == "true"	//堅決鎖鏈		賣出																									
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Headhunter" && [StashItem] == "true"	//獵首		存倉																									
-//[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [StashItem] == "true"	//永生		賣出																									
+[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [StashItem] == "true"	//永生		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Wurm's Molt" && [ForceSellItem] == "true"	//龍蛻之帶		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Umbilicus Immortalis" && [ForceSellItem] == "true"	//不朽繫命		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Cyclopean Coil" && [ForceSellItem] == "true"	//巨岩之環		賣出																									
