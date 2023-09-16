@@ -130,8 +130,8 @@
 [Type] == "Blighted Scouting Report" # [StashItem] == "true" //	//凋落偵查報告		存倉																									
 [Type] == "Influenced Scouting Report" # [StashItem] == "true" //	//勢力偵查報告		存倉																									
 [Type] == "Explorer's Scouting Report" # [StashItem] == "true" //	//探險家偵查報告		存倉																									
-[Type] == "Surveyors Compass" # [StashItem] == "true" //	//測量員的羅盤		存倉																									
-[Type] == "Charged Compass" # [StashItem] == "true" //	//充能的羅盤		存倉																									
+//[Type] == "Surveyors Compass" # [StashItem] == "true" //	//測量員的羅盤		存倉																									
+//[Type] == "Charged Compass" # [StashItem] == "true" //	//充能的羅盤		存倉																									
 [Type] == "Exceptional Eldritch Ember" # [StashItem] == "true" //	//宏偉異能灰燼		存倉																									
 [Type] == "Grand Eldritch Ember" # [StashItem] == "true" //	//卓越異能灰燼		存倉																									
 [Type] == "Greater Eldritch Ember" # [StashItem] == "true" //	//高階異能灰燼		存倉																									
@@ -204,15 +204,15 @@
 [Type] == "Contract: Tunnels" # [ForceSellItem] == "true" //	//契約書：地道		賣出																									
 [Type] == "Contract: Underbelly" # [ForceSellItem] == "true" //	//契約書：地下道		賣出																									
 [Type] == "Contract: Mansion" # [ForceSellItem] == "true" //	//契約書：官邸		賣出																									
-[Type] == "Blueprint: Bunker" # [ForceSellItem] == "true" //	//藍圖：碉堡		賣出																									
-[Type] == "Blueprint: Laboratory" # [StashItem] == "true" //	//藍圖：實驗室		存倉																									
-[Type] == "Blueprint: Prohibited Library" # [StashItem] == "true" //	//藍圖：禁忌館藏		存倉																									
-[Type] == "Blueprint: Records Office" # [ForceSellItem] == "true" //	//藍圖：紀錄室		賣出																									
+[Type] == "Blueprint: Bunker" # [StashItem] == "true" //	//藍圖：碉堡		賣出																									
+[Type] == "Blueprint: Laboratory" # [ForceSellItem] == "true" //	//藍圖：實驗室		存倉																									
+[Type] == "Blueprint: Prohibited Library" # [ForceSellItem] == "true" //	//藍圖：禁忌館藏		存倉																									
+[Type] == "Blueprint: Records Office" # [StashItem] == "true" //	//藍圖：紀錄室		賣出																									
 [Type] == "Blueprint: Repository" # [StashItem] == "true" //	//藍圖：展覽室		存倉																									
 [Type] == "Blueprint: Smuggler's Den" # [ForceSellItem] == "true" //	//藍圖：走私者巢穴		賣出																									
 [Type] == "Blueprint: Tunnels" # [StashItem] == "true" //	//藍圖：地道		存倉																									
 [Type] == "Blueprint: Underbelly" # [ForceSellItem] == "true" //	//藍圖：地下道		賣出																									
-[Type] == "Blueprint: Mansion" # [ForceSellItem] == "true" //	//藍圖：官邸		賣出																									
+[Type] == "Blueprint: Mansion" # [StashItem] == "true" //	//藍圖：官邸		賣出																									
 /	// 6F 凋落油瓶																											
 [Type] == "Tainted Oil" # [StashItem] == "true" //	//污染油瓶		存倉																									
 [Type] == "Golden Oil" # [StashItem] == "true" //	//金黃油瓶		存倉																									
@@ -631,7 +631,7 @@
 [Type] == "The Darkest Dream" # [ForceSellItem] == "true" //	惡夢 (6)	5	賣出																									
 [Type] == "The Dreamer" # [ForceSellItem] == "true" //	夢想家 (6)	6	賣出																									
 [Type] == "The Emptiness" # [StashItem] == "true" //	空虛 (6)	10	存倉																									
-[Type] == "The Enlightened" # [ForceSellItem] == "true" //	智慧啟蒙 (6)	45	賣出																									
+[Type] == "The Enlightened" # [StashItem] == "true" //	智慧啟蒙 (6)	45	賣出																									
 [Type] == "The Explorer" # [StashItem] == "true" //	探險家 (6)	3	存倉																									
 [Type] == "The Forgotten Treasure" # [ForceSellItem] == "true" //	被遺忘的寶藏 (6)	7	賣出																									
 [Type] == "The Forward Gaze" # [ForceSellItem] == "true" //	凝視前方 (6)	5	賣出																									
@@ -1536,7 +1536,7 @@
 [Type] == "Simple Robe" && [Rarity] == "Unique" # [UniqueName] == "Skin of the Loyal" && [StashItem] == "true"	//忠誠之膚		存倉																									
 //[Type] == "Simple Robe" && [Rarity] == "Unique" # [UniqueName] == "Skin of the Lords" && [ForceSellItem] == "true"	//君主之膚		賣出																									
 //[Type] == "Silken Vest" && [Rarity] == "Unique" # [UniqueName] == "Ghostwrithe" && [ForceSellItem] == "true"	//鬧鬼		賣出																									
-//[Type] == "Scholar's Robe" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Flame" && [ForceSellItem] == "true"	//烈炎之袍		賣出																									
+[Type] == "Scholar's Robe" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Flame" && [StashItem] == "true"	//烈炎之袍		賣出																									
 //[Type] == "Sage's Robe" && [Rarity] == "Unique" # [UniqueName] == "Zahndethus' Cassock" && [ForceSellItem] == "true"	//札德圖斯的聖衣		賣出																									
 [Type] == "Sage's Robe" && [Rarity] == "Unique" # [UniqueName] == "Dialla's Malefaction" && [StashItem] == "true"	//達拉的罪刑		存倉																									
 //[Type] == "Spidersilk Robe" && [Rarity] == "Unique" # [UniqueName] == "The Covenant" && [ForceSellItem] == "true"	//血誓		賣出																									
@@ -1764,7 +1764,7 @@
 //[Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Fated End" && [ForceSellItem] == "true"	//命運終結		賣出																									
 //[Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Soulbound" && [ForceSellItem] == "true"	//靈魂之絆		賣出																									
 //[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Andvarius" && [ForceSellItem] == "true"	//貪慾之記		賣出																									
-[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [StashItem] == "true"	//賭神芬多		存倉																									
+//[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [StashItem] == "true"	//賭神芬多		存倉																									
 //[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "The Highwayman" && [ForceSellItem] == "true"	//高尚之人		賣出																									
 //[Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Kikazaru" && [ForceSellItem] == "true"	//基加薩魯		賣出																									
 //[Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Valako's Sign" && [ForceSellItem] == "true"	//瓦拉庫之印		賣出																									
@@ -1874,7 +1874,7 @@
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Perquil's Toe" && [ForceSellItem] == "true"	//珀奎爾的指頭		賣出																									
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Winterheart" && [ForceSellItem] == "true"	//贗品．冬之心		賣出																									
 [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Astramentis" && [StashItem] == "true"	//均衡之符		存倉																									
-[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [StashItem] == "true"	//屠戮之心		賣出																									
+//[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [StashItem] == "true"	//屠戮之心		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Eye of Chayula" && [ForceSellItem] == "true"	//夏烏拉之眼		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hinekora's Sight" && [ForceSellItem] == "true"	//悉妮蔻拉之眼		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Presence of Chayula" && [ForceSellItem] == "true"	//夏烏拉之印		賣出																									
@@ -2137,7 +2137,7 @@
 //[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "One With Nothing" && [ForceSellItem] == "true"	//一無所有		賣出																									
 //[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "Kitava's Teachings" && [ForceSellItem] == "true"	//奇塔弗的教學		賣出																									
 //[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Interrogation" && [StashItem] == "true"	//審問		存倉																									
-[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "Calamitous Visions" && [StashItem] == "true"	//悲慘幻視		存倉																									
+//[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "Calamitous Visions" && [StashItem] == "true"	//悲慘幻視		存倉																									
 //[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "Natural Affinity" && [ForceSellItem] == "true"	//天性		賣出																									
 //[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Siege" && [ForceSellItem] == "true"	//圍城		賣出																									
 //[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Front Line" && [ForceSellItem] == "true"	//前列的線		賣出																									
