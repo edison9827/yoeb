@@ -220,9 +220,11 @@
 [Type] == "Opalescent Oil" # [StashItem] == "true" //	//乳白油瓶		存倉																									
 [Type] == "Crimson Oil" # [StashItem] == "true" //	//緋紅油瓶		存倉																									
 [Type] == "Black Oil" # [StashItem] == "true" //	//漆黑油瓶		存倉																									
-[Type] == "Azure Oil" # [ForceSellItem] == "true" //	//碧藍油瓶		賣出																									
+[Type] == "Azure Oil" # [StashItem] == "true" //	//碧藍油瓶		存倉
+[Type] == "Verdant Oil" # [StashItem] == "true" //	//翠綠油瓶		存倉
+[Type] == "Indigo Oil" # [StashItem] == "true" //	//靛青油瓶		存倉																										
 [Type] == "Violet Oil" # [StashItem] == "true" //	//奼紫油瓶		存倉																									
-[Type] == "Reflective Oil" # [ForceSellItem] == "true" //	//反光油		賣出																									
+[Type] == "Reflective Oil" # [StashItem] == "true" //	//反光油		賣出																									
 //	// 7F 催化劑																											
 [Type] == "Abrasive Catalyst" # [StashItem] == "true" //	//研磨的催化劑		存倉																									
 [Type] == "Fertile Catalyst" # [StashItem] == "true" //	//富饒的催化劑		存倉																									
