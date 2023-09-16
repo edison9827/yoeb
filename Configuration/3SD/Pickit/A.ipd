@@ -1764,7 +1764,7 @@
 //[Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Fated End" && [ForceSellItem] == "true"	//命運終結		賣出																									
 //[Type] == "Paua Ring" && [Rarity] == "Unique" # [UniqueName] == "Soulbound" && [ForceSellItem] == "true"	//靈魂之絆		賣出																									
 //[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Andvarius" && [ForceSellItem] == "true"	//貪慾之記		賣出																									
-[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [StashItem] == "true"	//賭神芬多		存倉																									
+//[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [StashItem] == "true"	//賭神芬多		存倉																									
 //[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "The Highwayman" && [ForceSellItem] == "true"	//高尚之人		賣出																									
 //[Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Kikazaru" && [ForceSellItem] == "true"	//基加薩魯		賣出																									
 //[Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Valako's Sign" && [ForceSellItem] == "true"	//瓦拉庫之印		賣出																									
@@ -1874,7 +1874,7 @@
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Perquil's Toe" && [ForceSellItem] == "true"	//珀奎爾的指頭		賣出																									
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Winterheart" && [ForceSellItem] == "true"	//贗品．冬之心		賣出																									
 [Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Astramentis" && [StashItem] == "true"	//均衡之符		存倉																									
-[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [StashItem] == "true"	//屠戮之心		賣出																									
+//[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [StashItem] == "true"	//屠戮之心		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Eye of Chayula" && [ForceSellItem] == "true"	//夏烏拉之眼		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hinekora's Sight" && [ForceSellItem] == "true"	//悉妮蔻拉之眼		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Presence of Chayula" && [ForceSellItem] == "true"	//夏烏拉之印		賣出																									
