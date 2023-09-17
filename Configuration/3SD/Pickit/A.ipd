@@ -1930,7 +1930,7 @@
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Replica Bated Breath" && [ForceSellItem] == "true"	//贗品．凝息		賣出																									
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Chain of Endurance" && [ForceSellItem] == "true"	//堅決鎖鏈		賣出																									
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Headhunter" && [StashItem] == "true"	//獵首		存倉																									
-[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [StashItem] == "true"	//永生		賣出																									
+//[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [StashItem] == "true"	//永生		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Wurm's Molt" && [ForceSellItem] == "true"	//龍蛻之帶		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Umbilicus Immortalis" && [ForceSellItem] == "true"	//不朽繫命		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Cyclopean Coil" && [ForceSellItem] == "true"	//巨岩之環		賣出																									
