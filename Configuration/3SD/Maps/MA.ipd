@@ -6,7 +6,7 @@
 //[Rarity]== "Normal"#[UpgradeToRare]== "true"//	//地圖點點金石		開啟																						
 																									
 																									
-//[Rarity] == "Rare" #[IgnoreMap] == "true" --不打黃圖
+[Rarity] == "Rare" #[IgnoreMap] == "true" --不打黃圖
 //	--不打征服/尊師--
 [6827] == "1" # [IgnoreMap] == "true" // Elder infuenced maps
 [6827] == "2" # [IgnoreMap] == "true" // Elder infuenced maps
