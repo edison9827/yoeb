@@ -158,7 +158,7 @@ SetGaoJiHuanZhuangData("游侠","简易之袍","Metadata/Items/Armours/BodyArmours/Bod
 --SetGaoJiHuanZhuangData("游侠","鍛鐵戒指","Metadata/Items/Rings/Ring1","英靈寶環","Le Heup of All",nil,nil,nil,8,nil,0)
 --SetGaoJiHuanZhuangData("游侠","皮革腰帶","Metadata/Items/Belts/Belt3","永生","Immortal Flesh",nil,nil,nil,nil,nil,nil,nil,0)
 --SetGaoJiHuanZhuangData("游侠","黑曜護身符","Metadata/Items/Amulets/Amulet7","屠戮之心","Carnage Heart",nil,nil,nil,nil,nil,0)
-SetGaoJiHuanZhuangData("游侠","狼首皮盔","Metadata/Items/Armours/Helmets/HelmetDex4","愛勒弗","Elevore"4,28,nil,nil,0)
+--SetGaoJiHuanZhuangData("游侠","狼首皮盔","Metadata/Items/Armours/Helmets/HelmetDex4","愛勒弗","Elevore"4,28,nil,nil,0)
 SetGaoJiHuanZhuangData("游侠","鍛鐵戒指","Metadata/Items/Rings/Ring1","英靈寶環","Le Heup of All",nil,nil,nil,nil,nil,0)
 
 --SetTaskShengJiData(taskClassName,taskIndex,shengjiMapClassName,needLv)--设置跑图时升级 taskClassName=任务类名 taskIndex=任务索引 nil为忽略，只匹配任务类名 shengjiMapClassName=要刷的地图类名 needLv=升级到多少级为止
