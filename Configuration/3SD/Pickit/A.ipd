@@ -1414,7 +1414,7 @@
 //[Type] == "Inferno Royal Burgonet" && [Rarity] == "Unique" # [UniqueName] == "The Formless" && [ForceSellItem] == "true"	//無形煉獄		賣出																									
 //[Type] == "Creation Royal Burgonet" && [Rarity] == "Unique" # [UniqueName] == "Echoes of" && [ForceSellItem] == "true"	//創造迴聲		賣出																									
 //[Type] == "Penance Eternal Burgonet" && [Rarity] == "Unique" # [UniqueName] == "Usurper's" && [ForceSellItem] == "true"	//篡位者的懺悔		賣出																									
-//[Type] == "Leather Cap" && [Rarity] == "Unique" # [UniqueName] == "Goldrim" && [StashItem] == "true"	//金縷帽		賣出																									
+[Type] == "Leather Cap" && [Rarity] == "Unique" # [UniqueName] == "Goldrim" && [StashItem] == "true"	//金縷帽		賣出																									
 //[Type] == "Tricorne Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Fairgraves'" && [ForceSellItem] == "true"	//費爾之帽		賣出																									
 [Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Heatshiver" && [StashItem] == "true"	//寒焰		存倉																									
 //[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Frostferno" && [ForceSellItem] == "true"	//霜獄		賣出																									
