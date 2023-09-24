@@ -592,7 +592,7 @@
 [Type] == "The Realm" # [ForceSellItem] == "true" //	大平台 (5)	5	賣出																									
 [Type] == "The Rite of Elements" # [ForceSellItem] == "true" //	元素之儀 (5)	5	賣出																									
 [Type] == "The Side Quest" # [ForceSellItem] == "true" //	支線任務 (5)	5	賣出																									
-[Type] == "The Tinkerer's Table" # [ForceSellItem] == "true" //	銲匠之桌 (5)	5	賣出																									
+[Type] == "The Tinkerer's Table" # [StashItem] == "true" //	銲匠之桌 (5)	5	賣出																									
 [Type] == "The Transformation" # [ForceSellItem] == "true" //	變形 (5)	5	賣出																									
 [Type] == "The Undaunted" # [ForceSellItem] == "true" //	不怕不怕 (5)	4	賣出																									
 [Type] == "The Wolf" # [ForceSellItem] == "true" //	彪狼 (5)	4	賣出																									
