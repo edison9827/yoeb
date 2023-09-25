@@ -1071,7 +1071,7 @@
 //[Type] == "Opal Wand" && [Rarity] == "Unique" # [UniqueName] == "Tulborn" && [ForceSellItem] == "true"	//托沃崩 靈石法杖		賣出																									
 //[Type] == "Opal Wand" && [Rarity] == "Unique" # [UniqueName] == "Replica Tulfall" && [ForceSellItem] == "true"	//贗品．托沃臥 靈石法杖		賣出																									
 //[Type] == "Tornado Wand" && [Rarity] == "Unique" # [UniqueName] == "Shimmeron" && [ForceSellItem] == "true"	//低伏微光 狂風法杖		賣出																									
-[Type] == "Prophecy Wand" && [Rarity] == "Unique" # [UniqueName] == "Void Battery" && [StashItem] == "true"	//潛能魔棒 箴言法杖		存倉																									
+//[Type] == "Prophecy Wand" && [Rarity] == "Unique" # [UniqueName] == "Void Battery" && [StashItem] == "true"	//潛能魔棒 箴言法杖		存倉																									
 	//匕首																											
 //[Type] == "Skinning Knife" && [Rarity] == "Unique" # [UniqueName] == "Goredrill" && [ForceSellItem] == "true"	//血鑿 剝皮刀		賣出																									
 //[Type] == "Stiletto" && [Rarity] == "Unique" # [UniqueName] == "Bloodplay" && [ForceSellItem] == "true"	//血謔 銳利刺匕		賣出																									
@@ -1169,7 +1169,7 @@
 //[Type] == "Estoc" && [Rarity] == "Unique" # [UniqueName] == "Daresso's Passion" && [ForceSellItem] == "true"	//德瑞索的熱情 穿甲刺劍		賣出																									
 //[Type] == "Vaal Rapier" && [Rarity] == "Unique" # [UniqueName] == "Paradoxica" && [ForceSellItem] == "true"	//矛盾對決 瓦爾細劍		賣出																									
 //[Type] == "Vaal Rapier" && [Rarity] == "Unique" # [UniqueName] == "Replica Paradoxica" && [ForceSellItem] == "true"	//贗品．矛盾對決 瓦爾細劍		賣出																									
-[Type] == "Jewelled Foil" && [Rarity] == "Unique" # [UniqueName] == "Cospri's Malice" && [StashItem] == "true"	//卡斯普里的怨恨 寶飾細劍		存倉																									
+//[Type] == "Jewelled Foil" && [Rarity] == "Unique" # [UniqueName] == "Cospri's Malice" && [StashItem] == "true"	//卡斯普里的怨恨 寶飾細劍		存倉																									
 	//單手錘																											
 //[Type] == "Spiked Club" && [Rarity] == "Unique" # [UniqueName] == "Gorebreaker" && [ForceSellItem] == "true"	//血裂 鈍釘木棒		賣出																									
 //[Type] == "War Hammer" && [Rarity] == "Unique" # [UniqueName] == "Brightbeak" && [ForceSellItem] == "true"	//光耀之錘 戰錘		賣出																									
