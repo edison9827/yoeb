@@ -855,7 +855,7 @@
 //	// 13F 輿圖																											
 [Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
-//[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉	
+[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉	
 [Type]== "Carcass Map" # [ForceSellItem] == "true" //賣出 惡臭屍域
 [Type]== "Vault Map" # [ForceSellItem] == "true" //賣出 魔金寶庫
 [Type]== "Excavation Map" # [ForceSellItem] == "true" //賣出 挖掘場
