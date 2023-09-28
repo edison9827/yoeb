@@ -121,15 +121,15 @@
 //[Type] == "Divine Vessel" # [StashItem] == "true" //	//眾神聖器		存倉																									
 //[Type] == "Silver Coin" # [StashItem] == "true" //	//銀幣		存倉																									
 //	//基拉克記憶																											
-[Type] == "Singular Scouting Report" # [StashItem] == "true" //	//卓越偵查報告		存倉																									
-[Type] == "Otherworldly Scouting Report" # [StashItem] == "true" //	//超凡偵查報告		存倉																									
-[Type] == "Comprehensive Scouting Report" # [StashItem] == "true" //	//全面偵查報告		存倉																									
-[Type] == "Vaal Scouting Report" # [StashItem] == "true" //	//瓦爾偵查報告		存倉																									
-[Type] == "Delirious Scouting Report" # [StashItem] == "true" //	//譫妄偵查報告		存倉																									
-[Type] == "Operative's Scouting Report" # [StashItem] == "true" //	//技工偵查報告		存倉																									
-[Type] == "Blighted Scouting Report" # [StashItem] == "true" //	//凋落偵查報告		存倉																									
+//[Type] == "Singular Scouting Report" # [StashItem] == "true" //	//卓越偵查報告		存倉																									
+//[Type] == "Otherworldly Scouting Report" # [StashItem] == "true" //	//超凡偵查報告		存倉																									
+//[Type] == "Comprehensive Scouting Report" # [StashItem] == "true" //	//全面偵查報告		存倉																									
+//[Type] == "Vaal Scouting Report" # [StashItem] == "true" //	//瓦爾偵查報告		存倉																									
+//[Type] == "Delirious Scouting Report" # [StashItem] == "true" //	//譫妄偵查報告		存倉																									
+//[Type] == "Operative's Scouting Report" # [StashItem] == "true" //	//技工偵查報告		存倉																									
+//[Type] == "Blighted Scouting Report" # [StashItem] == "true" //	//凋落偵查報告		存倉																									
 [Type] == "Influenced Scouting Report" # [StashItem] == "true" //	//勢力偵查報告		存倉																									
-[Type] == "Explorer's Scouting Report" # [StashItem] == "true" //	//探險家偵查報告		存倉																									
+//[Type] == "Explorer's Scouting Report" # [StashItem] == "true" //	//探險家偵查報告		存倉																									
 //[Type] == "Surveyors Compass" # [StashItem] == "true" //	//測量員的羅盤		存倉																									
 //[Type] == "Charged Compass" # [StashItem] == "true" //	//充能的羅盤		存倉																									
 [Type] == "Exceptional Eldritch Ember" # [StashItem] == "true" //	//宏偉異能灰燼		存倉																									
@@ -400,7 +400,7 @@
 [Type] == "The Cartographer" # [ForceSellItem] == "true" //	製圖師 (1)	5	賣出																									
 [Type] == "The Heroic Shot" # [ForceSellItem] == "true" //	英勇射擊 (1)	5	賣出																									
 [Type] == "The Shortcut" # [StashItem] == "true" //	捷徑 (1)	39	存倉																									
-[Type] == "The Void" # [StashItem] == "true" //	虛空(卡) (1)	3	存倉																									
+[Type] == "The Void" # [ForceSellItem'ㄤ] == "true" //	虛空(卡) (1)	3	存倉																									
 [Type] == "Acclimatisation" # [ForceSellItem] == "true" //	適者生存 (2)	5	賣出																									
 [Type] == "Broken Promises" # [StashItem] == "true" //	不守信 (2)	40	存倉																									
 [Type] == "Cameria's Cut" # [ForceSellItem] == "true" //	卡麥歷亞之割 (2)	7	賣出																									
@@ -860,7 +860,45 @@
 [Type]== "Vault Map" # [ForceSellItem] == "true" //賣出 魔金寶庫
 [Type]== "Excavation Map" # [ForceSellItem] == "true" //賣出 挖掘場
 [Type]== "Courthouse Map" # [ForceSellItem] == "true" //賣出 失序教院
-[Type]== "Sulphur Vents Map" # # [ForceSellItem] == "true" //賣出 硫磺蝕岸.
+[Type]== "Summit Map" # [ForceSellItem] == "true" //賣出 寒頂之巔
+[Type]== "Basilica Map" # [ForceSellItem] == "true" //賣出 聖殿
+[Type]== "Racecourse Map" # [ForceSellItem] == "true" //賣出 古競速場
+[Type]== "Underground Sea Map" # [ForceSellItem] == "true" //賣出 濱海幽穴
+[Type]== "Arachnid Nest Map" # [ForceSellItem] == "true" //賣出 異蛛巢穴
+[Type]== "Tower Map" # [ForceSellItem] == "true" //賣出 闇獄尖塔
+[Type]== "Flooded Mine Map" # [ForceSellItem] == "true" //賣出 洪災礦坑
+[Type]== "Haunted Mansion Map" # [ForceSellItem] == "true" //賣出 幽魂宅邸
+[Type]== "Orchard Map" # [ForceSellItem] == "true" //賣出 密林果園
+[Type]== "Colonnade Map" # [ForceSellItem] == "true" //賣出 激戰柱廊
+[Type]== "Necropolis Map" # [ForceSellItem] == "true" //賣出 魔影墓場
+[Type]== "Lava Lake Map" # [ForceSellItem] == "true" //賣出 岩漿熔湖
+[Type]== "Reef Map" # [ForceSellItem] == "true" //賣出 危機海礁
+[Type]== "Siege Map" # [ForceSellItem] == "true" //賣出 禁斷圍城
+[Type]== "Ivory Temple Map" # [ForceSellItem] == "true" //賣出 象牙神殿
+[Type]== "Geode Map" # [ForceSellItem] == "true" //賣出 詭譎晶洞
+[Type]== "Caldera Map" # [ForceSellItem] == "true" //賣出 火山炎口
+[Type]== "Wharf Map" # [ForceSellItem] == "true" //賣出 毒牙海港
+[Type]== "Mud Geyser Map" # [ForceSellItem] == "true" //賣出 陰晦泥灘
+[Type]== "Silo Map" # [ForceSellItem] == "true" //賣出 儲物倉
+[Type]== "Mausoleum Map" # [ForceSellItem] == "true" //賣出 靜縊陵墓
+[Type]== "Dungeon Map" # [ForceSellItem] == "true" //賣出 禁魂炎獄
+[Type]== "Glacier Map" # [ForceSellItem] == "true" //賣出 冰川山丘
+[Type]== "Palace Map" # [ForceSellItem] == "true" //賣出 神域之殿
+[Type]== "Temple Map" # [ForceSellItem] == "true" //賣出 奪魂之殿
+[Type]== "Spider Forest Map" # [ForceSellItem] == "true" //賣出 巨蛛之林
+[Type]== "Colosseum Map" # [ForceSellItem] == "true" //賣出 大決鬥場
+[Type]== "Infested Valley Map" # [ForceSellItem] == "true" //賣出 病疫林谷
+[Type]== "Maze Map" # [ForceSellItem] == "true" //賣出 冥神之域
+[Type]== "Phantasmagoria Map" # [ForceSellItem] == "true" //賣出 魔靈幻獄
+[Type]== "Coves Map" # [ForceSellItem] == "true" //賣出 疾風峽灣
+[Type]== "Museum Map" # [ForceSellItem] == "true" //賣出 古博物館
+[Type]== "Sunken City Map" # [ForceSellItem] == "true" //賣出 亞特蘭提斯
+[Type]== "Fungal Hollow Map" # [ForceSellItem] == "true" //賣出 毒菌魔域
+[Type]== "Underground River Map" # [ForceSellItem] == "true" //賣出 地底之河
+[Type]== "Channel Map" # [ForceSellItem] == "true" //賣出 秘密通道
+
+
+
 [Type] == "Synthesised Map" # [StashItem] == "true" //	追憶會撿																									
 //	//以下可以設定多少Tier（含）以下的地圖自動賣掉	輸入Tier	//若不賣，可以設定存倉																									
 //																												
