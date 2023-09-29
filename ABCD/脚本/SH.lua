@@ -93,59 +93,23 @@ SetUseZhuangBeiTypeData("StrInt","盾")
 SetNeedSkillLineData(10,"毒蛇打擊,nil|機率中毒輔助,nil",2,nil,nil)
 SetNeedSkillLineData(92,"爆裂陷阱,nil|迅速組裝輔助,nil|陷阱及地雷傷害輔助,nil",18,nil,nil)
 --以上過度--
-SetNeedSkillLineData(100,"火焰陷阱,nil|陷阱及地雷傷害輔助,nil|極速苦痛輔助,nil|燃燒傷害輔助,nil|活栓輔助,nil|啟發輔助,nil",nil,nil,0)--3綠3紅
-SetNeedSkillLineData(98,"噴火陷阱,nil|陷阱及地雷傷害輔助,nil|進階陷阱輔助,nil|燃燒輔助,nil",nil,nil,0)--3綠1藍
-SetNeedSkillLineData(90,"元素淨化,nil|堅定,nil",nil,4,0)--藍紅--副手
-SetNeedSkillLineData(85,"鋼筋鐵骨,nil|霜漣之瞬,nil|秘能波動輔助,nil",nil,nil,0)--1紅2藍
-SetNeedSkillLineData(50,"受傷時施放輔助,nil|熔岩護盾,nil",nil,10,nil)
+SetNeedSkillLineData(100,"火焰陷阱,nil|陷阱及地雷傷害輔助,nil|極速苦痛輔助,nil|燃燒傷害輔助,nil|活栓輔助,nil|啟發輔助,nil",nil,2,nil)--3綠3紅
+SetNeedSkillLineData(98,"噴火陷阱,nil|陷阱及地雷傷害輔助,nil|進階陷阱輔助,nil|燃燒輔助,nil",nil,5,nil)--3綠1藍
+SetNeedSkillLineData(90,"元素淨化,nil|堅定,nil",nil,4,nil)--藍紅--副手
+SetNeedSkillLineData(85,"鋼筋鐵骨,nil|霜漣之瞬,nil|秘能波動輔助,nil",nil,nil,nil)--1紅2藍
+SetNeedSkillLineData(50,"受傷時施放輔助,nil|熔岩護盾,nil|虛無玉,nil",nil,nil,nil)
 --SetNeedSkillLineData(70,"凋零之步,nil|恢復輔助,nil",nil,nil,nil)
 
 --刷圖串法
-SetNeedSkillLineData(100,"火焰陷阱,nil|陷阱及地雷傷害輔助,nil|極速苦痛輔助,nil|燃燒傷害輔助,nil|殘酷輔助,nil|啟發輔助,nil",nil,2,1)--3綠3紅-衣服
-SetNeedSkillLineData(98,"噴火陷阱,nil|陷阱及地雷傷害輔助,nil|進階陷阱輔助,nil|燃燒輔助,nil",nil,9,1)--3綠1藍-護手
-SetNeedSkillLineData(85,"熔岩護盾,nil|持續時間延長輔助,nil|啟發輔助,nil|恢復輔助,nil",nil,10,1)--3紅1綠-腳
-SetNeedSkillLineData(88,"受傷時施放輔助,nil|虛無玉,nil|啟發輔助,nil|烈焰衝刺,nil",nil,5,1)--2紅2藍-頭部
-SetNeedSkillLineData(90,"優雅,nil|迴旋之刃,nil",nil,3,1)--3綠-武器--剛進圖優雅先不開
+--SetNeedSkillLineData(100,"火焰陷阱,nil|陷阱及地雷傷害輔助,nil|極速苦痛輔助,nil|燃燒傷害輔助,nil|殘酷輔助,nil|啟發輔助,nil",nil,2,1)--3綠3紅-衣服
+--SetNeedSkillLineData(98,"噴火陷阱,nil|陷阱及地雷傷害輔助,nil|進階陷阱輔助,nil|燃燒輔助,nil",nil,9,1)--3綠1藍-護手
+--SetNeedSkillLineData(85,"熔岩護盾,nil|持續時間延長輔助,nil|啟發輔助,nil|恢復輔助,nil",nil,10,1)--3紅1綠-腳
+--SetNeedSkillLineData(88,"受傷時施放輔助,nil|虛無玉,nil|啟發輔助,nil|烈焰衝刺,nil",nil,5,1)--2紅2藍-頭部
+--SetNeedSkillLineData(90,"優雅,nil|迴旋之刃,nil",nil,3,1)--3綠-武器--剛進圖優雅先不開
 --等傳奇裝穿夠了 抗滿了才把元素淨化改探測機,再開優雅(光環開關在內置設定)
-SetNeedSkillLineData(96,"堅定,nil|元素淨化,nil|易燃,nil",nil,4,1)--1紅2藍-副手
+--SetNeedSkillLineData(96,"堅定,nil|元素淨化,nil|易燃,nil",nil,4,1)--1紅2藍-副手
 --主線孔色
---2为衣服
-SetZhengTiColorVarData(2,0,1,0,0,50,false)
-SetZhengTiColorVarData(2,0,2,0,0,100,true)
-SetZhengTiColorVarData(2,0,3,0,0,200,true)
-SetZhengTiColorVarData(2,1,3,0,0,250,true)
-SetZhengTiColorVarData(2,2,3,0,0,300,true)
-SetZhengTiColorVarData(2,3,3,0,0,750,true)--3綠3紅2
---3为主武器
-SetZhengTiColorVarData(3,0,1,0,0,5,false)
-SetZhengTiColorVarData(3,0,2,0,0,150,true)
-SetZhengTiColorVarData(3,1,2,0,0,250,true)--主手刷圖3綠
---4为副武器
-SetZhengTiColorVarData(4,1,0,0,0,50,false)
-SetZhengTiColorVarData(4,1,0,1,0,100,true)
-SetZhengTiColorVarData(4,1,0,2,0,250,true)
-SetZhengTiColorVarData(4,1,0,2,1,650,true)--1紅2藍-- 維多里奧的貢獻
---5为头盔
-SetZhengTiColorVarData(5,1,0,0,0,50,false)
-SetZhengTiColorVarData(5,1,0,1,0,100,true)
-SetZhengTiColorVarData(5,1,1,1,0,150,true)
-SetZhengTiColorVarData(5,1,0,2,0,250,true)
-SetZhengTiColorVarData(5,1,1,2,0,350,true)
-SetZhengTiColorVarData(5,2,0,2,0,450,true)
-SetZhengTiColorVarData(5,2,0,2,1,600,true)--2紅2藍--藍吉爾菲的榮光 力智
---9为护手
-SetZhengTiColorVarData(9,0,1,0,0,50,false)
-SetZhengTiColorVarData(9,0,1,1,0,100,true)
-SetZhengTiColorVarData(9,0,2,1,0,150,true)
-SetZhengTiColorVarData(9,0,3,1,0,300,true)
-SetZhengTiColorVarData(9,0,3,1,1,500,true)--3綠1藍
---10为鞋子
-SetZhengTiColorVarData(10,1,0,0,0,50,false)
-SetZhengTiColorVarData(10,2,0,0,0,100,true)
-SetZhengTiColorVarData(10,3,0,0,0,150,true)
-SetZhengTiColorVarData(10,3,0,1,0,250,true)
-SetZhengTiColorVarData(10,3,1,0,0,500,true)
-SetZhengTiColorVarData(10,3,1,0,1,700,true)--3紅1綠--迎暮
+
 
 --SetNeedSkillLineData(100,"正義之火,nil|元素集中輔助,nil|增加範圍輔助,nil|活栓輔助,nil|燃燒傷害輔助,nil|極速苦痛輔助,nil",nil,2,1)
 --SetNeedSkillLineData(95,"火焰陷阱,nil|活栓輔助,nil|極速苦痛輔助,nil|陷阱及地雷傷害輔助,nil",nil,9,1)
@@ -183,13 +147,9 @@ SetUseBuffSkill("清晰","clarity","清晰光環","player_aura_mana_regen")--
 
 --SetSkillLimitMaxLv(name,className,maxLv)--设置技能宝石最大等级 name=技能宝石物品名 className=技能宝石物品类名 maxLv=限制的最大等级
 
---SetSkillLimitMaxLv("暗影迷蹤","Metadata/Items/Gems/SkillGemPhaseRun",1)--暗影迷蹤不升級
---SetSkillLimitMaxLv("虛無玉,nil",1)--暗影迷蹤不升級
 SetSkillLimitMaxLv("虛無玉",nil,1)--暗影迷蹤不升級
---SetSkillLimitMaxLv("褻瀆","Metadata/Items/Gems/SkillGemDesecrate",1)--褻瀆不升級
-SetSkillLimitMaxLv("受傷時施放輔助",nil,1)--暗影迷蹤不升級
-SetSkillLimitMaxLv("清晰",nil,14)--清晰14等
---SetSkillLimitMaxLv("脆弱","Metadata/Items/Gems/SkillGemNewVulnerability",1)--暗影迷蹤不升級
+SetSkillLimitMaxLv("受傷時施放輔助",nil,1)
+SetSkillLimitMaxLv("熔岩護盾",nil,10)
 
 
 
