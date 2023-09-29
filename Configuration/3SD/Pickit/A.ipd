@@ -1707,7 +1707,7 @@
 	//手套																											
 //[Type] == "Iron Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Lochtonial Caress" && [ForceSellItem] == "true"	//意識之緣		賣出																									
 //[Type] == "Bronze Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Giantsbane" && [ForceSellItem] == "true"	//大屠殺		賣出																									
-[Type] == "Steel Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Meginord's Vise" && [StashItem] == "true"	//梅吉諾德的巨力腕甲		賣出																									
+//[Type] == "Steel Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Meginord's Vise" && [StashItem] == "true"	//梅吉諾德的巨力腕甲		賣出																									
 //[Type] == "Ancient Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Winds of Change" && [ForceSellItem] == "true"	//昇華之風		賣出																									
 //[Type] == "Ancient Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Hateforge" && [ForceSellItem] == "true"	//怨恨鍛造		賣出																									
 //[Type] == "Goliath Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Empire's Grasp" && [ForceSellItem] == "true"	//帝國之掌		賣出																									
