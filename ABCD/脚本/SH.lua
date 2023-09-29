@@ -10,7 +10,7 @@ end
 --SetTaskShengJiData(taskClassName,taskIndex,shengjiMapClassName,needLv)--设置跑图时升级 taskClassName=任务类名 taskIndex=任务索引 nil为忽略，只匹配任务类名 shengjiMapClassName=要刷的地图类名 needLv=升级到多少级为止
 SetTaskShengJiData("a5q7",nil,"1_5_5",46)--做 到奇塔弗的受难 的时候刷纯净圣地到50级再进行下一任务
 --SetTaskShengJiData("a5q7",nil,"1_5_7",46)--做 到奇塔弗的受难 的时候刷纯净圣地到50级再进行下一任务
-SetTaskShengJiData("a9q3",nil,"2_9_1",70)--滲血水道
+SetTaskShengJiData("a9q3",nil,"2_9_1",67)--滲血水道
 --1_5_5,無罪之室
 --1_5_7,聖物間
 --1_5_3b,大廣場廢墟
@@ -31,6 +31,8 @@ g_xiaoHaoGetZhuangBei=false		--挂机号向发装仓库号申请领高级换装中的装备 true为申
 --SetTaskMiGongData(taskClassName,taskIndex,migongIndex)--设置跑图时迷宫 taskClassName=任务类名 taskIndex=任务索引 nil为忽略，只匹配任务类名 migongIndex为迷宫索引填 1=第一次迷宫 2=第二次迷宫
 
 SetTaskMiGongDataByLv(50,1)--在复活的梦魇这个任务时 做迷宫1
+SetTaskMiGongDataByLv(70,2)--大于等于80级 做迷宫2
+SetTaskMiGongDataByLv(72,3)--大于等于80级 做迷宫3
 
 AddNeedBuySkillTime(1,"a1q2")--沖出監牢
 AddNeedBuySkillTime(1,"a1q4")--打破鳥蛋
