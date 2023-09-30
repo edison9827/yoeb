@@ -29,12 +29,12 @@ g_duobiHpVal=0.2
 --pos=指定位置 nil为自动选择 2为衣服 3为主武器 4为副武器 5为头盔 6为项链 7为左戒指 8为右戒指 9为护手 10为鞋子 11为腰带
 --nType 有效场景 nil为无论何时都有效 0为没在刷异界才有效 1为只在刷异界才有效
 
-SetNeedSkillLineData(94,"火砲砲塔,nil|凋零之觸輔助,nil|多重圖騰輔助,nil|快速攻擊輔助,nil",nil,nil,nil)
-SetNeedSkillLineData(95,"召喚閃電魔像,nil|受傷時施放輔助,nil|屍術傳送,nil|",nil,nil,nil)
-SetNeedSkillLineData(96,"鋼筋鐵骨,nil|元素淨化,nil|優雅,nil",nil,9,nil)
+SetNeedSkillLineData(94,"火砲砲塔,nil|元素攻擊傷害輔助,nil|附加冰冷傷害輔助,nil|快速攻擊輔助,nil",nil,5,nil)
+SetNeedSkillLineData(95,"熔岩護盾,nil|受傷時施放輔助,nil|烈焰衝刺,nil|虛無玉,nil",nil,nil,nil)
+SetNeedSkillLineData(96,"元素淨化,nil|優雅,nil|",nil,9,nil)
 SetNeedSkillLineData(97,"凋零之步,nil|狙擊者印記,nil|擊中時印記輔助,nil",nil,nil,nil)
 SetNeedSkillLineData(98,"彈片砲塔,nil|快速攻擊輔助,nil|猛毒投射物輔助,nil|齊射輔助,nil",30,nil,nil)
-SetNeedSkillLineData(99,"腐蝕箭矢,nil|虛空操縱輔助,nil|猛毒投射物輔助,nil|極速苦痛輔助,nil|集中效應輔助,nil|幻影射手輔助,nil|氣勢輔助,nil",nil,nil,nil)
+SetNeedSkillLineData(99,"腐蝕箭矢,nil|虛空操縱輔助,nil|猛毒投射物輔助,nil|極速苦痛輔助,nil|集中效應輔助,nil|幻影射手輔助,nil",nil,2,nil)
 SetNeedSkillLineData(100,"燃燒箭矢,nil|氣勢輔助,nil",2,nil,nil)
 
 --添加攻击技能 name=技能名 className=技能类名 noLine=不在直线就能攻击 挑选攻击技能会从上到下寻找，要把厉害的技能加在前面
@@ -46,9 +46,10 @@ AddAttackSkillData("普通攻击","melee")
 SetDebuffSkill(nil,"snipers_mark",nil,"curse_snipers_mark")--狙擊者印记
 
 --SetSkillLimitMaxLv(name,className,maxLv)--设置技能宝石最大等级 name=技能宝石物品名 className=技能宝石物品类名 maxLv=限制的最大等级
-SetSkillLimitMaxLv("鋼筋鐵骨",nil,10)
+SetSkillLimitMaxLv("熔岩護盾",nil,10)
 SetSkillLimitMaxLv("受傷時施放輔助",nil,1)
-SetSkillLimitMaxLv("屍術傳送",nil,1)
+SetSkillLimitMaxLv("烈焰衝刺",nil,1)
+SetSkillLimitMaxLv("虛無玉",nil,1)
 
 
 -- SetYiJieZhaoHuanLingTiData(mapClassName,name,className)--设置异界时召唤的灵体数据 mapClassName=剧情图类名 name=灵体名 className=灵体类名
@@ -155,8 +156,8 @@ AddShengJiZhuangBeiGoodsData("富豪石","Metadata/Items/Currency/CurrencyUpgradeMa
 SetGaoJiHuanZhuangData("游侠","简易之袍","Metadata/Items/Armours/BodyArmours/BodyInt1","无尽之衣","Tabula Rasa")
 SetGaoJiHuanZhuangData("游侠","金缕帽","Metadata/Items/Armours/Helmets/HelmetDex1","金缕帽","Goldrim",4,28)
 SetGaoJiHuanZhuangData("游侠","帝金護身符","Metadata/Items/Amulets/Amulet6","冬之心","Winterheart")
-SetGaoJiHuanZhuangData("游侠","鍛鐵戒指","Metadata/Items/Rings/Ring1","英靈寶環","Le Heup of All",nil,nil,nil,7)
-SetGaoJiHuanZhuangData("游侠","鍛鐵戒指","Metadata/Items/Rings/Ring1","英靈寶環","Le Heup of All",nil,nil,nil,8)
+--SetGaoJiHuanZhuangData("游侠","鍛鐵戒指","Metadata/Items/Rings/Ring1","英靈寶環","Le Heup of All",nil,nil,nil,7)
+--SetGaoJiHuanZhuangData("游侠","鍛鐵戒指","Metadata/Items/Rings/Ring1","英靈寶環","Le Heup of All",nil,nil,nil,8)
 SetGaoJiHuanZhuangData("游侠","皮革腰帶","Metadata/Items/Belts/Belt3","永生","Immortal Flesh")
 
 --SetTaskShengJiData(taskClassName,taskIndex,shengjiMapClassName,needLv)--设置跑图时升级 taskClassName=任务类名 taskIndex=任务索引 nil为忽略，只匹配任务类名 shengjiMapClassName=要刷的地图类名 needLv=升级到多少级为止
