@@ -944,7 +944,11 @@
 //			關閉																									
 //			關閉																									
 //	// 18F 藥水（預設關閉）			//																								
-//					下面這行可以預設物等																							
+//					下面這行可以預設物等
+[Type] == "Diamond Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		83			
+[Type] == "Jade Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//翠玉藥劑		存倉		83		
+//[Type] == "Amethyst Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		83	
+//[Type] == "Divine Life Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//不朽生命藥劑		存倉		83																				
 //[Type] == "Quicksilver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//水銀藥劑		存倉		83	83物品等級包含以上存倉																						
 //已設定不存倉	//黃金藥劑		賣出		85																							
 //已設定不存倉	//小型生命藥劑		賣出		85																							
@@ -956,8 +960,7 @@
 //已設定不存倉	//高階生命藥劑		賣出		85																							
 //已設定不存倉	//聖語生命藥劑		賣出		85																							
 //已設定不存倉	//祝福生命藥劑		賣出		85																							
-//已設定不存倉	//聖化生命藥劑		賣出		85																							
-//[Type] == "Divine Life Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//不朽生命藥劑		存倉		83																							
+//已設定不存倉	//聖化生命藥劑		賣出		85																																										
 //已設定不存倉	//永恆生命藥劑		賣出		85																							
 //已設定不存倉	//小型魔力藥劑		賣出		85																							
 //已設定不存倉	//中型魔力藥劑		賣出		85																							
@@ -978,16 +981,13 @@
 //已設定不存倉	//聖語複合藥劑		賣出		85																							
 //已設定不存倉	//祝福複合藥劑		賣出		85																							
 //已設定不存倉	//灰岩藥劑		賣出		85																							
-//已設定不存倉	//迷霧藥劑		賣出		85																							
-//[Type] == "Amethyst Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		83																							
+//已設定不存倉	//迷霧藥劑		賣出		85																																													
 //已設定不存倉	//紅玉藥劑		賣出		85																							
 //已設定不存倉	//藍玉藥劑		賣出		85																							
 //已設定不存倉	//黃玉藥劑		賣出		85																							
 //[Type] == "Silver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//真銀藥劑		存倉		83																																														
-//已設定不存倉	//海藍藥劑		賣出		85																							
-//[Type] == "Diamond Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		83																							
-//[Type] == "Granite Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//堅岩藥劑		存倉		83																																													
-//[Type] == "Jade Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//翠玉藥劑		存倉		83																							
+//已設定不存倉	//海藍藥劑		賣出		85																																											
+//[Type] == "Granite Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//堅岩藥劑		存倉		83																																																																			
 //已設定不存倉	//石英藥劑		賣出		85																							
 //已設定不存倉	//硫磺藥劑		賣出		85																							
 //已設定不存倉	//石化藥劑		賣出		85	
@@ -1467,8 +1467,8 @@
 //[Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Replica Alpha's Howl" && [ForceSellItem] == "true"	//贗品．極地之嗥		賣出																									
 //[Type] == "Lion Pelt" && [Rarity] == "Unique" # [UniqueName] == "Obscurantis" && [ForceSellItem] == "true"	//朦朧詭面		賣出																									
 //[Type] == "Vine Circlet" && [Rarity] == "Unique" # [UniqueName] == "Crown of Thorns" && [ForceSellItem] == "true"	//刺棘之冠		賣出																									
-[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Mark" && [StashItem] == "true"	//安賽娜絲的迅敏之冠		存倉																									
-[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Chant" && [StashItem] == "true"	//安賽娜絲的歌頌		存倉																									
+//[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Mark" && [StashItem] == "true"	//安賽娜絲的迅敏之冠		存倉																									
+//[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Chant" && [StashItem] == "true"	//安賽娜絲的歌頌		存倉																									
 //[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wreath of Phrecia" && [ForceSellItem] == "true"	//費西亞之環		賣出																									
 //[Type] == "Tribal Circlet" && [Rarity] == "Unique" # [UniqueName] == "Mark of the Red Covenant" && [ForceSellItem] == "true"	//焰首支環		賣出																									
 //[Type] == "Bone Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wraithlord" && [ForceSellItem] == "true"	//憤靈郡主		賣出																									
