@@ -1,0 +1,32 @@
+//.aoc names:
+// already filtered with special built-in conditions.
+
+//======================================== KEEP:
+
+//exclude some interesting models and spells, just in case they're important:
+!/orion
+!spell
+!portal
+
+//fixes:
+!cospri
+!InnsburyEdgeHeld
+!Sunrise_Shield
+
+//3.18: now uniq bodyarmours have the same paths as mtx:
+!items/armours/bodyarmours
+
+//======================================== REMOVE:
+
+//remove generic MTX:
+microtransaction
+/mtx/
+
+//remove misc MTX models:
+/wings/
+/capes/
+attachment
+
+//we can't remove "held.aoc" MTX because GGG named some random equipped items as "xxx_held.aoc" too.
+
+//no need to specify pets, there're already some built-in rules.

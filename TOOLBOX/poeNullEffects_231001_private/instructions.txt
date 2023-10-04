@@ -1,0 +1,11 @@
+Instructions:
+0. Unzip .7z, start .exe.
+1. The app might request path to your compression library. If you have no required .dll, input its name in Google Search and decide how to get it by yourself. I can't distribute that file.
+2. Input your registered e-mail in the "Setup" window, press "Ok".
+3. Input path to your PoE.exe, press  "Open", wait 5-10 seconds.
+5. Switch the slider to any position you need (I prefer preset #2: "Boost for humans. Potato mode").
+6. Press "Apply" button, wait 30-60 seconds until it's "Done".
+
+Notes:
+# GGG can change files during patches. In this scenario run the app and press "Apply" again.
+# You can check "Menu -> Read Guide" if you really want to make some special modifications.
