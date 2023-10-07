@@ -1555,7 +1555,7 @@
 //[Type] == "Crusader Plate" && [Rarity] == "Unique" # [UniqueName] == "The Iron Fortress" && [ForceSellItem] == "true"	//鋼鐵壁壘		賣出																									
 //[Type] == "Astral Plate" && [Rarity] == "Unique" # [UniqueName] == "Death's Oath" && [ForceSellItem] == "true"	//冥使之體		賣出																									
 //[Type] == "Astral Plate" && [Rarity] == "Unique" # [UniqueName] == "Blunderbore" && [ForceSellItem] == "true"	//失誤之孔		賣出																									
-[Type] == "Gladiator Plate" && [Rarity] == "Unique" # [UniqueName] == "The Brass Dome" && [StashItem] == "true"	//堅銅戰罩		存倉																									
+//[Type] == "Gladiator Plate" && [Rarity] == "Unique" # [UniqueName] == "The Brass Dome" && [StashItem] == "true"	//堅銅戰罩		存倉																									
 //[Type] == "Glorious Plate" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Heart" && [ForceSellItem] == "true"	//岡姆的壯志		賣出																									
 //[Type] == "Glorious Plate" && [Rarity] == "Unique" # [UniqueName] == "Perfidy" && [ForceSellItem] == "true"	//背信忘義		賣出																									
 //[Type] == "Glorious Plate" && [Rarity] == "Unique" # [UniqueName] == "Replica Kaom's Heart" && [ForceSellItem] == "true"	//贗品．岡姆的壯志		賣出																									
@@ -1853,9 +1853,9 @@
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Gifts from Above" && [ForceSellItem] == "true"	//神賜		賣出																									
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Romira's Banquet" && [ForceSellItem] == "true"	//羅米拉的潛力之環		賣出																									
 [Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && [StashItem] == "true"	//貝雷克的火與雷之樂		存倉																									
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [StashItem] == "true"	//貝雷克的冰與雷之曲		存倉																									
+//[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [StashItem] == "true"	//貝雷克的冰與雷之曲		存倉																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Call of the Brotherhood" && [StashItem] == "true"	//意志呼喚		存倉																									
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [StashItem] == "true"	//貝雷克的冰與火之歌		存倉																									
+//[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [StashItem] == "true"	//貝雷克的冰與火之歌		存倉																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Rigwald's Crest" && [ForceSellItem] == "true"	//瑞佛之冠		賣出																									
 //[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Voideye" && [ForceSellItem] == "true"	//虛空慧眼		賣出																									
 //[Type] == "Unset Ring" && [Rarity] == "Unique" # [UniqueName] == "Malachai's Artifice" && [ForceSellItem] == "true"	//瑪拉凱的巧技		賣出																									
@@ -2125,17 +2125,17 @@
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Stormshroud" && [StashItem] == "true"	//風暴籠罩		存倉																									
 [Type] == "Viridian Jewel" && [Rarity] == "Unique" # [UniqueName] == "Ancestral Vision" && [StashItem] == "true"	//先祖預視		存倉																									
 	//鈷藍珠寶		存倉																									
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "To Dust" && [StashItem] == "true"	//塵埃落定		存倉																									
+//[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "To Dust" && [StashItem] == "true"	//塵埃落定		存倉																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fertile Mind" && [ForceSellItem] == "true"	//豐富心靈		賣出																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Brute Force Solution" && [ForceSellItem] == "true"	//蠻力衝撞		賣出																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fevered Mind" && [ForceSellItem] == "true"	//狂熱之心		賣出																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Powerlessness" && [ForceSellItem] == "true"	//無力		賣出																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Energy From Within" && [ForceSellItem] == "true"	//潛能防護		賣出																									
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Healthy Mind" && [StashItem] == "true"	//靈體轉換		存倉																									
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Dead Reckoning" && [StashItem] == "true"	//死亡清算		存倉																									
+//[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Healthy Mind" && [StashItem] == "true"	//靈體轉換		存倉																									
+//[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Dead Reckoning" && [StashItem] == "true"	//死亡清算		存倉																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Reckless Defence" && [ForceSellItem] == "true"	//魯莽防禦		賣出																									
 [Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Emperor's Wit" && [StashItem] == "true"	//帝王的智慧		存倉																									
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Unending Hunger" && [StashItem] == "true"	//無盡飢餓		存倉																									
+//[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Unending Hunger" && [StashItem] == "true"	//無盡飢餓		存倉																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Primordial Harmony" && [ForceSellItem] == "true"	//先祖和諧		賣出																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Blue Dream" && [ForceSellItem] == "true"	//碧影夢境		賣出																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Blue Nightmare" && [ForceSellItem] == "true"	//碧影夢魘		賣出																									
@@ -2146,7 +2146,7 @@
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Soul's Wick" && [ForceSellItem] == "true"	//魂靈之芯		賣出																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Tempered Mind" && [ForceSellItem] == "true"	//冶鍊之意		賣出																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Transcendent Mind" && [ForceSellItem] == "true"	//超凡之意		賣出																									
-[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fortress Covenant" && [StashItem] == "true"	//堅壁誓約		存倉																									
+//[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Fortress Covenant" && [StashItem] == "true"	//堅壁誓約		存倉																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Replica Reckless Defence" && [ForceSellItem] == "true"	//贗品．魯莽防禦		賣出																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Endless Misery" && [ForceSellItem] == "true"	//無盡謎團		賣出																									
 //[Type] == "Cobalt Jewel" && [Rarity] == "Unique" # [UniqueName] == "Apex Mode" && [ForceSellItem] == "true"	//巔峰模式		賣出																									
