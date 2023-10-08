@@ -918,7 +918,7 @@
 [Type] == "Mortal Hope" # [StashItem] == "true" //	//凡人的希望		存倉																									
 //																												
 [Type] == "Incandescent Invitation" # [StashItem] == "true" //	//熾熱之邀		存倉																									
-[Type] == "Polaric Invitation" # [StashItem] == "true" //	//極地之邀		存倉																									
+//[Type] == "Polaric Invitation" # [StashItem] == "true" //	//極地之邀		存倉																									
 [Type] == "Screaming Invitation" # [StashItem] == "true" //	//尖嘯之邀		存倉																									
 [Type] == "Writhing Invitation" # [ForceSellItem] == "true" //	//纏繞之邀		賣出																									
 //																												
