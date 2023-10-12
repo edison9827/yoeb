@@ -128,7 +128,7 @@
 //[Type] == "Delirious Scouting Report" # [StashItem] == "true" //	//譫妄偵查報告		存倉																									
 //[Type] == "Operative's Scouting Report" # [StashItem] == "true" //	//技工偵查報告		存倉																									
 //[Type] == "Blighted Scouting Report" # [StashItem] == "true" //	//凋落偵查報告		存倉																									
-[Type] == "Influenced Scouting Report" # [StashItem] == "true" //	//勢力偵查報告		存倉																									
+//[Type] == "Influenced Scouting Report" # [StashItem] == "true" //	//勢力偵查報告		存倉																									
 //[Type] == "Explorer's Scouting Report" # [StashItem] == "true" //	//探險家偵查報告		存倉																									
 //[Type] == "Surveyors Compass" # [StashItem] == "true" //	//測量員的羅盤		存倉																									
 //[Type] == "Charged Compass" # [StashItem] == "true" //	//充能的羅盤		存倉																									
@@ -856,47 +856,56 @@
 [Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉
-[Type]== "Sulphur Vents Map" # [ForceSellItem] == "true" //賣出 硫磺蝕岸	
-[Type]== "Carcass Map" # [ForceSellItem] == "true" //賣出 惡臭屍域
-[Type]== "Vault Map" # [ForceSellItem] == "true" //賣出 魔金寶庫
-[Type]== "Excavation Map" # [ForceSellItem] == "true" //賣出 挖掘場
-[Type]== "Courthouse Map" # [ForceSellItem] == "true" //賣出 失序教院
-[Type]== "Summit Map" # [ForceSellItem] == "true" //賣出 寒頂之巔
-[Type]== "Basilica Map" # [ForceSellItem] == "true" //賣出 聖殿
-[Type]== "Racecourse Map" # [ForceSellItem] == "true" //賣出 古競速場
-[Type]== "Underground Sea Map" # [ForceSellItem] == "true" //賣出 濱海幽穴
-[Type]== "Arachnid Nest Map" # [ForceSellItem] == "true" //賣出 異蛛巢穴
-[Type]== "Tower Map" # [ForceSellItem] == "true" //賣出 闇獄尖塔
-[Type]== "Flooded Mine Map" # [ForceSellItem] == "true" //賣出 洪災礦坑
-[Type]== "Haunted Mansion Map" # [ForceSellItem] == "true" //賣出 幽魂宅邸
-[Type]== "Orchard Map" # [ForceSellItem] == "true" //賣出 密林果園
-[Type]== "Colonnade Map" # [ForceSellItem] == "true" //賣出 激戰柱廊
-[Type]== "Necropolis Map" # [ForceSellItem] == "true" //賣出 魔影墓場
-[Type]== "Lava Lake Map" # [ForceSellItem] == "true" //賣出 岩漿熔湖
-[Type]== "Reef Map" # [ForceSellItem] == "true" //賣出 危機海礁
-[Type]== "Siege Map" # [ForceSellItem] == "true" //賣出 禁斷圍城
-[Type]== "Ivory Temple Map" # [ForceSellItem] == "true" //賣出 象牙神殿
-[Type]== "Geode Map" # [ForceSellItem] == "true" //賣出 詭譎晶洞
-[Type]== "Caldera Map" # [ForceSellItem] == "true" //賣出 火山炎口
-[Type]== "Wharf Map" # [ForceSellItem] == "true" //賣出 毒牙海港
-[Type]== "Mud Geyser Map" # [ForceSellItem] == "true" //賣出 陰晦泥灘
-[Type]== "Silo Map" # [ForceSellItem] == "true" //賣出 儲物倉
-[Type]== "Mausoleum Map" # [ForceSellItem] == "true" //賣出 靜縊陵墓
-[Type]== "Dungeon Map" # [ForceSellItem] == "true" //賣出 禁魂炎獄
-[Type]== "Glacier Map" # [ForceSellItem] == "true" //賣出 冰川山丘
-[Type]== "Palace Map" # [ForceSellItem] == "true" //賣出 神域之殿
-[Type]== "Temple Map" # [ForceSellItem] == "true" //賣出 奪魂之殿
-[Type]== "Spider Forest Map" # [ForceSellItem] == "true" //賣出 巨蛛之林
-[Type]== "Colosseum Map" # [ForceSellItem] == "true" //賣出 大決鬥場
-[Type]== "Infested Valley Map" # [ForceSellItem] == "true" //賣出 病疫林谷
-[Type]== "Maze Map" # [ForceSellItem] == "true" //賣出 冥神之域
-[Type]== "Phantasmagoria Map" # [ForceSellItem] == "true" //賣出 魔靈幻獄
-[Type]== "Coves Map" # [ForceSellItem] == "true" //賣出 疾風峽灣
-[Type]== "Museum Map" # [ForceSellItem] == "true" //賣出 古博物館
-[Type]== "Sunken City Map" # [ForceSellItem] == "true" //賣出 亞特蘭提斯
-[Type]== "Fungal Hollow Map" # [ForceSellItem] == "true" //賣出 毒菌魔域
-[Type]== "Underground River Map" # [ForceSellItem] == "true" //賣出 地底之河
-[Type]== "Channel Map" # [ForceSellItem] == "true" //賣出 秘密通道
+[Type] == "City Square Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//危城賣稀有
+[Type] == "Sulphur Vents Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Sulphur Vents Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Carcass Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Carcass Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Vault Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Vault Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Excavation Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Excavation Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Courthouse Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Courthouse Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Summit Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Summit Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Basilica Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Basilica Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Racecourse Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Racecourse Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Underground Sea Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Underground Sea Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Arachnid Nest Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Arachnid Nest Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Tower Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Tower Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Flooded Mine Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Flooded Mine Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Haunted Mansion Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Haunted Mansion Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Orchard Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Orchard Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Colonnade Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Colonnade Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Necropolis Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Necropolis Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Lava Lake Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Lava Lake Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Reef Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Reef Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Siege Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Siege Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Ivory Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Ivory Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Geode Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Geode Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Caldera Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Caldera Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Wharf Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Wharf Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Mud Geyser Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Mud Geyser Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[
 
 
 
@@ -1680,7 +1689,7 @@
 //[Type] == "Serpentscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Mutewind Whispersteps" && [ForceSellItem] == "true"	//啞風輕步		賣出																									
 //[Type] == "Wyrmscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Legacy of Fury" && [ForceSellItem] == "true"	//傳承憤怒		賣出																									
 //[Type] == "Hydrascale Boots" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Talons" && [ForceSellItem] == "true"	//斯卡沃鷹爪		賣出																									
-//[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Darkray Vectors" && [StashItem] == "true"	//暗雷		存倉																									
+[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Darkray Vectors" && [StashItem] == "true"	//暗雷		存倉																									
 //[Type] == "Dragonscale Boots" && [Rarity] == "Unique" # [UniqueName] == "Annihilation's Approach" && [ForceSellItem] == "true"	//殲滅的方法		賣出																									
 //[Type] == "Mesh Boots" && [Rarity] == "Unique" # [UniqueName] == "Wake of Destruction" && [ForceSellItem] == "true"	//覆滅之兆		賣出																									
 //[Type] == "Riveted Boots" && [Rarity] == "Unique" # [UniqueName] == "Ralakesh's Impatience" && [StashItem] == "true"	//芮勒蓋許的急躁		存倉																									
@@ -1756,7 +1765,7 @@
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Volkuur's Guidance" && [ForceSellItem] == "true"	//福庫爾的指引		賣出																									
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Replica Volkuur's Guidance" && [ForceSellItem] == "true"	//贗品．福庫爾的指引		賣出																									
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hand of the Fervent" && [ForceSellItem] == "true"	//熱情之手		賣出																									
-//[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Southbound" && [StashItem] == "true"	//南方		賣出																									
+[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Southbound" && [StashItem] == "true"	//南方		賣出																									
 //[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Winds" && [ForceSellItem] == "true"	//斯卡沃之翼		賣出																									
 //[Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Null and Void" && [ForceSellItem] == "true"	//虛空		賣出																									
 //[Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Offering to the Serpent" && [ForceSellItem] == "true"	//蛇皮獻祭		賣出																									
