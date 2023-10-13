@@ -856,7 +856,7 @@
 [Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉
-[Type] == "City Square Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//危城賣稀有
+//[Type] == "City Square Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//危城賣稀有
 [Type] == "Sulphur Vents Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
 [Type] == "Sulphur Vents Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
 [Type] == "Carcass Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
