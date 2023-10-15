@@ -1,1 +1,1 @@
-rasdial 宽带连接 T1210239 cm3tct3j 
+rasdial 宽带连接 76426119@hinet.net dxezgitm
