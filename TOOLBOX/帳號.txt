@@ -4,3 +4,4 @@
 祖靈_食材魔法使紀
 祖靈_料理創意家卡
 http://www.netikus.net/show_ip.html
+timeout 
