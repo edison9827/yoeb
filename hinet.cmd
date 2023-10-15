@@ -1,3 +1,3 @@
-rasdial Â¿Ã­Â´Ã¸ÃÂ¬Â½Ã“ T1210239 cm3tct3j
+rasdial ¿í´øÁ¬½Ó T1210239 cm3tct3j
 ipconfig
-TIMEOUT /T 1000
+TIMEOUT /T 10
