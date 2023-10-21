@@ -1,1 +1,1 @@
-rasdial PPPOE T1210239 cm3tct3j
+rasdial ¿í´øÁ¬½Ó T1210239 cm3tct3j
