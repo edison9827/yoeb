@@ -862,6 +862,7 @@
 [Type]== "Excavation Map" # [ForceSellItem] == "true" //賣出 挖掘場
 [Type]== "Courthouse Map" # [ForceSellItem] == "true" //賣出 失序教院
 [Type] == "City Square Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//危城賣稀有
+[Type] == "Crimson Temple Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//緋紅賣稀有
 [Type] == "Sulphur Vents Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
 [Type] == "Sulphur Vents Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
 [Type] == "Carcass Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
