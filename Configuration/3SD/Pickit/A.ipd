@@ -50,18 +50,18 @@
 [Type] == "Fracturing Orb" # [StashItem] == "true" //	//破裂石		存倉																									
 //	//常用通貨		存倉																									
 [Type] == "Chaos Orb" # [StashItem] == "true" //	//混沌石		存倉																									
-[Type] == "Jeweller's Orb" # [StashItem] == "true" //	//工匠石		存倉																									
+//[Type] == "Jeweller's Orb" # [StashItem] == "true" //	//工匠石		存倉																									
 //此通貨不撿	//點金石		賣出																									
-[Type] == "Orb of Alteration" # [StashItem] == "true" //	//改造石		存倉																									
+//[Type] == "Orb of Alteration" # [StashItem] == "true" //	//改造石		存倉																									
 //[Type] == "Orb of Transmutation" # [StashItem] == "true" //	//蛻變石		存倉																									
 [Type] == "Orb of Augmentation" # [StashItem] == "true" //	//增幅石		存倉																									
-[Type] == "Orb of Chance" # [StashItem] == "true" //	//機會石		存倉																									
+//[Type] == "Orb of Chance" # [StashItem] == "true" //	//機會石		存倉																									
 [Type] == "Orb of Fusing" # [StashItem] == "true" //	//鏈結石		存倉																									
 [Type] == "Orb of Regret" # [StashItem] == "true" //	//後悔石		存倉																									
-[Type] == "Orb of Scouring" # [StashItem] == "true" //	//重鑄石		存倉																									
+//[Type] == "Orb of Scouring" # [StashItem] == "true" //	//重鑄石		存倉																									
 [Type] == "Regal Orb" # [StashItem] == "true" //	//富豪石		存倉																									
 [Type] == "Vaal Orb" # [StashItem] == "true" //	//瓦爾寶珠		存倉																									
-[Type] == "Cartographer's Chisel" # [StashItem] == "true" //	//製圖釘		存倉																									
+//[Type] == "Cartographer's Chisel" # [StashItem] == "true" //	//製圖釘		存倉																									
 [Type] == "Orb of Horizons" # [StashItem] == "true" //	//地平石		存倉																									
 [Type] == "Harbinger's Orb" # [StashItem] == "true" //	//神諭石		存倉																									
 //此通貨不撿	//工程石		賣出																									
@@ -71,7 +71,7 @@
 [Type] == "Blessed Orb" # [StashItem] == "true" //	//祝福石		存倉																									
 [Type] == "Gemcutter's Prism" # [StashItem] == "true" //	//寶石匠的稜鏡		存倉																									
 //此通貨不撿	//束縛石		賣出																									
-[Type] == "Chromatic Orb" # [StashItem] == "true" //	//幻色石		存倉																									
+//[Type] == "Chromatic Orb" # [StashItem] == "true" //	//幻色石		存倉																									
 [Type] == "Orb of Unmaking" # [StashItem] == "true" //	//撤銷石		存倉																									
 //	//其他通貨		存倉																									
 //此通貨不撿	//點金石碎片		賣出																									
