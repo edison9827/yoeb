@@ -1891,7 +1891,8 @@
 //[Type] == "Opal Ring" && [Rarity] == "Unique" # [UniqueName] == "Stormfire" && [ForceSellItem] == "true"	//烈風暴		賣出																									
 //[Type] == "Opal Ring" && [Rarity] == "Unique" # [UniqueName] == "Mark of the Shaper" && [ForceSellItem] == "true"	//塑者之印		賣出																									
 //[Type] == "Opal Ring" && [Rarity] == "Unique" # [UniqueName] == "Polaric Devastation" && [ForceSellItem] == "true"	//極地毀滅		賣出																									
-[Type] == "Touch Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's" && [StashItem] == "true"	//卡蘭德之觸		存倉																									
+//[Type] == "Touch Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's" && [StashItem] == "true"	//卡蘭德之觸		存倉
+[Type] == "Touch Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's Touch" && [StashItem] == "true" //卡蘭德之觸  存倉---修改
 	//項鍊		賣出																									
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Atziri's Foible" && [ForceSellItem] == "true"	//阿茲里聖徽		賣出																									
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Sidhebreath" && [ForceSellItem] == "true"	//魔靈之符		賣出																									
