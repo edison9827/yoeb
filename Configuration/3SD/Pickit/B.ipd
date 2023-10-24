@@ -50,18 +50,18 @@
 [Type] == "Fracturing Orb" # [StashItem] == "true" //	//破裂石		存倉																									
 //	//常用通貨		存倉																									
 [Type] == "Chaos Orb" # [StashItem] == "true" //	//混沌石		存倉																									
-[Type] == "Jeweller's Orb" # [StashItem] == "true" //	//工匠石		存倉																									
+//[Type] == "Jeweller's Orb" # [StashItem] == "true" //	//工匠石		存倉																									
 //此通貨不撿	//點金石		賣出																									
-[Type] == "Orb of Alteration" # [StashItem] == "true" //	//改造石		存倉																									
+//[Type] == "Orb of Alteration" # [StashItem] == "true" //	//改造石		存倉																									
 //[Type] == "Orb of Transmutation" # [StashItem] == "true" //	//蛻變石		存倉																									
 [Type] == "Orb of Augmentation" # [StashItem] == "true" //	//增幅石		存倉																									
-[Type] == "Orb of Chance" # [StashItem] == "true" //	//機會石		存倉																									
+//[Type] == "Orb of Chance" # [StashItem] == "true" //	//機會石		存倉																									
 [Type] == "Orb of Fusing" # [StashItem] == "true" //	//鏈結石		存倉																									
 [Type] == "Orb of Regret" # [StashItem] == "true" //	//後悔石		存倉																									
-[Type] == "Orb of Scouring" # [StashItem] == "true" //	//重鑄石		存倉																									
+//[Type] == "Orb of Scouring" # [StashItem] == "true" //	//重鑄石		存倉																									
 [Type] == "Regal Orb" # [StashItem] == "true" //	//富豪石		存倉																									
 [Type] == "Vaal Orb" # [StashItem] == "true" //	//瓦爾寶珠		存倉																									
-[Type] == "Cartographer's Chisel" # [StashItem] == "true" //	//製圖釘		存倉																									
+//[Type] == "Cartographer's Chisel" # [StashItem] == "true" //	//製圖釘		存倉																									
 [Type] == "Orb of Horizons" # [StashItem] == "true" //	//地平石		存倉																									
 [Type] == "Harbinger's Orb" # [StashItem] == "true" //	//神諭石		存倉																									
 //此通貨不撿	//工程石		賣出																									
@@ -71,7 +71,7 @@
 [Type] == "Blessed Orb" # [StashItem] == "true" //	//祝福石		存倉																									
 [Type] == "Gemcutter's Prism" # [StashItem] == "true" //	//寶石匠的稜鏡		存倉																									
 //此通貨不撿	//束縛石		賣出																									
-[Type] == "Chromatic Orb" # [StashItem] == "true" //	//幻色石		存倉																									
+//[Type] == "Chromatic Orb" # [StashItem] == "true" //	//幻色石		存倉																									
 [Type] == "Orb of Unmaking" # [StashItem] == "true" //	//撤銷石		存倉																									
 //	//其他通貨		存倉																									
 //此通貨不撿	//點金石碎片		賣出																									
@@ -119,7 +119,7 @@
 [Type] == "Magmatic Ore" # [StashItem] == "true" //	//岩漿礦		存倉																									
 //[Type] == "Rogue's Marker" # [StashItem] == "true" //	//盜賊之印		存倉																									
 //[Type] == "Divine Vessel" # [StashItem] == "true" //	//眾神聖器		存倉																									
-//[Type] == "Silver Coin" # [StashItem] == "true" //	//銀幣		存倉																									
+[Type] == "Silver Coin" # [StashItem] == "true" //	//銀幣		存倉																									
 //	//基拉克記憶																											
 [Type] == "Singular Scouting Report" # [ForceSellItem] == "true" //	//卓越偵查報告		存倉																									
 [Type] == "Otherworldly Scouting Report" # [ForceSellItem] == "true" //	//超凡偵查報告		存倉																									
@@ -863,7 +863,7 @@
 [Type]== "Courthouse Map" # [ForceSellItem] == "true" //賣出 失序教院
 [Type] == "City Square Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//危城賣稀有
 //[Type] == "Crimson Temple Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//緋紅賣稀有
-//[Type] == "Sulphur Vents Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Sulphur Vents Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
 [Type] == "Sulphur Vents Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
 [Type] == "Carcass Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
 [Type] == "Carcass Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
@@ -1891,7 +1891,8 @@
 //[Type] == "Opal Ring" && [Rarity] == "Unique" # [UniqueName] == "Stormfire" && [ForceSellItem] == "true"	//烈風暴		賣出																									
 //[Type] == "Opal Ring" && [Rarity] == "Unique" # [UniqueName] == "Mark of the Shaper" && [ForceSellItem] == "true"	//塑者之印		賣出																									
 //[Type] == "Opal Ring" && [Rarity] == "Unique" # [UniqueName] == "Polaric Devastation" && [ForceSellItem] == "true"	//極地毀滅		賣出																									
-[Type] == "Touch Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's" && [StashItem] == "true"	//卡蘭德之觸		存倉																									
+//[Type] == "Touch Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's" && [StashItem] == "true"	//卡蘭德之觸		存倉
+[Type] == "Touch Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's Touch" && [StashItem] == "true" //卡蘭德之觸  存倉---修改
 	//項鍊		賣出																									
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Atziri's Foible" && [ForceSellItem] == "true"	//阿茲里聖徽		賣出																									
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Sidhebreath" && [ForceSellItem] == "true"	//魔靈之符		賣出																									
@@ -2210,7 +2211,8 @@
 [Type] == "Kiloava's Bluster Ironwood Buckler" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//奇洛瓦的咆哮 鋼木輕盾		存倉																									
 [Type] == "Maata's Teaching Karui Sceptre" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//瑪塔的教導 卡魯權杖		存倉																									
 [Type] == "Rakiata's Dance Engraved Greatsword" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//拉奇塔之舞 符文巨劍		存倉																									
-[Type] == "Replica Dragonfang's Flight Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//贗品龍牙翱翔 黑曜護身符		存倉																									
+//[Type] == "Replica Dragonfang's Flight Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//贗品龍牙翱翔 黑曜護身符		存倉
+[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Dragonfang's Flight" && [StashItem] == "true" //龍牙
 [Type] == "Tawhanuku's Timing Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//塔瓦庫努的時機 月光石戒指		存倉																									
 [Type] == "Utula's Hunger Majestic Plate" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//奇塔弗的飢餓 莊嚴之鎧		存倉																									
 [Type] == "Warrior's Tale Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//戰士之訴 赤紅珠寶		存倉
