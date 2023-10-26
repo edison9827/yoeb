@@ -12,6 +12,20 @@ PlayAlertSound 2 300
 PlayEffect Yellow
 MinimapIcon 1 Yellow Pentagon
 
+Hide # $type->jewels->clustereco $tier->n8_i75_t2
+ItemLevel < 84
+Rarity Normal Magic Rare
+EnchantmentPassiveNum 12
+BaseType == "Large Cluster Jewel"
+EnchantmentPassiveNode "physical damage" "minion damage" "Damage with Two Handed Weapons"  "axe and sword damage" "mace and staff damage" "dagger and claw damage" "wand damage" "attack damage while dual wielding" "attack damage while holding a shield" "attack damage" "spell damage" "elemental damage" "fire damage" "lightning damage"
+SetFontSize 45
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 240 100 0 255
+PlayAlertSound 2 300
+PlayEffect Yellow
+MinimapIcon 1 Yellow Pentagon
+
 
 # Script edited with Filtration - https://github.com/ben-wallis/Filtration
 # EnableBlockGroups
