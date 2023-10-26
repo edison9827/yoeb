@@ -871,6 +871,8 @@
 [Type] == "Vault Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
 [Type] == "Excavation Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
 [Type] == "Excavation Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Infested Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Infested Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
 [Type] == "Courthouse Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
 [Type] == "Courthouse Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
 [Type] == "Summit Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
@@ -911,6 +913,25 @@
 [Type] == "Wharf Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
 [Type] == "Mud Geyser Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
 [Type] == "Mud Geyser Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Glacier Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Glacier Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Mausoleum Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Mausoleum Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Maze Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Maze Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Coves Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Coves Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Spider Forest Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Spider Forest Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Fungal Hollow Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Fungal Hollow Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Dungeon Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Dungeon Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Colosseum Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Colosseum Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+
 
 
 
