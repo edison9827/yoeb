@@ -3,7 +3,7 @@ ItemLevel >= 75
 Rarity Normal Magic Rare
 EnchantmentPassiveNum 8
 BaseType == "Large Cluster Jewel"
-EnchantmentPassiveNode "Damage with Two Handed Weapons"  "axe and sword damage" "mace and staff damage" "dagger and claw damage" "wand damage" "attack damage while dual wielding" "attack damage while holding a shield" "attack damage" "spell damage" "elemental damage" "fire damage" "lightning damage"
+EnchantmentPassiveNode "Damage with Two Handed Weapons"  "axe and sword damage" "dagger and claw damage" "wand damage" "attack damage while dual wielding" "attack damage while holding a shield" "attack damage" "spell damage" "elemental damage" "fire damage" "lightning damage"
 SetFontSize 45
 SetTextColor 255 255 255 255
 SetBorderColor 255 255 255 255
