@@ -119,7 +119,7 @@
 [Type] == "Magmatic Ore" # [StashItem] == "true" //	//岩漿礦		存倉																									
 //[Type] == "Rogue's Marker" # [StashItem] == "true" //	//盜賊之印		存倉																									
 //[Type] == "Divine Vessel" # [StashItem] == "true" //	//眾神聖器		存倉																									
-[Type] == "Silver Coin" # [StashItem] == "true" //	//銀幣		存倉																									
+[Type] == "Silver Coin" # [ForceSellItem] == "true" //	//銀幣		存倉																									
 //	//基拉克記憶																											
 [Type] == "Singular Scouting Report" # [ForceSellItem] == "true" //	//卓越偵查報告		存倉																									
 [Type] == "Otherworldly Scouting Report" # [ForceSellItem] == "true" //	//超凡偵查報告		存倉																									
@@ -1156,7 +1156,7 @@
 //[Type] == "Boot Blade" && [Rarity] == "Unique" # [UniqueName] == "Widowmaker" && [ForceSellItem] == "true"	//寡婦 戰亂劍		賣出																									
 //[Type] == "Royal Skean" && [Rarity] == "Unique" # [UniqueName] == "Heartbreaker" && [ForceSellItem] == "true"	//裂心刃 皇家雙刃匕		賣出																									
 //[Type] == "Royal Skean" && [Rarity] == "Unique" # [UniqueName] == "Replica Heartbreaker" && [ForceSellItem] == "true"	//贗品．裂心刃 皇家雙刃匕		賣出																									
-//[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [UniqueName] == "The Consuming Dark" && [ForceSellItem] == "true"	//蠶食之闇 妖魔短匕		賣出																									
+[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [UniqueName] == "The Consuming Dark" && [StashItem] == "true"	//蠶食之闇 妖魔短匕		賣出																									
 //[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [UniqueName] == "Arakaali's Fang" && [StashItem] == "true"	//艾爾卡莉之牙 妖魔短匕		存倉																									
 //[Type] == "Slaughter Knife" && [Rarity] == "Unique" # [UniqueName] == "Bino's Kitchen Knife" && [ForceSellItem] == "true"	//比諾的廚刀 殘暴短匕		賣出																									
 //[Type] == "Ambusher" && [Rarity] == "Unique" # [UniqueName] == "Taproot" && [ForceSellItem] == "true"	//砥礪深根 伏擊刺刃		賣出																									
