@@ -1,4 +1,8 @@
-﻿Hide # $type->jewels->clustereco $tier->n8_i75_t2
+﻿Hide # 通貨 - 特殊 - 偵查報告
+    Class "Currency"
+    BaseType "Singular Scouting Report" "Vaal Scouting Report" "Explorer's Scouting Report"
+
+Hide # $type->jewels->clustereco $tier->n8_i75_t2
 ItemLevel >= 75
 Rarity Normal Magic Rare
 EnchantmentPassiveNum 8
