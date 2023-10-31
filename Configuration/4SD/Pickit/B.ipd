@@ -1156,7 +1156,7 @@
 //[Type] == "Boot Blade" && [Rarity] == "Unique" # [UniqueName] == "Widowmaker" && [ForceSellItem] == "true"	//寡婦 戰亂劍		賣出																									
 //[Type] == "Royal Skean" && [Rarity] == "Unique" # [UniqueName] == "Heartbreaker" && [ForceSellItem] == "true"	//裂心刃 皇家雙刃匕		賣出																									
 //[Type] == "Royal Skean" && [Rarity] == "Unique" # [UniqueName] == "Replica Heartbreaker" && [ForceSellItem] == "true"	//贗品．裂心刃 皇家雙刃匕		賣出																									
-[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [UniqueName] == "The Consuming Dark" && [StashItem] == "true"	//蠶食之闇 妖魔短匕		賣出																									
+//[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [UniqueName] == "The Consuming Dark" && [StashItem] == "true"	//蠶食之闇 妖魔短匕		賣出																									
 //[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [UniqueName] == "Arakaali's Fang" && [StashItem] == "true"	//艾爾卡莉之牙 妖魔短匕		存倉																									
 //[Type] == "Slaughter Knife" && [Rarity] == "Unique" # [UniqueName] == "Bino's Kitchen Knife" && [ForceSellItem] == "true"	//比諾的廚刀 殘暴短匕		賣出																									
 //[Type] == "Ambusher" && [Rarity] == "Unique" # [UniqueName] == "Taproot" && [ForceSellItem] == "true"	//砥礪深根 伏擊刺刃		賣出																									
@@ -1913,7 +1913,8 @@
 //[Type] == "Opal Ring" && [Rarity] == "Unique" # [UniqueName] == "Mark of the Shaper" && [ForceSellItem] == "true"	//塑者之印		賣出																									
 //[Type] == "Opal Ring" && [Rarity] == "Unique" # [UniqueName] == "Polaric Devastation" && [ForceSellItem] == "true"	//極地毀滅		賣出																									
 //[Type] == "Touch Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's" && [StashItem] == "true"	//卡蘭德之觸		存倉
-[Type] == "Touch Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's Touch" && [StashItem] == "true" //卡蘭德之觸  存倉---修改
+//[Type] == "Touch Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's Touch" && [StashItem] == "true" //卡蘭德之觸  存倉---修改
+[Type] == "Ring" && [Rarity] == "Unique" # [UniqueName] == "Kalandra's Touch" && [StashItem] == "true"	//卡蘭德之觸		存倉																									
 	//項鍊		賣出																									
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Atziri's Foible" && [ForceSellItem] == "true"	//阿茲里聖徽		賣出																									
 //[Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Sidhebreath" && [ForceSellItem] == "true"	//魔靈之符		賣出																									
