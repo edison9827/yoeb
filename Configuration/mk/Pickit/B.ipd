@@ -384,9 +384,9 @@
 [Type] == "Deafening Essence of Envy" # [StashItem] == "true" //	//忌妒之破空精髓		存倉																									
 [Type] == "Remnant of Corruption" # [StashItem] == "true" //	//遺忘的污染器皿		存倉																									
 //	// 10F 技能寶石																											
-[Type] == "Empower Support" # [StashItem] == "true" //	//賦予輔助		存倉																									
+//[Type] == "Empower Support" # [StashItem] == "true" //	//賦予輔助		存倉																									
 [Type] == "Enhance Support" # [ForceSellItem] == "true" //	//增幅輔助		賣出	
-[Type] == "Portal" # [StashItem] == "true" //	//時空之門		存倉																							
+//[Type] == "Portal" # [StashItem] == "true" //	//時空之門		存倉																							
 [Type] == "Enlighten Support" # [StashItem] == "true" //	//啟蒙輔助		存倉	 																								
 //																												
 //	// 11F命運卡	價值（混沌石）112/5/17 國際服																										
