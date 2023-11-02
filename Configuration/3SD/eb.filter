@@ -778,7 +778,7 @@ Show # 通貨 - 特殊 - 六分儀．高尚
     MinimapIcon 1 Blue Triangle
     PlayAlertSound 16 250
 
-Show # 通貨 - 特殊 - 測量員的羅盤
+Hide # 通貨 - 特殊 - 測量員的羅盤
     Class "Currency"
     BaseType "Surveyor's Compass"
     SetTextColor 100 50 0
