@@ -1621,7 +1621,7 @@
 //[Type] == "Savant's Robe" && [Rarity] == "Unique" # [UniqueName] == "Cloak of Tawm'r Isley" && [ForceSellItem] == "true"	//陶米兒艾斯理之袍		賣出																									
 //[Type] == "Savant's Robe" && [Rarity] == "Unique" # [UniqueName] == "Garb of the Ephemeral" && [ForceSellItem] == "true"	//無常禮袍		賣出																									
 //[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [UniqueName] == "Vis Mortis" && [ForceSellItem] == "true"	//兀鳴		賣出																									
-[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [UniqueName] == "Fleshcrafter" && [StashItem] == "true"	//人體匠師		存倉																									
+//[Type] == "Necromancer Silks" && [Rarity] == "Unique" # [UniqueName] == "Fleshcrafter" && [StashItem] == "true"	//人體匠師		存倉																									
 //[Type] == "Occultist's Vestment" && [Rarity] == "Unique" # [UniqueName] == "Shavronne's Wrappings" && [StashItem] == "true"	//薛朗的護身長袍		存倉																									
 //[Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [UniqueName] == "Infernal Mantle" && [ForceSellItem] == "true"	//煉獄之心		賣出																									
 //[Type] == "Widowsilk Robe" && [Rarity] == "Unique" # [UniqueName] == "Doedre's Skin" && [ForceSellItem] == "true"	//德瑞之膚		賣出																									
@@ -1783,7 +1783,7 @@
 //[Type] == "Wyrmscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Tanu Ahi" && [StashItem] == "true"	//埋火		存倉																									
 //[Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Farrul's Pounce" && [ForceSellItem] == "true"	//費爾羅鋒爪		賣出																									
 [Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Breathstealer" && [StashItem] == "true"	//偷息		存倉																									
-[Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Gravebind" && [StashItem] == "true"	//幽墓束縛		存倉																									
+//[Type] == "Hydrascale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Gravebind" && [StashItem] == "true"	//幽墓束縛		存倉																									
 //[Type] == "Dragonscale Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Surgebinders" && [ForceSellItem] == "true"	//浪湧縛者		賣出																									
 //[Type] == "Chain Gloves" && [Rarity] == "Unique" # [UniqueName] == "Shackles of the Wretched" && [ForceSellItem] == "true"	//悲運之縛		賣出																									
 //[Type] == "Mesh Gloves" && [Rarity] == "Unique" # [UniqueName] == "Triad Grip" && [ForceSellItem] == "true"	//三弦指法		賣出																									
@@ -1879,7 +1879,7 @@
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Heartbound Loop" && [ForceSellItem] == "true"	//結魂之環		賣出																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Valyrium" && [ForceSellItem] == "true"	//戰日		賣出																									
 //[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Timetwist" && [ForceSellItem] == "true"	//時空扭曲		賣出																									
-[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Anathema" && [StashItem] == "true"	//咒詛		存倉																									
+//[Type] == "Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "Anathema" && [StashItem] == "true"	//咒詛		存倉																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Death Rush" && [StashItem] == "true"	//亡者呼喚		存倉																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Ming's Heart" && [StashItem] == "true"	//明恩的慧心		存倉																									
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Circle of Nostalgia" && [ForceSellItem] == "true"	//懷舊之環		賣出																									
@@ -1887,7 +1887,7 @@
 //[Type] == "Amethyst Ring" && [Rarity] == "Unique" # [UniqueName] == "Original Sin" && [ForceSellItem] == "true"	//原罪		賣出																									
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Gifts from Above" && [ForceSellItem] == "true"	//神賜		賣出																									
 //[Type] == "Diamond Ring" && [Rarity] == "Unique" # [UniqueName] == "Romira's Banquet" && [ForceSellItem] == "true"	//羅米拉的潛力之環		賣出																									
-[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && [StashItem] == "true"	//貝雷克的火與雷之樂		存倉																									
+//[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Respite" && [StashItem] == "true"	//貝雷克的火與雷之樂		存倉																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Grip" && [StashItem] == "true"	//貝雷克的冰與雷之曲		存倉																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Call of the Brotherhood" && [StashItem] == "true"	//意志呼喚		存倉																									
 //[Type] == "Two-Stone Ring" && [Rarity] == "Unique" # [UniqueName] == "Berek's Pass" && [StashItem] == "true"	//貝雷克的冰與火之歌		存倉																									
@@ -2234,7 +2234,7 @@
 [Type] == "Maata's Teaching Karui Sceptre" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//瑪塔的教導 卡魯權杖		存倉																									
 [Type] == "Rakiata's Dance Engraved Greatsword" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//拉奇塔之舞 符文巨劍		存倉																									
 //[Type] == "Replica Dragonfang's Flight Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//贗品龍牙翱翔 黑曜護身符		存倉
-[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Dragonfang's Flight" && [StashItem] == "true" //龍牙
+//[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Dragonfang's Flight" && [StashItem] == "true" //龍牙
 [Type] == "Tawhanuku's Timing Moonstone Ring" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//塔瓦庫努的時機 月光石戒指		存倉																									
 [Type] == "Utula's Hunger Majestic Plate" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//奇塔弗的飢餓 莊嚴之鎧		存倉																									
 [Type] == "Warrior's Tale Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//戰士之訴 赤紅珠寶		存倉
