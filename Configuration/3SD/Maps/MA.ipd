@@ -1,8 +1,8 @@
 //3.21 橘貓輿圖檔 此檔案為終生拾取檔贈品，不隨每季更新，但原則上每季都可以使用																									
 // 已自動化 請修改按鈕就好，其他不要動、其他不要動、其他不要動																									
-//[Quality]<="16"&& [Rarity]=="Normal"#[UpgradeQuality]== "true"//	//製圖釘點地圖		開啟																						
-//[Rarity]== "Normal"#[UpgradeToMagic]== "true"//	//地圖點蛻變石		開啟																						
-//[Rarity]== "Magic"#[AugmentIfPossible]== "true"//	//地圖點增幅石		開啟																						
+[Quality]<="16"&& [Rarity]=="Normal"#[UpgradeQuality]== "true"//	//製圖釘點地圖		開啟																						
+[Rarity]== "Normal"#[UpgradeToMagic]== "true"//	//地圖點蛻變石		開啟																						
+[Rarity]== "Magic"#[AugmentIfPossible]== "true"//	//地圖點增幅石		開啟																						
 //[Rarity]== "Normal"#[UpgradeToRare]== "true"//	//地圖點點金石		開啟																						
 																									
 																									
