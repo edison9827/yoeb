@@ -32,9 +32,10 @@ g_duobiHpVal=0.2
 --nType 有效场景 nil为无论何时都有效 0为没在刷异界才有效 1为只在刷异界才有效
 
 SetNeedSkillLineData(99,"腐蝕箭矢,Metadata/Items/Gems/SkillGemPoisonArrow|虛空操縱輔助,Metadata/Items/Gems/SupportGemVoidManipulation|幻影射手輔助,Metadata/Items/Gems/SupportGemMirageArcher|猛毒投射物輔助,Metadata/Items/Gems/SupportGemPhysicalProjectileAttackDamage|極速苦痛輔助,Metadata/Items/Gems/SupportGemRapidDecay|集中效應輔助,Metadata/Items/Gems/SupportGemConcentratedEffect",nil,2,nil)
-SetNeedSkillLineData(95,"火砲砲塔,Metadata/Items/Gems/SkillGemArtilleryBallista|附加冰冷傷害輔助,Metadata/Items/Gems/SupportGemAddedColdDamage|元素攻擊傷害輔助,Metadata/Items/Gems/SupportGemWeaponElementalDamage|快速攻擊輔助,Metadata/Items/Gems/SupportGemFasterAttack",nil,5,nil)
-SetNeedSkillLineData(97,"元素淨化,Metadata/Items/Gems/SkillGemPurity|熔岩護盾,Metadata/Items/Gems/SkillGemMoltenShell|受傷時施放輔助,Metadata/Items/Gems/SupportGemCastOnDamageTaken|虛無玉,Metadata/Items/Gems/SkillGemVoidSphere",nil,10,nil)
-SetNeedSkillLineData(96,"優雅,Metadata/Items/Gems/SkillGemGrace|凋零之步,Metadata/Items/Gems/SkillGemWitheringStep|狙擊者印記,Metadata/Items/Gems/SkillGemProjectileWeakness|擊中時印記輔助,Metadata/Items/Gems/SupportGemMarkOnHit",nil,9,nil)
+SetNeedSkillLineData(96,"火砲砲塔,Metadata/Items/Gems/SkillGemArtilleryBallista|附加冰冷傷害輔助,Metadata/Items/Gems/SupportGemAddedColdDamage|快速攻擊輔助,Metadata/Items/Gems/SupportGemFasterAttack|元素攻擊傷害輔助,Metadata/Items/Gems/SupportGemWeaponElementalDamage",nil,5,nil)
+SetNeedSkillLineData(95,"熔岩護盾,Metadata/Items/Gems/SkillGemMoltenShell|受傷時施放輔助,Metadata/Items/Gems/SupportGemCastOnDamageTaken|虛無玉,Metadata/Items/Gems/SkillGemVoidSphere",nil,10,nil)
+SetNeedSkillLineData(94,"凋零之步,Metadata/Items/Gems/SkillGemWitheringStep|狙擊者印記,Metadata/Items/Gems/SkillGemProjectileWeakness|擊中時印記輔助,Metadata/Items/Gems/SupportGemMarkOnHit",nil,9,nil)
+SetNeedSkillLineData(97,"元素淨化,Metadata/Items/Gems/SkillGemPurity|優雅,Metadata/Items/Gems/SkillGemGrace",nil,3,nil)
 SetNeedSkillLineData(98,"彈片砲塔,nil|快速攻擊輔助,nil|猛毒投射物輔助,nil|齊射輔助,nil",30,nil,nil)
 SetNeedSkillLineData(100,"燃燒箭矢,nil|氣勢輔助,nil",2,nil,nil)
 
@@ -92,29 +93,29 @@ g_addMpVal=0.2--MP低于多少吃蓝药
 --SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","fire_damage_resistance_%",0.3)--火焰抗性 %
 --SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","lightning_damage_resistance_%",0.3)--闪电抗性 %
 --SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","base_movement_velocity_+%",0.3)--基础移动速度 +%
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","base_maximum_life",0.3)--生命
+--SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","base_maximum_life",0.3)--生命
 --SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","movement_velocity_+%",0.3)--移动速度 +%
 
 SetAtuoChangeEquipData("游侠","项链","additional_strength",0.2)--
 SetAtuoChangeEquipData("游侠","项链","additional_intelligence",0.2)--
 SetAtuoChangeEquipData("游侠","项链","additional_strength_and_intelligence",0.3)--
 
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","base_resist_all_elements_%",0.3,0)--全元素抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","fire_and_cold_damage_resistance_%",0.25,0)--火焰与冰霜伤害抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","fire_and_lightning_damage_resistance_%",0.25,0)--火焰与闪电伤害抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","cold_and_lightning_damage_resistance_%",0.15,0)--冰霜与闪电伤害抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","base_fire_damage_resistance_%",0.2,0)--基础火焰伤害抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","base_cold_damage_resistance_%",0.11,0)--基础冰霜伤害抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","base_lightning_damage_resistance_%",0.1,0)--基础闪电伤害抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","fire_damage_resistance_%",0.3,0)--火焰抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","cold_damage_resistance_%",0.3,0)--冰霜抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","lightning_damage_resistance_%",0.3,0)--闪电抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|箭袋","fire_and_cold_damage_resistance_%",0.25,0)--火焰与冰霜伤害抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|箭袋","fire_and_lightning_damage_resistance_%",0.25,0)--火焰与闪电伤害抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|箭袋","cold_and_lightning_damage_resistance_%",0.25,0)--冰霜与闪电伤害抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|箭袋","fire_damage_resistance_%",0.3,0)--火焰抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|箭袋","cold_damage_resistance_%",0.3,0)--冰霜抗性 %
-SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|箭袋","lightning_damage_resistance_%",0.3,0)--闪电抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","base_resist_all_elements_%",0.3,1)--全元素抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","fire_and_cold_damage_resistance_%",0.25,1)--火焰与冰霜伤害抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","fire_and_lightning_damage_resistance_%",0.25,1)--火焰与闪电伤害抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","cold_and_lightning_damage_resistance_%",0.15,1)--冰霜与闪电伤害抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","base_fire_damage_resistance_%",0.2,1)--基础火焰伤害抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","base_cold_damage_resistance_%",0.11,1)--基础冰霜伤害抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","base_lightning_damage_resistance_%",0.1,1)--基础闪电伤害抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","fire_damage_resistance_%",0.2,1)--火焰抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","cold_damage_resistance_%",0.11,1)--冰霜抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|鞋子|手套|衣服|头盔|箭袋","lightning_damage_resistance_%",0.1,1)--闪电抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|箭袋","fire_and_cold_damage_resistance_%",0.25,2)--火焰与冰霜伤害抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|箭袋","fire_and_lightning_damage_resistance_%",0.25,2)--火焰与闪电伤害抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|箭袋","cold_and_lightning_damage_resistance_%",0.25,2)--冰霜与闪电伤害抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|箭袋","fire_damage_resistance_%",0.2,2)--火焰抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|箭袋","cold_damage_resistance_%",0.2,2)--冰霜抗性 %
+SetAtuoChangeEquipData("暗影|野蛮人|决斗者|女巫|游侠|圣堂武僧","戒指|项链|腰带|箭袋","lightning_damage_resistance_%",0.2,2)--闪电抗性 %
 
 
 
@@ -137,33 +138,38 @@ SetAtuoChangeEquipData("游侠","弓","Dot_Multiplier_%",5,nil)
 -- SetZhengTiColorVarData(9,1,0,1,nil,300,true)--手套1红1蓝连接了 加300分
 -- SetZhengTiColorVarData(9,1,0,2,nil,450,true)--手套1红2蓝连接了 加450分
 -- SetZhengTiColorVarData(9,1,0,3,nil,600,true)--手套1红3蓝连接了 加600分
+SetZhengTiColorVarData(2,0,5,1,nil,500,true)
+SetZhengTiColorVarData(2,0,6,0,nil,450,true)
+SetZhengTiColorVarData(2,0,4,1,nil,400,true)
+SetZhengTiColorVarData(2,0,5,0,nil,350,true)
+SetZhengTiColorVarData(2,0,4,0,nil,300,true)
+SetZhengTiColorVarData(2,0,3,1,nil,250,true)
+SetZhengTiColorVarData(2,0,3,0,nil,200,true)
+SetZhengTiColorVarData(2,0,2,0,nil,150,true)
+SetZhengTiColorVarData(2,0,1,0,nil,50,false)
 
+SetZhengTiColorVarData(3,0,1,0,nil,100,false)
+SetZhengTiColorVarData(3,0,1,1,nil,400,false)
 
-SetZhengTiColorVarData(2,0,1,0,0,50,false)
-SetZhengTiColorVarData(2,0,2,0,0,100,true)
-SetZhengTiColorVarData(2,0,3,0,0,200,true)
-SetZhengTiColorVarData(2,0,4,0,0,250,true)
-SetZhengTiColorVarData(2,0,5,0,0,300,true)
-SetZhengTiColorVarData(2,0,6,0,0,350,true)
+SetZhengTiColorVarData(4,3,0,0,nil,300,true)
+SetZhengTiColorVarData(4,2,0,0,nil,200,true)
+SetZhengTiColorVarData(4,1,0,0,nil,100)
 
-SetZhengTiColorVarData(3,0,1,0,0,5,false)
-
-SetZhengTiColorVarData(4,0,1,0,0,5,false)
-
-SetZhengTiColorVarData(5,1,3,0,nil,400,true)
+SetZhengTiColorVarData(5,1,3,0,nil,500,true)
+SetZhengTiColorVarData(5,0,4,0,nil,350,true)
 SetZhengTiColorVarData(5,0,3,0,nil,300,true)
-SetZhengTiColorVarData(5,0,2,0,nil,100,true)
-SetZhengTiColorVarData(5,0,1,0,nil,50,false)
+SetZhengTiColorVarData(5,0,2,0,nil,200,true)
+SetZhengTiColorVarData(5,0,1,0,nil,100)
 
-SetZhengTiColorVarData(9,0,1,0,0,50,false)
-SetZhengTiColorVarData(9,0,2,0,0,100,true)
-SetZhengTiColorVarData(9,0,3,0,0,200,true)
-SetZhengTiColorVarData(9,0,4,0,0,250,true)
+SetZhengTiColorVarData(9,0,1,0,nil,100,false)
+SetZhengTiColorVarData(9,0,2,0,nil,200,true)
+SetZhengTiColorVarData(9,0,3,0,nil,400,true)
 
-SetZhengTiColorVarData(10,0,0,1,0,50,false)
-SetZhengTiColorVarData(10,1,0,1,0,100,true)
-SetZhengTiColorVarData(10,2,0,1,0,200,true)
-SetZhengTiColorVarData(10,2,0,2,0,250,true)
+
+SetZhengTiColorVarData(10,2,0,1,nil,500,true)
+SetZhengTiColorVarData(10,2,0,0,nil,200,true)
+SetZhengTiColorVarData(10,1,0,0,nil,100,false)
+
 
 
 
