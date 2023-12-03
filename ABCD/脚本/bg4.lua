@@ -68,7 +68,7 @@ SetSkillLimitMaxLv("虛無玉","Metadata/Items/Gems/SkillGemVoidSphere",1)
 SetNeedFlaskData(1,"生命药剂","緩和之,FlaskBleedCorruptingBloodImmunity3______",60,"永恆生命藥劑","Metadata/Items/Flasks/FlaskLife12",true)
 SetNeedFlaskData(2,"生命药剂","抗毒素之,FlaskPoisonImmunity3",60,"不朽生命藥劑","Metadata/Items/Flasks/FlaskLife11",true)
 SetNeedFlaskData(3,"水银药剂","野兔之,FlaskBuffMovementSpeedWhileHealing",5,"水銀藥劑","Metadata/Items/Flasks/FlaskUtility6",true)
-SetNeedFlaskData(4,"灰岩药剂","野兔之,FlaskBuffMovementSpeedWhileHealing",8,"灰岩藥劑","Metadata/Items/Flasks/FlaskUtility15",true)
+SetNeedFlaskData(4,"灰岩药剂","野兔之,FlaskBuffMovementSpeedWhileHealing",5,"灰岩藥劑","Metadata/Items/Flasks/FlaskUtility15",true)
 SetNeedFlaskData(5,"魔力药剂","耐久的,FlaskEffectNotRemovedOnFullMana1",50,"永恆魔力藥劑","Metadata/Items/Flasks/FlaskMana12",true)
 
 
