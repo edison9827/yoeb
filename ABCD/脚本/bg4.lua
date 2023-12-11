@@ -33,11 +33,12 @@ g_duobiHpVal=0.2
 
 SetNeedSkillLineData(99,"腐蝕箭矢,Metadata/Items/Gems/SkillGemPoisonArrow|虛空操縱輔助,Metadata/Items/Gems/SupportGemVoidManipulation|幻影射手輔助,Metadata/Items/Gems/SupportGemMirageArcher|猛毒投射物輔助,Metadata/Items/Gems/SupportGemPhysicalProjectileAttackDamage|極速苦痛輔助,Metadata/Items/Gems/SupportGemRapidDecay|集中效應輔助,Metadata/Items/Gems/SupportGemConcentratedEffect",nil,2,nil)
 SetNeedSkillLineData(96,"火砲砲塔,Metadata/Items/Gems/SkillGemArtilleryBallista|附加冰冷傷害輔助,Metadata/Items/Gems/SupportGemAddedColdDamage|快速攻擊輔助,Metadata/Items/Gems/SupportGemFasterAttack|元素攻擊傷害輔助,Metadata/Items/Gems/SupportGemWeaponElementalDamage",nil,5,nil)
-SetNeedSkillLineData(95,"熔岩護盾,Metadata/Items/Gems/SkillGemMoltenShell|受傷時施放輔助,Metadata/Items/Gems/SupportGemCastOnDamageTaken|虛無玉,Metadata/Items/Gems/SkillGemVoidSphere",nil,10,nil)
+SetNeedSkillLineData(95,"受傷時施放輔助,Metadata/Items/Gems/SupportGemCastOnDamageTaken|虛無玉,Metadata/Items/Gems/SkillGemVoidSphere",nil,10,nil)
 SetNeedSkillLineData(94,"凋零之步,Metadata/Items/Gems/SkillGemWitheringStep|狙擊者印記,Metadata/Items/Gems/SkillGemProjectileWeakness|擊中時印記輔助,Metadata/Items/Gems/SupportGemMarkOnHit",nil,9,nil)
 SetNeedSkillLineData(97,"元素淨化,Metadata/Items/Gems/SkillGemPurity|優雅,Metadata/Items/Gems/SkillGemGrace",nil,3,nil)
 SetNeedSkillLineData(98,"彈片砲塔,nil|快速攻擊輔助,nil|猛毒投射物輔助,nil|齊射輔助,nil",30,nil,nil)
 SetNeedSkillLineData(100,"燃燒箭矢,nil|氣勢輔助,nil",2,nil,nil)
+--熔岩護盾,Metadata/Items/Gems/SkillGemMoltenShell|
 
 AddShengJiZhuangBeiGoodsData("点金石","Metadata/Items/Currency/CurrencyUpgradeToRare",0,50,0)--主线生效 超过50级就用点金点白色装备
 AddShengJiZhuangBeiGoodsData("束縛石","Metadata/Items/Currency/CurrencyUpgradeToRareAndSetSockets",0,40,0)--主线生效 超过50级就用点金点白色装备
@@ -51,7 +52,7 @@ AddAttackSkillData("普通攻击","melee")
 SetDebuffSkill(nil,"snipers_mark",nil,"curse_snipers_mark")--狙擊者印记
 
 --SetSkillLimitMaxLv(name,className,maxLv)--设置技能宝石最大等级 name=技能宝石物品名 className=技能宝石物品类名 maxLv=限制的最大等级
-SetSkillLimitMaxLv("熔岩護盾","Metadata/Items/Gems/SkillGemMoltenShell",10)
+--SetSkillLimitMaxLv("熔岩護盾","Metadata/Items/Gems/SkillGemMoltenShell",10)
 SetSkillLimitMaxLv("受傷時施放輔助","Metadata/Items/Gems/SupportGemCastOnDamageTaken",1)
 SetSkillLimitMaxLv("虛無玉","Metadata/Items/Gems/SkillGemVoidSphere",1)
 
@@ -68,7 +69,7 @@ SetSkillLimitMaxLv("虛無玉","Metadata/Items/Gems/SkillGemVoidSphere",1)
 SetNeedFlaskData(1,"生命药剂","緩和之,FlaskBleedCorruptingBloodImmunity3______",60,"永恆生命藥劑","Metadata/Items/Flasks/FlaskLife12",true)
 SetNeedFlaskData(2,"生命药剂","抗毒素之,FlaskPoisonImmunity3",60,"不朽生命藥劑","Metadata/Items/Flasks/FlaskLife11",true)
 SetNeedFlaskData(3,"水银药剂","野兔之,FlaskBuffMovementSpeedWhileHealing",5,"水銀藥劑","Metadata/Items/Flasks/FlaskUtility6",true)
-SetNeedFlaskData(4,"灰岩药剂","野兔之,FlaskBuffMovementSpeedWhileHealing",8,"灰岩藥劑","Metadata/Items/Flasks/FlaskUtility15",true)
+SetNeedFlaskData(4,"紫晶药剂","野兔之,FlaskBuffMovementSpeedWhileHealing",5,"紫晶藥劑","Metadata/Items/Flasks/FlaskUtility7",true)
 SetNeedFlaskData(5,"魔力药剂","耐久的,FlaskEffectNotRemovedOnFullMana1",50,"永恆魔力藥劑","Metadata/Items/Flasks/FlaskMana12",true)
 
 
