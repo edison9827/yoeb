@@ -47,7 +47,8 @@
 [Type] == "Mirror of Kalandra" # [StashItem] == "true" //	//卡蘭德的魔鏡		存倉																									
 [Type] == "Orb of Annulment" # [StashItem] == "true" //	//無效石		存倉																									
 [Type] == "Ancient Orb" # [StashItem] == "true" //	//古變石		存倉																									
-[Type] == "Fracturing Orb" # [StashItem] == "true" //	//破裂石		存倉																									
+[Type] == "Fracturing Orb" # [StashItem] == "true" //	//破裂石		存倉	
+[Type] == "Hinekora's Lock" # [StashItem] == "true" //	//悉妮蔻拉的髮絲		存倉																																																	
 //	//常用通貨		存倉																									
 [Type] == "Chaos Orb" # [StashItem] == "true" //	//混沌石		存倉																									
 [Type] == "Jeweller's Orb" # [StashItem] == "true" //	//工匠石		存倉																									
@@ -79,7 +80,7 @@
 //此通貨不撿	//改造石碎片		賣出																									
 //此通貨不撿	//卷軸碎片		賣出																									
 //此通貨不撿	//蛻變石碎片		賣出																									
-//[Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石		存倉																									
+[Type] == "Instilling Orb" # [StashItem] == "true" //	//滴注石		存倉																									
 [Type] == "Enkindling Orb" # [StashItem] == "true" //	//點燃石		存倉																									
 [Type] == "Annulment Shard" # [StashItem] == "true" //	//無效石碎片		存倉																									
 //此通貨不撿	//束縛石碎片		賣出																									
@@ -100,7 +101,7 @@
 [Type] == "Stacked Deck" # [StashItem] == "true" //	//豐裕牌組		存倉																									
 [Type] == "Unshaping Orb" # [StashItem] == "true" //	//還原玉		存倉																									
 [Type] == "Albino Rhoa Feather" # [StashItem] == "true" //	//白化的羽毛		存倉																									
-//[Type] == "Offering to the Goddess" # [StashItem] == "true" //	//女神祭品		存倉																									
+[Type] == "Offering to the Goddess" # [StashItem] == "true" //	//女神祭品		存倉																									
 [Type] == "Dedication to the Goddess" # [StashItem] == "true" //	//女神奉獻		存倉																									
 [Type] == "Tribute to the Goddess" # [StashItem] == "true" //	//女神之獻		存倉																									
 [Type] == "Gift to the Goddess" # [StashItem] == "true" //	//女神之贈		存倉																									
@@ -118,21 +119,21 @@
 [Type] == "Igneous Geode" # [StashItem] == "true" //	//火成晶洞		存倉																									
 [Type] == "Crystalline Geode" # [StashItem] == "true" //	//水晶晶洞		存倉																									
 [Type] == "Magmatic Ore" # [StashItem] == "true" //	//岩漿礦		存倉																									
-//[Type] == "Rogue's Marker" # [StashItem] == "true" //	//盜賊之印		存倉																									
+[Type] == "Rogue's Marker" # [StashItem] == "true" //	//盜賊之印		存倉																									
 //[Type] == "Divine Vessel" # [StashItem] == "true" //	//眾神聖器		存倉																									
 //[Type] == "Silver Coin" # [ForceSellItem] == "true" //	//銀幣		存倉																									
 //	//基拉克記憶																											
-[Type] == "Singular Scouting Report" # [ForceSellItem] == "true" //	//卓越偵查報告		存倉																									
-[Type] == "Otherworldly Scouting Report" # [ForceSellItem] == "true" //	//超凡偵查報告		存倉																									
-[Type] == "Comprehensive Scouting Report" # [ForceSellItem] == "true" //	//全面偵查報告		存倉																									
-[Type] == "Vaal Scouting Report" # [ForceSellItem] == "true" //	//瓦爾偵查報告		存倉																									
-[Type] == "Delirious Scouting Report" # [ForceSellItem] == "true" //	//譫妄偵查報告		存倉																									
-[Type] == "Operative's Scouting Report" # [ForceSellItem] == "true" //	//技工偵查報告		存倉																									
-[Type] == "Blighted Scouting Report" # [ForceSellItem] == "true" //	//凋落偵查報告		存倉																									
-[Type] == "Influenced Scouting Report" # [ForceSellItem] == "true" //	//勢力偵查報告		存倉																									
-[Type] == "Explorer's Scouting Report" # [ForceSellItem] == "true" //	//探險家偵查報告		存倉																									
-[Type] == "Surveyors Compass" # [ForceSellItem] == "true" //	//測量員的羅盤		存倉																									
-[Type] == "Charged Compass" # [ForceSellItem] == "true" //	//充能的羅盤		存倉																									
+[Type] == "Singular Scouting Report" # [StashItem] == "true" //	//卓越偵查報告		存倉																									
+[Type] == "Otherworldly Scouting Report" # [StashItem] == "true" //	//超凡偵查報告		存倉																									
+[Type] == "Comprehensive Scouting Report" # [StashItem] == "true" //	//全面偵查報告		存倉																									
+[Type] == "Vaal Scouting Report" # [StashItem] == "true" //	//瓦爾偵查報告		存倉																									
+[Type] == "Delirious Scouting Report" # [StashItem] == "true" //	//譫妄偵查報告		存倉																									
+[Type] == "Operative's Scouting Report" # [StashItem] == "true" //	//技工偵查報告		存倉																									
+[Type] == "Blighted Scouting Report" # [StashItem] == "true" //	//凋落偵查報告		存倉																									
+[Type] == "Influenced Scouting Report" # [StashItem] == "true" //	//勢力偵查報告		存倉																									
+[Type] == "Explorer's Scouting Report" # [StashItem] == "true" //	//探險家偵查報告		存倉																									
+[Type] == "Surveyors Compass" # [StashItem] == "true" //	//測量員的羅盤		存倉																									
+[Type] == "Charged Compass" # [StashItem] == "true" //	//充能的羅盤		存倉																									
 [Type] == "Exceptional Eldritch Ember" # [StashItem] == "true" //	//宏偉異能灰燼		存倉																									
 [Type] == "Grand Eldritch Ember" # [StashItem] == "true" //	//卓越異能灰燼		存倉																									
 [Type] == "Greater Eldritch Ember" # [StashItem] == "true" //	//高階異能灰燼		存倉																									
@@ -403,7 +404,7 @@
 [Type] == "The Cartographer" # [ForceSellItem] == "true" //	製圖師 (1)	5	賣出																									
 [Type] == "The Heroic Shot" # [ForceSellItem] == "true" //	英勇射擊 (1)	5	賣出																									
 [Type] == "The Shortcut" # [StashItem] == "true" //	捷徑 (1)	39	存倉																									
-[Type] == "The Void" # [ForceSellItem'ㄤ] == "true" //	虛空(卡) (1)	3	存倉																									
+[Type] == "The Void" # [ForceSellItem] == "true" //	虛空(卡) (1)	3	存倉																									
 [Type] == "Acclimatisation" # [ForceSellItem] == "true" //	適者生存 (2)	5	賣出																									
 [Type] == "Broken Promises" # [StashItem] == "true" //	不守信 (2)	40	存倉																									
 [Type] == "Cameria's Cut" # [ForceSellItem] == "true" //	卡麥歷亞之割 (2)	7	賣出																									
@@ -675,7 +676,7 @@
 [Type] == "Luminous Trove" # [StashItem] == "true" //	輝煌寶藏 (7)	30	存倉																									
 [Type] == "More is Never Enough" # [ForceSellItem] == "true" //	貪婪無盡 (7)	5	賣出																									
 [Type] == "Prejudice" # [ForceSellItem] == "true" //	偏見 (7)	5	賣出																									
-[Type] == "Pride of the First Ones" # [ForceSellItem] == "true" //	初始者的驕傲 (7)	5	賣出																									
+[Type] == "Pride of the First Ones" # [StashItem] == "true" //	初始者的驕傲 (7)	5	賣出																									
 [Type] == "Scholar of the Seas" # [ForceSellItem] == "true" //	海洋學者 (7)	5	賣出																									
 [Type] == "Silence and Frost" # [ForceSellItem] == "true" //	沉默與寒霜 (7)	7	賣出																									
 [Type] == "The Archmage's Right Hand" # [ForceSellItem] == "true" //	魔法師的右手 (7)	5	賣出																									
