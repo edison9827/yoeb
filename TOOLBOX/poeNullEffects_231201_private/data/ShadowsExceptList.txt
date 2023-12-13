@@ -1,0 +1,3 @@
+//exceptions for shadows and fog
+
+//nothing atm.

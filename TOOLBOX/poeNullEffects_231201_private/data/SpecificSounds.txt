@@ -1,0 +1,38 @@
+//SoundEvents: .aoc file names:
+//we can't mute all sounds, client crashes in 100% cases.
+//we can mute some sounds.
+
+//exclude:
+!boss
+!orion
+!dominus
+!atziri
+!brute
+!elder
+!shaper
+!guardian
+!/kaom/
+!kitava
+!labyrinth
+
+//exclude a6 western forest monsters:
+!wraith
+
+//exclude league-specific sounds:
+!league
+
+//remove:
+/effects/
+/particles/
+/chests/
+/critters/
+/items/
+/npc/
+/pet/
+/terrain/doodads/
+
+//some loud monsters:
+/monsters/zombies/
+
+//seems ok:
+/monsters/
