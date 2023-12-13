@@ -1,13 +1,78 @@
-﻿#地圖破裂
-Hide
-    FracturedItem True
-#    Class "Maps"
-#    MapTier <= 16
-#    Rarity <= Rare
-#    SetTextColor 255 255 255
-#    SetBackgroundColor 33 19 38
-#    SetBorderColor 255 0 0
-#    SetFontSize 44
+﻿Hide # 通貨 - 特殊 - 偵查報告
+    Class "Currency"
+    BaseType "Singular Scouting Report" "Vaal Scouting Report" "Explorer's Scouting Report"
+
+Show # $type->jewels->clustereco $tier->n8_i75_t2
+ItemLevel >= 75
+Rarity Normal Magic Rare
+EnchantmentPassiveNum "8"
+BaseType == "Large Cluster Jewel"
+EnchantmentPassiveNode "bow damage" "minion damage" "chaos damage" "physical damage" "cold damage"
+SetFontSize 45
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 240 100 0 255
+PlayAlertSound 2 300
+PlayEffect Yellow
+MinimapIcon 1 Yellow Pentagon
+
+Show # $type->jewels->clustereco $tier->n8_i75_t2
+ItemLevel >= 84
+Rarity Normal Magic Rare
+EnchantmentPassiveNum "12"
+BaseType == "Large Cluster Jewel"
+EnchantmentPassiveNode "bow damage" "minion damage" "chaos damage" "physical damage" "cold damage" "Damage with Two Handed Weapons"
+SetFontSize 45
+SetTextColor 150 0 255 255
+SetBorderColor 240 100 0 255
+SetBackgroundColor 255 255 255 255
+PlayAlertSound 1 300
+PlayEffect Red
+MinimapIcon 0 Red Star
+
+Show # $type->jewels->clustereco $tier->n3_i84_t2
+ItemLevel >= 84
+Rarity Normal Magic Rare
+EnchantmentPassiveNum "2" "3"
+BaseType == "Small Cluster Jewel"
+EnchantmentPassiveNode "Reservation Efficiency"
+SetFontSize 45
+SetTextColor 150 0 255 255
+SetBorderColor 240 100 0 255
+SetBackgroundColor 255 255 255 255
+PlayAlertSound 1 300
+PlayEffect Red
+MinimapIcon 0 Red Star
+
+Show # $type->jewels->clustereco $tier->n6_i84_t1
+ItemLevel >= 75
+Rarity Normal Magic Rare
+EnchantmentPassiveNum "4" "5" 
+BaseType == "Medium Cluster Jewel"
+EnchantmentPassiveNode "flask duration" "brand damage" "totem damage" "projectile damage" "critical chance" "fire damage" "Flask Duration"
+SetFontSize 45
+SetTextColor 255 255 255 255
+SetBorderColor 255 255 255 255
+SetBackgroundColor 240 100 0 255
+PlayAlertSound 2 300
+PlayEffect Yellow
+MinimapIcon 1 Yellow Pentagon
+
+Show # $type->jewels->clustereco $tier->n6_i84_t1
+ItemLevel >= 84
+Rarity Normal Magic Rare
+EnchantmentPassiveNum 6
+BaseType == "Medium Cluster Jewel"
+EnchantmentPassiveNode "Flask Duration"
+SetFontSize 45
+SetTextColor 150 0 255 255
+SetBorderColor 240 100 0 255
+SetBackgroundColor 255 255 255 255
+PlayAlertSound 1 300
+PlayEffect Red
+MinimapIcon 0 Red Star
+
+
 
 # Script edited with Filtration - https://github.com/ben-wallis/Filtration
 # EnableBlockGroups
@@ -562,7 +627,7 @@ Show # 通貨 - 初始 - 知識卷軸
     SetTextColor 248 172 184 255
     SetBackgroundColor 0 0 0 255
     SetBorderColor 248 172 184 255
-    SetFontSize 5
+    SetFontSize 40
     MinimapIcon 2 Red Diamond
 
 Show # 通貨 - 初始 - 傳送卷軸
@@ -1442,7 +1507,7 @@ Show # 聯盟 - 3.13祭祀 - 鞋子 - 攻擊格擋鞋
 
 # 【聯盟-3.12劫盜】3020
 
-Hide # 聯盟 - 3.12劫盜 - 盜賊之印
+Show # 聯盟 - 3.12劫盜 - 盜賊之印
     Class "Currency"
     BaseType "Rogue's Marker"
     SetTextColor 255 178 102
@@ -1450,7 +1515,7 @@ Hide # 聯盟 - 3.12劫盜 - 盜賊之印
     SetBorderColor 255 178 102
     SetFontSize 40
 
-Hide # 聯盟 - 3.12劫盜 - 劫盜目標
+Show # 聯盟 - 3.12劫盜 - 劫盜目標
     Class "Heist Target"
     SetTextColor 74 230 58
     SetBackgroundColor 0 0 0 150
@@ -1458,7 +1523,7 @@ Hide # 聯盟 - 3.12劫盜 - 劫盜目標
     SetFontSize 45
     MinimapIcon 2 Green Star
 
-Hide # 聯盟 - 3.12劫盜 - 盜賊飾品
+Show # 聯盟 - 3.12劫盜 - 盜賊飾品
     Class "Trinket"
     BaseType "Thief's Trinket"
     SetTextColor 0 51 0
@@ -1469,14 +1534,14 @@ Hide # 聯盟 - 3.12劫盜 - 盜賊飾品
     MinimapIcon 0 Green Triangle
     PlayEffect Green
 
-Hide # 聯盟 - 3.12劫盜 - 契約書
+Show # 聯盟 - 3.12劫盜 - 契約書
     BaseType "Contract"
     SetTextColor 100 50 0
     SetBackgroundColor 255 178 102
     SetBorderColor 204 102 0
     SetFontSize 40
 
-Hide # 聯盟 - 3.12劫盜 - 合同
+Show # 聯盟 - 3.12劫盜 - 合同
     Class "Quest Item"
     BaseType "Contract"
     SetTextColor 0 255 0
@@ -1487,7 +1552,7 @@ Hide # 聯盟 - 3.12劫盜 - 合同
     MinimapIcon 0 Green Triangle
     PlayEffect Green
 
-Hide # 聯盟 - 3.12劫盜 - 藍圖
+Show # 聯盟 - 3.12劫盜 - 藍圖
     BaseType "Blueprint"
     SetTextColor 0 0 204
     SetBackgroundColor 255 178 102
@@ -1497,7 +1562,7 @@ Hide # 聯盟 - 3.12劫盜 - 藍圖
     MinimapIcon 2 Red Circle
     PlayEffect Red
 
-Hide # 聯盟 - 3.12劫盜 - 劫盜裝備
+Show # 聯盟 - 3.12劫盜 - 劫盜裝備
     Class "Heist Cloak" "Heist Brooch" "Heist Tool" "Heist Gear"
     SetTextColor 254 186 255
     SetBackgroundColor 128 0 128 255
@@ -1507,7 +1572,7 @@ Hide # 聯盟 - 3.12劫盜 - 劫盜裝備
     MinimapIcon 2 Red Star
     PlayEffect Red
 
-Hide # 聯盟 - 3.12劫盜 - 替代技能
+Show # 聯盟 - 3.12劫盜 - 替代技能
     AlternateQuality True
     SetTextColor 0 255 255
     SetBorderColor 0 255 255
@@ -1516,7 +1581,7 @@ Hide # 聯盟 - 3.12劫盜 - 替代技能
     MinimapIcon 0 Blue Star
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 贗品裝備
+Show # 聯盟 - 3.12劫盜 - 贗品裝備
     Replica True
     SetTextColor 255 165 0 255
     SetBackgroundColor 177 123 63 111
@@ -1526,7 +1591,7 @@ Hide # 聯盟 - 3.12劫盜 - 贗品裝備
     MinimapIcon 0 Orange UpsideDownHouse
     PlayEffect Orange
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 能量法杖
+Show # 聯盟 - 3.12劫盜 - 裝備 - 能量法杖
     Class "Wands"
     BaseType "Assembler Wand" "Congregator Wand" "Accumulator Wand"
     SetBorderColor 180 255 0
@@ -1535,7 +1600,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 能量法杖
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 中毒匕首
+Show # 聯盟 - 3.12劫盜 - 裝備 - 中毒匕首
     Class "Daggers"
     BaseType "Hollowpoint Dagger" "Pressurised Dagger" "Pneumatic Dagger"
     SetBorderColor 180 255 0
@@ -1544,7 +1609,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 中毒匕首
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 烈衝匕首
+Show # 聯盟 - 3.12劫盜 - 裝備 - 烈衝匕首
     Class "Rune Daggers"
     BaseType "Flickerflame Blade" "Flashfire Blade" "Infernal Blade"
     SetBorderColor 180 255 0
@@ -1553,7 +1618,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 烈衝匕首
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 混點爪
+Show # 聯盟 - 3.12劫盜 - 裝備 - 混點爪
     Class "Claws"
     BaseType "Shadow Fangs" "Malign Fangs" "Void Fangs"
     SetBorderColor 180 255 0
@@ -1562,7 +1627,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 混點爪
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 盛怒斧
+Show # 聯盟 - 3.12劫盜 - 裝備 - 盛怒斧
     Class "One Hand Axes"
     BaseType "Maltreatment Axe" "Disapprobation Axe" "Psychotic Axe"
     SetBorderColor 180 255 0
@@ -1571,7 +1636,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 盛怒斧
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 物轉元劍
+Show # 聯盟 - 3.12劫盜 - 裝備 - 物轉元劍
     Class "One Hand Swords"
     BaseType "Fickle Spiritblade" "Capricious Spiritblade" "Anarchic Spiritblade"
     SetBorderColor 180 255 0
@@ -1580,7 +1645,7 @@ Hide # 聯盟 - 3.12劫盜 - 裝備 - 物轉元劍
     MinimapIcon 2 Blue Hexagon
     PlayEffect Blue
 
-Hide # 聯盟 - 3.12劫盜 - 裝備 - 熾熱衝擊錘
+Show # 聯盟 - 3.12劫盜 - 裝備 - 熾熱衝擊錘
     Class "One Hand Maces"
     BaseType "Flare Mace" "Crack Mace" "Boom Mace"
     SetBorderColor 180 255 0
@@ -1817,7 +1882,7 @@ Show # 聯盟 - 3.10譫妄 - 星團珠寶(傳奇)
     MinimapIcon 0 Red Hexagon
     PlayEffect Red
 
-Show # 聯盟 - 3.10譫妄 - 星團珠寶
+Hide # 聯盟 - 3.10譫妄 - 星團珠寶
     Class "Jewel"
     BaseType "Cluster Jewel"
     SetTextColor 255 255 255
@@ -1902,7 +1967,7 @@ Hide # 聯盟 - 3.7戰亂 - 培育器 - 低階培育器(先祖/附魔/尊師/探
 
 Hide # 聯盟 - 3.7戰亂 - 培育器 - 中階培育器(飛掠/卓越/超凡/朦朧/神秘/注能/寶石匠/化石/諭示/製圖/命運/眾星/凋落/鍊魔/譫妄)
     Class "Incubator"
-    BaseType "Skittering Incubator" "Singular Incubator" "Otherworldly Incubator" "Obscured Incubator" "Mysterious Incubator" "Infused Incubator" "Gemcutter's Incubator" "Fragmented Incubator" "Fossilised Incubator" "Foreboding Incubator" "Cartographer's Incubator" "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Diviner's Incubator" "Celestial Jeweller's Incubator" "Blighted Incubator" "Morphing Incubator" "Maddening Incubator"
+    BaseType "Skittering Incubator" "Singular Incubator" "Otherworldly Incubator" "Obscured Incubator" "Mysterious Incubator" "Infused Incubator" "Gemcutter's Incubator" "Fragmented Incubator" "Fossilised Incubator" "Foreboding Incubator" "Cartographer's Incubator" "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Diviner's Incubator" "Celestial Jeweller's Incubator" "Blighted Incubator" "Maddening Incubator"
     SetTextColor 0 0 0
     SetBackgroundColor 255 200 0
     SetBorderColor 0 0 0
@@ -2596,7 +2661,7 @@ Show # 命運卡 - T1
 
 Show # 命運卡 - T2
     Class "Divination"
-    BaseType "A Note in the Wind" "Broken Promises" "Chaotic Disposition" "Council of Cats" "Dark Dreams" "Dementophobia" "Desecrated Virtue" "Draped in Dreams" "Hunter's Reward" "Keeper's Corruption" "The Academic" "The Artist" "The Bargain" "The Celestial Justicar" "The Dragon's Heart" "The Enlightened" "The Escape" "The Eye of Terror" "The Greatest Intentions" "The Gulf" "The Life Thief" "The Long Con" "The Offspring" "The Patient" "The Price of Loyalty" "The Progeny of Lunaris" "The Sacrifice" "The Saint's Treasure" "The Spark and the Flame" "The Strategist" "The Sustenance" "The Void" "The White Knight" "Wealth and Power" "Winter's Embrace" "The Rabbit's Foot" "Chasing Risk" "The Catch" "The Forgotten Treasure" "The Aspirant" "Judging Voices" "Justified Ambition" "Misery in Darkness" "Duality" "The Transformation" "Magnum Opus" "Imperfect Memories" "The Magma Crab"
+    BaseType "A Note in the Wind" "Broken Promises" "Chaotic Disposition" "Council of Cats" "Dark Dreams" "Dementophobia" "Desecrated Virtue" "Draped in Dreams" "Hunter's Reward" "Keeper's Corruption" "The Academic" "The Artist" "The Bargain" "The Celestial Justicar" "The Dragon's Heart" "The Enlightened" "The Escape" "The Eye of Terror" "The Greatest Intentions" "The Gulf" "The Rusted Bard" "The Life Thief" "The Long Con" "The Offspring" "The Patient" "The Price of Loyalty" "The Progeny of Lunaris" "The Sacrifice" "The Saint's Treasure" "The Spark and the Flame" "The Strategist" "The Sustenance" "The Void" "The White Knight" "Wealth and Power" "Winter's Embrace" "The Rabbit's Foot" "Chasing Risk" "The Catch" "The Forgotten Treasure" "The Aspirant" "Judging Voices" "Justified Ambition" "Misery in Darkness" "Duality" "The Transformation" "Magnum Opus" "Imperfect Memories" "The Magma Crab"
     SetFontSize 45
     SetTextColor 255 255 255 255
     SetBorderColor 255 255 255 255
@@ -2704,9 +2769,10 @@ Show # 輿圖物品 - 釋界之邀
     SetTextColor 0 0 0
     SetBackgroundColor 253 204 255
     SetBorderColor 255 94 255
-    SetFontSize 60
+    SetFontSize 45
+    PlayAlertSound 6 250
     MinimapIcon 0 Red Diamond
-
+    PlayEffect Red
 
 Show # 輿圖物品 - 新月裂片
     Class "Currency"
@@ -3020,7 +3086,7 @@ Show # 技能 - 技能品質15~19
     PlayEffect White Temp
 
 Show # 技能 - 技能品質1~14
-    Quality >= 15
+    Quality >= 1
     Class "Gems"
     SetTextColor 10 230 230
     SetFontSize 40
@@ -3037,7 +3103,7 @@ Show # 技能 - 瓦爾技能
     Class "Gems"
     BaseType "Vaal"
 
-Hide # 技能 - 一般技能
+Show # 技能 - 一般技能
     Class "Gems"
 
 # 【裝備】
@@ -5163,14 +5229,14 @@ Hide # 裝備 - 高亮基底 獵首 魔血 # 汙染隱藏
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 獵首 魔血 AA盾 # 
+Show # 裝備 - 高亮基底 獵首 魔血 AA盾 # 
     Rarity = Normal
     Class "Belts"
     BaseType "Leather Belt" "Heavy Belt"
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底  AA盾 # 
+Show # 裝備 - 高亮基底  AA盾 # 
     Rarity = Normal
     Class "Shields"
     BaseType  "Champion Kite Shield"
@@ -5464,91 +5530,11 @@ Hide # 裝備 - 隱藏裝備 - 隱藏的白、藍裝 "弓" "法杖" "爪" "匕�
     SetBorderColor 255 255 255 0
     SetFontSize 32
 
-
-Hide 
-	Class "Sentinel"
-    BaseType "Ancient Apex Sentinel"
-Hide 
-	Class "Sentinel"
-    BaseType "Ancient Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Ancient Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Brimstone Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Brimstone Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Brimstone Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Bronze Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Bronze Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Bronze Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cobalt Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cobalt Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cobalt Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cosmic Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cryptic Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cryptic Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Cryptic Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Emberstone Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Emberstone Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Emberstone Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Obsidian Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Obsidian Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Obsidian Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Primeval Apex Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Primeval Pandemonium Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Primeval Stalker Sentinel" 		
-Hide 
-	Class "Sentinel"
-    BaseType "Rusted Stalker Sentinel" 		
-
 # 【裝備-新物品防漏】
-
 
 Show # 新物品防漏 - 若遊戲更新添加新物品（新裝備基底除外）都會以此式樣顯示，所以當你看到此式樣的物品時，說明你的過濾需要更新了。
     SetTextColor 255 0 0
     SetBorderColor 255 255 255
     SetFontSize 40
     PlayAlertSound 15 200
+
