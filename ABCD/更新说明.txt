@@ -1,4 +1,13 @@
 所有命令的使用设置请看 使用说明 必看.chm
+10.9
+1、添加函数型命令SetMapCfg 可用来设置需要使用平行石和不打的地图 
+2、添加变量型命令g_czYouXianMap 用来设置对有不打属性的优先地图使用重铸石
+4.23
+1、新增函数型命令 SetSkillUseWaEr 来设置瓦尔技能宝石 想要使瓦尔技能 只需要设置好这里，瓦成功后将会替换掉技能连线里的普通宝石
+2、新增变量型命令 g_notUseWaErSkill 来设置不自动使用内置的瓦尔技能，设置为不使用后，您需要手动添加要使用的瓦尔技能 适用场景更灵活
+3、支持众神殿自动抓神 已经内置 使用 SetZhongShenData 设置了要加的众神殿数据后 满85级将会自动抓没抓过的神
+4.21
+1、新增函数型命令 SetWuQiTianFuCfg 和 AddOpenWuQiTianFuVal 用来设置打熔火内容 详情看说明书
 1.7
 1、准确获取了怪物颜色，涉及到以下3个命令 如果有用到这3个命令区分怪物颜色的话，需要修改一下 分别为 AddAttackSkillData、SetUseTuTengMonsterShuXingCnt、SetDebuffSkill 详情请看说明
 记得搜索BD 内置数据 通用设置 使用到这3个命令的地方 都检查修改一下，不然有可能一直报错
