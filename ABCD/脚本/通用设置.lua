@@ -47,7 +47,7 @@ g_useCsjzMinHp= 0.3    --血量探到设置的值以下使用传送
 g_youXianMapLv=78      --超过等级优先取高级图
 g_needZaFenLv=75      --多少级开始炸坟
 g_needSuDiLv=85        --满85级打强袭宿敌内容
-g_needMengYanLv=80     --多少级开始打梦魇
+g_needMengYanLv=99     --多少级开始打梦魇
 g_useMoveSkillType=0   --使用位移技能赶路场景 
 g_needZhuangYuanLv=75    --满多少级打古灵庄园 nil为一直不打
 
