@@ -2,7 +2,7 @@
 覺醒,每張地圖的最終地圖頭目掉落 1 張額外塑界者守護者地圖 (階級 14+) & 地圖頭目有 200% 更多生命 & 地圖頭目造成 100% 更多傷害,MapAtlasBossDropsShaperGuardianMap
 覺醒,每張地圖的最終地圖頭目掉落 1 張額外尊師守護者地圖 (階級 14+) & 地圖頭目有 200% 更多生命 & 地圖頭目造成 100% 更多傷害,MapAtlasBossDropsElderGuardianMap
 覺醒,傳奇頭目掉落 1 張額外征服者地圖 & 傳奇頭目有 200% 更多生命 & 傳奇頭目造成 100% 更多傷害,MapAtlasBossDropsConquerorMap
-覺醒,未鑑定的地圖物品掉落數量增加 20%,MapAtlasUnIDedMapsGrantQuantity3
+覺醒,增加 20% 你未鑑定地圖的怪物群大小,MapAtlasUnIDedMapsGrantQuantity3
 覺醒,區域含有額外 1 位侵略頭目,MapAtlasContainsAdditionalRandomBoss
 覺醒,區域包含額外 6 群造成火焰傷害的怪物 & 玩家與怪物增加 12% 所受火焰傷害,MapAtlasFireDamageAndPacks3
 覺醒,區域包含額外 6 群造成冰冷傷害的怪物 & 玩家與怪物增加 12% 所受冰冷傷害,MapAtlasColdDamageAndPacks3
@@ -74,3 +74,4 @@
 覺醒,區域中掉落的非傳奇劫盜契約書有 1 個額外固定詞綴,MapAtlasHeistContractsHaveImplicitModifier
 覺醒,你地圖中的裂痕為托沃 & 你地圖中的裂痕包含 3 個額外抑制之手,MapAtlasBreachIsCold
 覺醒,你地圖掉落的油瓶高 1 階 & 你地圖中凋落防守塔的建造和升級消耗為 2 倍,MapAtlasBlightOilsChanceToDropOneTierHigher
+覺醒,你的地圖含有 1 個最後通牒事件,MapAtlasUltimatum

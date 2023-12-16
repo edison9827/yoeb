@@ -12,7 +12,6 @@
 # Flask Charges recovered every 3 seconds
 # Fractured Modifiers
 # Implicit Modifiers
-# Incubator Kills
 # Intelligence per 1 Intelligence on Allocated Passives in Radius
 # Life gained on Kill per Frenzy Charge
 # Life gained when you Block
@@ -100,15 +99,22 @@
 #% Base Defence Percentile
 #% chance for Amulets to drop as Anointed Talismans instead in your Maps
 #% chance for Bleeding inflicted with this Weapon to deal 100% more Damage
+#% chance for dropped Maps to convert to Atlas Memories
+#% chance for dropped Maps to convert to Charged Compasses
+#% chance for dropped Maps to convert to Conqueror Maps
+#% chance for dropped Maps to convert to Elder Maps
+#% chance for dropped Maps to convert to Maven Invitations
+#% chance for dropped Maps to convert to Shaper Maps
+#% chance for dropped Maps to convert to Unique Maps
 #% chance for Elemental Resistances to count as being 90% against Enemy Hits
 #% chance for Energy Shield Recharge to start when you Block
 #% chance for Energy Shield Recharge to start when you Kill an Enemy
+#% chance for Energy Shield Recharge to start when you Suppress Spell Damage
 #% chance for Energy Shield Recharge to start when you use a Skill
 #% chance for Exalted Orbs to drop as 3 Exalted Orbs instead in your Maps
 #% chance for Flasks to gain a Charge when you take a Critical Strike
 #% chance for Flasks you use to not consume Charges
 #% chance for Impales on Enemies you Kill to Reflect Damage to surrounding Enemies
-#% chance for Incursion Architects in your Maps to be Possessed by a Tormented Spirit
 #% chance for Kills to count twice for Rampage
 #% chance for Orbs of Annulment to drop as 3 Orbs of Annulment instead in your Maps
 #% chance for Poisons inflicted with this Weapon to deal 100% more Damage
@@ -203,17 +209,20 @@
 #% chance to Chill Attackers for 4 seconds on Block
 #% chance to Cover Enemies in Ash on Hit
 #% chance to cover Enemies in Ash when they Hit you
+#% chance to Cover Rare or Unique Enemies in Ash for 10 Seconds on Hit
 #% chance to create a copy of Beasts Captured in Area
 #% chance to create a Smoke Cloud when Hit
 #% chance to create Chilled Ground when Hit with an Attack
 #% chance to create Chilled Ground when you Freeze an Enemy
 #% chance to create Consecrated Ground when you Block
+#% chance to create Consecrated Ground when you Hit a Rare or Unique Enemy, lasting 8 seconds
 #% chance to create Consecrated Ground when you Shatter an Enemy
 #% chance to create Desecrated Ground when you Block
 #% chance to create Profane Ground on Critical&Strike if Intelligence is your highest Attribute
 #% chance to create Shocked Ground when Hit
 #% chance to Crush on Hit
 #% chance to Curse Enemies which Hit you with a random Hex, ignoring Curse Limit
+#% chance to Curse Enemies with a random Hex on Hit
 #% chance to Curse Enemies with Socketed Hex Curse Gem on Hit
 #% chance to Curse Enemies with Vulnerability on Hit
 #% chance to Curse non-Cursed Enemies with a random Hex on Hit
@@ -233,6 +242,8 @@
 #% chance to Freeze Enemies for 1 second when they Hit you
 #% chance to Freeze, Shock and Ignite
 #% chance to Freeze, Shock and Ignite during Effect
+#% chance to gain 1 Rage when you Hit a Rare or Unique Enemy
+#% chance to gain 25% of Non-Chaos Damage with Hits as Extra Chaos Damage
 #% chance to gain a Divine Charge on Hit
 #% chance to gain a Flask Charge when you deal a Critical Strike
 #% chance to gain a Flask Charge when you deal a Critical Strike while at maximum Frenzy Charges
@@ -276,6 +287,7 @@
 #% chance to gain an Endurance Charge when you are Hit
 #% chance to gain an Endurance Charge when you Block
 #% chance to gain an Endurance Charge when you Hit a Bleeding Enemy
+#% chance to gain an Endurance Charge when you Stun an Enemy
 #% chance to gain an Endurance Charge when you Taunt an Enemy
 #% chance to gain an Endurance, Frenzy or Power Charge when any&of your Traps are Triggered by an Enemy
 #% chance to Gain Arcane Surge on Hit with Spells while at maximum Power Charges
@@ -284,6 +296,7 @@
 #% chance to gain Elusive on Critical Strike
 #% chance to gain Her Blessing for 3 seconds when you Ignite an Enemy
 #% chance to gain Onslaught for 10 seconds on Kill
+#% chance to gain Onslaught for 10 seconds on Killing Blow
 #% chance to gain Onslaught for 3 seconds when Hit
 #% chance to Gain Onslaught for 4 seconds on Hit while at maximum Frenzy Charges
 #% chance to gain Onslaught for 4 seconds on Kill
@@ -307,6 +320,7 @@
 #% chance to Impale Enemies on Hit with Attacks
 #% chance to Impale Enemies on Hit with Attacks while using Pride
 #% chance to Impale on Spell Hit
+#% chance to inflict a Grasping Vine on Hit
 #% chance to inflict Bleeding on Critical Strike with Attacks
 #% chance to inflict Brittle
 #% chance to inflict Cold Exposure on Hit
@@ -324,6 +338,7 @@
 #% chance to lose a Power Charge on Kill
 #% chance to lose a Power Charge when you gain Elusive
 #% chance to lose an Endurance Charge on Kill
+#% chance to lose an Endurance Charge when you gain Fortification
 #% chance to Maim Enemies on Critical Strike with Attacks
 #% chance to Maim on Hit
 #% chance to not Activate Lockdown in Grand Heists
@@ -353,12 +368,14 @@
 #% chance to receive additional Harbinger items when opening a Reward Chest in a Heist
 #% chance to receive additional Jewellery when opening a Reward Chest in a Heist
 #% chance to receive additional Legion items when opening a Reward Chest in a Heist
-#% chance to receive additional Metamorph items when opening a Reward Chest in a Heist
 #% chance to receive additional Talismans when opening a Reward Chest in a Heist
+#% chance to receive additional Ultimatum items when opening a Reward Chest in a Heist
 #% chance to receive additional Unique items when opening a Reward Chest in a Heist
 #% chance to receive additional Weapons when opening a Reward Chest in a Heist
 #% chance to Recover 10% of Mana when you use a Skill
 #% chance to Recover 10% of Mana when you use a Skill while affected by Clarity
+#% chance to refresh Bleeding Duration on Hit
+#% chance to refresh Ignite Duration on Hit
 #% chance to Sap Enemies
 #% chance to Sap Enemies in Chilling Areas
 #% chance to Scorch Enemies
@@ -366,8 +383,13 @@
 #% chance to Shock Attackers for 4 seconds on Block
 #% chance to Shock Chilled Enemies
 #% chance to Shock during any Flask Effect
+#% chance to Steal Endurance Charges on Hit
+#% chance to Steal Frenzy Charges on Hit
+#% chance to Steal Power Charges on Hit
 #% chance to Steal Power, Frenzy, and Endurance Charges on Hit
+#% chance to take 50% less Area Damage from Hits
 #% chance to Taunt Enemies on Hit with Attacks
+#% chance to Taunt on Hit
 #% chance to throw up to 4 additional Traps
 #% chance to Trigger a Socketed Bow Skill when you Attack with a Bow, with a 1 second Cooldown
 #% chance to Trigger a Socketed Bow Skill when you Cast a Spell while wielding a Bow, with a 1 second Cooldown
@@ -412,6 +434,7 @@
 #% Global chance to Blind Enemies on hit
 #% increased Accuracy Rating during Effect
 #% increased Accuracy Rating if you haven't Killed Recently
+#% increased Accuracy Rating if you've dealt a Critical Strike in the past 8 seconds
 #% increased Accuracy Rating per Frenzy Charge
 #% increased Accuracy Rating when on Low Life
 #% increased Action Speed while affected by Haste
@@ -437,6 +460,7 @@
 #% increased Area of Effect per 50 Strength
 #% increased Area of Effect per Endurance Charge
 #% increased Area of Effect per Enemy killed recently, up to 50%
+#% increased Area of Effect per Power Charge
 #% increased Area of Effect while in Sand Stance
 #% increased Area of Effect while Unarmed
 #% increased Armour
@@ -482,6 +506,7 @@
 #% increased Attack Speed during any Flask Effect
 #% increased Attack Speed during Effect
 #% increased Attack Speed for each Map Item Modifier affecting the Area
+#% increased Attack Speed if you have Blocked Recently
 #% increased Attack Speed if you haven't Cast Dash recently
 #% increased Attack Speed if you haven't gained a Frenzy Charge Recently
 #% increased Attack Speed if you've been Hit Recently
@@ -556,6 +581,7 @@
 #% increased Chaos Damage per Level
 #% increased Chaos Damage while affected by Herald of Agony
 #% increased Character Size
+#% increased Charge Duration
 #% increased Charge Recovery
 #% increased Charges gained by Other Flasks during Effect
 #% increased Charges per use
@@ -623,8 +649,10 @@
 #% increased Critical Strike Chance with Two Handed Melee Weapons
 #% increased Critical Strike Chance with Vaal Skills during effect
 #% increased Damage
+#% increased Damage against Enemies that are on Low Life
 #% increased Damage during any Flask Effect
 #% increased Damage for each Magic Item Equipped
+#% increased Damage for each Non-Instant Spell you've Cast in the past 8 seconds
 #% increased Damage for each Poison on you up to a maximum of 75%
 #% increased Damage for each type of Abyss Jewel affecting you
 #% increased Damage if you have Consumed a corpse Recently
@@ -732,6 +760,7 @@
 #% increased Effect of Arcane Surge on you
 #% increased Effect of Arcane Surge on you per&Hypnotic Eye Jewel affecting you, up to a maximum of 40%
 #% increased Effect of Arcane Surge on you while affected by Clarity
+#% increased Effect of Auras from Mines
 #% increased Effect of Buffs granted by Socketed Golem Skills
 #% increased Effect of Buffs granted by your Golems
 #% increased Effect of Buffs on you
@@ -745,6 +774,7 @@
 #% increased Effect of Elusive on you per Power Charge
 #% increased Effect of Freeze on you
 #% increased Effect of Impales inflicted with Spells
+#% increased Effect of Jewel Socket Passive Skills containing&Corrupted Magic Jewels, if not from Cluster Jewels
 #% increased Effect of Lightning Ailments
 #% increased effect of Modifiers on your Non-Unique Maps
 #% increased effect of Non-Curse Auras from your Skills
@@ -755,6 +785,7 @@
 #% increased Effect of non-Damaging Ailments on Enemies per 10 Devotion
 #% increased Effect of Non-Damaging Ailments per Elder Item Equipped
 #% increased Effect of Non-Damaging Ailments you inflict during Effect
+#% increased Effect of non-Damaging Ailments you inflict with Critical Strikes
 #% increased Effect of non-Keystone Passive Skills in Radius
 #% increased effect of Offerings
 #% increased Effect of Onslaught on you
@@ -767,6 +798,7 @@
 #% increased Effect of Socketed Abyss Jewels
 #% increased Effect of Tailwind on you
 #% increased effect of Tattoos in Radius
+#% increased Effect of Withered
 #% increased Effect of your Curses
 #% increased Effect of your Marks
 #% increased Elemental Damage
@@ -833,6 +865,7 @@
 #% increased Fishing Range
 #% increased Flask Charges gained
 #% increased Flask Charges gained during any Flask Effect
+#% increased Flask Charges gained from Kills
 #% increased Flask Effect Duration
 #% increased Flask Life Recovery rate
 #% increased Flask Mana Recovery rate
@@ -911,6 +944,7 @@
 #% increased Mana Recovery Rate while affected by Clarity
 #% increased Mana Regeneration Rate
 #% increased Mana Regeneration Rate during any Flask Effect
+#% increased Mana Regeneration Rate if you have Shocked an Enemy Recently
 #% increased Mana Regeneration Rate per Power Charge
 #% increased Mana Regeneration Rate per Raised Spectre
 #% increased Mana Regeneration Rate while moving
@@ -959,6 +993,7 @@
 #% increased Minion Duration
 #% increased Minion Duration per Raised Zombie
 #% increased Minion Movement Speed per 50 Dexterity
+#% increased Mirage Archer Duration
 #% increased Monster Attack Speed
 #% increased Monster Cast Speed
 #% increased Monster Damage
@@ -1024,6 +1059,7 @@
 #% increased Physical Damage with Wands
 #% increased Physical Weapon Damage per 10 Strength
 #% increased Poison Duration
+#% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%
 #% increased Poison Duration if you have at least 150 Intelligence
 #% increased Poison Duration on you
 #% increased Poison Duration per Power Charge
@@ -1059,6 +1095,7 @@
 #% increased Rarity of Fish Caught
 #% increased Rarity of Items Dropped by Enemies killed with a Critical Strike
 #% increased Rarity of Items Dropped by Frozen Enemies
+#% increased Rarity of Items Dropped by Slain Enemies
 #% increased Rarity of Items Dropped by Slain Magic Enemies
 #% increased Rarity of Items Dropped by Slain Rare or Unique Enemies
 #% increased Rarity of Items Dropped by Slain Shocked Enemies
@@ -1177,11 +1214,13 @@
 #% more Rarity of Items Dropped by Imprisoned Monsters
 #% more Recovery if used while on Low Life
 #% more Ward during Effect
+#% of Armour applies to Fire, Cold and Lightning Damage taken from Hits
 #% of Attack Damage Leeched as Life
 #% of Attack Damage Leeched as Life against Bleeding Enemies
 #% of Attack Damage Leeched as Life against Chilled Enemies
 #% of Attack Damage Leeched as Life against Maimed Enemies
 #% of Attack Damage Leeched as Life against Taunted Enemies
+#% of Attack Damage Leeched as Life and Mana if you've Killed Recently
 #% of Attack Damage Leeched as Life during Effect
 #% of Attack Damage Leeched as Life on Critical Strike
 #% of Attack Damage Leeched as Life per Frenzy Charge
@@ -1205,10 +1244,12 @@
 #% of Damage against Shocked Enemies Leeched as Mana
 #% of Damage dealt by your Mines is Leeched to you as Life
 #% of Damage dealt by your Totems is Leeched to you as Life
+#% of Damage from Hits is taken from your nearest Totem's Life before you
 #% of Damage from Hits is taken from your Spectres' Life before you
 #% of Damage is taken from Mana before Life
 #% of Damage is taken from Mana before Life per Power Charge
 #% of Damage is taken from Mana before Life while Focused
+#% of Damage Leeched as Energy Shield
 #% of Damage Leeched as Energy Shield against Frozen Enemies
 #% of Damage Leeched as Life
 #% of Damage Leeched as Life against Cursed Enemies
@@ -1230,6 +1271,7 @@
 #% of Damage taken while affected by Clarity Recouped as Mana
 #% of Damage you Reflect to Enemies when Hit is leeched as Life
 #% of Elemental Damage from Hits taken as Chaos Damage
+#% of Elemental Damage from Hits taken as Physical Damage
 #% of Elemental Damage Leeched as Life
 #% of Evasion Rating is Regenerated as Life per second while Focused
 #% of Fire and Cold Damage taken as Lightning Damage while&affected by Purity of Lightning
@@ -1244,6 +1286,9 @@
 #% of Fire Damage Leeched by Enemy as Life
 #% of Fire Damage taken as Lightning Damage
 #% of Fire Damage taken Recouped as Life
+#% of Leech from Hits with this Weapon is Instant per Enemy Power
+#% of Leech is Instant
+#% of Leech is Instant against Low Life Enemies
 #% of Life Leech applies to Enemies as Chaos Damage
 #% of Life Recovery from Flasks is applied to nearby Allies instead of You
 #% of Life Regenerated per Second
@@ -1265,6 +1310,7 @@
 #% of Maximum Life taken as Chaos Damage per second
 #% of Melee Physical Damage taken reflected to Attacker
 #% of Non-Chaos Damage taken bypasses Energy Shield
+#% of Overkill Damage is Leeched as Life
 #% of Physical Attack Damage Leeched as Life
 #% of Physical Attack Damage Leeched as Life during Effect
 #% of Physical Attack Damage Leeched as Life per Red Socket
@@ -1784,13 +1830,14 @@
 (Enchant) #% reduced Mana Cost of Skills if you've been Hit Recently
 (Enchant) #% reduced Spectral Throw Projectile Deceleration
 (Enchant) #% reduced Storm Call Duration
+(Enchant) +# metre to Discharge radius
+(Enchant) +# metre to Weapon Range per 10% Quality
 (Enchant) +# to Evasion Rating while you have Phasing
 (Enchant) +# to Maximum Blood Charges
-(Enchant) +# to maximum number of Bladestorms
+(Enchant) +# to Maximum number of Bladestorms at a time
 (Enchant) +# to maximum number of Flame Walls
 (Enchant) +# to maximum number of Sentinels of Purity
 (Enchant) +# to maximum Sockets
-(Enchant) +# Weapon Range per 10% Quality
 (Enchant) +#% chance to Suppress Spell Damage if you've&taken Spell Damage Recently
 (Enchant) +#% increased Flame Golem Elemental Resistances
 (Enchant) +#% Sweep Knockback Chance
@@ -1848,7 +1895,7 @@
 (Enchant) Area contains # additional packs of Monsters that deal Physical Damage
 (Enchant) Area contains # additional packs of Monsters that Heal
 (Enchant) Area contains # additional packs of Poisonous Monsters
-(Enchant) Area contains # additional Packs with Mirrored Rare Monsters
+(Enchant) Area contains # additional packs with Mirrored Rare Monsters
 (Enchant) Area contains #% increased number of Runic Monster Markers
 (Enchant) Area contains a Blight Encounter
 (Enchant) Area contains a Smuggler's Cache
@@ -1871,6 +1918,7 @@
 (Enchant) Area is haunted by an additional Tormented Heretic
 (Enchant) Areas can contain Abysses
 (Enchant) Areas contain a Mirror of Delirium
+(Enchant) Areas contain an Ultimatum Encounter
 (Enchant) Areas contain Ritual Altars
 (Enchant) Armageddon Brand Damage Penetrates #% of Branded Enemy's Fire Resistance
 (Enchant) Armageddon Brand deals #% increased Damage
@@ -1923,11 +1971,11 @@
 (Enchant) Catalysts dropped by Metamorphs are duplicated
 (Enchant) Caustic Arrow has #% chance to inflict Withered on Hit for # second base Duration
 (Enchant) Chain Hook deals #% increased Damage
-(Enchant) Chain Hook has +# Radius per 12 Rage
+(Enchant) Chain Hook has +# metre to radius per 12 Rage
 (Enchant) Chain Hook has a #% chance to grant +1 Rage if it Hits Enemies
 (Enchant) Chaos Golems deal #% increased Damage
 (Enchant) Charged Dash has #% more Movement Speed
-(Enchant) Charged Dash has +# to Radius of each Wave's last damage Area
+(Enchant) Charged Dash has +# metre to radius of each Wave's last damage Area
 (Enchant) Chills from Ice Nova Hits always reduce Action Speed by at least #%
 (Enchant) Clarity has #% increased Mana Reservation Efficiency
 (Enchant) Clarity has #% increased Mana Reservation Efficiency
@@ -1985,7 +2033,6 @@
 (Enchant) Desecrate Spawns an additional corpse
 (Enchant) Detonate Dead has a #% chance to detonate an additional corpse
 (Enchant) Devouring Totem has #% Chance to Consume an additional corpse
-(Enchant) Discharge has +# to Radius
 (Enchant) Divine Ire Damages an additional nearby Enemy when gaining Stages
 (Enchant) Divine Ire deals #% increased Damage
 (Enchant) Divine Ire's beam has #% increased width
@@ -2088,8 +2135,8 @@
 (Enchant) Heist Chests have #% chance to contain nothing
 (Enchant) Heist Chests have a #% chance to Duplicate their contents
 (Enchant) Hexblast deals #% increased Damage
-(Enchant) Hexblast has #% chance to not remove a Hex
 (Enchant) Hexblast has #% increased Area of Effect
+(Enchant) Hexblast has +#% chance to remove a Hex
 (Enchant) Hits against Enemies Unnerved by you have #% increased Spell Critical Strike Chance
 (Enchant) Hits at Close Range with Shattering Steel Fortify
 (Enchant) Holy Flame Totem deals #% increased Damage
@@ -2200,7 +2247,7 @@
 (Enchant) Player's Life and Mana Recovery from Flasks are instant
 (Enchant) Players' Vaal Skills do not apply Soul Gain Prevention
 (Enchant) Poisonous Concoction uses #% increased Flask Charges
-(Enchant) Power Siphon fires an additional Projectile
+(Enchant) Power Siphon fires at up to # additional target
 (Enchant) Precision has #% increased Reservation
 (Enchant) Purifying Flame deals #% increased Damage
 (Enchant) Purifying Flame has #% increased Area of Effect if targeting Consecrated Ground
@@ -2235,7 +2282,7 @@
 (Enchant) Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1 second
 (Enchant) Rune Blast teleports you to the detonated Rune if you have not detonated Runes in the past 1.5 seconds
 (Enchant) Sand Bladestorms move with #% increased speed
-(Enchant) Scourge Arrow creates an additional spore pod at Maximum Stages
+(Enchant) Scourge Arrow creates +# Spore Pod
 (Enchant) Scourge Arrow deals #% increased Damage
 (Enchant) Scourge Arrow has #% chance to Poison per Stage
 (Enchant) Seismic Cry has a minimum of # Power
@@ -2269,7 +2316,7 @@
 (Enchant) Smoke Mine grants additional #% increased Movement Speed
 (Enchant) Sniper's Mark has #% increased Curse Effect
 (Enchant) Sniper's Mark has #% increased Duration
-(Enchant) Soulrend also Hinders Enemies, with #% reduced Movement Speed
+(Enchant) Soulrend also Hinders Enemies when applying its Debuff, with #% reduced Movement Speed
 (Enchant) Soulrend deals #% increased Damage
 (Enchant) Soulrend fires an additional Projectile
 (Enchant) Spark fires an additional Projectile
@@ -2488,7 +2535,6 @@
 (PSEUDO) +#% total Resistance
 (固定) # to # Added Attack Lightning Damage per 200 Accuracy Rating
 (固定) #% chance to Extinguish Enemies on Hit
-(固定) #% chance to gain an Endurance Charge when you Stun an Enemy
 (固定) #% chance to Gain Arcane Surge on Hit with Spells
 (固定) #% chance to inflict Brittle on Enemies when you Block their Damage
 (固定) #% chance to Intimidate Enemies for 4 seconds on Hit with Attacks
@@ -2560,10 +2606,12 @@
 (固定) #% increased Physical Damage while you have Unholy Might
 (固定) #% increased Physical Damage with Attack Skills
 (固定) #% increased Physical Damage with Spell Skills
+(固定) #% increased Prefix Modifier magnitudes
 (固定) #% increased Punishment Curse Effect
 (固定) #% increased Rallying Cry Buff Effect
 (固定) #% increased Spell Damage if Corrupted
 (固定) #% increased Spell Damage per 500 Maximum Mana
+(固定) #% increased Suffix Modifier magnitudes
 (固定) #% increased Temporal Chains Curse Effect
 (固定) #% increased total Recovery per second from Life Leech for each Corrupted Item Equipped
 (固定) #% increased total Recovery per second from Mana Leech for each Corrupted Item Equipped
@@ -2594,6 +2642,7 @@
 (固定) +#% chance to Suppress Spell Damage while moving
 (固定) +#% to all Elemental Resistances if Corrupted
 (固定) +#% to Animated Guardian Elemental Resistances
+(固定) +#% to Critical Strike Chance against Enemies that are on Full Life
 (固定) +#% to Critical Strike Multiplier during any Flask Effect
 (固定) +#% to Critical Strike Multiplier for Attack Damage
 (固定) +#% to Critical Strike Multiplier for Spells while Dual Wielding
@@ -2619,6 +2668,8 @@
 (固定) 1% less Damage Taken per # Dexterity
 (固定) 1% less Damage Taken per # Intelligence
 (固定) 1% less Damage Taken per # Strength
+(固定) All Damage can Poison
+(固定) All Damage can Shock
 (固定) All Damage from Hits with This Weapon can Poison
 (固定) Area contains # additional Chest Marker
 (固定) Area contains #% increased number of Monster Markers
@@ -2650,12 +2701,14 @@
 (固定) Area contains up to 1 Shrine
 (固定) Area is haunted by # additional Tormented Spirit
 (固定) Area is influenced by #
+(固定) Areas contain an Ultimatum Encounter
 (固定) Areas contain Ritual Altars
 (固定) Arrows Chain +# times
 (固定) Arrows Pierce 1 additional Target
 (固定) Attack Critical Strikes ignore Enemy Monster Elemental Resistances
 (固定) Attacks Exerted by Ancestral Cry deal #% increased Damage
 (固定) Attacks Exerted by Seismic Cry deal #% increased Damage
+(固定) Bleeding you inflict on non-Bleeding Enemies deals #% more Damage
 (固定) Bone Offering has #% increased Effect
 (固定) Can roll Minion Modifiers
 (固定) Can't use Flask in Fifth Slot
@@ -2666,9 +2719,7 @@
 (固定) Creates Chilled Ground on Use
 (固定) Creates Consecrated Ground on Use
 (固定) Curse Enemies with Enfeeble on Hit
-(固定) Damage with Weapons Penetrates #% Cold Resistance
-(固定) Damage with Weapons Penetrates #% Fire Resistance
-(固定) Damage with Weapons Penetrates #% Lightning Resistance
+(固定) Damaging Hits always Stun Enemies that are on Full Life
 (固定) Determination has #% increased Aura Effect
 (固定) Discipline has #% increased Aura Effect
 (固定) Drops Brittle Ground while moving, lasting # seconds
@@ -2677,7 +2728,6 @@
 (固定) Enduring Cry has #% increased Cooldown Recovery Rate
 (固定) Enemies you've Hit Recently have #% reduced Life Regeneration rate
 (固定) Excavated Chests have a #% chance to contain twice as many Items
-(固定) Flasks gain # Charges every 3 seconds
 (固定) Flesh and Stone has #% increased Area of Effect
 (固定) Flesh Offering has #% increased Effect
 (固定) Gain 1 Rage on Hit with Attacks, no more than once every # seconds
@@ -2717,7 +2767,6 @@
 (固定) Left ring slot: Minions take #% increased Damage
 (固定) Map contains #'s Citadel
 (固定) Map is occupied by #
-(固定) Melee Hits Fortify
 (固定) Minions take #% reduced Reflected Damage
 (固定) Modifiers to Item Quantity affect the amount of rewards dropped by the boss by #% of their value
 (固定) Modifiers to Item Quantity will affect the number of encounter rewards dropped by #% of their value
@@ -2934,7 +2983,7 @@
 (固定) While a Pinnacle Atlas Boss is in your Presence, Flasks gain # Charges every 3 seconds
 (固定) While a Pinnacle Atlas Boss is in your Presence, Flesh and Stone has #% increased Area of Effect
 (固定) While a Pinnacle Atlas Boss is in your Presence, Flesh Offering has #% increased Effect
-(固定) While a Pinnacle Atlas Boss is in your Presence, Freezes you inflict spread to other Enemies within a Radius of #
+(固定) While a Pinnacle Atlas Boss is in your Presence, Freezes you inflict spread to other Enemies within # metre
 (固定) While a Pinnacle Atlas Boss is in your Presence, Gain #% of Physical Damage as Extra Chaos Damage
 (固定) While a Pinnacle Atlas Boss is in your Presence, Gain #% of Physical Damage as Extra Cold Damage
 (固定) While a Pinnacle Atlas Boss is in your Presence, Gain #% of Physical Damage as Extra Fire Damage
@@ -2953,7 +3002,7 @@
 (固定) While a Pinnacle Atlas Boss is in your Presence, Herald of Purity has #% increased Buff Effect
 (固定) While a Pinnacle Atlas Boss is in your Presence, Herald of Thunder has #% increased Buff Effect
 (固定) While a Pinnacle Atlas Boss is in your Presence, Ignites you inflict deal Damage #% faster
-(固定) While a Pinnacle Atlas Boss is in your Presence, Ignites you inflict spread to other Enemies within a Radius of #
+(固定) While a Pinnacle Atlas Boss is in your Presence, Ignites you inflict spread to other Enemies within # metre
 (固定) While a Pinnacle Atlas Boss is in your Presence, Infernal Cry has #% increased Area of Effect
 (固定) While a Pinnacle Atlas Boss is in your Presence, Inflict Cold Exposure on Hit, applying #% to Cold Resistance
 (固定) While a Pinnacle Atlas Boss is in your Presence, Inflict Fire Exposure on Hit, applying #% to Fire Resistance
@@ -2975,7 +3024,7 @@
 (固定) While a Pinnacle Atlas Boss is in your Presence, Purity of Ice has #% increased Aura Effect
 (固定) While a Pinnacle Atlas Boss is in your Presence, Purity of Lightning has #% increased Aura Effect
 (固定) While a Pinnacle Atlas Boss is in your Presence, Regenerate #% of Life per second per Endurance Charge
-(固定) While a Pinnacle Atlas Boss is in your Presence, Shocks you inflict spread to other Enemies within a Radius of #
+(固定) While a Pinnacle Atlas Boss is in your Presence, Shocks you inflict spread to other Enemies within # metre
 (固定) While a Pinnacle Atlas Boss is in your Presence, Spirit Offering has #% increased Effect
 (固定) While a Pinnacle Atlas Boss is in your Presence, Tempest Shield has #% increased Buff Effect
 (固定) While a Pinnacle Atlas Boss is in your Presence, Withered you Inflict expires #% faster
@@ -3151,7 +3200,7 @@
 (固定) While a Unique Enemy is in your Presence, Flasks gain # Charges every 3 seconds
 (固定) While a Unique Enemy is in your Presence, Flesh and Stone has #% increased Area of Effect
 (固定) While a Unique Enemy is in your Presence, Flesh Offering has #% increased Effect
-(固定) While a Unique Enemy is in your Presence, Freezes you inflict spread to other Enemies within a Radius of #
+(固定) While a Unique Enemy is in your Presence, Freezes you inflict spread to other Enemies within # metre
 (固定) While a Unique Enemy is in your Presence, Gain #% of Physical Damage as Extra Chaos Damage
 (固定) While a Unique Enemy is in your Presence, Gain #% of Physical Damage as Extra Cold Damage
 (固定) While a Unique Enemy is in your Presence, Gain #% of Physical Damage as Extra Fire Damage
@@ -3170,7 +3219,7 @@
 (固定) While a Unique Enemy is in your Presence, Herald of Purity has #% increased Buff Effect
 (固定) While a Unique Enemy is in your Presence, Herald of Thunder has #% increased Buff Effect
 (固定) While a Unique Enemy is in your Presence, Ignites you inflict deal Damage #% faster
-(固定) While a Unique Enemy is in your Presence, Ignites you inflict spread to other Enemies within a Radius of #
+(固定) While a Unique Enemy is in your Presence, Ignites you inflict spread to other Enemies within # metre
 (固定) While a Unique Enemy is in your Presence, Infernal Cry has #% increased Area of Effect
 (固定) While a Unique Enemy is in your Presence, Inflict Cold Exposure on Hit, applying #% to Cold Resistance
 (固定) While a Unique Enemy is in your Presence, Inflict Fire Exposure on Hit, applying #% to Fire Resistance
@@ -3192,7 +3241,7 @@
 (固定) While a Unique Enemy is in your Presence, Purity of Ice has #% increased Aura Effect
 (固定) While a Unique Enemy is in your Presence, Purity of Lightning has #% increased Aura Effect
 (固定) While a Unique Enemy is in your Presence, Regenerate #% of Life per second per Endurance Charge
-(固定) While a Unique Enemy is in your Presence, Shocks you inflict spread to other Enemies within a Radius of #
+(固定) While a Unique Enemy is in your Presence, Shocks you inflict spread to other Enemies within # metre
 (固定) While a Unique Enemy is in your Presence, Spirit Offering has #% increased Effect
 (固定) While a Unique Enemy is in your Presence, Tempest Shield has #% increased Buff Effect
 (固定) While a Unique Enemy is in your Presence, Withered you Inflict expires #% faster
@@ -3202,7 +3251,6 @@
 (固定) You and nearby Allies deal #% increased Damage
 (固定) You are Crushed
 (固定) You can catch Corrupted Fish
-(固定) You cannot be Maimed
 (固定) You gain Onslaught for # seconds on Hit
 +# Accuracy Rating per 2 Intelligence
 +# Armour if you've Blocked Recently
@@ -3222,6 +3270,12 @@
 +# Maximum Life per Level
 +# Maximum Mana per Level
 +# Metamorph Monster Samples in your Maps have Rewards
++# metre to Melee Strike Range
++# metre to Melee Strike Range if you have Killed Recently
++# metre to Melee Strike Range per White Socket
++# metre to Melee Strike Range while Unarmed
++# metres to Melee Strike Range
++# metres to Weapon Range
 +# Physical Damage taken from Attack Hits
 +# Physical Damage taken from Hits
 +# Physical Damage taken from Hits by Animals
@@ -3235,8 +3289,8 @@
 +# seconds to Lockdown Timer
 +# Strength and Intelligence Requirement
 +# Strength Requirement
-+# to Accuracy against Bleeding Enemies
 +# to Accuracy Rating
++# to Accuracy Rating for each Empty Green Socket on any Equipped Item
 +# to Accuracy Rating per 10 Dexterity on Unallocated Passives in Radius
 +# to Accuracy Rating per 10 Intelligence on Unallocated Passives in Radius
 +# to Accuracy Rating while at Maximum Frenzy Charges
@@ -3244,6 +3298,7 @@
 +# to all Attributes
 +# to Armour
 +# to Armour and Evasion Rating
++# to Armour and Evasion Rating per 1% Chance to Block Attack Damage
 +# to Armour during Soul Gain Prevention
 +# to Armour if you've Hit an Enemy Recently
 +# to Armour per 5 Evasion Rating on Equipped Shield
@@ -3262,30 +3317,301 @@
 +# to Evasion Rating
 +# to Evasion Rating and Energy Shield
 +# to Evasion Rating if Hit an Enemy Recently
++# to Evasion Rating per 1 Maximum Energy Shield on Equipped Helmet
 +# to Evasion Rating per 5 Maximum Energy Shield on Equipped Shield
 +# to Evasion Rating while in Sand Stance
 +# to Evasion Rating while on Full Life
 +# to Evasion Rating while on Low Life
 +# to Intelligence
++# to Level of all Absolution Gems
++# to Level of all Alchemist's Mark Gems
++# to Level of all Ambush Gems
++# to Level of all Ancestral Cry Gems
++# to Level of all Ancestral Protector Gems
++# to Level of all Ancestral Warchief Gems
++# to Level of all Anger Gems
++# to Level of all Animate Guardian Gems
++# to Level of all Animate Weapon Gems
++# to Level of all Arc Gems
++# to Level of all Arcane Cloak Gems
++# to Level of all Arcanist Brand Gems
++# to Level of all Arctic Armour Gems
++# to Level of all Armageddon Brand Gems
++# to Level of all Artillery Ballista Gems
++# to Level of all Assassin's Mark Gems
++# to Level of all Ball Lightning Gems
++# to Level of all Bane Gems
++# to Level of all Barrage Gems
++# to Level of all Battlemage's Cry Gems
++# to Level of all Bear Trap Gems
++# to Level of all Berserk Gems
++# to Level of all Blade Blast Gems
++# to Level of all Blade Flurry Gems
++# to Level of all Blade Trap Gems
++# to Level of all Blade Vortex Gems
++# to Level of all Bladefall Gems
++# to Level of all Bladestorm Gems
++# to Level of all Blast Rain Gems
++# to Level of all Blazing Salvo Gems
++# to Level of all Blight Gems
++# to Level of all Blink Arrow Gems
++# to Level of all Blood and Sand Gems
++# to Level of all Blood Rage Gems
++# to Level of all Bodyswap Gems
++# to Level of all Bone Offering Gems
++# to Level of all Boneshatter Gems
++# to Level of all Brand Recall Gems
++# to Level of all Burning Arrow Gems
++# to Level of all Caustic Arrow Gems
++# to Level of all Chain Hook Gems
 +# to Level of all Chaos Skill Gems
 +# to Level of all Chaos Spell Skill Gems
++# to Level of all Charged Dash Gems
++# to Level of all Clarity Gems
++# to Level of all Cleave Gems
++# to Level of all Cobra Lash Gems
 +# to Level of all Cold Skill Gems
++# to Level of all Cold Snap Gems
 +# to Level of all Cold Spell Skill Gems
++# to Level of all Conductivity Gems
++# to Level of all Consecrated Path Gems
++# to Level of all Contagion Gems
++# to Level of all Conversion Trap Gems
++# to Level of all Convocation Gems
++# to Level of all Corrupting Fever Gems
++# to Level of all Crackling Lance Gems
++# to Level of all Creeping Frost Gems
++# to Level of all Cremation Gems
++# to Level of all Cyclone Gems
++# to Level of all Dark Pact Gems
++# to Level of all Dash Gems
++# to Level of all Decoy Totem Gems
++# to Level of all Defiance Banner Gems
++# to Level of all Desecrate Gems
++# to Level of all Despair Gems
++# to Level of all Destructive Link Gems
++# to Level of all Determination Gems
++# to Level of all Detonate Dead Gems
++# to Level of all Devouring Totem Gems
 +# to Level of all Dexterity Skill Gems
++# to Level of all Discharge Gems
++# to Level of all Discipline Gems
++# to Level of all Divine Ire Gems
++# to Level of all Dominating Blow Gems
++# to Level of all Double Strike Gems
++# to Level of all Dread Banner Gems
++# to Level of all Dual Strike Gems
++# to Level of all Earthquake Gems
++# to Level of all Earthshatter Gems
++# to Level of all Elemental Hit Gems
++# to Level of all Elemental Weakness Gems
++# to Level of all Enduring Cry Gems
++# to Level of all Energy Blade Gems
++# to Level of all Enfeeble Gems
++# to Level of all Ensnaring Arrow Gems
++# to Level of all Essence Drain Gems
++# to Level of all Ethereal Knives Gems
++# to Level of all Explosive Arrow Gems
++# to Level of all Explosive Concoction Gems
++# to Level of all Explosive Trap Gems
++# to Level of all Exsanguinate Gems
++# to Level of all Eye of Winter Gems
 +# to Level of all Fire Skill Gems
 +# to Level of all Fire Spell Skill Gems
++# to Level of all Fire Trap Gems
++# to Level of all Fireball Gems
++# to Level of all Firestorm Gems
++# to Level of all Flame Dash Gems
++# to Level of all Flame Link Gems
++# to Level of all Flame Surge Gems
++# to Level of all Flame Wall Gems
++# to Level of all Flameblast Gems
++# to Level of all Flamethrower Trap Gems
++# to Level of all Flammability Gems
++# to Level of all Flesh and Stone Gems
++# to Level of all Flesh Offering Gems
++# to Level of all Flicker Strike Gems
++# to Level of all Forbidden Rite Gems
++# to Level of all Freezing Pulse Gems
++# to Level of all Frenzy Gems
++# to Level of all Frost Blades Gems
++# to Level of all Frost Bomb Gems
++# to Level of all Frost Shield Gems
++# to Level of all Frost Wall Gems
++# to Level of all Frostbite Gems
++# to Level of all Frostblink Gems
++# to Level of all Frostbolt Gems
++# to Level of all Frozen Legion Gems
++# to Level of all Galvanic Arrow Gems
++# to Level of all Galvanic Field Gems
++# to Level of all General's Cry Gems
++# to Level of all Glacial Cascade Gems
++# to Level of all Glacial Hammer Gems
++# to Level of all Grace Gems
++# to Level of all Ground Slam Gems
++# to Level of all Haste Gems
++# to Level of all Hatred Gems
++# to Level of all Heavy Strike Gems
++# to Level of all Herald of Agony Gems
++# to Level of all Herald of Ash Gems
++# to Level of all Herald of Ice Gems
++# to Level of all Herald of Purity Gems
++# to Level of all Herald of Thunder Gems
++# to Level of all Hexblast Gems
++# to Level of all Holy Flame Totem Gems
++# to Level of all Hydrosphere Gems
++# to Level of all Ice Crash Gems
++# to Level of all Ice Nova Gems
++# to Level of all Ice Shot Gems
++# to Level of all Ice Spear Gems
++# to Level of all Ice Trap Gems
++# to Level of all Icicle Mine Gems
++# to Level of all Immortal Call Gems
++# to Level of all Incinerate Gems
++# to Level of all Infernal Blow Gems
++# to Level of all Infernal Cry Gems
 +# to Level of all Intelligence Skill Gems
++# to Level of all Intimidating Cry Gems
++# to Level of all Intuitive Link Gems
 +# to Level of all Jobs for Heists
++# to Level of all Kinetic Blast Gems
++# to Level of all Kinetic Bolt Gems
++# to Level of all Lacerate Gems
++# to Level of all Lancing Steel Gems
++# to Level of all Leap Slam Gems
++# to Level of all Lightning Arrow Gems
++# to Level of all Lightning Conduit Gems
 +# to Level of all Lightning Skill Gems
 +# to Level of all Lightning Spell Skill Gems
++# to Level of all Lightning Spire Trap Gems
++# to Level of all Lightning Strike Gems
++# to Level of all Lightning Tendrils Gems
++# to Level of all Lightning Trap Gems
++# to Level of all Lightning Warp Gems
++# to Level of all Malevolence Gems
++# to Level of all Manabond Gems
 +# to Level of all Minion Skill Gems
++# to Level of all Mirror Arrow Gems
++# to Level of all Molten Shell Gems
++# to Level of all Molten Strike Gems
++# to Level of all Orb of Storms Gems
++# to Level of all Penance Brand Gems
++# to Level of all Perforate Gems
++# to Level of all Pestilent Strike Gems
++# to Level of all Petrified Blood Gems
++# to Level of all Phase Run Gems
 +# to Level of all Physical Skill Gems
 +# to Level of all Physical Spell Skill Gems
++# to Level of all Plague Bearer Gems
++# to Level of all Poacher's Mark Gems
++# to Level of all Poisonous Concoction Gems
++# to Level of all Power Siphon Gems
++# to Level of all Precision Gems
++# to Level of all Pride Gems
++# to Level of all Protective Link Gems
++# to Level of all Puncture Gems
++# to Level of all Punishment Gems
++# to Level of all Purifying Flame Gems
++# to Level of all Purity of Elements Gems
++# to Level of all Purity of Fire Gems
++# to Level of all Purity of Ice Gems
++# to Level of all Purity of Lightning Gems
++# to Level of all Pyroclast Mine Gems
++# to Level of all Rage Vortex Gems
++# to Level of all Rain of Arrows Gems
 +# to Level of all Raise Spectre Gems
 +# to Level of all Raise Zombie Gems
++# to Level of all Rallying Cry Gems
++# to Level of all Reap Gems
++# to Level of all Reave Gems
++# to Level of all Reckoning Gems
++# to Level of all Rejuvenation Totem Gems
++# to Level of all Righteous Fire Gems
++# to Level of all Riposte Gems
++# to Level of all Rolling Magma Gems
++# to Level of all Scorching Ray Gems
++# to Level of all Scourge Arrow Gems
++# to Level of all Searing Bond Gems
++# to Level of all Seismic Cry Gems
++# to Level of all Seismic Trap Gems
++# to Level of all Shattering Steel Gems
++# to Level of all Shield Charge Gems
++# to Level of all Shield Crush Gems
++# to Level of all Shock Nova Gems
++# to Level of all Shockwave Totem Gems
++# to Level of all Shrapnel Ballista Gems
++# to Level of all Siege Ballista Gems
++# to Level of all Sigil of Power Gems
++# to Level of all Siphoning Trap Gems
 +# to Level of all Skill Gems
++# to Level of all Smite Gems
++# to Level of all Smoke Mine Gems
++# to Level of all Snipe Gems
++# to Level of all Sniper's Mark Gems
++# to Level of all Soul Link Gems
++# to Level of all Soulrend Gems
++# to Level of all Spark Gems
++# to Level of all Spectral Helix Gems
++# to Level of all Spectral Shield Throw Gems
++# to Level of all Spectral Throw Gems
 +# to Level of all Spell Skill Gems
++# to Level of all Spellslinger Gems
++# to Level of all Spirit Offering Gems
++# to Level of all Split Arrow Gems
++# to Level of all Splitting Steel Gems
++# to Level of all Static Strike Gems
++# to Level of all Steelskin Gems
++# to Level of all Storm Brand Gems
++# to Level of all Storm Burst Gems
++# to Level of all Storm Call Gems
++# to Level of all Storm Rain Gems
++# to Level of all Stormbind Gems
++# to Level of all Stormblast Mine Gems
 +# to Level of all Strength Skill Gems
++# to Level of all Summon Carrion Golem Gems
++# to Level of all Summon Chaos Golem Gems
++# to Level of all Summon Flame Golem Gems
++# to Level of all Summon Holy Relic Gems
++# to Level of all Summon Ice Golem Gems
++# to Level of all Summon Lightning Golem Gems
++# to Level of all Summon Raging Spirit Gems
++# to Level of all Summon Reaper Gems
++# to Level of all Summon Skeletons Gems
++# to Level of all Summon Skitterbots Gems
++# to Level of all Summon Stone Golem Gems
++# to Level of all Sunder Gems
++# to Level of all Sweep Gems
++# to Level of all Tectonic Slam Gems
++# to Level of all Tempest Shield Gems
++# to Level of all Temporal Chains Gems
++# to Level of all Temporal Rift Gems
++# to Level of all Tornado Gems
++# to Level of all Tornado Shot Gems
++# to Level of all Toxic Rain Gems
++# to Level of all Unearth Gems
++# to Level of all Vampiric Link Gems
++# to Level of all Vengeance Gems
++# to Level of all Venom Gyre Gems
++# to Level of all Vigilant Strike Gems
++# to Level of all Viper Strike Gems
++# to Level of all Vitality Gems
++# to Level of all Void Sphere Gems
++# to Level of all Volatile Dead Gems
++# to Level of all Volcanic Fissure Gems
++# to Level of all Voltaxic Burst Gems
++# to Level of all Vortex Gems
++# to Level of all Vulnerability Gems
++# to Level of all War Banner Gems
++# to Level of all Warlord's Mark Gems
++# to Level of all Wave of Conviction Gems
++# to Level of all Whirling Blades Gems
++# to Level of all Wild Strike Gems
++# to Level of all Winter Orb Gems
++# to Level of all Wintertide Brand Gems
++# to Level of all Wither Gems
++# to Level of all Withering Step Gems
++# to Level of all Wrath Gems
++# to Level of all Zealotry Gems
 +# to Level of Socketed AoE Gems
 +# to Level of Socketed Aura Gems
 +# to Level of Socketed Bow Gems
@@ -3306,6 +3632,7 @@
 +# to Level of Socketed Non-Vaal Gems
 +# to Level of Socketed Projectile Gems
 +# to Level of Socketed Skill Gems
++# to level of Socketed Skill Gems per Socketed Gem
 +# to Level of Socketed Spell Gems
 +# to Level of Socketed Strength Gems
 +# to Level of Socketed Support Gems
@@ -3323,11 +3650,13 @@
 +# to Maximum Energy Shield per 5 Armour on Equipped Shield
 +# to Maximum Energy Shield per Blue Socket
 +# to maximum Fortification
++# to maximum Fortification per Endurance Charge
 +# to maximum Fortification while affected by Glorious Madness
 +# to maximum Fortification while Focused
 +# to Maximum Frenzy Charges
 +# to Maximum Frenzy Charges while affected by Grace
 +# to maximum Life
++# to maximum Life for each Empty Red Socket on any Equipped Item
 +# to maximum Life if there are no Life Modifiers on other Equipped Items
 +# to Maximum Life per 10 Dexterity
 +# to Maximum Life per 10 Intelligence
@@ -3335,6 +3664,7 @@
 +# to Maximum Life per Elder Item Equipped
 +# to Maximum Life per Red Socket
 +# to maximum Mana
++# to maximum Mana for each Empty Blue Socket on any Equipped Item
 +# to Maximum Mana per 10 Dexterity on Unallocated Passives in Radius
 +# to Maximum Mana per Green Socket
 +# to Maximum number of Crab Barriers
@@ -3354,10 +3684,6 @@
 +# to Maximum Siphoning Charges per Elder or Shaper Item Equipped
 +# to maximum Snipe Stages
 +# to Maximum Spirit Charges per Abyss Jewel affecting you
-+# to Melee Strike Range
-+# to Melee Strike Range if you have Killed Recently
-+# to Melee Strike Range per White Socket
-+# to Melee Strike Range while Unarmed
 +# to Minimum Endurance Charges
 +# to Minimum Endurance Charges per Grand Spectrum
 +# to Minimum Frenzy Charges
@@ -3376,7 +3702,6 @@
 +# to Total Mana Cost of Skills while affected by Clarity
 +# to Trap Disarmament Level for Heists
 +# to Ward
-+# to Weapon Range
 +# total maximum Energy Shield
 +# total maximum Life
 +# total maximum Mana
@@ -3421,6 +3746,7 @@
 +#% Chance to Block Attack Damage if you have Blocked Attack Damage Recently
 +#% Chance to Block Attack Damage if you have Blocked Spell Damage Recently
 +#% Chance to Block Attack Damage if you were Damaged by a Hit Recently
++#% Chance to Block Attack Damage if you've Stunned an Enemy Recently
 +#% Chance to Block Attack Damage per 50 Strength
 +#% Chance to Block Attack Damage per Endurance Charge
 +#% Chance to Block Attack Damage per Frenzy Charge
@@ -3463,6 +3789,7 @@
 +#% chance to Suppress Spell Damage while your Off Hand is empty
 +#% Chaos Resistance against Damage Over Time
 +#% Critical Strike Chance per Power Charge
++#% Critical Strike Chance while at maximum Power Charges
 +#% Critical Strike Multiplier while a Rare or Unique Enemy is Nearby
 +#% Global Critical Strike Chance
 +#% Global Critical Strike Multiplier
@@ -3490,6 +3817,7 @@
 +#% Quality to Resistance Modifiers
 +#% Quality to Speed Modifiers
 +#% to all Elemental Resistances
++#% to all Elemental Resistances for each Empty White Socket on any Equipped Item
 +#% to all Elemental Resistances per 10 Devotion
 +#% to all Elemental Resistances per 15 Omniscience
 +#% to all Elemental Resistances per Endurance Charge
@@ -3523,6 +3851,7 @@
 +#% to Critical Strike Chance against Enemies on Consecrated Ground during Effect
 +#% to Critical Strike Chance while affected by Aspect of the Cat
 +#% to Critical Strike Chance while affected by Hatred
++#% to Critical Strike Multiplier against Burning Enemies
 +#% to Critical Strike Multiplier against Enemies that are on Full Life
 +#% to Critical Strike Multiplier for Spell Damage
 +#% to Critical Strike Multiplier for Spells if you haven't Killed Recently
@@ -4085,6 +4414,7 @@ Agony Crawler deals #% increased Damage
 Alert Level increases by #% per second
 All Attack Damage Chills when you Stun
 All Damage can Freeze
+All Damage can Ignite
 All Damage from Monsters' Hits can Freeze
 All Damage from Monsters' Hits can Ignite
 All Damage from Monsters' Hits can Poison
@@ -4114,7 +4444,7 @@ Anger has #% increased Mana Reservation Efficiency
 Anger has #% reduced Reservation
 Anger has no Reservation
 Animated Guardian deals #% increased Damage per Animated Weapon
-Animated Minions' Melee Attacks deal #% less Damage to surrounding targets
+Animated Minions' Melee Attacks deal #% less Splash Damage to surrounding targets
 Animated Minions' Melee Attacks deal Splash Damage to surrounding targets
 Arctic Armour has #% increased Mana Reservation Efficiency
 Arctic Armour has #% reduced Reservation
@@ -4228,6 +4558,8 @@ Aspect of the Cat has no Reservation
 Aspect of the Spider can inflict Spider's Web on Enemies an additional time
 Aspect of the Spider inflicts Spider's Webs and Hinder every # Seconds instead
 At least one Perandus Chest is guarded by a Unique Monster
+Attack Hits against Bleeding Enemies have #% chance to Blind
+Attack Hits against Blinded Enemies have #% chance to Maim
 Attack Projectiles Return to you
 Attack Skills gain #% of Physical Damage as Extra Fire Damage per Socketed Red Gem
 Attack Skills have +# to maximum number of Summoned Totems
@@ -4250,7 +4582,7 @@ Attacks with this Weapon deal Double Damage
 Attacks with this Weapon deal Double Damage to Chilled Enemies
 Attacks with this Weapon have #% chance to inflict Bleeding against Ignited Enemies
 Attacks with this Weapon have #% increased Elemental Damage
-Attacks with this Weapon have Added Maximum Lightning Damage equal to #% of your Maximum Energy Shield
+Attacks with this Weapon have Added Maximum Lightning Damage equal to #% of Player's Maximum Energy Shield
 Attacks with this Weapon Maim on hit
 Attacks with this Weapon Penetrate #% Chaos Resistance
 Attacks with this Weapon Penetrate #% Cold Resistance
@@ -4278,6 +4610,7 @@ Aura Skills other than Zealotry are Disabled
 Auras from your Skills grant #% increased Damage to you and Allies
 Auras from your Skills have #% increased Effect on you
 Avatar of Fire
+Banner Skills have no Reservation
 Banners you are carrying gain 1 Stage on Melee Hit, up to 5 per second
 Base Spell Critical Strike Chance of Spells is equal to that of Main Hand Weapon
 Bathed in the blood of # sacrificed in the name of Ahuana
@@ -4311,8 +4644,8 @@ Brand Skills have #% increased Duration
 Breach Monsters in your Maps grant #% increased Experience
 Breach Splinters have #% chance to drop as Breachstones instead
 Breaches contain a Breachlord's Clasped Hand
-Breaches each contain a Breachlord
 Breaches have #% increased Monster density
+Breaches in Area each contain a Breachlord
 Breaches in Area have #% increased chance to belong to Esh
 Breaches in Area have #% increased chance to belong to Tul
 Breaches in Area have #% increased chance to belong to Uul-Netol
@@ -4346,11 +4679,15 @@ Cannot be Shocked if Intelligence is higher than Strength
 Cannot be Shocked or Ignited while moving
 Cannot be Stunned
 Cannot be Stunned by Attacks if your other Ring is an Elder Item
+Cannot be Stunned by Hits you Block
 Cannot be Stunned by Spells if your other Ring is a Shaper Item
 Cannot be Stunned by Suppressed Spell Damage
 Cannot be Stunned if you have at least 10 Crab Barriers
 Cannot be Stunned when on Low Life
 Cannot be Stunned while Bleeding
+Cannot be Stunned while Fortified
+Cannot be Stunned while Leeching
+Cannot be Stunned while you have at least 25 Rage
 Cannot be used with Chaos Inoculation
 Cannot Block
 Cannot Block Attack Damage
@@ -4380,6 +4717,8 @@ Cannot lose Crab Barriers if you have lost Crab Barriers Recently
 Cannot roll Attack Modifiers
 Cannot roll Caster Modifiers
 Cannot roll Modifiers with Required Level above #
+Cannot take Reflected Elemental Damage
+Cannot take Reflected Physical Damage
 Can't use Chest armour
 Can't use other Rings
 Cartographer's Chisels found in your Maps have #% chance to drop as a full stack
@@ -4411,6 +4750,7 @@ Chill Enemies for # second on Hit with this Weapon when in Off Hand
 Chill Enemy for # second when Hit, reducing their Action Speed by 30%
 Chill Nearby Enemies when you Block
 Chill nearby Enemies when you Focus, causing 30% reduced Action Speed
+Chills from your Hits always reduce Action Speed by at least #%
 Chromatic Orbs found in your Maps have #% chance to drop as a full stack
 Clarity has no Reservation
 Cold Exposure on Hit if you've cast Frostbite in the past 10 seconds
@@ -4430,6 +4770,7 @@ Conductivity has no Reservation if Cast as an Aura
 Conduit
 Consecrated Ground created by this Flask has Tripled Radius
 Consecrated Ground created during Effect applies #% increased Damage taken to Enemies
+Consecrated Ground you create applies #% increased Damage taken to Enemies
 Consecrated Ground you create while affected by Zealotry causes enemies to take #% increased Damage
 Consumes 1 Frenzy Charge on use
 Consumes a Void Charge to Trigger Level # Void Shot when you fire Arrows with a Non-Triggered Skill
@@ -4440,10 +4781,13 @@ Contains a Furnace that removes a Crucible Passive Skill Tree from a Non-Unique 
 Contains additional waves of Undead Monsters
 Contains the Immortalised Grandmasters&PvP damage scaling in effect
 Contains waves of Monsters
+Corpses you Spawn have #% increased Maximum Life
 Corrupted Blood cannot be inflicted on you
 Corrupted Soul
 Counts as all One Handed Melee Weapon Types
 Counts as Dual Wielding
+Cover Enemies in Ash on Hit for # seconds against Enemies that are on Full Life
+Cover Enemies in Frost on Hit for # seconds against Enemies that are on Full Life
 Create a Blighted Spore when your Skills or Minions Kill a Rare Monster
 Create Profane Ground instead of Consecrated Ground
 Creates a Smoke Cloud on Rampage
@@ -4463,9 +4807,11 @@ Critical Strikes with Spells have #% chance to inflict Impale
 Crucible Passive Skills are more likely to be retained when Forging
 Crucible Passive Skills on Forged Items cannot have tiers downgraded
 Crucible Passive Skills on Forged Items have +#% chance for tiers to be upgraded
+Crush Enemies for # seconds when you Hit them while they are on Full Life
 Culling Strike
 Culling Strike against Burning Enemies
 Culling Strike against Enemies Cursed with Poacher's Mark
+Culling Strike against Frozen Enemies
 Culling Strike during Effect
 Curse Auras from Socketed Skills also affect you
 Curse Enemies with Conductivity on Hit
@@ -4484,12 +4830,15 @@ Curse Non-Cursed Enemies with Enfeeble on Hit
 Curse Skills have #% increased Cast Speed
 Curse Skills have #% increased Skill Effect Duration
 Cursed Enemies cannot inflict Elemental Ailments on You
+Cursed Enemies you or your Minions Kill have a #% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage
 Curses have #% reduced effect on Monsters
 Damage cannot be Reflected
+Damage from your Critical Strikes cannot be Reflected
 Damage of Enemies Hitting you is Unlucky while you are Cursed with Vulnerability
 Damage of Enemies Hitting you is Unlucky while you are on Full Life
 Damage of Enemies Hitting you is Unlucky while you are on Low Life
 Damage of Enemies Hitting you is Unlucky while you have a Magic Ring Equipped
+Damage Penetrates #% Chaos Resistance
 Damage Penetrates #% Cold Resistance
 Damage Penetrates #% Cold Resistance against Chilled Enemies
 Damage Penetrates #% Cold Resistance while affected by Hatred
@@ -4591,6 +4940,7 @@ Enemies Ignited by you during Effect take #% increased Damage
 Enemies Ignited by you have #% of Physical Damage they deal converted to Fire
 Enemies Ignited by you take Chaos Damage instead of Fire Damage from Ignite
 Enemies in your Chilling Areas take #% increased Lightning Damage
+Enemies in your Link Beams cannot apply Elemental Ailments
 Enemies inflict Elemental Ailments on you instead of nearby Allies
 Enemies Intimidated by you have #% increased duration of stuns against them
 Enemies Killed by your Hits are destroyed
@@ -4613,8 +4963,10 @@ Enemies you Kill during Effect have a #% chance to Explode, dealing a tenth of t
 Enemies you Kill Explode, dealing #% of their Life as Physical Damage
 Enemies you Kill have a #% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage
 Enemies you Kill have a #% chance to Explode, dealing a tenth of their maximum Life as Physical Damage
+Enemies you Kill that are affected by Elemental Ailments&grant #% increased Flask Charges
 Enemies you Kill while affected by Glorious Madness have a #% chance to Explode, dealing a quarter of their Life as Chaos Damage
 Enemies you Kill while using Pride have #% chance to Explode, dealing a tenth of their maximum Life as Physical Damage
+Enemies you or your Totems Kill have #% chance to Explode, dealing 500% of their maximum Life as Fire Damage
 Enemies you Shock have #% reduced Cast Speed
 Enemies you Shock have #% reduced Movement Speed
 Enemy Hits inflict Temporal Chains on you
@@ -4630,9 +4982,11 @@ Everlasting Sacrifice
 Every 16 seconds you gain Elemental Overload for 8 seconds
 Every 16 seconds you gain Iron Reflexes for 8 seconds
 Every 4 seconds, Regenerate #% of Life over one second
+Every 4 seconds, remove Curses and Elemental Ailments from you
 Every 8 seconds, gain Avatar of Fire for 4 seconds
 Exerted Attacks deal #% increased Damage
 Exerted Attacks Knock Enemies Back on Hit
+Exposure you inflict applies an extra +#% to the affected Resistance
 Extra gore
 Far Shot
 Final Boss drops higher Level Items
@@ -4654,6 +5008,7 @@ Flasks applied to you have #% increased Effect
 Flasks do not apply to you
 Flasks found in your Maps have #% chance to have 20% Quality
 Flasks gain # Charge per second if you've Hit a Unique Enemy Recently
+Flasks gain # Charges every 3 seconds
 Flasks gain # Charges every 3 seconds while they are inactive
 Flasks gain # Charges when you hit a Non-Unique Enemy, no more than once per second
 Flasks you Use apply to your Raised Zombies and Spectres
@@ -4672,7 +5027,7 @@ Found Items have #% chance to drop Corrupted in Area
 Found Magic Items drop Identified
 Freeze Chilled Enemies as though dealing #% more Damage
 Freeze Enemies as though dealing #% more Damage
-Freezes you inflict spread to other Enemies within a Radius of #
+Freezes you inflict spread to other Enemies within # metre
 Frostbite has #% reduced Reservation if Cast as an Aura
 Frostbite has no Reservation if Cast as an Aura
 Frostblink has #% increased Duration
@@ -4690,6 +5045,7 @@ Gain # Frenzy Charge on use
 Gain # Life for each Ignited Enemy hit with Attacks
 Gain # Life on Culling Strike
 Gain # Life on Kill per Level
+Gain # Life per Bleeding Enemy Hit
 Gain # Life per Blinded Enemy Hit with this Weapon
 Gain # Life per Cursed Enemy Hit with Attacks
 Gain # Life per Enemy Hit if you have used a Vaal Skill Recently
@@ -4711,6 +5067,7 @@ Gain # Mana per Taunted Enemy Hit
 Gain # Power Charge on use
 Gain # Power Charges when you Warcry
 Gain #% increased Area of Effect for 2 seconds after Spending a total of 800 Mana
+Gain #% increased Attack Speed for 20 seconds when you Kill a Rare or Unique Enemy
 Gain #% of Cold Damage as Extra Chaos Damage
 Gain #% of Cold Damage as Extra Chaos Damage per Frenzy Charge
 Gain #% of Cold Damage as Extra Fire Damage against Frozen Enemies
@@ -4722,9 +5079,11 @@ Gain #% of Fire Damage as Extra Chaos Damage
 Gain #% of Fire Damage as Extra Chaos Damage per Endurance Charge
 Gain #% of Lightning Damage as Extra Chaos Damage
 Gain #% of Lightning Damage as Extra Chaos Damage per Power Charge
+Gain #% of Lightning Damage as Extra Cold Damage per 2% Shock Effect on Enemy
 Gain #% of Maximum Life as Extra Maximum Energy Shield
 Gain #% of Maximum Mana as Extra Maximum Energy Shield
 Gain #% of Maximum Mana as Extra Maximum Energy Shield while affected by Clarity
+Gain #% of Missing Unreserved Life before being Hit by an Enemy
 Gain #% of Non-Chaos Damage as extra Chaos Damage
 Gain #% of Non-Chaos Damage as extra Chaos Damage per Siphoning Charge
 Gain #% of Physical Attack Damage as Extra Fire Damage
@@ -4755,6 +5114,7 @@ Gain 1 Fragile Regrowth each second
 Gain 1 Rage on Critical Hit with attacks, no more than once every # seconds
 Gain a Flask Charge when you deal a Critical Strike
 Gain a Flask Charge when you deal a Critical Strike while affected by Precision
+Gain a Frenzy Charge each second
 Gain a Frenzy Charge if an Attack Ignites an Enemy
 Gain a Frenzy Charge on Critical Strike
 Gain a Frenzy Charge on every 50th Rampage Kill
@@ -4762,6 +5122,7 @@ Gain a Frenzy Charge on Hit while Bleeding
 Gain a Frenzy Charge on reaching Maximum Power Charges
 Gain a Frenzy, Endurance, or Power Charge once per second while you are Stationary
 Gain a Power Charge after Spending a total of 200 Mana
+Gain a Power Charge each second
 Gain a Power Charge every Second if you haven't lost Power Charges Recently
 Gain a Power Charge for each Enemy you hit with a Critical Strike
 Gain a Power Charge on Non-Critical Strike
@@ -4772,10 +5133,12 @@ Gain Absorption Charges instead of Power Charges
 Gain Accuracy Rating equal to your Strength
 Gain Added Chaos Damage equal to #% of Ward
 Gain additional Elemental Damage Reduction equal to half your Chaos Resistance
-Gain Adrenaline for # second on kill
+Gain Adrenaline for # second on Kill
 Gain Adrenaline for # second when Ward Breaks
+Gain Adrenaline for # seconds when you reach Low Life
 Gain Adrenaline when you become Flame-Touched
 Gain Affliction Charges instead of Frenzy Charges
+Gain an Endurance Charge each second
 Gain an Endurance Charge every 4 seconds while Stationary
 Gain an Endurance Charge if an Attack Freezes an Enemy
 Gain an Endurance Charge when you lose a Power Charge
@@ -4783,6 +5146,7 @@ Gain an Endurance Charge when you take a Critical Strike
 Gain an Endurance Charge, Frenzy Charge, and Power Charge when you use a Vaal Skill
 Gain an Endurance, Frenzy or Power charge when you Block
 Gain Arcane Surge for 4 seconds when you create Consecrated Ground while affected by Zealotry
+Gain Arcane Surge when you or your Totems Hit an Enemy with a Spell
 Gain Brutal Charges instead of Endurance Charges
 Gain Elusive on reaching Low Life
 Gain Her Embrace for # seconds when you Ignite an Enemy
@@ -4837,6 +5201,7 @@ Grants # Life per Enemy Hit
 Grants # Mana per Enemy Hit
 Grants #% of Life Recovery to Minions
 Grants all bonuses of Unallocated Small Passive Skills in Radius
+Grants Armour equal to #% of your Reserved Mana to you and nearby Allies
 Grants Call of Steel
 Grants Immunity to Bleeding for # seconds if used while Bleeding&Grants Immunity to Corrupted Blood for # seconds if used while affected by Corrupted Blood
 Grants Immunity to Bleeding for 4 seconds if used while Bleeding&Grants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood
@@ -4908,6 +5273,7 @@ Grants Level # Vaal Impurity of Ice Skill
 Grants Level # Vaal Impurity of Lightning Skill
 Grants Level # Vengeance Skill
 Grants Level # Vitality Skill
+Grants Level # Vulnerability Curse Aura during Effect
 Grants Level # Wintertide Brand Skill
 Grants Level # Wrath Skill
 Grants Level # Zealotry Skill
@@ -5081,11 +5447,10 @@ Herald of Thunder also creates a storm when you Shock an Enemy
 Herald of Thunder has #% increased Buff Effect
 Herald of Thunder has #% increased Mana Reservation Efficiency
 Herald of Thunder has #% reduced Reservation
-Herald of Thunder's Storms Hit Enemies with #% increased Frequency
 Hex Master
 Hex Reflection
 Hexes applied by Socketed Curse Skills are Reflected back to you
-Hexes Transfer to all Enemies in a range of 30 when Hexed Enemy dies
+Hexes Transfer to all Enemies within 3 metres when Hexed Enemy dies
 Hinders nearby Enemies with #% reduced Movement Speed if used while not on Full Life
 Hinders nearby Enemies with #% reduced Movement Speed if used while not on Full Mana
 Historic
@@ -5095,10 +5460,13 @@ Hits against you gain #% of Physical Damage as Extra Fire Damage
 Hits can't be Evaded
 Hits from Socketed Vaal Skills ignore Enemy Monster Physical Damage Reduction
 Hits from Socketed Vaal Skills ignore Enemy Monster Resistances
+Hits have #% chance to deal 50% more Area Damage
 Hits have #% increased Critical Strike Chance against you
 Hits ignore Enemy Monster Chaos Resistance if all Equipped Items are Elder Items
 Hits ignore Enemy Monster Chaos Resistance if all Equipped Items are Shaper Items
 Hits ignore Enemy Monster Fire Resistance while you are Ignited
+Hits ignore Enemy Monster Physical Damage Reduction if you've Blocked in the past 20 seconds
+Hits Inflict # Withered Debuffs for 2 seconds on Enemies that are on Full Life
 Hits Overwhelm #% of Physical Damage Reduction while you have Sacrificial Zeal
 Hits with Melee Movement Skills have #% chance to Fortify
 Hits with this Weapon always Ignite, Freeze, and Shock
@@ -5107,6 +5475,7 @@ Hits with this Weapon deal #% increased Damage to Ignited Enemies
 Hits with this Weapon deal #% increased Damage to Shocked Enemies
 Hits with this Weapon Freeze Enemies as though dealing #% more Damage
 Hits with this Weapon gain #% of Physical Damage as Extra Cold or Lightning Damage
+Hits with this Weapon have +#% to Critical Strike Multiplier per Enemy Power
 Hits with this Weapon have Culling Strike against Bleeding Enemies
 Hits with this Weapon Overwhelm #% Physical Damage Reduction
 Hits with this Weapon Shock Enemies as though dealing #% more Damage
@@ -5114,12 +5483,14 @@ Hollow Palm Technique
 If this Area contains any Unique Monsters, one is Possessed
 If you Consumed a corpse Recently, you and nearby Allies Regenerate #% of Life per second
 If you have Blocked Recently, you and nearby Allies Regenerate #% of Life per second
+If you've Attacked Recently, you and nearby Allies have +#% Chance to Block Attack Damage
+If you've Cast a Spell Recently, you and nearby Allies have +#% Chance to Block Spell Damage
 If you've Warcried Recently, you and nearby allies have #% increased Attack, Cast and Movement Speed
 Ignited Enemies Burn #% slower
 Ignited Enemies Killed by your Hits are destroyed
 Ignites inflicted with this Weapon deal #% more Damage
 Ignites you inflict deal Damage #% faster
-Ignites you inflict spread to other Enemies within a Radius of #
+Ignites you inflict spread to other Enemies within # metre
 Ignites you inflict with Attacks deal Damage #% faster
 Ignore all Movement Penalties from Armour
 Imbalanced Guard
@@ -5147,6 +5518,7 @@ Immunity to Poison during Effect
 Immunity to Shock during Effect
 Impale Damage dealt to Enemies Impaled by you Overwhelms #% Physical Damage Reduction
 Impales you inflict last # additional Hits while using Pride
+Impales you inflict last 1 additional Hit
 Implicit Modifier magnitudes are doubled
 Imprisoned Monsters have #% chance to drop an additional Rare Item with an Essence Modifier
 Imprisoned Monsters have #% reduced Action Speed
@@ -5169,6 +5541,7 @@ Increases and Reductions to other Damage Types in Radius are Transformed to appl
 Increases and Reductions to Physical Damage in Radius are Transformed to apply to Cold Damage
 Increases and Reductions to Spell Damage also apply to Attacks
 Increases and Reductions to Spell Damage also apply to Attacks at 150% of their value
+Incursion Architects have #% chance to be Possessed by a Tormented Spirit
 Incursion Architects have #% chance to drop an additional Rare Incursion Item
 Incursion Architects in your Maps have #% chance to grant double Experience
 Inflict Decay on Enemies you Curse with Hex Skills, dealing # Chaos Damage per Second for 8 Seconds
@@ -5213,6 +5586,9 @@ Items found in your Maps have #% chance to have the maximum number of Sockets
 Jeweller's Orbs found in your Maps have #% chance to drop as a full stack
 Karui Stone Hook
 Kill Enemies that have 15% or lower Life on Hit if The Searing Exarch is dominant
+Killing Blows against Rare Monsters have a #% chance&to grant one of their Modifiers for 60 seconds
+Killing Blows have #% chance to Shatter Enemies as though Frozen
+Killing Blows have a #% chance for Enemies to Explode, dealing a tenth of their maximum Life as Fire Damage
 Kills grant an additional Vaal Soul if you have Rampaged Recently
 Knockback direction is reversed
 Knocks Back Enemies in an Area when you use a Flask
@@ -5318,13 +5694,16 @@ Maximum Absorption Charges is equal to Maximum Power Charges
 Maximum Affliction Charges is equal to Maximum Frenzy Charges
 Maximum Brutal Charges is equal to Maximum Endurance Charges
 Maximum Critical Strike Chance is 50%
+Maximum Quality is #%
 Melee and Melee Weapon Type modifiers in Radius are Transformed to Bow Modifiers
 Melee Attacks have #% chance to cause Bleeding
 Melee Attacks have #% chance to Poison on Hit
 Melee Hits count as Rampage Kills&Rampage
+Melee Hits Fortify
 Melee Hits which Stun have #% chance to Fortify
 Melee Hits with Strike Skills always Knockback
 Melee Strike Skills deal Splash Damage to surrounding targets
+Melee Strike Skills deal Splash Damage to surrounding targets, with #% reduced Area of Effect
 Mercury Footprints
 Metamorph Samples dropped in your Maps have #% increased chance to have a Reward
 Mind Over Matter
@@ -5357,6 +5736,7 @@ Minions deal no Non-Cold Damage
 Minions gain #% of Elemental Damage as Extra Chaos Damage
 Minions gain #% of Physical Damage as Extra Cold Damage
 Minions gain #% of Physical Damage as Extra Fire Damage
+Minions gain Added Physical Damage equal to #% of Maximum Energy Shield on your Equipped Helmet
 Minions gain Unholy Might for # seconds on Kill
 Minions have #% additional Physical Damage Reduction
 Minions have #% chance to Blind Enemies on hit
@@ -5364,6 +5744,7 @@ Minions have #% chance to Blind on Hit with Attacks
 Minions have #% chance to cause Bleeding with Attacks
 Minions have #% chance to deal Double Damage
 Minions have #% chance to Freeze, Shock and Ignite
+Minions have #% chance to gain Unholy Might for 4 seconds on Kill
 Minions have #% chance to Hinder Enemies on Hit with Spells
 Minions have #% chance to Ignite
 Minions have #% chance to inflict Withered on Hit
@@ -5496,6 +5877,7 @@ Monsters take #% reduced Extra Damage from Critical Strikes
 Monsters with Silver Coins drop an additional Basic Currency Item
 Monsters with Silver Coins drop an additional Rare Item
 Monsters with Silver Coins drop an additional Silver Coin
+Movement Speed cannot be modified to below base value
 Moving while Bleeding doesn't cause you to take extra Damage
 Nearby Allies' Action Speed cannot be modified to below base value
 Nearby Allies' Damage with Hits is Lucky
@@ -5511,6 +5893,7 @@ Nearby Allies have +#% to Critical Strike Multiplier
 Nearby Allies have +#% to Critical Strike Multiplier per 100 Dexterity you have
 Nearby Allies have Culling Strike
 Nearby allies Recover #% of your Maximum Life when you Die
+Nearby corpses Explode when you Warcry, dealing #% of their Life as Physical Damage
 Nearby Enemies are Blinded
 Nearby Enemies are Blinded while Physical Aegis is not depleted
 Nearby Enemies are Chilled
@@ -5520,6 +5903,7 @@ Nearby Enemies are Hindered, with #% reduced Movement Speed
 Nearby Enemies are Intimidated
 Nearby Enemies are Scorched
 Nearby Enemies cannot deal Critical Strikes
+Nearby Enemies cannot gain Power, Frenzy or Endurance Charges
 Nearby Enemies' Chaos Resistance is 0
 Nearby Enemies Convert #% of their Physical Damage to Fire
 Nearby Enemies grant #% increased Flask Charges
@@ -5554,6 +5938,7 @@ Non-Chilled Enemies you inflict Bleeding on are Chilled
 Non-Chilled Enemies you Poison are Chilled
 Non-critical strikes deal #% more Damage
 Non-Critical Strikes deal no Damage
+Non-Damaging Ailments have #% increased Effect on you while you have Arcane Surge
 Non-Exerted Attacks deal no Damage
 Non-instant Mana Recovery from Flasks is also Recovered as Life
 Non-Unique Utility Flasks you Use apply to Linked Targets
@@ -5577,6 +5962,7 @@ Orbs of Fusing found in your Maps have #% chance to drop as a full stack
 Orbs of Regret found in your Maps have #% chance to drop as a stack of 20 Orbs of Regret instead
 Orbs of Scouring found in your Maps have #% chance to drop as a full stack
 Orbs of Transmutation found in your Maps have #% chance to drop as a full stack
+Overwhelm #% of Physical Damage Reduction
 Overwhelm #% Physical Damage Reduction
 Pain Attunement
 Passive Skills in Radius also grant: #% increased Unarmed Attack Speed with Melee Skills
@@ -5672,30 +6058,35 @@ Poisoned Enemies you Kill with Hits Shatter
 Poisonous Hit
 Poisons on you expire #% slower
 Poisons you inflict deal Damage #% faster
+Poisons you inflict on non-Poisoned Enemies deal #% increased Damage
 Precise Technique
 Precision has #% increased Mana Reservation Efficiency
 Precision has 100% increased Mana Reservation Efficiency
 Precision has 50% less Reservation
 Prefixes Cannot Be Changed
 Prevent +#% of Suppressed Spell Damage
+Prevent +#% of Suppressed Spell Damage while on Full Energy Shield
 Pride has #% increased Mana Reservation Efficiency
 Pride has #% reduced Reservation
 Pride has no Reservation
 Primordial
 Projectile Attack Skills have #% increased Critical Strike Chance
+Projectile Barrages have no spread
 Projectiles are fired in random directions
-Projectiles cannot collide with Enemies at Close Range
+Projectiles cannot collide with Enemies in Close Range
 Projectiles Chain +# times while you have Phasing
 Projectiles deal #% increased Damage with Hits and Ailments for each Enemy Pierced
 Projectiles Fork
+Projectiles from Attacks can Fork # additional time
 Projectiles from Attacks Fork
-Projectiles from Attacks Fork an additional time
 Projectiles from Attacks have #% chance to inflict Bleeding on Hit while&you have a Bestial Minion
 Projectiles from Attacks have #% chance to Maim on Hit while&you have a Bestial Minion
 Projectiles from Attacks have #% chance to Poison on Hit while&you have a Bestial Minion
 Projectiles from Socketed Gems Fork
 Projectiles from Spells cannot Pierce
 Projectiles gain #% of Non-Chaos Damage as extra Chaos Damage per Chain
+Projectiles gain Damage as they travel farther, dealing up&to #% increased Damage with Hits to targets
+Projectiles have #% chance to be able to Chain when colliding with terrain
 Projectiles have #% chance to be able to Chain when colliding with terrain per&Searching Eye Jewel affecting you, up to a maximum of 20%
 Projectiles have #% chance to Return to you
 Projectiles Pierce # additional Targets
@@ -5742,8 +6133,8 @@ Rare Breach Monsters drop an additional Splinter
 Rare Maps found in your Maps have #% chance to be Corrupted
 Rare Monsters are Hindered, with #% reduced Movement Speed
 Rare Monsters drop an additional Rare Item
+Rare Monsters each have # additional Modifier
 Rare Monsters from Breaches have a #% chance to Drop a Breach Ring
-Rare Monsters have # additional Modifier
 Rare Monsters have #% chance to drop a Rare Prismatic Ring
 Rare Monsters in your Maps have #% chance to drop an additional Basic Currency Item
 Rare Monsters in your Maps have #% chance to drop an additional Gem with Quality
@@ -5753,6 +6144,7 @@ Rare Monsters in your Maps have #% chance to drop an additional Rare Weapon
 Recharges # Charge when you Consume an Ignited corpse
 Recharges # Charge when you deal a Critical Strike
 Recharges # Charge when you take a Critical Strike
+Recoup #% of Damage Taken by your Totems as Life
 Recover # Energy Shield when your Trap is triggered by an Enemy
 Recover # Life when you Block
 Recover # Life when you Ignite an Enemy
@@ -5764,6 +6156,7 @@ Recover #% of Energy Shield when you Kill an Enemy during Effect
 Recover #% of Energy Shield when you lose a Spirit Charge
 Recover #% of Life at the end of the Effect
 Recover #% of Life on Kill
+Recover #% of Life on Killing a Rare or Unique Enemy
 Recover #% of Life on Rampage
 Recover #% of Life on use
 Recover #% of Life per Endurance Charge on use&Lose all Endurance Charges on use
@@ -5771,6 +6164,7 @@ Recover #% of Life when you Block
 Recover #% of Life when you Ignite an Enemy
 Recover #% of Life when you Kill an Enemy during Effect
 Recover #% of Life when you lose a Spirit Charge
+Recover #% of Life when you use a Flask
 Recover #% of Life when you use a Mana Flask
 Recover #% of Mana and Energy Shield when you Focus
 Recover #% of Mana on Kill
@@ -5843,6 +6237,7 @@ Reflects # Cold Damage to Melee Attackers
 Reflects # Fire Damage to Attackers on Block
 Reflects # Fire Damage to Melee Attackers
 Reflects # Lightning Damage to Attackers on Block
+Reflects # Lightning Damage to Melee Attackers
 Reflects # Physical Damage to Melee Attackers
 Reflects # to # Lightning Damage to Melee Attackers
 Reflects # to # Physical Damage to Attackers on Block
@@ -5875,6 +6270,7 @@ Regenerate # Mana per Second per Power Charge
 Regenerate # Mana per Second while you have Avian's Flight
 Regenerate #% Life over one second when hit while affected by Vitality
 Regenerate #% Life over one second when Hit while Sane
+Regenerate #% of Energy Shield over 2 seconds when you Consume a corpse
 Regenerate #% of Energy Shield per second
 Regenerate #% of Energy Shield per Second for&every 10 Intelligence on Allocated Passives in Radius
 Regenerate #% of Energy Shield per second if you've dealt a Critical Strike with this weapon Recently
@@ -5898,6 +6294,7 @@ Regenerate #% of Life per second while Frozen
 Regenerate #% of Life per second while moving
 Regenerate #% of Life per second while on Low Life
 Regenerate #% of Life per second with at least 400 Strength
+Regenerate #% of Mana over 2 seconds when you Consume a corpse
 Regenerate #% of Mana per second
 Regenerate #% of Mana per second if you've Hit an Enemy Recently
 Regenerate 1 Rage per second for every # Life Recovery per second from Regeneration
@@ -5913,6 +6310,7 @@ Removes #% of Mana Recovered from Life when used
 Removes #% of your maximum Energy Shield on use
 Removes all but one Life on use&Removed life is Regenerated as Energy Shield over # seconds
 Removes all Energy Shield
+Removes Bleeding when you use a Flask
 Removes Bleeding when you use a Warcry
 Removes Curses on use
 Removes Elemental Ailments on Rampage
@@ -5954,16 +6352,18 @@ Shock nearby Enemies for # Seconds when you Focus
 Shock Reflection
 Shock yourself for # Seconds when you Focus
 Shocked Enemies you Kill Explode, dealing #% of&their Life as Lightning Damage which cannot Shock
+Shocks from your Hits always increase Damage taken by at least #%
 Shocks nearby Enemies during Effect, causing 10% increased Damage taken
 Shocks you cause are reflected back to you
-Shocks you inflict during Effect spread to other Enemies in a radius of #
-Shocks you inflict spread to other Enemies within a Radius of #
-Shocks you inflict spread to other Enemies within a Radius of 15
+Shocks you inflict during Effect spread to other Enemies within # metre
+Shocks you inflict spread to other Enemies within # metre
+Shocks you inflict spread to other Enemies within 1.5 metres
 Shocks you when you reach Maximum Power Charges
 Shrapnel Ballista has +# to maximum number of Summoned Totems per 200 Strength
 Shrines drop a Basic Currency Item when used
 Shrines grant a random additional Shrine Effect
 Siege Ballista has +# to maximum number of Summoned Totems per 200 Dexterity
+Skeletons gain Added Chaos Damage equal to #% of Maximum Energy Shield on your Equipped Shield
 Skills Chain +# times
 Skills Chain an additional time while at maximum Frenzy Charges
 Skills Cost no Mana during Effect
@@ -5973,9 +6373,11 @@ Skills fire an additional Projectile
 Skills fire an additional Projectile during Effect
 Skills fire an additional Projectile if you've been Hit Recently
 Skills fire an additional Projectile if you've used a Movement Skill Recently
+Skills gain a Base Energy Shield Cost equal to #% of Base Mana Cost
 Skills gain a Base Life Cost equal to #% of Base Mana Cost
 Skills Supported by Unleash have #% increased Seal gain frequency
 Skills supported by Unleash have +# to maximum number of Seals
+Skills that would Summon a Totem have #% chance to Summon two Totems instead
 Skills used by Mines have #% increased Area of Effect
 Skills used by Traps have #% increased Area of Effect
 Skills which Exert an Attack have #% chance to not count that Attack
@@ -6213,8 +6615,8 @@ Socketed Gems are Supported by Level # Urgent Orders
 Socketed Gems are Supported by Level # Vicious Projectiles
 Socketed Gems are Supported by Level # Vile Toxins
 Socketed Gems are Supported by Level # Void Manipulation
+Socketed Gems are Supported by Level # Volatility
 Socketed Gems are Supported by Level # Volley
-Socketed Gems are Supported by Level # Voltatility
 Socketed Gems are Supported by Level # Withering Touch
 Socketed Gems are Supported by Level 10 Controlled Destruction
 Socketed Gems are Supported by Level 10 Intensify
@@ -6277,11 +6679,12 @@ Sockets cannot be modified
 Solipsism
 Spectres have #% increased Critical Strike Chance
 Spectres have #% increased maximum Life
-Spectres have a Base Duration of # seconds&Spectres do not travel between Areas
+Spectres have a Base Duration of # seconds
 Spell Skills always deal Critical Strikes on final Repeat
 Spell Skills cannot deal Critical Strikes except on final Repeat
 Spell Skills deal no Damage
 Spells cause you to gain Energy Shield equal to their Upfront&Cost every fifth time you Pay it
+Spells deal added Chaos Damage equal to #% of your maximum Life
 Spells fire an additional Projectile
 Spells have #% increased Critical Strike Chance per Intensity
 Spells have a #% chance to deal Double Damage
@@ -6289,6 +6692,7 @@ Spells which have gained Intensity Recently gain 1 Intensity every # Seconds
 Spells which have gained Intensity Recently lose 1 Intensity every # Seconds
 Spreads Tar when you Block
 Spreads Tar when you take a Critical Strike
+Storms Hit Enemies with #% increased Frequency
 Strength from Passives in Radius is Transformed to Dexterity
 Strength from Passives in Radius is Transformed to Intelligence
 Strength provides no bonus to Maximum Life
@@ -6334,9 +6738,9 @@ Summoned Golems are Aggressive
 Summoned Golems have #% increased Cooldown Recovery Rate
 Summoned Golems Regenerate #% of their Life per second
 Summoned Holy Relics have #% reduced Cooldown Recovery Rate
-Summoned Phantasms have #% chance to refresh their Duration when they Hit a Unique Enemy
+Summoned Phantasms have #% chance to refresh their Duration when they Hit a Rare or Unique Enemy
 Summoned Raging Spirits deal #% increased Damage
-Summoned Raging Spirits have #% chance to refresh their Duration when they Hit a Unique Enemy
+Summoned Raging Spirits have #% chance to refresh their Duration when they Hit a Rare or Unique Enemy
 Summoned Raging Spirits have #% increased maximum Life
 Summoned Raging Spirits' Hits always Ignite
 Summoned Raging Spirits' Melee Strikes deal Fire-only Splash&Damage to Surrounding Targets
@@ -6389,6 +6793,7 @@ Totems cannot be Stunned
 Totems fire # additional Projectile
 Totems gain +#% to all Elemental Resistances
 Totems Reflect #% of their maximum Life as Fire Damage to nearby Enemies when Hit
+Totems Taunt Enemies around them for # second when Summoned
 Transfiguration of Body
 Transfiguration of Mind
 Transfiguration of Soul
@@ -6515,12 +6920,14 @@ Warbands in the Area have an additional Elite Member
 Warbands in the Area have an additional Support Member
 Warbands in this Area have an additional Member
 Warcries cannot Exert Travel Skills
+Warcries grant # Rage per 5 Power if you have less than 25 Rage
 Warcries grant Arcane Surge to you and Allies, with #% increased effect per 5 power, up to 50%
 Warcries have infinite Power
 Warcries Knock Back and Interrupt Enemies in a smaller Area
 Warcry Skills' Cooldown Time is 4 seconds
 Warcry Skills have #% increased Area of Effect
 Ward does not Break during Effect
+Weapon Attacks fire an additional Projectile if you've been Hit Recently
 Weapons and Shields found have #% chance to be Corrupted with an Implicit
 Weapons and Shields found have #% chance to be Fractured
 Weapons and Shields found have #% chance to be fully Linked
@@ -6529,10 +6936,13 @@ Weapons found in your Maps have #% chance to have 20% Quality
 Weapons you Animate create an additional copy
 When a Bloodline Pack is Slain, it drops a Basic Currency Item
 When a Bloodline Pack is Slain, it drops a Rare Item
+When an Enemy Hit deals Elemental Damage to you, their Resistance to those Elements becomes zero for 4 seconds
 When Hit during effect, #% of Life loss from Damage taken occurs over 4 seconds instead
+When Hit, gain a random Movement Speed modifier from #% reduced to #% increased, until Hit again
 When used in the Synthesiser, the new item will have an additional Herald Modifier
 When you Attack, take #% of Life as Physical Damage for&each Warcry Exerting the Attack
 When you Cast a Spell, Sacrifice all Mana to gain Added Maximum Lightning Damage&equal to #% of Sacrificed Mana for 4 seconds
+When you create a Banner, it gains #% of the Stages of your placed Banner
 When you Kill a Magic Monster gain its Modifiers for 60 seconds
 When you Kill a Rare Monster, #% chance to gain one of its Modifiers for 10 seconds
 When you Kill a Rare monster, you gain its Modifiers for 60 seconds
@@ -6543,6 +6953,7 @@ When you lose Temporal Chains you gain maximum Rage
 While at maximum Frenzy Charges, Attacks Poison Enemies
 While in Her Embrace, take #% of your total Maximum Life and Energy Shield as Fire Damage per second per Level
 While Minions have Energy Shield, their Hits Ignore Monster Elemental Resistances
+While there are at least five nearby Allies, you and nearby Allies have Onslaught
 While your Passive Skill Tree connects to the Marauder's starting location, you gain:&#% of Life Regenerated per second
 Wicked Ward
 Wind Dancer
@@ -6602,10 +7013,10 @@ With at least 40 Intelligence in Radius, Discharge has #% more Area of Effect
 With at least 40 Intelligence in Radius, Fireball cannot ignite
 With at least 40 Intelligence in Radius, Fireball has +#% chance to inflict scorch
 With at least 40 Intelligence in Radius, Fireball Projectiles gain Area as they travel farther, up to #% increased Area of Effect
-With at least 40 Intelligence in Radius, Fireball Projectiles gain Radius as they travel farther, up to +# Radius
 With at least 40 Intelligence in Radius, Freezing Pulse fires an additional Projectile
 With at least 40 Intelligence in Radius, Frostbolt fires an additional Projectile
 With at least 40 Intelligence in Radius, Frostbolt Projectiles gain #% increased Projectile Speed per second
+With at least 40 Intelligence in Radius, Projectiles gain radius as they travel farther, up to a maximum of +# metre to radius
 With at least 40 Intelligence in Radius, Raised Spectres have a #% chance to gain Soul Eater for 20 seconds on Kill
 With at least 40 Intelligence in Radius, Raised Zombies' Slam&Attack deals #% increased Damage
 With at least 40 Intelligence in Radius, Raised&Zombies' Slam Attack has #% increased Cooldown Recovery Rate
@@ -6619,7 +7030,7 @@ With at least 40 Intelligence in Radius, Summon Skeletons can Summon up to # Ske
 With at least 40 Strength in Radius, #% increased&Rarity of Items dropped by Enemies Shattered by Glacial Hammer
 With at least 40 Strength in Radius, #% of Glacial&Hammer Physical Damage Converted to Cold Damage
 With at least 40 Strength in Radius, Attacks Exerted by Infernal Cry deal #% more Damage with Ignite
-With at least 40 Strength in Radius, Cleave has +1 to Radius per Nearby&Enemy, up to +10
+With at least 40 Strength in Radius, Cleave has +0.1 metres to Radius per Nearby&Enemy, up to a maximum of +1 metre
 With at least 40 Strength in Radius, Combust is Disabled
 With at least 40 Strength in Radius, Glacial Hammer deals&Cold-only Splash Damage to surrounding targets
 With at least 40 Strength in Radius, Ground Slam has a #% chance&to grant an Endurance Charge when you Stun an Enemy
@@ -6644,12 +7055,14 @@ You and Nearby Allies have # to # added Cold Damage per Green Socket
 You and Nearby Allies have # to # added Fire Damage per Red Socket
 You and Nearby Allies have # to # added Lightning Damage per Blue Socket
 You and Nearby Allies have #% increased Item Rarity
+You and nearby Allies have +#% to Elemental Resistances
 You and nearby Allies have 30% increased Mana Regeneration Rate
 You and your Minions take #% reduced Reflected Damage
 You and your Minions take #% reduced Reflected Elemental Damage
 You and your Minions take #% reduced Reflected Physical Damage
 You and your Totems Regenerate #% of Life per second for each Summoned Totem
 You are at Maximum Chance to Block Attack Damage if you have not Blocked Recently
+You are at Maximum Chance to Block Spell Damage if you have not Blocked Recently
 You are Chilled when you are Poisoned
 You are Chilled while you are Bleeding
 You are Cursed with Vulnerability
@@ -6657,6 +7070,7 @@ You are Hexproof if you have a Magic Ring in right slot
 You are Immune to Ailments while Focused
 You are Shocked during Effect, causing 50% increased Damage taken
 You are Unaffected by Bleeding if you've cast Vulnerability in the past 10 seconds
+You are Unaffected by Bleeding while Leeching
 You are Unaffected by Freeze if you've cast Frostbite in the past 10 seconds
 You are Unaffected by Ignite if you've cast Flammability in the past 10 seconds
 You are Unaffected by Shock if you've cast Conductivity in the past 10 seconds
@@ -6676,6 +7090,7 @@ You cannot be Cursed with Silence
 You cannot be Frozen for # second after being Frozen
 You cannot be Hindered
 You cannot be Ignited for # second after being Ignited
+You cannot be Maimed
 You cannot be Shocked for # second after being Shocked
 You cannot be Shocked while at maximum Endurance Charges
 You cannot be Shocked while Frozen
@@ -6749,11 +7164,13 @@ You only lose # Crab Barriers when you take Physical Damage from a Hit
 You take # Chaos Damage per second for # seconds on Kill
 You take #% increased Extra Damage from Critical Strikes by Poisoned Enemies
 You take #% of Damage from Blocked Hits
+You take #% of Elemental Damage from Blocked Hits
 You take #% of your maximum Life as Chaos Damage on use
 You take #% reduced Extra Damage from Critical Strikes
 You take #% reduced Extra Damage from Critical Strikes while affected by Determination
 You take #% reduced Extra Damage from Critical Strikes while you have no Power Charges
 You take Chaos Damage instead of Physical Damage from Bleeding
+You take no Extra Damage from Critical Strikes while Elusive
 Your Aura Buffs do not affect allies
 Your Chaos Damage can Chill
 Your Chaos Damage can Ignite
@@ -6780,6 +7197,7 @@ Your Hits can only Kill Frozen Enemies
 Your Hits cannot Penetrate or ignore Elemental Resistances
 Your hits can't be Evaded
 Your Hits can't be Evaded by Blinded Enemies
+Your hits can't be Evaded while you are on Low Life
 Your Hits inflict Decay, dealing 700 Chaos Damage per second for 8 seconds
 Your Hits Intimidate Enemies for 4 seconds while you are using Pride
 Your Lightning Damage can Freeze
@@ -6798,6 +7216,7 @@ Your Maps have a #% chance to contain an additional Shrine
 Your Maps that contain capturable Beasts have #% chance to contain an additional Red Beast
 Your Maps with Ritual Altars always have four Ritual Altars
 Your Mark Transfers to another Enemy when Marked Enemy dies
+Your Maximum Endurance Charges is equal to your Maximum Frenzy Charges
 Your Maximum Frenzy Charges is equal to your Maximum Power Charges
 Your Maximum Resistances are #%
 Your Minions spread Burning Ground on Death, dealing #% of their maximum Life as Fire Damage per second
