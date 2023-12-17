@@ -516,6 +516,7 @@ SetGoodsCaoZuo("异界地图","1|3","Terrace Map","Metadata/Items/Maps/MapWorldsTerr
 SetGoodsCaoZuo("异界地图","1|3","Pier Map","Metadata/Items/Maps/MapWorldsPier")--怒浪之港---boss阶段多---机关多---2级
 SetGoodsCaoZuo("异界地图","1|3","Pier Map","Metadata/Items/Maps/MapWorldsMoonTemple")--嬋娟神殿--地圖機八大又亂--
 SetGoodsCaoZuo("异界地图","1|3","Pier Map","Metadata/Items/Maps/MapWorldsOvergrownShrine")--密草神殿--卡在王前不知道三小--
+SetGoodsCaoZuo("异界地图","1|3","Core Map","Metadata/Items/Maps/MapWorldsCore")--核心--一堆王走很久--
 
 SetGoodsCaoZuo("异界地图","0|2","硫磺蚀岸","Metadata/Items/Maps/MapWorldsSulphurVents")
 SetGoodsCaoZuo("异界地图","0|2","如履危?","Metadata/Items/Maps/MapWorldsLookout")
