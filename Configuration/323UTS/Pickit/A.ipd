@@ -867,9 +867,9 @@
 [Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//小星團珠寶		存倉	2																								
 [Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//小星團珠寶		存倉	3																																																		
 //	// 13F 輿圖																											
-[Category] == "Map" && [MapTier] >= "6" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "6" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "6" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉
+[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉
 //[Type]== "Sulphur Vents Map" # [ForceSellItem] == "true" //賣出 硫磺蝕岸	
 //[Type]== "Carcass Map" # [ForceSellItem] == "true" //賣出 惡臭屍域
 //[Type]== "Vault Map" # [ForceSellItem] == "true" //賣出 魔金寶庫
