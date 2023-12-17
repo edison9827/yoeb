@@ -867,9 +867,9 @@
 [Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//小星團珠寶		存倉	2																								
 [Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//小星團珠寶		存倉	3																																																		
 //	// 13F 輿圖																											
-[Category] == "Map" && [MapTier] >= "6" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "6" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "6" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉
+[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉
 //[Type]== "Sulphur Vents Map" # [ForceSellItem] == "true" //賣出 硫磺蝕岸	
 //[Type]== "Carcass Map" # [ForceSellItem] == "true" //賣出 惡臭屍域
 //[Type]== "Vault Map" # [ForceSellItem] == "true" //賣出 魔金寶庫
@@ -976,7 +976,7 @@
 [Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉																									
 //																												
 //3.22有發現6連無法賣出，前期先開後期註釋//
-[Sockets] == "6" && [Linked] >= "6" # [StashItem] ="true" //	//六連裝		存倉	//
+//[Sockets] == "6" && [Linked] >= "6" # [StashItem] ="true" //	//六連裝		存倉	//
 
 
 //
@@ -993,9 +993,10 @@
 //	// 18F 藥水（預設關閉）			//																								
 //					下面這行可以預設物等
 [Type] == "Diamond Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		83			
-[Type] == "Jade Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//翠玉藥劑		存倉		83		/[Type] == "Amethyst Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		83	
-//[Type] == "Divine Life Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//不朽生命藥劑		存倉		83																				
-[Type] == "Quicksilver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//水銀藥劑		存倉		83	83物品等級包含以上存倉																						
+[Type] == "Jade Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//翠玉藥劑		存倉		83		
+[Type] == "Amethyst Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		83	
+[Type] == "Quicksilver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//水銀藥劑		存倉		83	83物品等級包含以上存倉	
+//[Type] == "Divine Life Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//不朽生命藥劑		存倉		83																						
 //已設定不存倉	//黃金藥劑		賣出		85																							
 //已設定不存倉	//小型生命藥劑		賣出		85																							
 //已設定不存倉	//生命藥劑（中）		賣出		85																							
@@ -1802,7 +1803,7 @@
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Volkuur's Guidance" && [ForceSellItem] == "true"	//福庫爾的指引		賣出																									
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Replica Volkuur's Guidance" && [ForceSellItem] == "true"	//贗品．福庫爾的指引		賣出																									
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hand of the Fervent" && [ForceSellItem] == "true"	//熱情之手		賣出																									
-[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Southbound" && [StashItem] == "true"	//南方		賣出																									
+//[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Southbound" && [StashItem] == "true"	//南方		賣出																									
 //[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Winds" && [ForceSellItem] == "true"	//斯卡沃之翼		賣出																									
 //[Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Null and Void" && [ForceSellItem] == "true"	//虛空		賣出																									
 //[Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Offering to the Serpent" && [ForceSellItem] == "true"	//蛇皮獻祭		賣出																									
