@@ -966,7 +966,7 @@
 [Type] == "Mortal Hope" # [StashItem] == "true" //	//凡人的希望		存倉																									
 //																												
 [Type] == "Incandescent Invitation" # [StashItem] == "true" //	//熾熱之邀		存倉																									
-//[Type] == "Polaric Invitation" # [StashItem] == "true" //	//極地之邀		存倉																									
+[Type] == "Polaric Invitation" # [StashItem] == "true" //	//極地之邀		存倉																									
 [Type] == "Screaming Invitation" # [StashItem] == "true" //	//尖嘯之邀		存倉																									
 [Type] == "Writhing Invitation" # [ForceSellItem] == "true" //	//纏繞之邀		賣出																									
 //																												
@@ -976,7 +976,7 @@
 [Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉																									
 //																												
 //3.22有發現6連無法賣出，前期先開後期註釋//
-[Sockets] == "6" && [Linked] >= "6" # [StashItem] ="true" //	//六連裝		存倉	//
+//[Sockets] == "6" && [Linked] >= "6" # [StashItem] ="true" //	//六連裝		存倉	//
 
 
 //
@@ -1803,7 +1803,7 @@
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Volkuur's Guidance" && [ForceSellItem] == "true"	//福庫爾的指引		賣出																									
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Replica Volkuur's Guidance" && [ForceSellItem] == "true"	//贗品．福庫爾的指引		賣出																									
 //[Type] == "Zealot Gloves" && [Rarity] == "Unique" # [UniqueName] == "Hand of the Fervent" && [ForceSellItem] == "true"	//熱情之手		賣出																									
-[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Southbound" && [StashItem] == "true"	//南方		賣出																									
+//[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Southbound" && [StashItem] == "true"	//南方		賣出																									
 //[Type] == "Soldier Gloves" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Winds" && [ForceSellItem] == "true"	//斯卡沃之翼		賣出																									
 //[Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Null and Void" && [ForceSellItem] == "true"	//虛空		賣出																									
 //[Type] == "Legion Gloves" && [Rarity] == "Unique" # [UniqueName] == "Offering to the Serpent" && [ForceSellItem] == "true"	//蛇皮獻祭		賣出																									
