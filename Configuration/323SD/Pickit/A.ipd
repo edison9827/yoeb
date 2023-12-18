@@ -54,7 +54,7 @@
 [Type] == "Jeweller's Orb" # [StashItem] == "true" //	//工匠石		存倉																									
 [Type] == "Orb of Alchemy" # [StashItem] == "true" //	//點金石		存倉																									
 [Type] == "Orb of Alteration" # [StashItem] == "true" //	//改造石		存倉																									
-[Type] == "Orb of Transmutation" # [StashItem] == "true" //	//蛻變石		存倉																									
+//[Type] == "Orb of Transmutation" # [StashItem] == "true" //	//蛻變石		存倉																									
 [Type] == "Orb of Augmentation" # [StashItem] == "true" //	//增幅石		存倉																									
 [Type] == "Orb of Chance" # [StashItem] == "true" //	//機會石		存倉																									
 [Type] == "Orb of Fusing" # [StashItem] == "true" //	//鏈結石		存倉																									
