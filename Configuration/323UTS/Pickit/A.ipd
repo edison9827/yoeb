@@ -867,83 +867,133 @@
 //[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//小星團珠寶		存倉	2																								
 //[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//小星團珠寶		存倉	3																																																		
 //	// 13F 輿圖																											
-[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉
-//[Type]== "Sulphur Vents Map" # [ForceSellItem] == "true" //賣出 硫磺蝕岸	
-//[Type]== "Carcass Map" # [ForceSellItem] == "true" //賣出 惡臭屍域
-//[Type]== "Vault Map" # [ForceSellItem] == "true" //賣出 魔金寶庫
-//[Type]== "Excavation Map" # [ForceSellItem] == "true" //賣出 挖掘場
-//[Type]== "Courthouse Map" # [ForceSellItem] == "true" //賣出 失序教院
-//[Type] == "City Square Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//危城賣稀有
-//[Type] == "Crimson Temple Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//緋紅賣稀有
-//[Type] == "Sulphur Vents Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Sulphur Vents Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Carcass Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Carcass Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Vault Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Vault Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Excavation Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Excavation Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Infested Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Infested Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Courthouse Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Summit Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Summit Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Basilica Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Basilica Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Racecourse Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Racecourse Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Underground Sea Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Underground Sea Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Arachnid Nest Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Arachnid Nest Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Tower Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Tower Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Flooded Mine Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Flooded Mine Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Haunted Mansion Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Haunted Mansion Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Orchard Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Orchard Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Colonnade Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Colonnade Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Necropolis Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Necropolis Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Lava Lake Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Lava Lake Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Reef Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Reef Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Siege Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Siege Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Ivory Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Ivory Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Geode Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Geode Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Caldera Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Caldera Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Wharf Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Wharf Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Mud Geyser Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Mud Geyser Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Glacier Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Glacier Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Mausoleum Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Mausoleum Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Maze Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Maze Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Coves Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Coves Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Spider Forest Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Spider Forest Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Fungal Hollow Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Fungal Hollow Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Dungeon Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Dungeon Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-//[Type] == "Colosseum Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-//[Type] == "Colosseum Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+//販賣雙控地圖點金
+//[Type] == "Temple Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//賣出 奪魂之殿
+//[Type] == "Crimson Temple Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//賣出 緋紅神殿
+//雙控周圍地圖賣白藍
+[Type] == "Maze Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 冥神之域
+[Type] == "Maze Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 冥神之域
+[Type] == "Bramble Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 荊棘谷
+[Type] == "Bramble Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 荊棘谷
+[Type] == "Lava Chamber Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 熔岩之室
+[Type] == "Lava Chamber Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 熔岩之室
+[Type] == "Ivory Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 象牙神殿
+[Type] == "Ivory Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 象牙神殿
+[Type] == "Canyon Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 炙陽峽谷
+[Type] == "Canyon Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 炙陽峽谷
+[Type] == "Colosseum Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 大決鬥場
+[Type] == "Colosseum Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 大決鬥場
+//3.23新增進來的輿圖(兩顆守望石後會升級到T14)賣白藍
+[Type] == "Arid Lake Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 乾枯湖岸
+[Type] == "Arid Lake Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 乾枯湖岸
+[Type] == "Bramble Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 荊棘谷
+[Type] == "Bramble Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 荊棘谷
+[Type] == "Burial Chambers Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 旱地墓室
+[Type] == "Burial Chambers Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 旱地墓室
+[Type] == "Canyon Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 炙陽峽谷
+[Type] == "Canyon Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 炙陽峽谷
+[Type] == "Crater Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 殘破殞坑
+[Type] == "Crater Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 殘破殞坑
+[Type] == "Desert Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 貧瘠之地
+[Type] == "Desert Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 貧瘠之地
+[Type] == "Dig Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 違禁掘坑
+[Type] == "Dig Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 違禁掘坑
+[Type] == "Foundry Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 鍊金房
+[Type] == "Foundry Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 鍊金房
+[Type] == "Ghetto Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 赤貧居所
+[Type] == "Ghetto Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 赤貧居所
+[Type] == "Jungle Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 劇毒林谷
+[Type] == "Jungle Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 劇毒林谷
+[Type] == "Overgrown Ruin Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 長草遺跡
+[Type] == "Overgrown Ruin Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 長草遺跡
+[Type] == "Park Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 園林苑
+[Type] == "Park Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 園林苑
+[Type] == "Plaza Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 廣場
+[Type] == "Plaza Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 廣場
+[Type] == "Sepulchre Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 陰暗墓塚
+[Type] == "Sepulchre Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 陰暗墓塚
+[Type] == "Spider Lair Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 巨蛛巢穴
+[Type] == "Spider Lair Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 巨蛛巢穴
+[Type] == "Sulphur Vents Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 硫磺蝕岸
+[Type] == "Sulphur Vents Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 硫磺蝕岸
+[Type] == "Carcass Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 惡臭屍域
+[Type] == "Carcass Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 惡臭屍域
+[Type] == "Vault Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 魔金寶庫
+[Type] == "Vault Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 魔金寶庫
+[Type] == "Excavation Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 挖掘場
+[Type] == "Excavation Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 挖掘場
+[Type] == "Courthouse Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 失序教院
+[Type] == "Courthouse Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 失序教院
+//3.22輿圖賣白藍
+[Type] == "Sulphur Vents Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Sulphur Vents Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Carcass Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Carcass Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Vault Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Vault Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Excavation Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Excavation Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Infested Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Infested Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Courthouse Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Courthouse Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Summit Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Summit Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Basilica Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Basilica Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Racecourse Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Racecourse Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Underground Sea Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Underground Sea Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Arachnid Nest Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Arachnid Nest Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Tower Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Tower Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Flooded Mine Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Flooded Mine Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Haunted Mansion Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Haunted Mansion Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Orchard Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Orchard Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Colonnade Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Colonnade Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Necropolis Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Necropolis Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Lava Lake Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Lava Lake Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Reef Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Reef Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Siege Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Siege Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Ivory Temple Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Ivory Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Geode Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Geode Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Caldera Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Caldera Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Wharf Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Wharf Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Mud Geyser Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Mud Geyser Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Glacier Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Glacier Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Mausoleum Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Mausoleum Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Maze Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Maze Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Coves Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Coves Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Spider Forest Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Spider Forest Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Fungal Hollow Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Fungal Hollow Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Dungeon Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Dungeon Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Colosseum Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
+[Type] == "Colosseum Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
 
 
 
