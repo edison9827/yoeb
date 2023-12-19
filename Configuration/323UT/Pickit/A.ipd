@@ -2018,7 +2018,7 @@
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Replica Bated Breath" && [ForceSellItem] == "true"	//贗品．凝息		賣出																									
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Chain of Endurance" && [ForceSellItem] == "true"	//堅決鎖鏈		賣出																									
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Headhunter" && [StashItem] == "true"	//獵首		存倉																									
-[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [StashItem] == "true"	//永生		賣出																									
+//[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [StashItem] == "true"	//永生		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Wurm's Molt" && [ForceSellItem] == "true"	//龍蛻之帶		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Umbilicus Immortalis" && [ForceSellItem] == "true"	//不朽繫命		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Cyclopean Coil" && [ForceSellItem] == "true"	//巨岩之環		賣出																									
@@ -2028,7 +2028,7 @@
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Bear's Girdle" && [ForceSellItem] == "true"	//熊之束		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Replica Headhunter" && [ForceSellItem] == "true"	//贗品．獵首		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Pyroshock Clasp" && [ForceSellItem] == "true"	//烈焰衝擊鉤		賣出																									
-[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Doryani's Invitation" && [StashItem] == "true"	//多里亞尼之約		存倉																									
+//[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Doryani's Invitation" && [StashItem] == "true"	//多里亞尼之約		存倉																									
 //[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Meginord's Girdle" && [ForceSellItem] == "true"	//梅吉諾德的力量泉源		賣出																									
 //[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Belt of the Deceiver" && [ForceSellItem] == "true"	//狡徒束腰		賣出																									
 //[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Dyadian Dawn" && [StashItem] == "true"	//戴亞迪安的晨曦		存倉																									
@@ -2040,7 +2040,7 @@
 //[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Survivor's Guilt" && [ForceSellItem] == "true"	//倖存者的原罪		賣出																									
 [Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Mageblood" && [StashItem] == "true"	//魔血		存倉																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Perandus Blazon" && [ForceSellItem] == "true"	//普蘭德斯之印		賣出																									
-[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Sunblast" && [StashItem] == "true"	//日炎		賣出																									
+//[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Sunblast" && [StashItem] == "true"	//日炎		賣出																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Soulthirst" && [ForceSellItem] == "true"	//嗜魂		賣出																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Soul Tether" && [ForceSellItem] == "true"	//靈魂束縛		賣出																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "The Flow Untethered" && [ForceSellItem] == "true"	//潺流不息		賣出																									
@@ -2052,7 +2052,7 @@
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Graven's Secret" && [ForceSellItem] == "true"	//格雷文的秘密		賣出																									
 //[Type] == "Cloth Belt" && [Rarity] == "Unique" # [UniqueName] == "Ceinture of Benevolence" && [ForceSellItem] == "true"	//仁愛之心		賣出																									
 //[Type] == "Studded Belt" && [Rarity] == "Unique" # [UniqueName] == "The Magnate" && [StashItem] == "true"	//堅毅之環		賣出																									
-[Type] == "Studded Belt" && [Rarity] == "Unique" # [UniqueName] == "Ryslatha's Coil" && [StashItem] == "true"	//瑞斯拉薩之纏		賣出																									
+//[Type] == "Studded Belt" && [Rarity] == "Unique" # [UniqueName] == "Ryslatha's Coil" && [StashItem] == "true"	//瑞斯拉薩之纏		賣出																									
 //[Type] == "Studded Belt" && [Rarity] == "Unique" # [UniqueName] == "The Tactician" && [ForceSellItem] == "true"	//智勇軍師		賣出																									
 //[Type] == "Studded Belt" && [Rarity] == "Unique" # [UniqueName] == "The Nomad" && [ForceSellItem] == "true"	//游牧		賣出																									
 //[Type] == "Vanguard Belt" && [Rarity] == "Unique" # [UniqueName] == "Perseverance" && [ForceSellItem] == "true"	//恆毅意志		賣出																									

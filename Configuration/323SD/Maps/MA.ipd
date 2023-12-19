@@ -20,7 +20,7 @@
 [Type] == "Synthesised Map" # [lgnoreMap] == "true" // Synthesised maps	
 
 [Type] == "Crimson Temple Map" # [ExitAfterBossKill] == "true"
-[Type] == "City Square Map" # [ExitAfterBossKill] == "true"
+[Type] == "Temple Map" # [ExitAfterBossKill] == "true"
 																									
 // 以下選擇你這張圖要不要打				//備註 不打的仍會存倉																					
 [Type] == "Lookout Map" # [IgnoreMap] == "true" //	//如履危牆		打																						
@@ -44,7 +44,7 @@
 [Type] == "Burial Chambers Map" # [IgnoreMap] == "true" //	//旱地墓室		打																						
 [Type] == "Cells Map" # [IgnoreMap] == "true" //	//幽魂監牢		打																						
 [Type] == "Arcade Map" # [IgnoreMap] == "true" //	//崩壞長廊		打																						
-[Type] == "City Square Map" # [RunMap] == "true" //	//危城廣場		打																						
+[Type] == "City Square Map" # [IgnoreMap] == "true" //	//危城廣場		打																						
 [Type] == "Relic Chambers Map" # [IgnoreMap] == "true" //	//古典密室		打																						
 [Type] == "Courthouse Map" # [IgnoreMap] == "true" //	//失序教院		打																						
 [Type] == "Strand Map" # [IgnoreMap] == "true" //	//致命岩灘		打																						
@@ -110,7 +110,7 @@
 [Type] == "Plateau Map" # [IgnoreMap] == "true" //	//海風高原		打																						
 [Type] == "Estuary Map" # [IgnoreMap] == "true" //	//熔火岩灘		打																						
 [Type] == "Vault Map" # [IgnoreMap] == "true" //	//魔金寶庫		打																						
-[Type] == "Temple Map" # [IgnoreMap] == "true" //	//奪魂之殿		打																						
+[Type] == "Temple Map" # [RunMap] == "true" //	//奪魂之殿		打																						
 [Type] == "Arena Map" # [IgnoreMap] == "true" //	//競技場		打																						
 [Type] == "Museum Map" # [IgnoreMap] == "true" //	//古博物館		打																						
 [Type] == "Scriptorium Map" # [IgnoreMap] == "true" //	//墓影書坊		打																						
