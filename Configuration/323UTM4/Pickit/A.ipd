@@ -1558,7 +1558,7 @@
 [Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Heatshiver" && [StashItem] == "true"	//寒焰		存倉																									
 //[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Frostferno" && [ForceSellItem] == "true"	//霜獄		賣出																									
 //[Type] == "Wolf Pelt" && [Rarity] == "Unique" # [UniqueName] == "Elevore" && [ForceSellItem] == "true"	//愛勒弗		賣出																									
-//[Type] == "Ursine Pelt" && [Rarity] == "Unique" # [UniqueName] == "Rat's Nest" && [ForceSellItem] == "true"	//鼠巢		賣出																									
+[Type] == "Ursine Pelt" && [Rarity] == "Unique" # [UniqueName] == "Rat's Nest" && [StashItem] == "true"	//鼠巢		賣出																									
 //[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Starkonja's Head" && [ForceSellItem] == "true"	//斯塔空加之首		賣出																									
 //[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Saqawal's Flock" && [ForceSellItem] == "true"	//斯卡沃之徒		賣出																									
 //[Type] == "Silken Hood" && [Rarity] == "Unique" # [UniqueName] == "Cowl of the Cryophile" && [ForceSellItem] == "true"	//酷寒斗篷		賣出																									
