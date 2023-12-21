@@ -72,7 +72,7 @@
 [Type] == "Barrows Map" # [IgnoreMap] == "true" //	//熱林塚墓		打																						
 [Type] == "Mausoleum Map" # [IgnoreMap] == "true" //	//靜縊陵墓		打																						
 [Type] == "Fields Map" # [IgnoreMap] == "true" //	//無疆田野		打																						
-[Type] == "Jungle Valley Map" # [IgnoreMap] == "true" //	//劇毒林谷		打																						
+[Type] == "Jungle Valley Map" # [RunMap] == "true" //	//劇毒林谷		打																						
 [Type] == "Phantasmagoria Map" # [IgnoreMap] == "true" //	//魔靈幻獄		打																						
 [Type] == "Academy Map" # [IgnoreMap] == "true" //	//惡靈學院		打																						
 [Type] == "Thicket Map" # [IgnoreMap] == "true" //	//驚懼樹叢		打																						
@@ -132,7 +132,7 @@
 [Type] == "Coves Map" # [IgnoreMap] == "true" //	//疾風峽灣		打																						
 [Type] == "Waterways Map" # [IgnoreMap] == "true" //	//危機水道		打																						
 [Type] == "Factory Map" # [IgnoreMap] == "true" //	//鐵鏽工廠		打																						
-[Type] == "Mesa Map" # [IgnoreMap] == "true" //	//平頂荒漠		打																						
+[Type] == "Mesa Map" # [RunMap] == "true" //	//平頂荒漠		打																						
 [Type] == "Pit Map" # [IgnoreMap] == "true" //	//巨坑		打																						
 [Type] == "Dry Sea Map" # [IgnoreMap] == "true" //	//乾海		打																						
 [Type] == "Defiled Cathedral Map" # [IgnoreMap] == "true" //	//不潔教堂		打																						
