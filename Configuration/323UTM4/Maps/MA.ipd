@@ -112,7 +112,7 @@
 [Type] == "Plateau Map" # [IgnoreMap] == "true" //	//海風高原		打																						
 [Type] == "Estuary Map" # [IgnoreMap] == "true" //	//熔火岩灘		打																						
 [Type] == "Vault Map" # [IgnoreMap] == "true" //	//魔金寶庫		打																						
-[Type] == "Temple Map" # [IgnoreMap] == "true" //	//奪魂之殿		打																						
+[Type] == "Temple Map" # [RunMap] == "true" //	//奪魂之殿		打																						
 [Type] == "Arena Map" # [IgnoreMap] == "true" //	//競技場		打																						
 [Type] == "Museum Map" # [IgnoreMap] == "true" //	//古博物館		打																						
 [Type] == "Scriptorium Map" # [IgnoreMap] == "true" //	//墓影書坊		打																						
@@ -158,7 +158,7 @@
 [Type] == "Colosseum Map" # [IgnoreMap] == "true" //	//大決鬥場		打																						
 [Type] == "Acid Caverns Map" # [IgnoreMap] == "true" //	//酸岩酸嶼		打																						
 [Type] == "Dark Forest Map" # [IgnoreMap] == "true" //	//夜語幽林		打																						
-[Type] == "Crimson Temple Map" # [IgnoreMap] == "true" //	//緋紅神殿		打																						
+[Type] == "Crimson Temple Map" # [RunMap] == "true" //	//緋紅神殿		打																						
 [Type] == "Plaza Map" # [IgnoreMap] == "true" //	//廣場		打																						
 [Type] == "Dig Map" # [IgnoreMap] == "true" //	//違禁掘坑		打																						
 [Type] == "Palace Map" # [IgnoreMap] == "true" //	//神域之殿		打																						
