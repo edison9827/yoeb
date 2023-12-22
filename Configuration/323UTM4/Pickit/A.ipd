@@ -875,13 +875,16 @@
 //[Type] == "Crimson Temple Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//賣出 緋紅神殿
 //[Type] == "Jungle Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 劇毒林谷
 //[Type] == "Jungle Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 劇毒林谷
-//雙控周圍地圖賣白藍
-[Type] == "Mud Geyser Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//陰晦泥灘
-[Type] == "Mud Geyser Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//陰晦泥灘
-[Type] == "Stagnation Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//淤塞水道
-[Type] == "Stagnation Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//淤塞水道
+//雙控周圍地圖賣白藍金
+[Type] == "Mud Geyser Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 陰晦泥灘
+[Type] == "Mud Geyser Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 陰晦泥灘
+[Type] == "Mud Geyser Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//賣出 陰晦泥灘
+[Type] == "Stagnation Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 淤塞水道
+[Type] == "Stagnation Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 淤塞水道
+[Type] == "Stagnation Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//賣出 淤塞水道
 [Type] == "Arid Lake Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 乾枯湖岸
 [Type] == "Arid Lake Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 乾枯湖岸
+[Type] == "Arid Lake Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//賣出 乾枯湖岸
 //雙控周圍地圖賣白藍
 [Type] == "Maze Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 冥神之域
 [Type] == "Maze Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 冥神之域
@@ -896,8 +899,28 @@
 [Type] == "Colosseum Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 大決鬥場
 [Type] == "Colosseum Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 大決鬥場
 //3.23新增進來的輿圖(兩顆守望石後會升級到T14)賣白藍
+//[Type] == "" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 
+//[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 
+//[Type] == "" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 
+//[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 
+[Type] == "Bazaar Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 遠古市集
+[Type] == "Bazaar Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 遠古市集
+[Type] == "Cage Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 羈破牢籠
+[Type] == "Cage Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 羈破牢籠
+[Type] == "Arena Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 競技場
+[Type] == "Arena Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 競技場
+[Type] == "Mineral Pools Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 濕地礦山
+[Type] == "Mineral Pools Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 濕地礦山
+[Type] == "Iceberg Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 極原冰帽
+[Type] == "Iceberg Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 極原冰帽
+[Type] == "Museum Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 古博物館 
+[Type] == "Museum Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 古博物館
 [Type] == "Bramble Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 荊棘谷
 [Type] == "Bramble Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 荊棘谷
+[Type] == "Residence Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 神主居所
+[Type] == "Residence Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 神主居所
+[Type] == "Arcade Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 崩壞長廊
+[Type] == "Arcade Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 崩壞長廊
 [Type] == "Burial Chambers Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 旱地墓室
 [Type] == "Burial Chambers Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 旱地墓室
 [Type] == "Canyon Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 炙陽峽谷
