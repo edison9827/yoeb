@@ -1604,7 +1604,7 @@
 //[Type] == "Necromancer Circlet" && [Rarity] == "Unique" # [UniqueName] == "The Devouring Diadem" && [ForceSellItem] == "true"	//吞噬之冠		賣出																									
 //[Type] == "Necromancer Circlet" && [Rarity] == "Unique" # [UniqueName] == "Sandstorm Visage" && [ForceSellItem] == "true"	//沙瀑面紗		賣出																									
 //[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Flamesight" && [ForceSellItem] == "true"	//炎視		賣出																									
-//[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Galesight" && [ForceSellItem] == "true"	//風視		賣出																									
+[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Galesight" && [StashItem] == "true"	//風視		賣出																									
 //[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Thundersight" && [ForceSellItem] == "true"	//雷視		賣出																									
 //[Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Cowl of the Ceraunophile" && [ForceSellItem] == "true"	//狂雷斗篷		賣出																									
 [Type] == "Solaris Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wilma's Requital" && [StashItem] == "true"	//威爾瑪的報復		賣出																									
