@@ -903,6 +903,10 @@
 //[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 
 //[Type] == "" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 
 //[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 
+[Type] == "City Square Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 危城廣場
+[Type] == "City Square Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 危城廣場
+[Type] == "Grave Trough Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 墓地谷
+[Type] == "Grave Trough Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 墓地谷
 [Type] == "Bazaar Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 遠古市集
 [Type] == "Bazaar Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 遠古市集
 [Type] == "Cage Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 羈破牢籠
