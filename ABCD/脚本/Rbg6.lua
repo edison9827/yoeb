@@ -23,7 +23,7 @@ g_attackDis=50				--攻击距离
 g_duobiHpVal=0.2
 
 ------------------基本设置
-g_needMinimizeGame=nil		    --最小化遊戲窗口 true为最小化 false或nil为不最小化
+g_needMinimizeGame=true		    --最小化遊戲窗口 true为最小化 false或nil为不最小化
 
 --SetNeedSkillLineData(val,str,invalidLv,pos)--设置换技能宝石数据 
 --val=每块宝石的比重值
