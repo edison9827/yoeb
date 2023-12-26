@@ -145,7 +145,7 @@
 [Type] == "Eldritch Exalted Orb" # [StashItem] == "true" //	//異能崇高石		存倉																									
 [Type] == "Eldritch Orb of Annulment" # [StashItem] == "true" //	//異能無效石		存倉																									
 [Type] == "Eldritch Chaos Orb" # [StashItem] == "true" //	//異能混沌石		存倉																									
-//此通貨不撿	//尼科的記憶		賣出																									
+[Type] == "Niko's Memory" # [StashItem] == "true" //	//尼科的記憶		存倉																																																		
 //此通貨不撿	//艾瓦的記憶		賣出																									
 //此通貨不撿	//基拉克的記憶		賣出																									
 [Type] == "Einhar's Memory" # [StashItem] == "true" //	//埃哈的記憶		存倉																									
