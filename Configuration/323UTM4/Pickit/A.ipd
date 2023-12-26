@@ -2313,10 +2313,10 @@
 //[Type] == "Small Cluster Jewel" && [Rarity] == "Unique" # [UniqueName] == "The Front Line" && [ForceSellItem] == "true"	//前列的線		賣出																									
 
 //3.22新物品			
-[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Binding" && [StashItem] == "true"	//康母的束縛 重革腰帶		存倉
+//[Type] == "Heavy Belt" && [Rarity] == "Unique" # [UniqueName] == "Kaom's Binding" && [StashItem] == "true"	//康母的束縛 重革腰帶		存倉
 [Type] == "Paua Amulet" && [Rarity] == "Unique" # [UniqueName] == "Defiance of Destiny" && [StashItem] == "true"	//反抗命運		存倉
 [Type] == "Engraved Greatsword" && [Rarity] == "Unique" # [UniqueName] == "Rakiata's Dance" && [StashItem] == "true"	//拉奇塔之舞 符文巨劍		存倉
-[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Dragonfang's Flight" && [StashItem] == "true" //龍牙
+//[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Dragonfang's Flight" && [StashItem] == "true" //龍牙
 //他下面都打錯了
 //[Type] == "Ahuana's Bite Sharktooth Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//阿華納之咬 鯊齒箭袋		存倉																									
 //[Type] == "Akoya's Gaze Regicide Mask" && [Rarity] == "Unique" # [UniqueName] == "" && [StashItem] == "true"	//阿蔻雅的凝視 噬君之面		存倉																									
