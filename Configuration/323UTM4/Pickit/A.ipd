@@ -903,6 +903,14 @@
 //[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 
 //[Type] == "" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 
 //[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 
+//[Type] == "" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 
+//[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出
+//[Type] == "" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 
+//[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出
+//[Type] == "" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 
+//[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出
+[Type] == "Plateau Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出  海風高原
+[Type] == "Plateau Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 海風高原
 [Type] == "City Square Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 危城廣場
 [Type] == "City Square Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 危城廣場
 [Type] == "Grave Trough Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 墓地谷
