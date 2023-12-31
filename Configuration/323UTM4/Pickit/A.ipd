@@ -1,3 +1,22 @@
+// 塑造者/長者 //6827
+[map_atlas_influence_type] >= "1" # [IgnoreMap] == "true" // Shaper/Elder maps
+// 征服者 //13845
+[map_contains_citadel] >= "1" # [IgnoreMap] == "true" // Conq maps
+// 追憶地圖
+[Type] == "Synthesised Map" # [IgnoreMap] == "true"
+// Delirium 地圖 11508>11504-11506
+[map_endgame_fog_depth] >= "1" # [IgnoreMap] == "true" // Delirium maps
+// 受影響的地圖（Shaper 和 Elder 地圖）
+[6826] == "1" # [IgnoreMap] == "true"
+[6826] == "2" # [IgnoreMap] == "true"
+[6826] = = " 3" # [IgnoreMap] == "true"
+[6826] == "4" # [IgnoreMap] == "true"
+// Citadel Maps (Sirus Maps)
+[13843] == "1" # [IgnoreMap] == "true"
+[13843] == "2" # [IgnoreMap] == "true"
+[13843] == "3" # [IgnoreMap] == "true"
+[13843] == "4" # [IgnoreMap] == "true"
+[Type] == "Synthesised Map" # [lgnoreMap] == "true" // Synthesised maps	
 //	// 最後更新日期：2023/8/20 //要編輯請去看說明書建立副本//		過濾器提醒，請依照以下指示選擇																									
 //	//// 目錄 請使用CTRL＋F 搜尋樓層或點超連結  ↑超重要↑↑超重要↑↑超重要↑	9	建議使用無黃裝過濾器																									
 //	// 1F 黃裝鑑定售出	// 21F 傳奇																										
@@ -911,8 +930,8 @@
 //[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出
 [Type] == "Plateau Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出  海風高原
 [Type] == "Plateau Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 海風高原
-[Type] == "City Square Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 危城廣場
-[Type] == "City Square Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 危城廣場
+//[Type] == "City Square Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 危城廣場
+//[Type] == "City Square Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 危城廣場
 [Type] == "Grave Trough Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 墓地谷
 [Type] == "Grave Trough Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 墓地谷
 [Type] == "Bazaar Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 遠古市集
@@ -949,8 +968,8 @@
 [Type] == "Ghetto Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 赤貧居所
 [Type] == "Overgrown Ruin Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 長草遺跡
 [Type] == "Overgrown Ruin Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 長草遺跡
-[Type] == "Park Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 園林苑
-[Type] == "Park Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 園林苑
+//[Type] == "Park Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 園林苑
+//[Type] == "Park Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 園林苑
 [Type] == "Plaza Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 廣場
 [Type] == "Plaza Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 廣場
 [Type] == "Sepulchre Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 陰暗墓塚

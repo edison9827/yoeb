@@ -3,7 +3,8 @@
 [Quality]<="16"&& [Rarity]=="Normal"#[UpgradeQuality]== "true"//	//製圖釘點地圖		開啟																						
 [Rarity]== "Normal"#[UpgradeToMagic]== "true"//	//地圖點蛻變石		開啟																						
 [Rarity]== "Magic"#[AugmentIfPossible]== "true"//	//地圖點增幅石		開啟																						
-//[Rarity]== "Normal"#[UpgradeToRare]== "true"//	//地圖點點金石		開啟																						
+//[Rarity]== "Normal"#[UpgradeToRare]== "true"//	//地圖點點金石		開啟	
+//[Rarity] == "Rare" #[IgnoreMap] == "true" --不打黃圖																					
 																									
 																									
 																									
@@ -11,22 +12,20 @@
 [map_atlas_influence_type] >= "1" # [IgnoreMap] == "true" // Shaper/Elder maps
 // 征服者 //13845
 [map_contains_citadel] >= "1" # [IgnoreMap] == "true" // Conq maps
-// 合成地圖
+// 追憶地圖
 [Type] == "Synthesised Map" # [IgnoreMap] == "true"
 // Delirium 地圖 11508>11504-11506
 [map_endgame_fog_depth] >= "1" # [IgnoreMap] == "true" // Delirium maps
-
-//[Rarity] == "Rare" #[IgnoreMap] == "true" --不打黃圖
-//	--不打征服/尊師--
-[6827] == "1" # [IgnoreMap] == "true" // Elder infuenced maps
-[6827] == "2" # [IgnoreMap] == "true" // Elder infuenced maps
-[6827] == "3" # [IgnoreMap] == "true" // Elder infuenced maps
-[6827] == "4" # [IgnoreMap] == "true" // Elder infuenced maps
-
-[13845] == "1"  # [IgnoreMap] == "true" // Baron maps
-[13845] == "2"  # [IgnoreMap] == "true" // Veritania maps
-[13845] == "3"  # [lgnoreMap] == "true" // Drox maps
-[13845] == "4"  # [lgnoreMap] =="true" // AI-Hezmin maps
+// 受影響的地圖（Shaper 和 Elder 地圖）
+[6826] == "1" # [IgnoreMap] == "true"
+[6826] == "2" # [IgnoreMap] == "true"
+[6826] = = " 3" # [IgnoreMap] == "true"
+[6826] == "4" # [IgnoreMap] == "true"
+// Citadel Maps (Sirus Maps)
+[13843] == "1" # [IgnoreMap] == "true"
+[13843] == "2" # [IgnoreMap] == "true"
+[13843] == "3" # [IgnoreMap] == "true"
+[13843] == "4" # [IgnoreMap] == "true"
 [Type] == "Synthesised Map" # [lgnoreMap] == "true" // Synthesised maps	
 
 [Type] == "Crimson Temple Map" # [ExitAfterBossKill] == "true"
@@ -56,7 +55,7 @@
 [Type] == "Burial Chambers Map" # [IgnoreMap] == "true" //	//旱地墓室		打																						
 [Type] == "Cells Map" # [IgnoreMap] == "true" //	//幽魂監牢		打																						
 [Type] == "Arcade Map" # [IgnoreMap] == "true" //	//崩壞長廊		打																						
-[Type] == "City Square Map" # [IgnoreMap] == "true" //	//危城廣場		打																						
+[Type] == "City Square Map" # [RunMap] == "true" //	//危城廣場		打																						
 [Type] == "Relic Chambers Map" # [IgnoreMap] == "true" //	//古典密室		打																						
 [Type] == "Courthouse Map" # [IgnoreMap] == "true" //	//失序教院		打																						
 [Type] == "Strand Map" # [IgnoreMap] == "true" //	//致命岩灘		打																						
@@ -158,7 +157,7 @@
 [Type] == "Racecourse Map" # [IgnoreMap] == "true" //	//古競速場		打																						
 [Type] == "Caldera Map" # [IgnoreMap] == "true" //	//火山炎口		打																						
 [Type] == "Ghetto Map" # [IgnoreMap] == "true" //	//赤貧居所		打																						
-[Type] == "Park Map" # [IgnoreMap] == "true" //	//園林苑		打																						
+[Type] == "Park Map" # [RunMap] == "true" //	//園林苑		打																						
 [Type] == "Malformation Map" # [IgnoreMap] == "true" //	//畸形亡域		打																						
 [Type] == "Terrace Map" # [IgnoreMap] == "true" //	//露台花園		打																						
 [Type] == "Shrine Map" # [IgnoreMap] == "true" //	//奇術秘殿		打																						
