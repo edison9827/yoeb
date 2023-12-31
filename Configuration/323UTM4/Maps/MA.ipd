@@ -6,6 +6,16 @@
 //[Rarity]== "Normal"#[UpgradeToRare]== "true"//	//地圖點點金石		開啟																						
 																									
 																									
+																									
+// 塑造者/長者 //6827
+[map_atlas_influence_type] >= "1" # [IgnoreMap] == "true" // Shaper/Elder maps
+// 征服者 //13845
+[map_contains_citadel] >= "1" # [IgnoreMap] == "true" // Conq maps
+// 合成地圖
+[Type] == "Synthesised Map" # [IgnoreMap] == "true"
+// Delirium 地圖 11508>11504-11506
+[map_endgame_fog_depth] >= "1" # [IgnoreMap] == "true" // Delirium maps
+
 //[Rarity] == "Rare" #[IgnoreMap] == "true" --不打黃圖
 //	--不打征服/尊師--
 [6827] == "1" # [IgnoreMap] == "true" // Elder infuenced maps
