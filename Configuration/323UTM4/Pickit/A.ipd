@@ -886,8 +886,8 @@
 //[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "2" && [StashItem] == "true" //	//小星團珠寶		存倉	2																								
 //[Type] == "Small Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "3" && [StashItem] == "true" //	//小星團珠寶		存倉	3																																																		
 //	// 13F 輿圖																											
-[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "15" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
+[Category] == "Map" && [MapTier] >= "15" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
 [Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉
 //販賣雙控地圖點金
 //[Type] == "Temple Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//賣出 奪魂之殿
