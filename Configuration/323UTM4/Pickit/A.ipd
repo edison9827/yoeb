@@ -926,8 +926,8 @@
 //[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出
 //[Type] == "" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 
 //[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出
-//[Type] == "" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 
-//[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出
+[Type] == "Wasteland Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 荒地
+[Type] == "Wasteland Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 荒地
 [Type] == "Plateau Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出  海風高原
 [Type] == "Plateau Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 海風高原
 //[Type] == "City Square Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 危城廣場
@@ -1031,8 +1031,8 @@
 [Type] == "Ivory Temple Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
 [Type] == "Geode Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
 [Type] == "Geode Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
-[Type] == "Caldera Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
-[Type] == "Caldera Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
+[Type] == "Caldera Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//火山炎口
+[Type] == "Caldera Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//火山炎口
 [Type] == "Wharf Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
 [Type] == "Wharf Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//
 [Type] == "Glacier Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//
