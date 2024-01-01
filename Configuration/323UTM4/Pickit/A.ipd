@@ -922,10 +922,10 @@
 //[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 
 //[Type] == "" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 
 //[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 
-//[Type] == "" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 
-//[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出
-//[Type] == "" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 
-//[Type] == "" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出
+[Type] == "Volcano Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 火山炎域
+[Type] == "Volcano Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 火山炎域
+[Type] == "Channel Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 秘密通道
+[Type] == "Channel Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 秘密通道
 [Type] == "Wasteland Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 荒地
 [Type] == "Wasteland Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 荒地
 [Type] == "Plateau Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出  海風高原
