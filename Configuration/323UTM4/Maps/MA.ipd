@@ -32,7 +32,7 @@
 [Type] == "Temple Map" # [ExitAfterBossKill] == "true"
 [Type] == "Mesa Map" # [ExitAfterBossKill] == "true"
 [Type] == "Jungle Valley Map" # [ExitAfterBossKill] == "true"//劇毒林谷
-//[Type] == "City Square Map" # [ExitAfterBossKill] == "true"//危城廣場
+[Type] == "City Square Map" # [ExitAfterBossKill] == "true"//危城廣場
 //[Type] == "Park Map" # [ExitAfterBossKill] == "true"//園林
 																									
 // 以下選擇你這張圖要不要打				//備註 不打的仍會存倉																					

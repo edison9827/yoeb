@@ -889,12 +889,8 @@
 //[Category] == "Map" && [MapTier] >= "15" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
 //[Category] == "Map" && [MapTier] >= "15" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
 //[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉
-
-
-
-
-
-[Type] == "Synthesised Map" # [StashItem] == "true" //	追憶會撿																									
+[Type] == "Synthesised Map" # [StashItem] == "true" //	追憶會撿		
+[Type] == "Crypt Map" && [Rarity] == "Unique" # [UniqueName] == "The Coward's Trial Cursed" && [StashItem] == "true"	//懦者的試驗		存倉																							
 //	//以下可以設定多少Tier（含）以下的地圖自動賣掉	輸入Tier	//若不賣，可以設定存倉																									
 //																												
 //[Category] == "Map" && [MapTier] <= "16" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖	16	存倉																									
@@ -1446,7 +1442,8 @@
 //[Type] == "Inferno Royal Burgonet" && [Rarity] == "Unique" # [UniqueName] == "The Formless" && [ForceSellItem] == "true"	//無形煉獄		賣出																									
 //[Type] == "Creation Royal Burgonet" && [Rarity] == "Unique" # [UniqueName] == "Echoes of" && [ForceSellItem] == "true"	//創造迴聲		賣出																									
 //[Type] == "Penance Eternal Burgonet" && [Rarity] == "Unique" # [UniqueName] == "Usurper's" && [ForceSellItem] == "true"	//篡位者的懺悔		賣出																									
-//[Type] == "Leather Cap" && [Rarity] == "Unique" # [UniqueName] == "Goldrim" && [StashItem] == "true"	//金縷帽		賣出																									
+
+[Type] == "Leather Cap" && [Rarity] == "Unique" # [UniqueName] == "Goldrim" && [StashItem] == "true"	//金縷帽		賣出																									
 //[Type] == "Tricorne Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Fairgraves'" && [ForceSellItem] == "true"	//費爾之帽		賣出																									
 [Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Heatshiver" && [StashItem] == "true"	//寒焰		存倉																									
 //[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Frostferno" && [ForceSellItem] == "true"	//霜獄		賣出																									
