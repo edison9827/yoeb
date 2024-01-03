@@ -36,7 +36,7 @@ SetNeedSkillLineData(99,"腐蝕箭矢,Metadata/Items/Gems/SkillGemPoisonArrow|幻影射
 SetNeedSkillLineData(96,"火砲砲塔,Metadata/Items/Gems/SkillGemArtilleryBallista|附加冰冷傷害輔助,Metadata/Items/Gems/SupportGemAddedColdDamage|快速攻擊輔助,Metadata/Items/Gems/SupportGemFasterAttack|元素攻擊傷害輔助,Metadata/Items/Gems/SupportGemWeaponElementalDamage",nil,5,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,30)
 --SetNeedSkillLineData(95,"熔岩護盾,Metadata/Items/Gems/SkillGemMoltenShell|受傷時施放輔助,Metadata/Items/Gems/SupportGemCastOnDamageTaken|虛無玉,Metadata/Items/Gems/SkillGemVoidSphere",nil,10,nil)
 SetNeedSkillLineData(94,"凋零之步,Metadata/Items/Gems/SkillGemWitheringStep|狙擊者印記,Metadata/Items/Gems/SkillGemProjectileWeakness|擊中時印記輔助,Metadata/Items/Gems/SupportGemMarkOnHit",nil,9,nil)
-SetNeedSkillLineData(97,"元素淨化,Metadata/Items/Gems/SkillGemPurity|優雅,Metadata/Items/Gems/SkillGemGrace|熔岩護盾,Metadata/Items/Gems/SkillGemMoltenShell|受傷時施放輔助,Metadata/Items/Gems/SupportGemCastOnDamageTaken",nil,10,nil)
+SetNeedSkillLineData(97,"元素淨化,Metadata/Items/Gems/SkillGemPurity|優雅,Metadata/Items/Gems/SkillGemGrace|鋼筋鐵骨",nil,10,nil)
 SetNeedSkillLineData(98,"彈片砲塔,nil|快速攻擊輔助,nil|猛毒投射物輔助,nil|齊射輔助,nil",30,nil,nil)
 SetNeedSkillLineData(100,"燃燒箭矢,nil|氣勢輔助,nil",2,nil,nil)
 
@@ -52,10 +52,10 @@ AddAttackSkillData("普通攻击","melee")
 SetDebuffSkill(nil,"snipers_mark",nil,"curse_snipers_mark")--狙擊者印记
 
 --SetSkillLimitMaxLv(name,className,maxLv)--设置技能宝石最大等级 name=技能宝石物品名 className=技能宝石物品类名 maxLv=限制的最大等级
-SetSkillLimitMaxLv("熔岩護盾","Metadata/Items/Gems/SkillGemMoltenShell",10)
-SetSkillLimitMaxLv("受傷時施放輔助","Metadata/Items/Gems/SupportGemCastOnDamageTaken",1)
+--SetSkillLimitMaxLv("熔岩護盾","Metadata/Items/Gems/SkillGemMoltenShell",10)
+--SetSkillLimitMaxLv("受傷時施放輔助","Metadata/Items/Gems/SupportGemCastOnDamageTaken",1)
 --SetSkillLimitMaxLv("虛無玉","Metadata/Items/Gems/SkillGemVoidSphere",1)
---SetSkillLimitMaxLv("鋼筋鐵骨",nil,14)
+SetSkillLimitMaxLv("鋼筋鐵骨",nil,14)
 
 
 
