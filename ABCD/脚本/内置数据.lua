@@ -159,12 +159,12 @@ SetGoodsCaoZuo(nil,"0|1",nil,nil,nil,nil,nil,nil,"0|1|2",nil,nil,nil,true,nil,fu
 --SetJiaoYiGoods("HarvestSeed",nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,function(goodsData)return goodsData.harvestSeedLv>=76 end)--设置种子等级大于等于76的种子交易
 
 --增加显示记录
-AddJiLuGoodsData("登录","登录")
-AddJiLuGoodsData("开图","开图")
-AddJiLuGoodsData("死亡","死亡")
 AddJiLuGoodsData("Metadata/Items/Currency/CurrencyDuplicate","镜子")
 AddJiLuGoodsData("Metadata/Items/Currency/CurrencyModValues","神聖石")
 AddJiLuGoodsData("Metadata/Items/Currency/CurrencyRerollRare","混沌")
+AddJiLuGoodsData("登录","登录")
+AddJiLuGoodsData("开图","开图")
+AddJiLuGoodsData("死亡","死亡")
 AddJiLuGoodsData("夺宝开图","夺宝开图")
 AddJiLuGoodsData("夺宝成功","夺宝成功")
 
