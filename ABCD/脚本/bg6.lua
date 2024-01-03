@@ -150,8 +150,8 @@ SetZhengTiColorVarData(9,0,1,0,nil,100,false)
 SetZhengTiColorVarData(9,0,2,0,nil,200,true)
 SetZhengTiColorVarData(9,0,3,0,nil,400,true)
 
-SetZhengTiColorVarData(10,2,1,1,nil,400,true)
-SetZhengTiColorVarData(10,1,1,1,nil,300,true)
+--SetZhengTiColorVarData(10,2,1,1,nil,400,true)
+SetZhengTiColorVarData(10,1,1,1,nil,250,true)
 SetZhengTiColorVarData(10,0,1,1,nil,200,true)
 SetZhengTiColorVarData(10,0,0,1,nil,100,false)
 
