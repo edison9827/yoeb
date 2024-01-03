@@ -1,8 +1,8 @@
 //3.21 橘貓輿圖檔 此檔案為終生拾取檔贈品，不隨每季更新，但原則上每季都可以使用																									
 // 已自動化 請修改按鈕就好，其他不要動、其他不要動、其他不要動																									
 [Quality]<="16"&& [Rarity]=="Normal"#[UpgradeQuality]== "true"//	//製圖釘點地圖		開啟																						
-[Rarity]== "Normal"#[UpgradeToMagic]== "true"//	//地圖點蛻變石		開啟																						
-[Rarity]== "Magic"#[AugmentIfPossible]== "true"//	//地圖點增幅石		開啟																						
+//[Rarity]== "Normal"#[UpgradeToMagic]== "true"//	//地圖點蛻變石		開啟																						
+//[Rarity]== "Magic"#[AugmentIfPossible]== "true"//	//地圖點增幅石		開啟																						
 //[Rarity]== "Normal"#[UpgradeToRare]== "true"//	//地圖點點金石		開啟	
 //[Rarity] == "Rare" #[IgnoreMap] == "true" --不打黃圖																					
 																									
@@ -19,7 +19,7 @@
 // 受影響的地圖（Shaper 和 Elder 地圖）
 [6826] == "1" # [IgnoreMap] == "true"
 [6826] == "2" # [IgnoreMap] == "true"
-[6826] = = " 3" # [IgnoreMap] == "true"
+[6826] == " 3" # [IgnoreMap] == "true"
 [6826] == "4" # [IgnoreMap] == "true"
 // Citadel Maps (Sirus Maps)
 [13843] == "1" # [IgnoreMap] == "true"
@@ -33,7 +33,7 @@
 [Type] == "Mesa Map" # [ExitAfterBossKill] == "true"
 [Type] == "Jungle Valley Map" # [ExitAfterBossKill] == "true"//劇毒林谷
 [Type] == "City Square Map" # [ExitAfterBossKill] == "true"//危城廣場
-//[Type] == "Park Map" # [ExitAfterBossKill] == "true"//園林
+[Type] == "Park Map" # [ExitAfterBossKill] == "true"//園林
 																									
 // 以下選擇你這張圖要不要打				//備註 不打的仍會存倉																					
 [Type] == "Lookout Map" # [IgnoreMap] == "true" //	//如履危牆		打																						
