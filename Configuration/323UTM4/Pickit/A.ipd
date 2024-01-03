@@ -1797,7 +1797,7 @@
 //[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Andvarius" && [ForceSellItem] == "true"	//貪慾之記		賣出																									
 //[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "Ventor's Gamble" && [StashItem] == "true"	//賭神芬多		存倉																									
 //[Type] == "Gold Ring" && [Rarity] == "Unique" # [UniqueName] == "The Highwayman" && [ForceSellItem] == "true"	//高尚之人		賣出																									
-//[Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Kikazaru" && [ForceSellItem] == "true"	//基加薩魯		賣出																									
+[Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Kikazaru" && [StashItem] == "true"	//基加薩魯		賣出																									
 //[Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Valako's Sign" && [ForceSellItem] == "true"	//瓦拉庫之印		賣出																									
 //[Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Putembo's Valley" && [ForceSellItem] == "true"	//普坦堡的峽谷		賣出																									
 //[Type] == "Topaz Ring" && [Rarity] == "Unique" # [UniqueName] == "Putembo's Mountain" && [ForceSellItem] == "true"	//普坦堡的山巒		賣出																									
@@ -1961,7 +1961,7 @@
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Replica Bated Breath" && [ForceSellItem] == "true"	//贗品．凝息		賣出																									
 //[Type] == "Chain Belt" && [Rarity] == "Unique" # [UniqueName] == "Chain of Endurance" && [ForceSellItem] == "true"	//堅決鎖鏈		賣出																									
 [Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Headhunter" && [StashItem] == "true"	//獵首		存倉																									
-//[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [StashItem] == "true"	//永生		賣出																									
+[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Immortal Flesh" && [StashItem] == "true"	//永生		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Wurm's Molt" && [ForceSellItem] == "true"	//龍蛻之帶		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Umbilicus Immortalis" && [ForceSellItem] == "true"	//不朽繫命		賣出																									
 //[Type] == "Leather Belt" && [Rarity] == "Unique" # [UniqueName] == "Cyclopean Coil" && [ForceSellItem] == "true"	//巨岩之環		賣出																									
@@ -2058,7 +2058,7 @@
 //[Type] == "Vile Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Maloney's Nightfall" && [ForceSellItem] == "true"	//馬洛尼的暮光		賣出																									
 //[Type] == "Heavy Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Scorpion's Call" && [ForceSellItem] == "true"	//毒蠍之喚		賣出																									
 //[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Voidfletcher" && [ForceSellItem] == "true"	//虛眼箭矢		賣出																									
-//[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"	//優雅迷鏡		賣出																									
+[Type] == "Primal Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Poised Prism" && [StashItem] == "true"	//優雅迷鏡		賣出																									
 	//赤紅珠寶		存倉																									
 //[Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Inertia" && [ForceSellItem] == "true"	//慣性		賣出																									
 [Type] == "Crimson Jewel" && [Rarity] == "Unique" # [UniqueName] == "Inspired Learning" && [StashItem] == "true"	//求知的熱情		存倉																									
