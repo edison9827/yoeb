@@ -31,7 +31,7 @@ g_duobiHpVal=0.2
 --pos=指定位置 nil为自动选择 2为衣服 3为主武器 4为副武器 5为头盔 6为项链 7为左戒指 8为右戒指 9为护手 10为鞋子 11为腰带
 --nType 有效场景 nil为无论何时都有效 0为没在刷异界才有效 1为只在刷异界才有效
 
-SetNeedSkillLineData(93,"魔改箭矢輔助,nil|分裂箭矢,nil|龍捲射擊,nil|爆裂箭雨,nil|活栓輔助,nil",nil,nil,nil)
+SetNeedSkillLineData(93,"魔改箭矢輔助,nil|分裂箭矢,nil|龍捲射擊,nil|爆裂箭雨,nil|活栓輔助,nil",nil,3,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,50)
 SetNeedSkillLineData(99,"腐蝕箭矢,Metadata/Items/Gems/SkillGemPoisonArrow|幻影射手輔助,Metadata/Items/Gems/SupportGemMirageArcher|虛空操縱輔助,Metadata/Items/Gems/SupportGemVoidManipulation|猛毒投射物輔助,Metadata/Items/Gems/SupportGemPhysicalProjectileAttackDamage|極速苦痛輔助,Metadata/Items/Gems/SupportGemRapidDecay|集中效應輔助,Metadata/Items/Gems/SupportGemConcentratedEffect",nil,2,nil)
 SetNeedSkillLineData(96,"火砲砲塔,Metadata/Items/Gems/SkillGemArtilleryBallista|附加冰冷傷害輔助,Metadata/Items/Gems/SupportGemAddedColdDamage|快速攻擊輔助,Metadata/Items/Gems/SupportGemFasterAttack|元素攻擊傷害輔助,Metadata/Items/Gems/SupportGemWeaponElementalDamage",nil,5,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,30)
 --SetNeedSkillLineData(95,"熔岩護盾,Metadata/Items/Gems/SkillGemMoltenShell|受傷時施放輔助,Metadata/Items/Gems/SupportGemCastOnDamageTaken|虛無玉,Metadata/Items/Gems/SkillGemVoidSphere",nil,10,nil)
