@@ -45,7 +45,7 @@ AddShengJiZhuangBeiGoodsData("束縛石","Metadata/Items/Currency/CurrencyUpgradeTo
 
 --添加攻击技能 name=技能名 className=技能类名 noLine=不在直线就能攻击 挑选攻击技能会从上到下寻找，要把厉害的技能加在前面
 
-AddAttackSkillData("腐蝕箭矢","Caustic Arrow",false,50,0)
+AddAttackSkillData("腐蝕箭矢","Caustic Arrow")
 AddAttackSkillData("燃燒箭矢","Burning Arrow")
 AddAttackSkillData("普通攻击","melee")
 
