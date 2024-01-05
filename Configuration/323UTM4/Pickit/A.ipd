@@ -934,7 +934,7 @@
 //			關閉																									
 //	// 18F 藥水（預設關閉）			//																								
 //					下面這行可以預設物等
-//[Type] == "Diamond Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		83			
+[Type] == "Diamond Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		83			
 //[Type] == "Jade Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//翠玉藥劑		存倉		83		
 //[Type] == "Amethyst Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		83	
 //[Type] == "Quicksilver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//水銀藥劑		存倉		83	83物品等級包含以上存倉	
