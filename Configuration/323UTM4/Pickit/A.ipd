@@ -142,16 +142,16 @@
 //[Type] == "Divine Vessel" # [StashItem] == "true" //	//眾神聖器		存倉																									
 //[Type] == "Silver Coin" # [ForceSellItem] == "true" //	//銀幣		存倉																									
 //	//基拉克記憶																											
-[Type] == "Singular Scouting Report" # [StashItem] == "true" //	//卓越偵查報告		存倉																									
-[Type] == "Otherworldly Scouting Report" # [StashItem] == "true" //	//超凡偵查報告		存倉																									
-[Type] == "Comprehensive Scouting Report" # [StashItem] == "true" //	//全面偵查報告		存倉																									
-[Type] == "Vaal Scouting Report" # [StashItem] == "true" //	//瓦爾偵查報告		存倉																									
+//[Type] == "Singular Scouting Report" # [StashItem] == "true" //	//卓越偵查報告		存倉																									
+//[Type] == "Otherworldly Scouting Report" # [StashItem] == "true" //	//超凡偵查報告		存倉																									
+//[Type] == "Comprehensive Scouting Report" # [StashItem] == "true" //	//全面偵查報告		存倉																									
+//[Type] == "Vaal Scouting Report" # [StashItem] == "true" //	//瓦爾偵查報告		存倉																									
 [Type] == "Delirious Scouting Report" # [StashItem] == "true" //	//譫妄偵查報告		存倉																									
 [Type] == "Operative's Scouting Report" # [StashItem] == "true" //	//技工偵查報告		存倉																									
 [Type] == "Blighted Scouting Report" # [StashItem] == "true" //	//凋落偵查報告		存倉																									
 [Type] == "Influenced Scouting Report" # [StashItem] == "true" //	//勢力偵查報告		存倉																									
-[Type] == "Explorer's Scouting Report" # [StashItem] == "true" //	//探險家偵查報告		存倉																									
-[Type] == "Surveyors Compass" # [StashItem] == "true" //	//測量員的羅盤		存倉																									
+//[Type] == "Explorer's Scouting Report" # [StashItem] == "true" //	//探險家偵查報告		存倉																									
+[Type] == "Surveyors Compass" # [ForceSellItem] == "true" //	//測量員的羅盤		存倉																									
 [Type] == "Charged Compass" # [StashItem] == "true" //	//充能的羅盤		存倉																									
 [Type] == "Exceptional Eldritch Ember" # [StashItem] == "true" //	//宏偉異能灰燼		存倉																									
 [Type] == "Grand Eldritch Ember" # [StashItem] == "true" //	//卓越異能灰燼		存倉																									
@@ -164,7 +164,7 @@
 [Type] == "Eldritch Exalted Orb" # [StashItem] == "true" //	//異能崇高石		存倉																									
 [Type] == "Eldritch Orb of Annulment" # [StashItem] == "true" //	//異能無效石		存倉																									
 [Type] == "Eldritch Chaos Orb" # [StashItem] == "true" //	//異能混沌石		存倉																									
-[Type] == "Niko's Memory" # [StashItem] == "true" //	//尼科的記憶		存倉																																																		
+//[Type] == "Niko's Memory" # [StashItem] == "true" //	//尼科的記憶		存倉																																																		
 //此通貨不撿	//艾瓦的記憶		賣出																									
 //此通貨不撿	//基拉克的記憶		賣出																									
 [Type] == "Einhar's Memory" # [StashItem] == "true" //	//埃哈的記憶		存倉																									
@@ -934,7 +934,7 @@
 //			關閉																									
 //	// 18F 藥水（預設關閉）			//																								
 //					下面這行可以預設物等
-[Type] == "Diamond Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		83			
+//[Type] == "Diamond Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		83			
 //[Type] == "Jade Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//翠玉藥劑		存倉		83		
 //[Type] == "Amethyst Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		83	
 //[Type] == "Quicksilver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//水銀藥劑		存倉		83	83物品等級包含以上存倉	
