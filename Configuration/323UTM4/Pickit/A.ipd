@@ -1778,7 +1778,7 @@
 //[Type] == "Runic Gauntlets" && [Rarity] == "Unique" # [UniqueName] == "Medved's Challenge" && [ForceSellItem] == "true"	//梅德偉的挑戰		賣出																									
 	//戒指		賣出																									
 //[Type] == "Iron Ring" && [Rarity] == "Unique" # [UniqueName] == "Blackheart" && [ForceSellItem] == "true"	//幽暗之語		賣出																									
-//[Type] == "Iron Ring" && [Rarity] == "Unique" # [UniqueName] == "Le Heup of All" && [StashItem] == "true"	//英靈寶環		賣出																									
+[Type] == "Iron Ring" && [Rarity] == "Unique" # [UniqueName] == "Le Heup of All" && [StashItem] == "true"	//英靈寶環		賣出																									
 //[Type] == "Iron Ring" && [Rarity] == "Unique" # [UniqueName] == "The Warden's Brand" && [ForceSellItem] == "true"	//獄使之印		賣出																									
 //[Type] == "Iron Ring" && [Rarity] == "Unique" # [UniqueName] == "Circle of Guilt" && [ForceSellItem] == "true"	//愧疚之環		賣出																									
 //[Type] == "Iron Ring" && [Rarity] == "Unique" # [UniqueName] == "Icefang Orbit" && [ForceSellItem] == "true"	//冰風軌跡		賣出																									
