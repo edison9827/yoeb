@@ -937,7 +937,7 @@
 //[Type] == "Diamond Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//寶鑽藥劑		存倉		83			
 //[Type] == "Jade Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//翠玉藥劑		存倉		83		
 //[Type] == "Amethyst Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//紫晶藥劑		存倉		83	
-//[Type] == "Quicksilver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//水銀藥劑		存倉		83	83物品等級包含以上存倉	
+[Type] == "Quicksilver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//水銀藥劑		存倉		83	83物品等級包含以上存倉	
 //[Type] == "Divine Life Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//不朽生命藥劑		存倉		83																						
 //已設定不存倉	//黃金藥劑		賣出		85																							
 //已設定不存倉	//小型生命藥劑		賣出		85																							
@@ -974,7 +974,7 @@
 //已設定不存倉	//紅玉藥劑		賣出		85																							
 //已設定不存倉	//藍玉藥劑		賣出		85																							
 //已設定不存倉	//黃玉藥劑		賣出		85																							
-//[Type] == "Silver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//真銀藥劑		存倉		83																																														
+[Type] == "Silver Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//真銀藥劑		存倉		83																																														
 //已設定不存倉	//海藍藥劑		賣出		85																																											
 //[Type] == "Granite Flask"&& [ItemLevel] >= "83" && [ItemLevel] <="100" # [StashItem] == "true" //	//堅岩藥劑		存倉		83																																																																			
 //已設定不存倉	//石英藥劑		賣出		85																							
@@ -2218,7 +2218,7 @@
 // 受影響的地圖（Shaper 和 Elder 地圖）
 [6826] == "1" # [IgnoreMap] == "true"
 [6826] == "2" # [IgnoreMap] == "true"
-[6826] = = " 3" # [IgnoreMap] == "true"
+[6826] == "3" # [IgnoreMap] == "true"
 [6826] == "4" # [IgnoreMap] == "true"
 // Citadel Maps (Sirus Maps)
 [13843] == "1" # [IgnoreMap] == "true"
