@@ -913,7 +913,7 @@
 [Type] == "Writhing Invitation" # [ForceSellItem] == "true" //	//纏繞之邀		賣出																									
 //																												
 [Type] == "Maven's Invitation: The Elderslayers" # [StashItem] == "true" //	//釋界之邀：尊師殺手		存倉																									
-//[Type] == "Maven's Invitation: The Forgotten" # [StashItem] == "true" //	//釋界之邀：遺忘		存倉																									
+[Type] == "Maven's Invitation: The Forgotten" # [StashItem] == "true" //	//釋界之邀：遺忘		存倉																									
 [Type] == "Maven's Invitation: The Formed" # [StashItem] == "true" //	//釋界之邀：塑型		存倉																									
 [Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉																									
 //																												
@@ -1457,8 +1457,8 @@
 //[Type] == "Sinner Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Replica Alpha's Howl" && [ForceSellItem] == "true"	//贗品．極地之嗥		賣出																									
 //[Type] == "Lion Pelt" && [Rarity] == "Unique" # [UniqueName] == "Obscurantis" && [ForceSellItem] == "true"	//朦朧詭面		賣出																									
 //[Type] == "Vine Circlet" && [Rarity] == "Unique" # [UniqueName] == "Crown of Thorns" && [ForceSellItem] == "true"	//刺棘之冠		賣出																									
-[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Mark" && [StashItem] == "true"	//安賽娜絲的迅敏之冠		存倉																									
-[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Chant" && [StashItem] == "true"	//安賽娜絲的歌頌		存倉																									
+//[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Mark" && [StashItem] == "true"	//安賽娜絲的迅敏之冠		存倉																									
+//[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Asenath's Chant" && [StashItem] == "true"	//安賽娜絲的歌頌		存倉																									
 //[Type] == "Iron Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wreath of Phrecia" && [ForceSellItem] == "true"	//費西亞之環		賣出																									
 //[Type] == "Tribal Circlet" && [Rarity] == "Unique" # [UniqueName] == "Mark of the Red Covenant" && [ForceSellItem] == "true"	//焰首支環		賣出																									
 //[Type] == "Bone Circlet" && [Rarity] == "Unique" # [UniqueName] == "Wraithlord" && [StashItem] == "true"	//憤靈郡主		賣出																									
@@ -1769,7 +1769,7 @@
 //[Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [UniqueName] == "Blasphemer's Grasp" && [ForceSellItem] == "true"	//褻瀆者之握		賣出																									
 //[Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [UniqueName] == "Storm's Gift" && [ForceSellItem] == "true"	//風暴之贈		賣出																									
 //[Type] == "Assassin's Mitts" && [Rarity] == "Unique" # [UniqueName] == "Entropic Devastation" && [ForceSellItem] == "true"	//熵毀滅		賣出																									
-//[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && [StashItem] == "true"	//轟天雷		存倉																									
+[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Thunderfist" && [StashItem] == "true"	//轟天雷		存倉																									
 //[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Malachai's Mark" && [ForceSellItem] == "true"	//瑪拉凱之面		賣出																									
 //[Type] == "Murder Mitts" && [Rarity] == "Unique" # [UniqueName] == "Machina Mitts" && [ForceSellItem] == "true"	//詭計魔手		賣出																									
 //[Type] == "Spiked Gloves" && [Rarity] == "Unique" # [UniqueName] == "Ceaseless Feast" && [ForceSellItem] == "true"	//無盡盛宴		賣出																									
@@ -1889,7 +1889,7 @@
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Rashkaldor's Patience" && [ForceSellItem] == "true"	//拉什卡德的耐心		賣出																									
 [Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "The Halcyon" && [StashItem] == "true"	//太平		存倉																									
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "The Pandemonius" && [ForceSellItem] == "true"	//群魔殿		賣出																									
-[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Truth" && [StashItem] == "true"	//西里的真理		賣出																									
+//[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hyrri's Truth" && [StashItem] == "true"	//西里的真理		賣出																									
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Willowgift" && [ForceSellItem] == "true"	//柳木之禮		賣出																									
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Karui Ward" && [ForceSellItem] == "true"	//贗品．卡魯的戰徽		賣出																									
 //[Type] == "Jade Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Hyrri's Truth" && [ForceSellItem] == "true"	//贗品．西里的真理		賣出																									
