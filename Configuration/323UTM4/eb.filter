@@ -5023,7 +5023,7 @@ Hide # 裝備 - 高亮基底 - 防具 - 鞋子 - 逃難短靴(17混抗)
     SetTextColor 255 255 0
     SetFontSize 40
 
-Hide # 裝備 - 高亮基底 - 防具 - 鞋子 - 異色鞋(12雙元抗)
+Show # 裝備 - 高亮基底 - 防具 - 鞋子 - 異色鞋(12雙元抗)
     Rarity = Rare
     Class "Boots"
     BaseType "Two-Toned Boots"
