@@ -5024,7 +5024,6 @@ Hide # 裝備 - 高亮基底 - 防具 - 鞋子 - 逃難短靴(17混抗)
     SetFontSize 40
 
 Show # 裝備 - 高亮基底 - 防具 - 鞋子 - 異色鞋(12雙元抗)
-    Rarity = Rare
     Class "Boots"
     BaseType "Two-Toned Boots"
     SetTextColor 255 255 0
@@ -5176,10 +5175,9 @@ Hide # 裝備 - 高亮基底 - 飾品 - 戒指 - 鋼鑄戒指(攻擊物點傷)
 
 # 【裝備-高亮基底-飾品-項鍊】
 
-Hide # 裝備 - 高亮基底 - 飾品 - 項鍊 - 夕暮護身符
-    Rarity = Rare
+Show # 裝備 - 高亮基底 - 飾品 - 項鍊 - 海玉護身符
     Class "Amulets"
-    BaseType "Unset Amulet"
+    BaseType "Lapis Amulet"
     SetTextColor 255 255 0
     SetFontSize 40
 
