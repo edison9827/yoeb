@@ -2245,4 +2245,4 @@
 [Type] == "Jungle Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 劇毒林谷
 [Type] == "Jungle Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 劇毒林谷
 //
-[Type] == "Two-Toned Boots" && [ItemLevel] >= "82" # [StashItem] == "true" // 82等異色鞋
+//[Type] == "Two-Toned Boots" && [ItemLevel] >= "82" # [StashItem] == "true" // 82等異色鞋
