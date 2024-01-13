@@ -2240,8 +2240,8 @@
 [Type] == "Park Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 園林院
 [Type] == "Park Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 園林院
 //
-[Type] == "Mesa Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 平頂
-[Type] == "Mesa Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 平頂
+//[Type] == "Mesa Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 平頂
+//[Type] == "Mesa Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 平頂
 [Type] == "Jungle Valley Map" && [Rarity] == "Normal"  # [ForceSellItem] == "true"//賣出 劇毒林谷
 [Type] == "Jungle Valley Map" && [Rarity] == "Magic"  # [ForceSellItem] == "true"//賣出 劇毒林谷
 //
