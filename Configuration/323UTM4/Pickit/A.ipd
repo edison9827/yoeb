@@ -1906,7 +1906,7 @@
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Bisco's Collar" && [ForceSellItem] == "true"	//畢斯寇的項圈		賣出																									
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Perquil's Toe" && [ForceSellItem] == "true"	//珀奎爾的指頭		賣出																									
 //[Type] == "Gold Amulet" && [Rarity] == "Unique" # [UniqueName] == "Replica Winterheart" && [ForceSellItem] == "true"	//贗品．冬之心		賣出																									
-[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Astramentis" && [StashItem] == "true"	//均衡之符		存倉																									
+//[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Astramentis" && [StashItem] == "true"	//均衡之符		存倉																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Carnage Heart" && [StashItem] == "true"	//屠戮之心		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Eye of Chayula" && [ForceSellItem] == "true"	//夏烏拉之眼		賣出																									
 //[Type] == "Onyx Amulet" && [Rarity] == "Unique" # [UniqueName] == "Hinekora's Sight" && [ForceSellItem] == "true"	//悉妮蔻拉之眼		賣出																									
