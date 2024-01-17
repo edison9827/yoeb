@@ -1111,7 +1111,7 @@
 //[Type] == "Royal Skean" && [Rarity] == "Unique" # [UniqueName] == "Heartbreaker" && [ForceSellItem] == "true"	//裂心刃 皇家雙刃匕		賣出																									
 //[Type] == "Royal Skean" && [Rarity] == "Unique" # [UniqueName] == "Replica Heartbreaker" && [ForceSellItem] == "true"	//贗品．裂心刃 皇家雙刃匕		賣出																									
 //[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [UniqueName] == "The Consuming Dark" && [StashItem] == "true"	//蠶食之闇 妖魔短匕		賣出																									
-[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [UniqueName] == "Arakaali's Fang" && [StashItem] == "true"	//艾爾卡莉之牙 妖魔短匕		存倉																									
+//[Type] == "Fiend Dagger" && [Rarity] == "Unique" # [UniqueName] == "Arakaali's Fang" && [StashItem] == "true"	//艾爾卡莉之牙 妖魔短匕		存倉																									
 //[Type] == "Slaughter Knife" && [Rarity] == "Unique" # [UniqueName] == "Bino's Kitchen Knife" && [StashItem] == "true"	//比諾的廚刀 殘暴短匕		賣出																									
 //[Type] == "Ambusher" && [Rarity] == "Unique" # [UniqueName] == "Taproot" && [ForceSellItem] == "true"	//砥礪深根 伏擊刺刃		賣出																									
 //[Type] == "Ambusher" && [Rarity] == "Unique" # [UniqueName] == "The Hidden Blade" && [StashItem] == "true"	//隱藏之劍 伏擊刺刃		存倉																									
