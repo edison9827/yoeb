@@ -1,0 +1,10 @@
+configAbout=ThickWisps
+doodadsOnly=false
+check="name": "Scale",
+line10="value": 5.2576470375061039,
+line11="value": 20.0,              
+line20="value": 4.731176853179932,
+line21="value": 19.0,             
+line30=nn_not_using_atm
+line31=nn_not_using_atm
+showNpcMinimapIcons=true

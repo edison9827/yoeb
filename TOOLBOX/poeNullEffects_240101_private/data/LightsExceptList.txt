@@ -1,0 +1,7 @@
+//exceptions for environments directional_light, player_light and environment_mapping
+//(keep original lightning):
+
+bramblefall
+endgameiceberg.env
+
+azmeri

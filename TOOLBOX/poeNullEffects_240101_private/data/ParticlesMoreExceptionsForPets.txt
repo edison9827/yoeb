@@ -1,0 +1,16 @@
+//.pet additional "Except":
+//"Null .pet" + "Use Except" == "ParticlesExceptList.txt" + "MoreExceptionsForPets.txt"
+
+//2020 Notes:
+//.aoc files contain .pets. We can't keep keep .aoc and disable .pets for the same skill.
+// but we can disable .aoc and keep .pet. It helps to avoid MTX crashes.
+// "microtransactions" or "microtransactions/Weapon_effects" line should be here. If we disable some MTX .pets, the game would crash.
+
+//not enough:
+divinebenevolence
+
+//stable:
+microtransactions/Weapon_effects
+
+//2021 Notes:
+//Seems like everything is ok now. We can disable anything we want.

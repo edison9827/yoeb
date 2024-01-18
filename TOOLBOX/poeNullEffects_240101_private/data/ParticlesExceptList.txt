@@ -1,0 +1,115 @@
+//.aoc + .pet "Except":
+
+boss
+/atlasofworldsbosses/chimera/
+/smoke_blind_chimera/
+/league_betrayal/totem/
+/league_betrayal/bosscatarina/
+/catarina
+/League_Legion/RewardSystem/
+/atlasexiles/Orion
+/maven
+storm_call_atziri
+synthesis/bosses/
+legion/endgame
+/league_ultimatum/mechanics/
+/league_ultimatum/trialmaster_boss/
+expedition/boss/
+leagueexpedition/reaperboss
+leagueexpedition/apparitionboss
+monsters/3.15monsters/pirateboss/
+league_expedition/crater_tiles
+league_expedition/dynamic_marker
+league_expedition/mechanics
+eyrie
+atlasexiles/basilisk
+affliction_boss_final
+affliction_phys_boss
+robot_automaton
+league_hellscape/boss
+league_hellscape/elite
+league_hellscape/mechanics
+chests/leaguehellscape
+tangle
+cleansingfire
+kitava
+rewardicons
+monsters_effects/league_archnemesis
+rare_explode
+signaling
+sentinel
+sanctum
+crucible
+
+//3.23:
+environment/wisp
+azmeri/resources/wisp
+azmeri/resources/charges/wisp
+doodads/lights/lightsource_wisp
+azmeri/campfire
+azmeri/monster_fx/volatile_dead
+/tendrilsentinel
+twigmonster/poison_pod
+azmeri/fae
+azmeri/azmeriwoods/objects/clickableobject
+escher/ao/enigma_portal
+town_portals/azmeri
+guiding_light
+
+/electrical_surge/
+/surge/lightning/
+particles/spark
+/Dark_Ritual
+/Soulrend
+/FrostFury
+/Conduit_Sigil
+/arc_
+/freezing_pulse
+/ball_lightning
+/contagion
+/crab_buff
+lacerate
+cyclone
+fireball
+spells/frozen_sphere
+spells/soulfeast
+spells/soul_link
+spells/tornado_spell
+disintegrate
+surge_v02
+distortion
+flask_throw
+
+//curses:
+spell/curse
+curse_aura
+curse_orbs
+particles/curses
+particles/monster_effects/aura/curse
+
+//predator deathmark:
+focus_fire
+
+//elemental effects:
+/conditions/
+
+//ball lightning:
+lightning_orb
+
+//Exsanguinate:
+blood_tendrils
+
+//LS:
+lightningslash
+lightning_slash
+lightning_strike
+
+//=====
+
+//blade blast: "blade_blast" + "bladeburst"
+//icicle mine (and few other mines): "mine"
+//kinetic blast: "cluster_burst"
+//toxic rain (full, heavy): "rain_of_spores"
+//misc: "double_slash", "frost_bomb", "shockwave_slam"
+//small effect near hands during a lot of casts: "surge"
+//Lightning Conduit: "shock_lightningbolt"

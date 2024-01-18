@@ -1,0 +1,18 @@
+//.epk in this list must not to be removed.
+//filename parts, lowercase:
+
+boss
+aura
+curse
+reflect
+lieutenant
+metadata/chests
+monsters/champions
+/maven
+quick
+signaling
+expedition
+monsters_effects/league_archnemesis
+leaguesentinel
+sanctum
+crucible
