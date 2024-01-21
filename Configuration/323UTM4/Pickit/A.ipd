@@ -853,10 +853,10 @@
 [Type] == "The Catch" # [ForceSellItem] == "true" //	姜太公釣魚 (18)	5	賣出																									
 [Type] == "Imperial Legacy" # [ForceSellItem] == "true" //	不朽聖物 (22)	1	賣出																									
 [Type] == "Rebirth" # [StashItem] == "true" //	重生 (27)		存倉		
-[Type] == "I See Brothers" # [StashItem] == ""true"" //"	//來了兄弟		存倉																									
-[Type] == "Assassin's Gift" # [StashItem] == ""true"" //"	//刺客的餽贈		存倉																									
-[Type] == "Eldritch Perfection" # [ForceSellItem] == ""true"" //"	//完美異能		賣出																									
-[Type] == "Who Asked" # [ForceSellItem] == ""true"" //"	//是誰		賣出																																																																																																
+[Type] == "I See Brothers" # [StashItem] == "true" //"	//來了兄弟		存倉																									
+[Type] == "Assassin's Gift" # [StashItem] == "true" //"	//刺客的餽贈		存倉																									
+[Type] == "Eldritch Perfection" # [ForceSellItem] == "true" //"	//完美異能		賣出																									
+[Type] == "Who Asked" # [ForceSellItem] == "true" //"	//是誰		賣出																																																																																																
 //	// 12F 星團珠寶			設定天賦數																								
 [Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "8" && [StashItem] == "true" //	//巨星團珠寶		存倉	8																								
 [Type] == "Large Cluster Jewel" && [Rarity] == "Rare" # [local_jewel_expansion_passive_node_count] == "12" && [StashItem] == "true" //	//巨星團珠寶		存倉	12																								
