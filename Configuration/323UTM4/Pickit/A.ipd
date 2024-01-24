@@ -2049,7 +2049,7 @@
 //[Type] == "Blunt Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Rearguard" && [ForceSellItem] == "true"	//寒鋒之衛		賣出																									
 //[Type] == "Blunt Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Fracturing Spinner" && [ForceSellItem] == "true"	//裂斷蛛絲		賣出																									
 //[Type] == "Blunt Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "The Shattered Divinity" && [ForceSellItem] == "true"	//碎裂之神力		賣出																									
-//[Type] == "Point Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Rigwald's Quills Two-" && [ForceSellItem] == "true"	//瑞佛之羽		賣出																									
+//[Type][Type] == "Point Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Rigwald's Quills Two-" && [StashItem] == "true"	//瑞佛之羽		賣出																									
 //[Type] == "Point Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Skirmish Two-" && [ForceSellItem] == "true"	//小會戰		賣出																									
 //[Type] == "Point Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Soul Strike Spike-" && [ForceSellItem] == "true"	//靈魂打擊		賣出																									
 //[Type] == "Point Arrow Quiver" && [Rarity] == "Unique" # [UniqueName] == "Replica Soul Strike Spike-" && [ForceSellItem] == "true"	//贗品．靈魂打擊		賣出																									
