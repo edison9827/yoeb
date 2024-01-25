@@ -2231,7 +2231,7 @@
 [Type]=="City Square Map" && [MapTier] >= "14"  # [StashItem] == "true"  危城廣場
 [Type]=="Park Map" && [MapTier] >= "14" # [StashItem] == "true"  園林院	
 [Type] == "Park Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//賣出 園林院
-[Type] == "City Square Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//賣出 危城廣場
+//[Type] == "City Square Map" && [Rarity] == "Rare"  # [ForceSellItem] == "true"//賣出 危城廣場
 //	
 //[Type]=="Mesa Map" # [StashItem] == "true"  平頂
 //[Type]=="Jungle Valley Map" # [StashItem] == "true"  劇毒林谷
