@@ -1639,7 +1639,7 @@
 //[Type] == "Titan Greaves" && [Rarity] == "Unique" # [UniqueName] == "The Red Trail" && [ForceSellItem] == "true"	//赤紅蹤跡		存倉																									
 //[Type] == "Titan Greaves" && [Rarity] == "Unique" # [UniqueName] == "Doryani's Delusion" && [ForceSellItem] == "true"	//多里亞尼的幻想		賣出																									
 //[Type] == "Titan Greaves" && [Rarity] == "Unique" # [UniqueName] == "Replica Red Trail" && [ForceSellItem] == "true"	//贗品．赤紅蹤跡		賣出																									
-[Type] == "Rawhide Boots" && [Rarity] == "Unique" # [UniqueName] == "Seven-League Step" && [StashItem] == "true"	//盟誓之跡		存倉																									
+//[Type] == "Rawhide Boots" && [Rarity] == "Unique" # [UniqueName] == "Seven-League Step" && [StashItem] == "true"	//盟誓之跡		存倉																									
 //[Type] == "Goathide Boots" && [Rarity] == "Unique" # [UniqueName] == "Victario's Flight" && [ForceSellItem] == "true"	//維多里奧的飛昇		賣出																									
 //[Type] == "Goathide Boots" && [Rarity] == "Unique" # [UniqueName] == "Abberath's Hooves" && [ForceSellItem] == "true"	//艾貝拉斯之蹄		賣出																									
 //[Type] == "Deerskin Boots" && [Rarity] == "Unique" # [UniqueName] == "Deerstalker" && [ForceSellItem] == "true"	//獵蹤		賣出																									
