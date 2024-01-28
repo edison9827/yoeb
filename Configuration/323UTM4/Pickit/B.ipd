@@ -156,11 +156,11 @@
 [Type] == "Exceptional Eldritch Ember" # [StashItem] == "true" //	//宏偉異能灰燼		存倉																									
 [Type] == "Grand Eldritch Ember" # [StashItem] == "true" //	//卓越異能灰燼		存倉																									
 [Type] == "Greater Eldritch Ember" # [StashItem] == "true" //	//高階異能灰燼		存倉																									
-[Type] == "Lesser Eldritch Ember" # [StashItem] == "true" //	//低階異能灰燼		存倉																									
+//[Type] == "Lesser Eldritch Ember" # [StashItem] == "true" //	//低階異能灰燼		存倉																									
 [Type] == "Exceptional Eldritch Ichor" # [StashItem] == "true" //	//宏偉異能靈液		存倉																									
 [Type] == "Grand Eldritch Ichor" # [StashItem] == "true" //	//卓越異能靈液		存倉																									
 [Type] == "Greater Eldritch Ichor" # [StashItem] == "true" //	//高階異能靈液		存倉																									
-[Type] == "Lesser Eldritch Ichor" # [StashItem] == "true" //	//低階異能靈液		存倉																									
+//[Type] == "Lesser Eldritch Ichor" # [StashItem] == "true" //	//低階異能靈液		存倉																									
 [Type] == "Eldritch Exalted Orb" # [StashItem] == "true" //	//異能崇高石		存倉																									
 [Type] == "Eldritch Orb of Annulment" # [StashItem] == "true" //	//異能無效石		存倉																									
 [Type] == "Eldritch Chaos Orb" # [StashItem] == "true" //	//異能混沌石		存倉																									
@@ -1445,7 +1445,7 @@
 
 //[Type] == "Leather Cap" && [Rarity] == "Unique" # [UniqueName] == "Goldrim" && [StashItem] == "true"	//金縷帽		賣出																									
 //[Type] == "Tricorne Tricorne" && [Rarity] == "Unique" # [UniqueName] == "Fairgraves'" && [ForceSellItem] == "true"	//費爾之帽		賣出																									
-[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Heatshiver" && [StashItem] == "true"	//寒焰		存倉																									
+//[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Heatshiver" && [StashItem] == "true"	//寒焰		存倉																									
 //[Type] == "Leather Hood" && [Rarity] == "Unique" # [UniqueName] == "Frostferno" && [ForceSellItem] == "true"	//霜獄		賣出																									
 //[Type] == "Wolf Pelt" && [Rarity] == "Unique" # [UniqueName] == "Elevore" && [ForceSellItem] == "true"	//愛勒弗		賣出																									
 //[Type] == "Ursine Pelt" && [Rarity] == "Unique" # [UniqueName] == "Rat's Nest" && [StashItem] == "true"	//鼠巢		賣出																									
