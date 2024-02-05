@@ -163,11 +163,11 @@ SetTaskMiGongDataByLv(40,1)
 SetTaskMiGongDataByLv(65,2)
 SetTaskMiGongDataByLv(75,3)
 
---SetNeedFlaskData(1,"生命药剂","緩和之,FlaskBleedCorruptingBloodImmunity3",60,"永恆生命藥劑","Metadata/Items/Flasks/FlaskLife12")
---SetNeedFlaskData(2,"生命药剂","沸騰的,FlaskFullInstantRecovery1",60,"不朽生命藥劑","Metadata/Items/Flasks/FlaskLife11")
---SetNeedFlaskData(3,"水银药剂","腎上腺素之,FlaskBuffMovementSpeedWhileHealing",5)
---SetNeedFlaskData(4,"紫晶药剂","腎上腺素之,FlaskBuffMovementSpeedWhileHealing",5)
---SetNeedFlaskData(5,"魔力药剂","耐久的,FlaskEffectNotRemovedOnFullMana1",50,"永恆魔力藥劑","Metadata/Items/Flasks/FlaskMana12")
+SetNeedFlaskData(1,"生命药剂","緩和之,FlaskBleedCorruptingBloodImmunity3______",60,"永恆生命藥劑","Metadata/Items/Flasks/FlaskLife12",true)
+SetNeedFlaskData(2,"生命药剂","抗毒素之,FlaskPoisonImmunity3",60,"不朽生命藥劑","Metadata/Items/Flasks/FlaskLife11",true)
+SetNeedFlaskData(3,"水银药剂","野兔之,FlaskBuffMovementSpeedWhileHealing",5,"水銀藥劑","Metadata/Items/Flasks/FlaskUtility6",true)
+SetNeedFlaskData(4,"紫晶药剂","野兔之,FlaskBuffMovementSpeedWhileHealing",5,"紫晶藥劑","Metadata/Items/Flasks/FlaskUtility7",true)
+SetNeedFlaskData(5,"魔力药剂","耐久的,FlaskEffectNotRemovedOnFullMana1",50,"永恆魔力藥劑","Metadata/Items/Flasks/FlaskMana12",true)
 
 
 ---------------------------------------高级换装
@@ -215,17 +215,13 @@ SetTaskMiGongDataByLv(75,3)
 --SetGaoJiHuanZhuangData("圣堂武僧","金光戒指","Metadata/Items/Rings/Ring4","貪慾之記","Andvarius",nil,nil,nil,7,nil,1)
 --SetGaoJiHuanZhuangData("圣堂武僧","金光戒指","Metadata/Items/Rings/Ring4","高尚之人","The Highwayman",nil,nil,nil,8,nil,1)
 
-SetGaoJiHuanZhuangData("女巫","简易之袍","Metadata/Items/Armours/BodyArmours/BodyInt1","无尽之衣","Tabula Rasa")
-SetGaoJiHuanZhuangData("女巫","巨型塔盾","Metadata/Items/Armours/Shields/AhnsHeritageDrop","漢恩的遺產","Ahn's Heritage",3,15,nil,4,nil,1)
 SetGaoJiHuanZhuangData("女巫","恐懼之牙","Metadata/Items/Weapons/OneHandWeapons/Claws/uniques/TheScourgeClawDrop","災害","The Scourge",3,15,nil,3)
-SetGaoJiHuanZhuangData("女巫","饰布腰带","Metadata/Items/Belts/Belt5","普兰德斯之印","Perandus Blazon",nil,nil,nil,nil,nil,1)
 SetGaoJiHuanZhuangData("女巫","強化巨盔","Metadata/Items/Armours/Helmets/HelmetStrInt7","吉爾菲的榮光","Geofri's Crest",4,28,nil,nil,nil,1)
 SetGaoJiHuanZhuangData("女巫","帝金护身符","Metadata/Items/Amulets/Amulet6","冬之心","Winterheart",nil,nil,nil,nil,nil,1)
-SetGaoJiHuanZhuangData("女巫","三相戒指","Metadata/Items/Rings/Ring8","竊罪","Thief's Torment",nil,nil,nil,7)
-SetGaoJiHuanZhuangData("女巫","鐵影長靴","Metadata/Items/Armours/Boots/BootsStrDex2","迎暮","Dusktoe",4,28,nil,10)--鞋子
---SetGaoJiHuanZhuangData("女巫","鐵影長靴","Metadata/Items/Armours/Boots/BootsStrDex1","日落破滅","Duskblight",4,28,nil,10)--鞋子
-SetGaoJiHuanZhuangData("女巫","军团手套","Metadata/Items/Armours/Gloves/GlovesStrInt1","虚空","Null and Void",4,28,nil,nil,nil,1)
---SetGaoJiHuanZhuangData("女巫","堅岩藥劑","Metadata/Items/Flasks/FlaskUtility5","魯米的靈藥","Rumi's Concoction",nil,nil,4)
+SetGaoJiHuanZhuangData("女巫","黃玉戒指","Metadata/Items/Rings/Ring5","基加薩魯","Kikazaru",nil,nil,nil,7,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil,nil)
+SetGaoJiHuanZhuangData("女巫","皮革腰帶","Metadata/Items/Belts/Belt3","永生","Immortal Flesh")
+SetGaoJiHuanZhuangData("女巫","简易之袍","Metadata/Items/Armours/BodyArmours/BodyInt1","无尽之衣","Tabula Rasa")
+SetGaoJiHuanZhuangData("女巫","金缕帽","Metadata/Items/Armours/Helmets/HelmetDex1","金缕帽","Goldrim",4,28)
 
 --苦行
 --SetGaoJiHuanZhuangData("女巫","帝金護身符","Metadata/Items/Amulets/Amulet6","苦行","The Ascetic")
