@@ -913,7 +913,7 @@
 [Type] == "Writhing Invitation" # [ForceSellItem] == "true" //	//纏繞之邀		賣出																									
 //																												
 [Type] == "Maven's Invitation: The Elderslayers" # [StashItem] == "true" //	//釋界之邀：尊師殺手		存倉																									
-[Type] == "Maven's Invitation: The Forgotten" # [StashItem] == "true" //	//釋界之邀：遺忘		存倉																									
+//[Type] == "Maven's Invitation: The Forgotten" # [StashItem] == "true" //	//釋界之邀：遺忘		存倉																									
 [Type] == "Maven's Invitation: The Formed" # [StashItem] == "true" //	//釋界之邀：塑型		存倉																									
 [Type] == "Maven's Invitation: The Twisted" # [StashItem] == "true" //	//釋界之邀：扭曲		存倉																									
 //																												
