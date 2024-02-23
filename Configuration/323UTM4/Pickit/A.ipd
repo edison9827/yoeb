@@ -2226,9 +2226,9 @@
 [13843] == "3" # [IgnoreMap] == "true"
 [13843] == "4" # [IgnoreMap] == "true"	
 //
-[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
-[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉
+//[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Normal" # [StashItem] == "true"	//普通地圖		存倉																									
+//[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Magic" # [StashItem] == "true"	//魔法地圖		存倉																									
+//[Category] == "Map" && [MapTier] >= "14" && [Rarity] == "Rare" # [StashItem] == "true"	//稀有地圖		存倉
 //[Type]=="City Square Map" # [StashItem] == "true"  危城廣場
 //[Type]=="Park Map" # [StashItem] == "true"  園林院	
 [Type]=="City Square Map" && [MapTier] >= "14"  # [StashItem] == "true"  危城廣場
