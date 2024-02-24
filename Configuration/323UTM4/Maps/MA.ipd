@@ -85,7 +85,7 @@
 [Type] == "Barrows Map" # [IgnoreMap] == "true" //	//熱林塚墓		打																						
 [Type] == "Mausoleum Map" # [IgnoreMap] == "true" //	//靜縊陵墓		打																						
 [Type] == "Fields Map" # [IgnoreMap] == "true" //	//無疆田野		打																						
-[Type] == "Jungle Valley Map" # [RunMap] == "true" //	//劇毒林谷		打																						
+[Type] == "Jungle Valley Map" # [IgnoreMap] == "true" //	//劇毒林谷		打																						
 [Type] == "Phantasmagoria Map" # [IgnoreMap] == "true" //	//魔靈幻獄		打																						
 [Type] == "Academy Map" # [IgnoreMap] == "true" //	//惡靈學院		打																						
 [Type] == "Thicket Map" # [IgnoreMap] == "true" //	//驚懼樹叢		打																						
@@ -123,7 +123,7 @@
 [Type] == "Plateau Map" # [IgnoreMap] == "true" //	//海風高原		打																						
 [Type] == "Estuary Map" # [IgnoreMap] == "true" //	//熔火岩灘		打																						
 [Type] == "Vault Map" # [IgnoreMap] == "true" //	//魔金寶庫		打																						
-[Type] == "Temple Map" # [RunMap] == "true" //	//奪魂之殿		打																						
+[Type] == "Temple Map" # [IgnoreMap] == "true" //	//奪魂之殿		打																						
 [Type] == "Arena Map" # [IgnoreMap] == "true" //	//競技場		打																						
 [Type] == "Museum Map" # [IgnoreMap] == "true" //	//古博物館		打																						
 [Type] == "Scriptorium Map" # [IgnoreMap] == "true" //	//墓影書坊		打																						
@@ -145,7 +145,7 @@
 [Type] == "Coves Map" # [IgnoreMap] == "true" //	//疾風峽灣		打																						
 [Type] == "Waterways Map" # [IgnoreMap] == "true" //	//危機水道		打																						
 [Type] == "Factory Map" # [IgnoreMap] == "true" //	//鐵鏽工廠		打																						
-[Type] == "Mesa Map" # [RunMap] == "true" //	//平頂荒漠		打																						
+[Type] == "Mesa Map" # [IgnoreMap] == "true" //	//平頂荒漠		打																						
 [Type] == "Pit Map" # [IgnoreMap] == "true" //	//巨坑		打																						
 [Type] == "Dry Sea Map" # [IgnoreMap] == "true" //	//乾海		打																						
 [Type] == "Defiled Cathedral Map" # [IgnoreMap] == "true" //	//不潔教堂		打																						
@@ -169,7 +169,7 @@
 [Type] == "Colosseum Map" # [IgnoreMap] == "true" //	//大決鬥場		打																						
 [Type] == "Acid Caverns Map" # [IgnoreMap] == "true" //	//酸岩酸嶼		打																						
 [Type] == "Dark Forest Map" # [IgnoreMap] == "true" //	//夜語幽林		打																						
-[Type] == "Crimson Temple Map" # [RunMap] == "true" //	//緋紅神殿		打																						
+[Type] == "Crimson Temple Map" # [IgnoreMap] == "true" //	//緋紅神殿		打																						
 [Type] == "Plaza Map" # [IgnoreMap] == "true" //	//廣場		打																						
 [Type] == "Dig Map" # [IgnoreMap] == "true" //	//違禁掘坑		打																						
 [Type] == "Palace Map" # [IgnoreMap] == "true" //	//神域之殿		打																						
